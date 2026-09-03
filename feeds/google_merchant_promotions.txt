@@ -1,0 +1,3 @@
+promotion_id	product_applicability	long_title	promotion_effective_dates	promotion_display_dates	redemption_channel	offer_type	generic_redemption_code	promotion_destination
+TALISMAN_SIEVE_SCREEN	specific_products	Free Replacement Screen with Talisman Rotary Sieve Purchase	2026-09-03T00:00:00-04:00/2026-12-02T23:59:59-05:00	2026-09-06T00:00:00-04:00/2026-12-02T23:59:59-05:00	online	no_code		Shopping_ads
+BTH_WHEEL_CLAY_DISCOUNT	specific_products	$45 Off Clay with BTH Andromeda D3 Pottery Wheel Purchase	2026-09-03T00:00:00-04:00/2026-12-02T23:59:59-05:00	2026-09-06T00:00:00-04:00/2026-12-02T23:59:59-05:00	online	no_code		Shopping_ads
