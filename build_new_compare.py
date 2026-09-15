@@ -148,7 +148,7 @@ m("OL18HFK", lambda: F('18" Wide Kilns', '18" Wide Stackable'), LIKELY,
 for sku, args, conf, note in [
     ("OLECBR20", ('20/20H" Blank Ring',), LIKELY, "3 store SKUs map to this one ring"),
     ("OL20BR", ('20/20H" Blank Ring',), LIKELY, "3 store SKUs map to this one ring"),
-    ("OL2018BR", ('20/20H" Blank Ring',), REVIEW, 'SKU says 2018 but "adds 1.98 cu ft" reads like a 25" oval ring'),
+    ("OL2018BR", ('20/20H" Blank Ring',), EXACT, '$480 confirmed by Sheffield Pottery (20" oval ring), despite the "1.98 cu ft" in the listing'),
     ("OLECBR25", ('25/25H" Blank Ring',), LIKELY, ""),
     ("OLECBR30", ('30/30H" Blank Ring',), LIKELY, ""),
     ("OL30BR", ('30/30H" Blank Ring',), LIKELY, ""),
