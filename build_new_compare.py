@@ -4,7 +4,7 @@
 never re-typed."""
 import csv, re, html, openpyxl
 
-SRC_CSV = "/root/.claude/uploads/fee27d32-e784-56b7-9d28-abaa5e92df20/0ff9d4b7-olympic-oct26-down.csv"
+SRC_CSV = "/root/.claude/uploads/fee27d32-e784-56b7-9d28-abaa5e92df20/aeb5f0dd-olympic-oct26-title-down.csv"
 PRICELIST = "/home/user/test01/Olympic_Kilns_2026_Pricelist.xlsx"
 OUT_CSV = "/home/user/test01/olympic-oct26-new-compare.csv"
 OUT_AUDIT = "/home/user/test01/olympic-new-compare-audit.xlsx"
@@ -201,9 +201,12 @@ m("OLHS21", lambda: S('23" Half Shelf'), REVIEW,
 m("OLHB89SHELF", lambda: S("HB84,HB86, HB89 Shelf"), EXACT, "")
 
 m("OLSSR17", lambda: R("76-100 Amps", "1ph", "1 phase"), REVIEW,
-  "relays are priced by amperage; FL17 draws 70/81A so the 76-100A band is used")
+  "relays are priced by amperage; FL17/FL20/FL24 all draw 70-98A, so the 76-100A band applies")
 m("OLSSR173P", lambda: R("76-100 Amps", "3ph", "3 phase"), REVIEW,
-  "relays are priced by amperage; FL17 draws 70/81A so the 76-100A band is used")
+  "relays are priced by amperage; FL17/FL20/FL24 all draw 70-98A, so the 76-100A band applies")
+m("OLFL24-old", lambda: K("FL24E"), EXACT, "listing is marked ARCHIVE — priced the same as the current FL24 listing")
+m("OLDDEC", lambda: A("High Limit Controller"), LIKELY,
+  'listing is the 120V/20A electronic high-limit shut-off with valve; the list has one High Limit Controller price')
 
 THREE_PH = "Accessories: 3 Phase Wiring-Studio Line/Large Capacity"
 for sku in ("OLDM3P", "OLPHASE3"):
@@ -241,9 +244,11 @@ NO_MATCH = {
 # ---------------- apply ----------------
 with open(SRC_CSV, newline="", encoding="utf-8-sig") as f:
     rows = list(csv.reader(f))
-header, body = rows[0], rows[1:]
+header, body = rows[0], [r for r in rows[1:] if any(c.strip() for c in r)]
 assert "new compare" not in header
-i_sku, i_desc, i_cmp = header.index("SKU"), header.index("Description"), header.index("Compare-at Price")
+i_sku = header.index("SKU")
+i_cmp = header.index("Compare-at Price")
+i_txt = header.index("Title") if "Title" in header else header.index("Description")
 
 def title(d):
     t = html.unescape(re.sub(r"<[^>]+>", " ", d))
@@ -265,7 +270,7 @@ for r in body:
         conf, note = "no match", "not mapped"
     out_rows.append(r + [new])
     old = r[i_cmp]
-    audit.append([sku, title(r[i_desc])[:70], r[header.index("Price")],
+    audit.append([sku, title(r[i_txt])[:70], r[header.index("Price")],
                   float(old) if old not in ("", "0.00") else None,
                   float(new) if new else None, basis, conf, note])
 
