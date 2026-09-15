@@ -200,10 +200,10 @@ m("OLHS21", lambda: S('23" Half Shelf'), REVIEW,
   'read as a 21" half shelf; if it is the full 21" round shelf it is $105')
 m("OLHB89SHELF", lambda: S("HB84,HB86, HB89 Shelf"), EXACT, "")
 
-m("OLSSR17", lambda: R("76-100 Amps", "1ph", "1 phase"), REVIEW,
-  "relays are priced by amperage; FL17/FL20/FL24 all draw 70-98A, so the 76-100A band applies")
-m("OLSSR173P", lambda: R("76-100 Amps", "3ph", "3 phase"), REVIEW,
-  "relays are priced by amperage; FL17/FL20/FL24 all draw 70-98A, so the 76-100A band applies")
+m("OLSSR17", lambda: R("76-100 Amps", "1ph", "1 phase"), EXACT,
+  "$650 confirmed by Sheffield Pottery — relays are priced by amperage and FL17/FL20/FL24 all draw 70-98A")
+m("OLSSR173P", lambda: R("76-100 Amps", "3ph", "3 phase"), LIKELY,
+  "same 76-100A band as OLSSR17, which Sheffield confirmed at $650")
 m("OLFL24-old", lambda: K("FL24E"), EXACT, "listing is marked ARCHIVE — priced the same as the current FL24 listing")
 m("OLDDEC", lambda: A("High Limit Controller"), LIKELY,
   'listing is the 120V/20A electronic high-limit shut-off with valve; the list has one High Limit Controller price')
