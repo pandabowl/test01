@@ -1,10 +1,34 @@
-# Google Merchant Center Promotions Feed
+# Sheffield Pottery catalog tools
+
+Scripts and data for keeping the Shopify catalog in shape:
+
+- [Kiln shelf titles and size filter](#kiln-shelf-titles-and-size-filter):
+  consistent kiln shelf titles, plus the data behind an Experro
+  "filter by size".
+- [Google Merchant Center promotions feed](#google-merchant-center-promotions-feed):
+  Google Shopping promotions generated from Shopify discounts.
+
+## Kiln shelf titles and size filter
+
+Standardizes the titles and SEO titles of all kiln shelves. Adds three product
+metafields (`custom.kiln_shelf_size`, `custom.kiln_shelf_shape`,
+`custom.kiln_shelf_thickness`) for Experro to use as facets. Also fixes the
+category tags that were keeping 21 shelves off the Kiln Shelves category page.
+
+- `kiln-shelves/plan.xlsx` / `plan.csv`: review sheet, current vs. proposed
+  for every shelf
+- `kiln-shelves/README.md`: the title format, the filter values, how to apply
+  and undo, and the Experro facet setup
+- `scripts/kiln_shelves.py`: `fetch`, `plan`, `apply` (dry run unless
+  `--confirm`), `restore`
+
+## Google Merchant Center promotions feed
 
 Generates and maintains Sheffield Pottery's [Google Merchant Center Promotions
 feed](https://support.google.com/merchants/answer/2906014) from live Shopify
 discount data.
 
-## Contents
+### Contents
 
 - `feeds/google_merchant_promotions.xlsx` — the filled-in Google Promotions
   template (same 9 columns as Google's official template), ready to review
@@ -14,7 +38,7 @@ discount data.
 - `scripts/generate_promotions_feed.py` — regenerates both files from the
   Shopify Admin API.
 
-## What's in the feed, and why
+### What's in the feed, and why
 
 The feed currently lists Sheffield Pottery's two **active, automatic
 (no-code)** Shopify discounts:
@@ -35,7 +59,7 @@ discounts, which by definition apply to every shopper at checkout.
 If a real, publicly-advertised promo code should be added to the feed later,
 add it explicitly — don't flip the generator to include all codes.
 
-## Before you upload
+### Before you upload
 
 1. **`specific_products` mapping.** Both current promotions target specific
    products/collections, so Google requires the matching products in your
@@ -48,7 +72,7 @@ add it explicitly — don't flip the generator to include all codes.
    `promotion_effective_dates` end (see script docstring). Confirm these
    dates make sense, or shorten/extend them, before uploading.
 
-## Regenerating the feed
+### Regenerating the feed
 
 ```bash
 export SHOPIFY_STORE_DOMAIN=your-store.myshopify.com
