@@ -4,33 +4,66 @@ This folder standardizes the titles of every kiln shelf in the Shopify catalog
 and adds the product data that Experro needs to let customers **filter kiln
 shelves by size, shape and thickness**.
 
-Nothing here has been written to Shopify yet. The script that writes it does a
-dry run unless you pass `--confirm`.
+## Status: live since 2026-09-25
+
+The plan has been applied to the live store for 65 shelves (every row marked
+`approve = yes`):
+
+- **Metafield definitions:** `custom.kiln_shelf_size`, `custom.kiln_shelf_shape`
+  and `custom.kiln_shelf_thickness` were created, each with a fixed list of
+  allowed values, filterable in admin and usable in smart collections.
+- **Titles and SEO titles:** all 65 were updated. Handles and URLs are
+  unchanged.
+- **Filter values:** 195 were set, three per shelf.
+- **Category tags:** added to 32 shelves. Collection counts went up:
+
+  | Collection | Before | After |
+  |---|---|---|
+  | Kiln Shelves and Posts | 94 | 114 |
+  | Kiln Room | 174 | 206 |
+  | ADVANCER Silicon Carbide Kiln Shelves | 14 | 25 |
+
+Afterwards, every shelf was read back from Shopify and compared with
+`plan.csv`: title, SEO title, filter values, handle, status and tags. They all
+matched, and no existing tag was removed.
+
+**Still to do:**
+
+- **Set up the filter in Experro.** This can't be done from Shopify; see
+  [Setting up the filter in Experro](#setting-up-the-filter-in-experro).
+- **Olympic `olympic 21" x 1/2 shelf`:** unchanged until someone confirms what
+  it is (see [Review before applying](#review-before-applying)).
+
+`snapshot.json` keeps the titles as they were before the change, so
+`restore` can still put them back.
 
 ## What was wrong
 
 The catalog has 73 kiln shelves (61 active, 5 draft, 7 archived) across
-Advancer, Spectrum, Cedar Heights CoreLite, Gillespie and Olympic. The titles
-don't follow one format, so they're hard to compare and hard to search:
+Advancer, Spectrum, Cedar Heights CoreLite, Gillespie and Olympic. Before the
+change, the titles didn't follow one format, so they were hard to compare and
+hard to search:
 
-| Today | Problem |
+| Old title | Problem |
 |---|---|
 | `11 x22 x3/4" Rectangle High Alumina Kiln Shelf` | No brand, odd spacing |
-| `24" X 12" X 1" Corelite Square Kiln Shelves By Cedar Heights` | A 24 x 12 shelf is labeled "Square" |
-| `Advancer Kiln Shelf 22 x 22 x 5/16" ... Rectangle` | A 22 x 22 shelf is labeled "Rectangle" |
-| `Advancer Kiln Shelf 20" Full 10 Sided ...` | Thickness is missing |
-| `olympic 21" x 1/2 shelf` | Lowercase; unclear whether it's a half shelf or 1/2" thick |
-| Spectrum lists `24" x 12"`, Advancer lists `12 x 24` | The same size is written two ways |
+| `24" X 12" X 1" Corelite Square Kiln Shelves By Cedar Heights` | A 24 x 12 shelf was labeled "Square" |
+| `Advancer Kiln Shelf 22 x 22 x 5/16" ... Rectangle` | A 22 x 22 shelf was labeled "Rectangle" |
+| `Advancer Kiln Shelf 20" Full 10 Sided ...` | Thickness was missing |
+| `olympic 21" x 1/2 shelf` | Lowercase; unclear whether it's a half shelf or 1/2" thick (still unchanged) |
+| Spectrum listed `24" x 12"`, Advancer listed `12 x 24` | The same size was written two ways |
 
-The SEO titles (what Google shows) were worse. Some have the wrong size: both
-26 1/2" half shelves say "27 1/2"". Ten Advancer shelves share one generic
-SEO title, eleven have none, and one Spectrum shelf's is just "KILN SHELF".
+The SEO titles (what Google shows) were worse. Some had the wrong size: both
+26 1/2" half shelves said "27 1/2"". Ten Advancer shelves shared one generic
+SEO title, eleven had none, and one Spectrum shelf's was just "KILN SHELF".
 
-**21 active shelves aren't in the Kiln Shelves category.** The storefront's
+**21 active shelves weren't in the Kiln Shelves category.** The storefront's
 "Kiln Shelves and Posts" collection includes only products tagged
 `Kiln Shelves`. Eleven Advancer shelves, all nine Gillespie shelves and the
-Olympic shelf don't have that tag, so they never appear on the kiln shelf
-category page, and a size filter there would miss them too.
+Olympic shelf didn't have that tag, so they never appeared on the kiln shelf
+category page, and a size filter there would have missed them too. The 20
+approved shelves now have the tag; the Olympic shelf gets it once its row is
+approved.
 
 ## The title format
 
@@ -98,6 +131,9 @@ Full value list, in the order to show them:
 | `../scripts/kiln_shelves.py` | Builds the plan and applies it through the Shopify Admin API. |
 
 ## Review before applying
+
+This section describes the review done before the 2026-09-25 apply. Use the
+same steps when you re-run the plan for new shelves.
 
 Open `plan.xlsx` (or `plan.csv`) and check the `new_title` and filter columns.
 To skip a shelf, set `approve` to `no`. You can also edit any proposed title or
@@ -167,7 +203,7 @@ place. They're invisible until Experro uses them, and they're harmless.
 
 ## Setting up the filter in Experro
 
-Do these once the metafields are on the products:
+The metafields are now on the products, so these steps can be done any time:
 
 1. **Check Experro has the fields.** In Experro's product catalog, open any
    kiln shelf and look for `kiln_shelf_size`, `kiln_shelf_shape` and

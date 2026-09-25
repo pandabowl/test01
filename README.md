@@ -14,6 +14,8 @@ Standardizes the titles and SEO titles of all kiln shelves. Adds three product
 metafields (`custom.kiln_shelf_size`, `custom.kiln_shelf_shape`,
 `custom.kiln_shelf_thickness`) for Experro to use as facets. Also fixes the
 category tags that were keeping 21 shelves off the Kiln Shelves category page.
+**Applied to the live store on 2026-09-25** (65 shelves). The Experro facet
+setup is the remaining step.
 
 - `kiln-shelves/plan.xlsx` / `plan.csv`: review sheet, current vs. proposed
   for every shelf
