@@ -27,6 +27,26 @@ Afterwards, every shelf was read back from Shopify and compared with
 `plan.csv`: title, SEO title, filter values, handle, status and tags. They all
 matched, and no existing tag was removed.
 
+**Follow-up on 2026-10-01:**
+
+- **Meta descriptions restored.** The 2026-09-25 run had a bug. It sent each
+  new SEO title without the existing meta description, and Shopify cleared the
+  description. 33 shelves were without one for a week. All 33 were restored
+  from `snapshot.json`, and the script now always sends the existing
+  description along with the title.
+- **Wrong sizes corrected.** The meta descriptions of both 26 1/2" half
+  shelves said 28 1/2". Three product descriptions also had the wrong size:
+  Spectrum 13 x 26 x 3/4" said 1" thick, Advancer 13 x 26 said "12 x28", and
+  Advancer 14 x 28 said "11 x 22".
+- **CoreLite octagon** retitled `15" x 16"` and moved to the `15" Diameter`
+  filter value. That matches how dealers sell it, and it now groups with the
+  other 15" octagons.
+- **Advancer multi-sided thickness confirmed:** Advancer lists these shelves
+  at 5/16".
+
+`changes-2026-10-01.json` records every field changed that day, with its
+exact before and after text.
+
 **Still to do:**
 
 - **Set up the filter in Experro.** This can't be done from Shopify; see
@@ -114,7 +134,7 @@ Full value list, in the order to show them:
 
 - **Shelf Size:** 10" x 20", 10 1/2" x 21", 11" x 22", 12" x 12", 12" x 24",
   13" Diameter, 13" x 16", 13" x 26", 14" x 18", 14" x 28", 15" Diameter,
-  15 1/2" Diameter, 16" Diameter, 16" x 16", 18" x 18", 18" x 24",
+  15 1/2" Diameter, 16" x 16", 18" x 18", 18" x 24",
   20" Diameter, 20" x 20", 20 3/4" Diameter, 21" Diameter, 22" x 22",
   24" x 24", 25" Diameter, 26" Diameter, 26 1/2" Diameter
 - **Shelf Shape:** Full Round, Half Round, Full 8-Sided, Half 8-Sided,
@@ -127,6 +147,7 @@ Full value list, in the order to show them:
 |---|---|
 | `plan.xlsx` / `plan.csv` | The review sheet. One row per shelf: current vs. new title and SEO title, the three filter values, tags to add, and notes. Red rows need a decision; yellow rows have a note worth reading. |
 | `snapshot.json` | Every kiln shelf's title, SEO title, tags and collections as they were on 2026-09-24. `restore` uses it to put titles back. |
+| `changes-2026-10-01.json` | Before and after values for the 2026-10-01 follow-up: restored meta descriptions, corrected descriptions, and the CoreLite octagon. |
 | `experro-synonyms.csv` | Search synonyms for Experro, so `12x24`, `24 x 12` and `10.5x21` find the right shelves. |
 | `../scripts/kiln_shelves.py` | Builds the plan and applies it through the Shopify Admin API. |
 
@@ -146,18 +167,16 @@ These rows need a decision or a fact check:
    that's 1/2" thick, or whether it's round or 10-sided. At $59 it's most
    likely a half shelf. Fill in `shelf_shape`, `shelf_thickness` and
    `new_title`, then set `approve` to `yes`.
-2. **Advancer 20", 21" and 26" multi-sided shelves.** Their titles don't give
-   a thickness. The plan uses 5/16", Advancer's standard thickness. Confirm.
-3. **CoreLite 16" x 15" octagon.** Filed under `16" Diameter`. Confirm that's
-   the dimension a customer would measure.
+2. **Advancer 20", 21" and 26" multi-sided shelves.** Their old titles didn't
+   give a thickness. The plan uses 5/16", which Advancer's own listings
+   confirm.
+3. **CoreLite octagon.** Listed as 16" x 15", but dealers sell it as a 15"
+   octagon, so it's filed under `15" Diameter` (changed on 2026-10-01).
 
-The notes column also flags problems in the product *descriptions* that the
-title change doesn't fix:
-
-- Spectrum 13 x 26 x 3/4 says 1" thick.
-- The Advancer 13 x 26 and 14 x 28 descriptions open with the wrong size.
-- The meta descriptions on both 26 1/2" half shelves say 28 1/2".
-- A few vendor part numbers are duplicated between products.
+The review also turned up wrong sizes in some product descriptions and meta
+descriptions. They were fixed on 2026-10-01; see the follow-up note above.
+Still open: a few vendor part numbers are duplicated between products (listed
+in the notes column).
 
 ## Applying
 
@@ -175,7 +194,8 @@ python3 scripts/kiln_shelves.py apply --confirm   # writes to Shopify
 
 1. It creates the three metafield definitions, or adds any new values to them
    if they already exist.
-2. It updates the title and SEO title of each approved shelf.
+2. It updates the title and SEO title of each approved shelf, keeping the
+   existing meta description.
 3. It sets the three size-filter metafields on each shelf.
 4. It adds the missing category tags (`Kiln Shelves`,
    `Kiln Shelves - Posts - Cones and Kiln Firing Accessories`, and the brand
@@ -198,22 +218,27 @@ python3 scripts/kiln_shelves.py restore --confirm
 ```
 
 This puts titles and SEO titles back to what `snapshot.json` recorded,
-overwriting any edits made since. It leaves the metafields and added tags in
-place. They're invisible until Experro uses them, and they're harmless.
+overwriting any edits made since. It leaves meta descriptions, the metafields
+and added tags in place. The metafields and tags are harmless: the metafields
+are invisible until Experro uses them. To undo the 2026-10-01 description
+fixes, use the "before" values in `changes-2026-10-01.json`.
 
 ## Setting up the filter in Experro
 
-The metafields are now on the products, so these steps can be done any time:
+The metafields are on the products. Experro Discovery has no product list;
+these steps use its left-hand menu:
 
-1. **Check Experro has the fields.** In Experro's product catalog, open any
-   kiln shelf and look for `kiln_shelf_size`, `kiln_shelf_shape` and
-   `kiln_shelf_thickness`. If they're missing, re-sync the Shopify catalog.
-   If they still don't appear, ask Experro support to add these three
-   `custom` product metafields to the Shopify sync. They're built the same way
-   as the store's existing `custom.kiln_type` and `custom.voltage` fields, so
-   if those already work as Experro filters, these will too.
-2. **Add three facets** in Experro's facet settings (Experro's help article
-   "Update Facets"):
+1. **Field Settings:** find Kiln Shelf Size, Kiln Shelf Shape and Kiln Shelf
+   Thickness (`custom.kiln_shelf_size`, `custom.kiln_shelf_shape`,
+   `custom.kiln_shelf_thickness`) and turn on their filter or facet option.
+   - If they aren't listed, run a sync from **Store Connection** and look
+     again.
+   - If they still don't appear, ask Experro support to include these three
+     `custom` product metafields in the Shopify sync. They're built the same
+     way as the store's existing `custom.kiln_type` and `custom.voltage`
+     fields.
+2. **Facets:** add one facet per field (Experro's help article "Update
+   Facets"):
    - `custom.kiln_shelf_size`, labeled **Shelf Size**
    - `custom.kiln_shelf_shape`, labeled **Shelf Shape**
    - `custom.kiln_shelf_thickness`, labeled **Thickness**
@@ -224,14 +249,15 @@ The metafields are now on the products, so these steps can be done any time:
    Shelves, High Alumina Cone 11 Kiln Shelves, Semi Hollow CoreLite Kiln
    Shelves and Hamill & Gillespie Shelves And Posts. Otherwise they'll only
    appear when the results contain kiln shelves.
-3. **Put the values in size order.** Alphabetical order puts `10 1/2"` before
-   `10"` and mixes diameters with rectangles. Set a manual order using the
-   lists above (Experro's help article "Rearrange facets and facet values").
-   Put Shelf Size first, then Shelf Shape, then Thickness.
-4. **Add the synonyms** in `experro-synonyms.csv` to Experro's search
-   synonyms. Each line is a two-way synonym set. They make `12x24`,
-   `24 x 12` and `10.5x21` match titles written `12" x 24"`.
-5. **Test** on the storefront:
+3. **Value order:** set each facet to a manual order using the lists above
+   (Experro's help article "Rearrange facets and facet values").
+   Alphabetical order puts `10 1/2"` before `10"` and mixes diameters with
+   rectangles. Put Shelf Size first, then Shelf Shape, then Thickness.
+4. **Search & Autocomplete > Synonyms:** add each line of
+   `experro-synonyms.csv` as a two-way synonym. They make `12x24`, `24 x 12`
+   and `10.5x21` match titles written `12" x 24"`.
+5. **Cache:** clear it so the storefront picks up the changes.
+6. **Test** on the storefront (**View Site**):
    - Search `12x24 kiln shelf`: you should get every 12 x 24 shelf.
    - Search `21 half shelf`: you should get the 21" half round and half
      10-sided shelves.

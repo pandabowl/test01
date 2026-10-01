@@ -1,0 +1,317 @@
+{
+ "date": "2026-10-01",
+ "summary": [
+  "Restored 33 meta descriptions that the 2026-09-25 SEO-title update had cleared (script bug, now fixed).",
+  "Corrected the meta descriptions of both 26 1/2\" Spectrum half shelves (they said 28 1/2\").",
+  "Corrected wrong sizes in 3 product descriptions (Spectrum 13x26x3/4, Advancer 13x26, Advancer 14x28).",
+  "CoreLite octagon: title/SEO title now 15\" x 16\", filter value 15\" Diameter."
+ ],
+ "changes": [
+  {
+   "product_id": "gid://shopify/Product/8316337979714",
+   "title": "Advancer Silicon Carbide Kiln Shelf - 20\" Full 10-Sided, 5/16\" Thick",
+   "field": "seo.description",
+   "before": null,
+   "after": "Advancer Nitride Bonded Silicon Carbide kiln shelves are the strongest, thinnest and lightest kiln shelves in the world. They are incredibly durable and will not warp at high temperature. They have very low thermal mass so less energy is used by the kiln.",
+   "value_before_2026_09_25": "Advancer Nitride Bonded Silicon Carbide kiln shelves are the strongest, thinnest and lightest kiln shelves in the world. They are incredibly durable and will not warp at high temperature. They have very low thermal mass so less energy is used by the kiln."
+  },
+  {
+   "product_id": "gid://shopify/Product/8316338307394",
+   "title": "Advancer Silicon Carbide Kiln Shelf - 21\" Full 10-Sided, 5/16\" Thick",
+   "field": "seo.description",
+   "before": null,
+   "after": "Advancer Nitride Bonded Silicon Carbide kiln shelves are the strongest, thinnest and lightest kiln shelves in the world. They are incredibly durable and will not warp at high temperature. They have very low thermal mass so less energy is used by the kiln.",
+   "value_before_2026_09_25": "Advancer Nitride Bonded Silicon Carbide kiln shelves are the strongest, thinnest and lightest kiln shelves in the world. They are incredibly durable and will not warp at high temperature. They have very low thermal mass so less energy is used by the kiln."
+  },
+  {
+   "product_id": "gid://shopify/Product/8316338176322",
+   "title": "Advancer Silicon Carbide Kiln Shelf - 20\" Half 10-Sided, 5/16\" Thick",
+   "field": "seo.description",
+   "before": null,
+   "after": "The Advancer kiln shelves are made with nitride-bonded silicon carbide, allowing for a strong, yet thin shelf. Order these lightweight kiln shelves today!",
+   "value_before_2026_09_25": "The Advancer kiln shelves are made with nitride-bonded silicon carbide, allowing for a strong, yet thin shelf. Order these lightweight kiln shelves today!"
+  },
+  {
+   "product_id": "gid://shopify/Product/8316338504002",
+   "title": "Advancer Silicon Carbide Kiln Shelf - 21\" Half 10-Sided, 5/16\" Thick",
+   "field": "seo.description",
+   "before": null,
+   "after": "The Advancer kiln shelves are made with nitride-bonded silicon carbide, allowing for a strong, yet thin shelf. Order these lightweight kiln shelves today!",
+   "value_before_2026_09_25": "The Advancer kiln shelves are made with nitride-bonded silicon carbide, allowing for a strong, yet thin shelf. Order these lightweight kiln shelves today!"
+  },
+  {
+   "product_id": "gid://shopify/Product/8316339061058",
+   "title": "Advancer Silicon Carbide Kiln Shelf - 26\" Half 12-Sided, 5/16\" Thick",
+   "field": "seo.description",
+   "before": null,
+   "after": "Advancer Nitride Bonded Silicon Carbide kiln shelves are the strongest, thinnest and lightest kiln shelves in the world. They are incredibly durable and will not warp at high temperature. They have very low thermal mass so less energy is used by the kiln.",
+   "value_before_2026_09_25": "Advancer Nitride Bonded Silicon Carbide kiln shelves are the strongest, thinnest and lightest kiln shelves in the world. They are incredibly durable and will not warp at high temperature. They have very low thermal mass so less energy is used by the kiln."
+  },
+  {
+   "product_id": "gid://shopify/Product/8316336832834",
+   "title": "Advancer Silicon Carbide Kiln Shelf - 10\" x 20\" Rectangle, 5/16\" Thick",
+   "field": "seo.description",
+   "before": null,
+   "after": "Advancer Nitride Bonded Silicon Carbide kiln shelves are the strongest, thinnest and lightest kiln shelves in the world. They are incredibly durable and will not warp at high temperature. They have very low thermal mass so less energy is used by the kiln.",
+   "value_before_2026_09_25": "Advancer Nitride Bonded Silicon Carbide kiln shelves are the strongest, thinnest and lightest kiln shelves in the world. They are incredibly durable and will not warp at high temperature. They have very low thermal mass so less energy is used by the kiln."
+  },
+  {
+   "product_id": "gid://shopify/Product/8316336996674",
+   "title": "Advancer Silicon Carbide Kiln Shelf - 11\" x 22\" Rectangle, 5/16\" Thick",
+   "field": "seo.description",
+   "before": null,
+   "after": "Advancer Nitride Bonded Silicon Carbide kiln shelves are the strongest, thinnest and lightest kiln shelves in the world. They are incredibly durable and will not warp at high temperature. They have very low thermal mass so less energy is used by the kiln.",
+   "value_before_2026_09_25": "Advancer Nitride Bonded Silicon Carbide kiln shelves are the strongest, thinnest and lightest kiln shelves in the world. They are incredibly durable and will not warp at high temperature. They have very low thermal mass so less energy is used by the kiln."
+  },
+  {
+   "product_id": "gid://shopify/Product/8316339552578",
+   "title": "Crystolon Oxide-Bonded Silicon Carbide Kiln Shelf - 12\" x 24\" Rectangle, 3/4\" Thick",
+   "field": "seo.description",
+   "before": null,
+   "after": "Order your Silicon Carbide Kiln Shelves from Sheffield POttery",
+   "value_before_2026_09_25": "Order your Silicon Carbide Kiln Shelves from Sheffield POttery"
+  },
+  {
+   "product_id": "gid://shopify/Product/8316337422658",
+   "title": "Advancer Silicon Carbide Kiln Shelf - 12\" x 24\" Rectangle, 5/16\" Thick",
+   "field": "seo.description",
+   "before": null,
+   "after": "Advancer Nitride Bonded Silicon Carbide kiln shelves are the strongest, thinnest and lightest kiln shelves in the world. They are incredibly durable and will not warp at high temperature. They have very low thermal mass so less energy is used by the kiln.",
+   "value_before_2026_09_25": "Advancer Nitride Bonded Silicon Carbide kiln shelves are the strongest, thinnest and lightest kiln shelves in the world. They are incredibly durable and will not warp at high temperature. They have very low thermal mass so less energy is used by the kiln."
+  },
+  {
+   "product_id": "gid://shopify/Product/8316337586498",
+   "title": "Advancer Silicon Carbide Kiln Shelf - 13\" x 26\" Rectangle, 5/16\" Thick",
+   "field": "seo.description",
+   "before": null,
+   "after": "Advancer Nitride Bonded Silicon Carbide kiln shelves are the strongest, thinnest and lightest kiln shelves in the world. They are incredibly durable and will not warp at high temperature. They have very low thermal mass so less energy is used by the kiln.",
+   "value_before_2026_09_25": "Advancer Nitride Bonded Silicon Carbide kiln shelves are the strongest, thinnest and lightest kiln shelves in the world. They are incredibly durable and will not warp at high temperature. They have very low thermal mass so less energy is used by the kiln."
+  },
+  {
+   "product_id": "gid://shopify/Product/8316337586498",
+   "title": "Advancer Silicon Carbide Kiln Shelf - 13\" x 26\" Rectangle, 5/16\" Thick",
+   "field": "descriptionHtml",
+   "before": "<h2 class=\"abz-seo-product\">Advancer Kiln Shelf 12 x28 x 5/16\" Nitride Bonded Silicon Carbide : Fits Center of many Oval kilns</h2>\n<p><img alt=\"Advancer Kiln Shelf\" src=\"https://cdn.shopify.com/s/files/1/0677/5508/2050/files/advancer-stack.jpg?v=1684319448\" style=\"float: right; margin: 0px 0px 10px 10px;\"><b>Advancer Nitride Bonded Silicon Carbide Kiln Shelves</b><br>Advancer kiln shelves are the strongest, lightest and thinnest kiln shelves in the world.<br>They do not warp at high temperature. They are rated for use up to cone 16 !<br>Because they are so lightweight they have less thermal mass so you save energy in your kiln firing by spending fewer BTU's heating up your kiln furniture.<br>Because they are so thin, you gain stacking space in your kiln. With more efficient stacking your kiln yields more work every firing so they pay for them selves very quickly.<br>They have close to zero porosity making cleanup a breeze. Kiln wash is still used if desired.</p>\n<p>They are recommended for gas, soda, and electric kilns. <br>They can be used in the back stack of wood kilns but most people prefer conventional silicon carbide shelves for wood fired kilns.</p>\n<p>There are many shapes and sizes available including squares, rectangles, full and half multi-sided shelves. Free free to call us to check availability !</p>\n<div class=\"responsive-table\">\n<table cellpadding=\"5\" style=\"border: thin dotted #3f3f3f; margin: 0px; padding: 15px; width: 551px; height: 296px; background-color: #eeece1; line-height: normal;\">\n<tbody>\n<tr>\n<td style=\"border-bottom: thin dotted #938953;\">\n<strong>Typical Properties</strong><br>\n</td>\n<td style=\"border-bottom: thin dotted #938953;\"><strong>Cordierite</strong></td>\n<td style=\"border-bottom: thin dotted #938953;\"><strong>ADVANCER®</strong></td>\n</tr>\n<tr>\n<td style=\"border-bottom: thin dotted #938953;\">Max Use Temperature ºF</td>\n<td style=\"border-bottom: thin dotted #938953;\">2372 – Cone 10</td>\n<td style=\"border-bottom: thin dotted #938953;\">2642 – Cone 16</td>\n</tr>\n<tr>\n<td style=\"border-bottom: thin dotted #938953;\">Porosity (%)</td>\n<td style=\"border-bottom: thin dotted #938953;\">30</td>\n<td style=\"border-bottom: thin dotted #938953;\">1</td>\n</tr>\n<tr>\n<td style=\"border-bottom: thin dotted #938953;\">Strength at Room Temp. (PSI @ 68 ºF)</td>\n<td style=\"border-bottom: thin dotted #938953;\">1,450</td>\n<td style=\"border-bottom: thin dotted #938953;\">24,500</td>\n</tr>\n<tr>\n<td style=\"border-bottom: thin dotted #938953;\">Strength Under Fire (PSI @ 1250 ºF) <br>\n</td>\n<td style=\"border-bottom: thin dotted #938953;\">1,305</td>\n<td style=\"border-bottom: thin dotted #938953;\">25,500</td>\n</tr>\n<tr>\n<td style=\"border-bottom: thin dotted #938953;\">Thermal Conductivity (BTU-in./hr.ft2 ºF)</td>\n<td style=\"border-bottom: thin dotted #938953;\">8</td>\n<td style=\"border-bottom: thin dotted #938953;\">125</td>\n</tr>\n<tr>\n<td style=\"border-bottom: thin dotted #938953;\">\n<p>Weight of a 24\" x 12\" Shelf</p>\n</td>\n<td style=\"border-bottom: thin dotted #938953;\">Up to 21 lbs.<br>\n</td>\n<td style=\"border-bottom: thin dotted #938953;\">8 lbs.<br>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"element\" id=\"element1241368_551563\">\n<div class=\"textElement\" id=\"MainContent_4_4_pnlDiv\">\n<p>Price does not include shipping but because they are light, they are less expensive to ship than other kiln shelves.<br>Fell free to call or email us for a delivered price !</p>\n<p><b><span style=\"color: #632423;\">Advancer Kiln Shelves Weights :</span></b><br>15\" X 15\" X 5/16\" Full Shelf for 8 Sided Kilns <span style=\"color: #550e01;\"> (7 lb.)</span><br> 20\" X 10\" X 5/16\" Half Shelf for 10 Sided, 3\" Wall Kilns <span style=\"color: #550e01;\">(5 lb.)</span><br> 20\" X 20\" X 5/16\" Full Shelf for 10 Sided, 3\" Wall Kilns <span style=\"color: #550e01;\">(10 lb.)</span><br> 21\" X 10.5\" X 5/16\" Half Shelf for 10 Sided, 2.5\" Wall Kilns <span style=\"color: #550e01;\">(6 lb.)</span><br> 21\" X 21\" X 5/16\" Full Shelf for 10 Sided, 2.5\" Wall Kilns <span style=\"color: #550e01;\">(12 lb.)</span><br> 26\" X 13\" X 5/16\" Half Shelf for 12 Sided, 3\" Wall Kilns <span style=\"color: #550e01;\"> (8 lb.)</span><br> 26\" X 26\" X 5/16\" Full Shelf for 12 Sided, 3\" Wall Kilns <span style=\"color: #550e01;\"> (16 lb.)</span><br> 13\" X 26\" X 5/16\" Center Shelf fits most Oval Kilns <span style=\"color: #550e01;\">(9 lb.)</span><br> 16\" X 26\" X 5/16\" Center Shelf fits Skutt Oval Kilns <span style=\"color: #550e01;\"> (12 lb.)<br></span>12” X 24” X 5/16” : 8lb.<br> 14” X 28” X 5/16” : 11lb. <br> 10” X 20” X 5/16” : 6lb.<br> 12” X 12” X 5/16” : 4lb.<br> 12” X 28” X 5/16” : 10lb.<br> 13” X 26” X 5/16” : 8lb.<br> 22” X 22” X 5/16” : 13lb.</p>\n<img alt=\"Advancer Silicon Carbide kiln shelves\" src=\"https://cdn.shopify.com/s/files/1/0677/5508/2050/files/advancer-kiln-shelves-electric-kilns.jpg?v=1684319465\"><br>\n</div>\n</div>",
+   "after": "<h2 class=\"abz-seo-product\">Advancer Kiln Shelf 13 x 26 x 5/16\" Nitride Bonded Silicon Carbide : Fits Center of many Oval kilns</h2>\n<p><img alt=\"Advancer Kiln Shelf\" src=\"https://cdn.shopify.com/s/files/1/0677/5508/2050/files/advancer-stack.jpg?v=1684319448\" style=\"float: right; margin: 0px 0px 10px 10px;\"><b>Advancer Nitride Bonded Silicon Carbide Kiln Shelves</b><br>Advancer kiln shelves are the strongest, lightest and thinnest kiln shelves in the world.<br>They do not warp at high temperature. They are rated for use up to cone 16 !<br>Because they are so lightweight they have less thermal mass so you save energy in your kiln firing by spending fewer BTU's heating up your kiln furniture.<br>Because they are so thin, you gain stacking space in your kiln. With more efficient stacking your kiln yields more work every firing so they pay for them selves very quickly.<br>They have close to zero porosity making cleanup a breeze. Kiln wash is still used if desired.</p>\n<p>They are recommended for gas, soda, and electric kilns. <br>They can be used in the back stack of wood kilns but most people prefer conventional silicon carbide shelves for wood fired kilns.</p>\n<p>There are many shapes and sizes available including squares, rectangles, full and half multi-sided shelves. Free free to call us to check availability !</p>\n<div class=\"responsive-table\">\n<table cellpadding=\"5\" style=\"border: thin dotted #3f3f3f; margin: 0px; padding: 15px; width: 551px; height: 296px; background-color: #eeece1; line-height: normal;\">\n<tbody>\n<tr>\n<td style=\"border-bottom: thin dotted #938953;\">\n<strong>Typical Properties</strong><br>\n</td>\n<td style=\"border-bottom: thin dotted #938953;\"><strong>Cordierite</strong></td>\n<td style=\"border-bottom: thin dotted #938953;\"><strong>ADVANCER®</strong></td>\n</tr>\n<tr>\n<td style=\"border-bottom: thin dotted #938953;\">Max Use Temperature ºF</td>\n<td style=\"border-bottom: thin dotted #938953;\">2372 – Cone 10</td>\n<td style=\"border-bottom: thin dotted #938953;\">2642 – Cone 16</td>\n</tr>\n<tr>\n<td style=\"border-bottom: thin dotted #938953;\">Porosity (%)</td>\n<td style=\"border-bottom: thin dotted #938953;\">30</td>\n<td style=\"border-bottom: thin dotted #938953;\">1</td>\n</tr>\n<tr>\n<td style=\"border-bottom: thin dotted #938953;\">Strength at Room Temp. (PSI @ 68 ºF)</td>\n<td style=\"border-bottom: thin dotted #938953;\">1,450</td>\n<td style=\"border-bottom: thin dotted #938953;\">24,500</td>\n</tr>\n<tr>\n<td style=\"border-bottom: thin dotted #938953;\">Strength Under Fire (PSI @ 1250 ºF) <br>\n</td>\n<td style=\"border-bottom: thin dotted #938953;\">1,305</td>\n<td style=\"border-bottom: thin dotted #938953;\">25,500</td>\n</tr>\n<tr>\n<td style=\"border-bottom: thin dotted #938953;\">Thermal Conductivity (BTU-in./hr.ft2 ºF)</td>\n<td style=\"border-bottom: thin dotted #938953;\">8</td>\n<td style=\"border-bottom: thin dotted #938953;\">125</td>\n</tr>\n<tr>\n<td style=\"border-bottom: thin dotted #938953;\">\n<p>Weight of a 24\" x 12\" Shelf</p>\n</td>\n<td style=\"border-bottom: thin dotted #938953;\">Up to 21 lbs.<br>\n</td>\n<td style=\"border-bottom: thin dotted #938953;\">8 lbs.<br>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"element\" id=\"element1241368_551563\">\n<div class=\"textElement\" id=\"MainContent_4_4_pnlDiv\">\n<p>Price does not include shipping but because they are light, they are less expensive to ship than other kiln shelves.<br>Fell free to call or email us for a delivered price !</p>\n<p><b><span style=\"color: #632423;\">Advancer Kiln Shelves Weights :</span></b><br>15\" X 15\" X 5/16\" Full Shelf for 8 Sided Kilns <span style=\"color: #550e01;\"> (7 lb.)</span><br> 20\" X 10\" X 5/16\" Half Shelf for 10 Sided, 3\" Wall Kilns <span style=\"color: #550e01;\">(5 lb.)</span><br> 20\" X 20\" X 5/16\" Full Shelf for 10 Sided, 3\" Wall Kilns <span style=\"color: #550e01;\">(10 lb.)</span><br> 21\" X 10.5\" X 5/16\" Half Shelf for 10 Sided, 2.5\" Wall Kilns <span style=\"color: #550e01;\">(6 lb.)</span><br> 21\" X 21\" X 5/16\" Full Shelf for 10 Sided, 2.5\" Wall Kilns <span style=\"color: #550e01;\">(12 lb.)</span><br> 26\" X 13\" X 5/16\" Half Shelf for 12 Sided, 3\" Wall Kilns <span style=\"color: #550e01;\"> (8 lb.)</span><br> 26\" X 26\" X 5/16\" Full Shelf for 12 Sided, 3\" Wall Kilns <span style=\"color: #550e01;\"> (16 lb.)</span><br> 13\" X 26\" X 5/16\" Center Shelf fits most Oval Kilns <span style=\"color: #550e01;\">(9 lb.)</span><br> 16\" X 26\" X 5/16\" Center Shelf fits Skutt Oval Kilns <span style=\"color: #550e01;\"> (12 lb.)<br></span>12” X 24” X 5/16” : 8lb.<br> 14” X 28” X 5/16” : 11lb. <br> 10” X 20” X 5/16” : 6lb.<br> 12” X 12” X 5/16” : 4lb.<br> 12” X 28” X 5/16” : 10lb.<br> 13” X 26” X 5/16” : 8lb.<br> 22” X 22” X 5/16” : 13lb.</p>\n<img alt=\"Advancer Silicon Carbide kiln shelves\" src=\"https://cdn.shopify.com/s/files/1/0677/5508/2050/files/advancer-kiln-shelves-electric-kilns.jpg?v=1684319465\"><br>\n</div>\n</div>"
+  },
+  {
+   "product_id": "gid://shopify/Product/8316337848642",
+   "title": "Advancer Silicon Carbide Kiln Shelf - 14\" x 28\" Rectangle, 5/16\" Thick",
+   "field": "seo.description",
+   "before": null,
+   "after": "Advancer Nitride Bonded Silicon Carbide kiln shelves are the strongest, thinnest and lightest kiln shelves in the world. They are incredibly durable and will not warp at high temperature. They have very low thermal mass so less energy is used by the kiln.",
+   "value_before_2026_09_25": "Advancer Nitride Bonded Silicon Carbide kiln shelves are the strongest, thinnest and lightest kiln shelves in the world. They are incredibly durable and will not warp at high temperature. They have very low thermal mass so less energy is used by the kiln."
+  },
+  {
+   "product_id": "gid://shopify/Product/8316337848642",
+   "title": "Advancer Silicon Carbide Kiln Shelf - 14\" x 28\" Rectangle, 5/16\" Thick",
+   "field": "descriptionHtml",
+   "before": "<h2 class=\"abz-seo-product\">Advancer Kiln Shelf 11 x 22x 5/16\" Nitride Bonded Silicon Carbide</h2>\n<p><img alt=\"Advancer Kiln Shelf\" src=\"https://cdn.shopify.com/s/files/1/0677/5508/2050/files/advancer-stack.jpg?v=1684319448\" style=\"float: right; margin: 0px 0px 10px 10px;\"><b>Advancer Nitride Bonded Silicon Carbide Kiln Shelves</b><br>Advancer kiln shelves are the strongest, lightest and thinnest kiln shelves in the world.<br>They do not warp at high temperature. They are rated for use up to cone 16 !<br>Because they are so lightweight they have less thermal mass so you save energy in your kiln firing by spending fewer BTU's heating up your kiln furniture.<br>Because they are so thin, you gain stacking space in your kiln. With more efficient stacking your kiln yields more work every firing so they pay for them selves very quickly.<br>They have close to zero porosity making cleanup a breeze. Kiln wash is still used if desired.</p>\n<p>They are recommended for gas, soda, and electric kilns.<br>They can be used in the back stack of wood kilns but most people prefer conventional silicon carbide shelves for wood fired kilns.</p>\n<p>There are many shapes and sizes available including squares, rectangles, full and half multi-sided shelves. Free free to call us to check availability !</p>\n<div class=\"responsive-table\">\n<table cellpadding=\"5\" style=\"border: thin dotted #3f3f3f; margin: 0px; padding: 15px; width: 551px; height: 296px; background-color: #eeece1; line-height: normal;\">\n<tbody>\n<tr>\n<td style=\"border-bottom: thin dotted #938953;\">\n<strong>Typical Properties</strong><br>\n</td>\n<td style=\"border-bottom: thin dotted #938953;\"><strong>Cordierite</strong></td>\n<td style=\"border-bottom: thin dotted #938953;\"><strong>ADVANCER®</strong></td>\n</tr>\n<tr>\n<td style=\"border-bottom: thin dotted #938953;\">Max Use Temperature ºF</td>\n<td style=\"border-bottom: thin dotted #938953;\">2372 – Cone 10</td>\n<td style=\"border-bottom: thin dotted #938953;\">2642 – Cone 16</td>\n</tr>\n<tr>\n<td style=\"border-bottom: thin dotted #938953;\">Porosity (%)</td>\n<td style=\"border-bottom: thin dotted #938953;\">30</td>\n<td style=\"border-bottom: thin dotted #938953;\">1</td>\n</tr>\n<tr>\n<td style=\"border-bottom: thin dotted #938953;\">Strength at Room Temp. (PSI @ 68 ºF)</td>\n<td style=\"border-bottom: thin dotted #938953;\">1,450</td>\n<td style=\"border-bottom: thin dotted #938953;\">24,500</td>\n</tr>\n<tr>\n<td style=\"border-bottom: thin dotted #938953;\">Strength Under Fire (PSI @ 1250 ºF) <br>\n</td>\n<td style=\"border-bottom: thin dotted #938953;\">1,305</td>\n<td style=\"border-bottom: thin dotted #938953;\">25,500</td>\n</tr>\n<tr>\n<td style=\"border-bottom: thin dotted #938953;\">Thermal Conductivity (BTU-in./hr.ft2 ºF)</td>\n<td style=\"border-bottom: thin dotted #938953;\">8</td>\n<td style=\"border-bottom: thin dotted #938953;\">125</td>\n</tr>\n<tr>\n<td style=\"border-bottom: thin dotted #938953;\">\n<p>Weight of a 24\" x 12\" Shelf</p>\n</td>\n<td style=\"border-bottom: thin dotted #938953;\">Up to 21 lbs.<br>\n</td>\n<td style=\"border-bottom: thin dotted #938953;\">8 lbs.<br>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"element\" id=\"element1241368_551563\">\n<div class=\"textElement\" id=\"MainContent_4_4_pnlDiv\">\n<p>Price does not include shipping but because they are light, they are less expensive to ship than other kiln shelves.<br>Fell free to call or email us for a delivered price !</p>\n<p><b><span style=\"color: #632423;\">Advancer Kiln Shelves Weights :</span></b><br>15\" X 15\" X 5/16\" Full Shelf for 8 Sided Kilns <span style=\"color: #550e01;\"> (7 lb.)</span><br> 20\" X 10\" X 5/16\" Half Shelf for 10 Sided, 3\" Wall Kilns <span style=\"color: #550e01;\">(5 lb.)</span><br> 20\" X 20\" X 5/16\" Full Shelf for 10 Sided, 3\" Wall Kilns <span style=\"color: #550e01;\">(10 lb.) </span><br> 21\" X 10.5\" X 5/16\" Half Shelf for 10 Sided, 2.5\" Wall Kilns <span style=\"color: #550e01;\">(6 lb.)</span><br> 21\" X 21\" X 5/16\" Full Shelf for 10 Sided, 2.5\" Wall Kilns <span style=\"color: #550e01;\">(12 lb.)</span><br> 26\" X 13\" X 5/16\" Half Shelf for 12 Sided, 3\" Wall Kilns <span style=\"color: #550e01;\"> (8 lb.)</span><br> 26\" X 26\" X 5/16\" Full Shelf for 12 Sided, 3\" Wall Kilns <span style=\"color: #550e01;\"> (16 lb.)</span><br> 13\" X 26\" X 5/16\" Center Shelf fits most Oval Kilns <span style=\"color: #550e01;\">(9 lb.)</span><br> 16\" X 26\" X 5/16\" Center Shelf fits Skutt Oval Kilns <span style=\"color: #550e01;\"> (12 lb.)<br></span>12” X 24” X 5/16” : 8lb.<br> 14” X 28” X 5/16” : 11lb. <br> 10” X 20” X 5/16” : 6lb.<br> 12” X 12” X 5/16” : 4lb.<br> 12” X 28” X 5/16” : 10lb.<br> 13” X 26” X 5/16” : 8lb.<br> 22” X 22” X 5/16” : 13lb.</p>\n<img alt=\"Advancer Silicon Carbide kiln shelves\" src=\"https://cdn.shopify.com/s/files/1/0677/5508/2050/files/advancer-kiln-shelves-electric-kilns.jpg?v=1684319465\"><br>\n</div>\n</div>",
+   "after": "<h2 class=\"abz-seo-product\">Advancer Kiln Shelf 14 x 28 x 5/16\" Nitride Bonded Silicon Carbide</h2>\n<p><img alt=\"Advancer Kiln Shelf\" src=\"https://cdn.shopify.com/s/files/1/0677/5508/2050/files/advancer-stack.jpg?v=1684319448\" style=\"float: right; margin: 0px 0px 10px 10px;\"><b>Advancer Nitride Bonded Silicon Carbide Kiln Shelves</b><br>Advancer kiln shelves are the strongest, lightest and thinnest kiln shelves in the world.<br>They do not warp at high temperature. They are rated for use up to cone 16 !<br>Because they are so lightweight they have less thermal mass so you save energy in your kiln firing by spending fewer BTU's heating up your kiln furniture.<br>Because they are so thin, you gain stacking space in your kiln. With more efficient stacking your kiln yields more work every firing so they pay for them selves very quickly.<br>They have close to zero porosity making cleanup a breeze. Kiln wash is still used if desired.</p>\n<p>They are recommended for gas, soda, and electric kilns.<br>They can be used in the back stack of wood kilns but most people prefer conventional silicon carbide shelves for wood fired kilns.</p>\n<p>There are many shapes and sizes available including squares, rectangles, full and half multi-sided shelves. Free free to call us to check availability !</p>\n<div class=\"responsive-table\">\n<table cellpadding=\"5\" style=\"border: thin dotted #3f3f3f; margin: 0px; padding: 15px; width: 551px; height: 296px; background-color: #eeece1; line-height: normal;\">\n<tbody>\n<tr>\n<td style=\"border-bottom: thin dotted #938953;\">\n<strong>Typical Properties</strong><br>\n</td>\n<td style=\"border-bottom: thin dotted #938953;\"><strong>Cordierite</strong></td>\n<td style=\"border-bottom: thin dotted #938953;\"><strong>ADVANCER®</strong></td>\n</tr>\n<tr>\n<td style=\"border-bottom: thin dotted #938953;\">Max Use Temperature ºF</td>\n<td style=\"border-bottom: thin dotted #938953;\">2372 – Cone 10</td>\n<td style=\"border-bottom: thin dotted #938953;\">2642 – Cone 16</td>\n</tr>\n<tr>\n<td style=\"border-bottom: thin dotted #938953;\">Porosity (%)</td>\n<td style=\"border-bottom: thin dotted #938953;\">30</td>\n<td style=\"border-bottom: thin dotted #938953;\">1</td>\n</tr>\n<tr>\n<td style=\"border-bottom: thin dotted #938953;\">Strength at Room Temp. (PSI @ 68 ºF)</td>\n<td style=\"border-bottom: thin dotted #938953;\">1,450</td>\n<td style=\"border-bottom: thin dotted #938953;\">24,500</td>\n</tr>\n<tr>\n<td style=\"border-bottom: thin dotted #938953;\">Strength Under Fire (PSI @ 1250 ºF) <br>\n</td>\n<td style=\"border-bottom: thin dotted #938953;\">1,305</td>\n<td style=\"border-bottom: thin dotted #938953;\">25,500</td>\n</tr>\n<tr>\n<td style=\"border-bottom: thin dotted #938953;\">Thermal Conductivity (BTU-in./hr.ft2 ºF)</td>\n<td style=\"border-bottom: thin dotted #938953;\">8</td>\n<td style=\"border-bottom: thin dotted #938953;\">125</td>\n</tr>\n<tr>\n<td style=\"border-bottom: thin dotted #938953;\">\n<p>Weight of a 24\" x 12\" Shelf</p>\n</td>\n<td style=\"border-bottom: thin dotted #938953;\">Up to 21 lbs.<br>\n</td>\n<td style=\"border-bottom: thin dotted #938953;\">8 lbs.<br>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"element\" id=\"element1241368_551563\">\n<div class=\"textElement\" id=\"MainContent_4_4_pnlDiv\">\n<p>Price does not include shipping but because they are light, they are less expensive to ship than other kiln shelves.<br>Fell free to call or email us for a delivered price !</p>\n<p><b><span style=\"color: #632423;\">Advancer Kiln Shelves Weights :</span></b><br>15\" X 15\" X 5/16\" Full Shelf for 8 Sided Kilns <span style=\"color: #550e01;\"> (7 lb.)</span><br> 20\" X 10\" X 5/16\" Half Shelf for 10 Sided, 3\" Wall Kilns <span style=\"color: #550e01;\">(5 lb.)</span><br> 20\" X 20\" X 5/16\" Full Shelf for 10 Sided, 3\" Wall Kilns <span style=\"color: #550e01;\">(10 lb.) </span><br> 21\" X 10.5\" X 5/16\" Half Shelf for 10 Sided, 2.5\" Wall Kilns <span style=\"color: #550e01;\">(6 lb.)</span><br> 21\" X 21\" X 5/16\" Full Shelf for 10 Sided, 2.5\" Wall Kilns <span style=\"color: #550e01;\">(12 lb.)</span><br> 26\" X 13\" X 5/16\" Half Shelf for 12 Sided, 3\" Wall Kilns <span style=\"color: #550e01;\"> (8 lb.)</span><br> 26\" X 26\" X 5/16\" Full Shelf for 12 Sided, 3\" Wall Kilns <span style=\"color: #550e01;\"> (16 lb.)</span><br> 13\" X 26\" X 5/16\" Center Shelf fits most Oval Kilns <span style=\"color: #550e01;\">(9 lb.)</span><br> 16\" X 26\" X 5/16\" Center Shelf fits Skutt Oval Kilns <span style=\"color: #550e01;\"> (12 lb.)<br></span>12” X 24” X 5/16” : 8lb.<br> 14” X 28” X 5/16” : 11lb. <br> 10” X 20” X 5/16” : 6lb.<br> 12” X 12” X 5/16” : 4lb.<br> 12” X 28” X 5/16” : 10lb.<br> 13” X 26” X 5/16” : 8lb.<br> 22” X 22” X 5/16” : 13lb.</p>\n<img alt=\"Advancer Silicon Carbide kiln shelves\" src=\"https://cdn.shopify.com/s/files/1/0677/5508/2050/files/advancer-kiln-shelves-electric-kilns.jpg?v=1684319465\"><br>\n</div>\n</div>"
+  },
+  {
+   "product_id": "gid://shopify/Product/8316337258818",
+   "title": "Advancer Silicon Carbide Kiln Shelf - 12\" x 12\" Square, 5/16\" Thick",
+   "field": "seo.description",
+   "before": null,
+   "after": "Advancer Nitride Bonded Silicon Carbide kiln shelves are the strongest, thinnest and lightest kiln shelves in the world. They are incredibly durable and will not warp at high temperature. They have very low thermal mass so less energy is used by the kiln.",
+   "value_before_2026_09_25": "Advancer Nitride Bonded Silicon Carbide kiln shelves are the strongest, thinnest and lightest kiln shelves in the world. They are incredibly durable and will not warp at high temperature. They have very low thermal mass so less energy is used by the kiln."
+  },
+  {
+   "product_id": "gid://shopify/Product/8316338733378",
+   "title": "Advancer Silicon Carbide Kiln Shelf - 22\" x 22\" Square, 5/16\" Thick",
+   "field": "seo.description",
+   "before": null,
+   "after": "Advancer Nitride Bonded Silicon Carbide kiln shelves are the strongest, thinnest and lightest kiln shelves in the world. They are incredibly durable and will not warp at high temperature. They have very low thermal mass so less energy is used by the kiln.",
+   "value_before_2026_09_25": "Advancer Nitride Bonded Silicon Carbide kiln shelves are the strongest, thinnest and lightest kiln shelves in the world. They are incredibly durable and will not warp at high temperature. They have very low thermal mass so less energy is used by the kiln."
+  },
+  {
+   "product_id": "gid://shopify/Product/8315813069122",
+   "title": "Cedar Heights CoreLite Semi-Hollow Kiln Shelf - 15\" Full Round, 5/8\" Thick",
+   "field": "seo.description",
+   "before": null,
+   "after": "Order CoreLite Semi Hollow Kiln Shelves by Cedar Heights on sale at Sheffield Pottery Ceramic Supplies.",
+   "value_before_2026_09_25": "Order CoreLite Semi Hollow Kiln Shelves by Cedar Heights on sale at Sheffield Pottery Ceramic Supplies."
+  },
+  {
+   "product_id": "gid://shopify/Product/8315813822786",
+   "title": "Cedar Heights CoreLite Semi-Hollow Kiln Shelf - 20\" Full Round, 5/8\" Thick",
+   "field": "seo.description",
+   "before": null,
+   "after": "Order CoreLite Semi Hollow Kiln Shelves by Cedar Heights on sale at Sheffield Pottery Ceramic Supplies.",
+   "value_before_2026_09_25": "Order CoreLite Semi Hollow Kiln Shelves by Cedar Heights on sale at Sheffield Pottery Ceramic Supplies."
+  },
+  {
+   "product_id": "gid://shopify/Product/8315814904130",
+   "title": "Cedar Heights CoreLite Semi-Hollow Kiln Shelf - 26\" Full Round, 1\" Thick",
+   "field": "seo.description",
+   "before": null,
+   "after": "Order CoreLite Semi Hollow Kiln Shelves by Cedar Heights on sale at Sheffield Pottery Ceramic Supplies.",
+   "value_before_2026_09_25": "Order CoreLite Semi Hollow Kiln Shelves by Cedar Heights on sale at Sheffield Pottery Ceramic Supplies."
+  },
+  {
+   "product_id": "gid://shopify/Product/8315814084930",
+   "title": "Cedar Heights CoreLite Semi-Hollow Kiln Shelf - 20\" Half Round, 5/8\" Thick",
+   "field": "seo.description",
+   "before": null,
+   "after": "This semi-hollow Corelite kiln shelf helps wares keep their shape while firing. Explore our selection of half round kiln shelves online at Sheffield Pottery.",
+   "value_before_2026_09_25": "This semi-hollow Corelite kiln shelf helps wares keep their shape while firing. Explore our selection of half round kiln shelves online at Sheffield Pottery."
+  },
+  {
+   "product_id": "gid://shopify/Product/8315815559490",
+   "title": "Cedar Heights CoreLite Semi-Hollow Kiln Shelf - 26\" Half Round, 5/8\" Thick",
+   "field": "seo.description",
+   "before": null,
+   "after": "Order CoreLite Semi Hollow Kiln Shelves by Cedar Heights on sale at Sheffield Pottery Ceramic Supplies.",
+   "value_before_2026_09_25": "Order CoreLite Semi Hollow Kiln Shelves by Cedar Heights on sale at Sheffield Pottery Ceramic Supplies."
+  },
+  {
+   "product_id": "gid://shopify/Product/8315813167426",
+   "title": "Cedar Heights CoreLite Semi-Hollow Kiln Shelf - 15\" x 16\" Full 8-Sided, 5/8\" Thick",
+   "field": "title",
+   "before": "Cedar Heights CoreLite Semi-Hollow Kiln Shelf - 16\" x 15\" Full 8-Sided, 5/8\" Thick",
+   "after": "Cedar Heights CoreLite Semi-Hollow Kiln Shelf - 15\" x 16\" Full 8-Sided, 5/8\" Thick"
+  },
+  {
+   "product_id": "gid://shopify/Product/8315813167426",
+   "title": "Cedar Heights CoreLite Semi-Hollow Kiln Shelf - 15\" x 16\" Full 8-Sided, 5/8\" Thick",
+   "field": "seo.title",
+   "before": "CoreLite Semi-Hollow Kiln Shelf 16\" x 15\" x 5/8\" Full 8-Sided",
+   "after": "CoreLite Semi-Hollow Kiln Shelf 15\" x 16\" x 5/8\" Full 8-Sided"
+  },
+  {
+   "product_id": "gid://shopify/Product/8315813167426",
+   "title": "Cedar Heights CoreLite Semi-Hollow Kiln Shelf - 15\" x 16\" Full 8-Sided, 5/8\" Thick",
+   "field": "seo.description",
+   "before": null,
+   "after": "This cordierite kiln shelf is semi-hollow, making it lighter and much easier to carry from place to place. Order this octagonal kiln shelf at Sheffield Pottery.",
+   "value_before_2026_09_25": "This cordierite kiln shelf is semi-hollow, making it lighter and much easier to carry from place to place. Order this octagonal kiln shelf at Sheffield Pottery."
+  },
+  {
+   "product_id": "gid://shopify/Product/8315813167426",
+   "title": "Cedar Heights CoreLite Semi-Hollow Kiln Shelf - 15\" x 16\" Full 8-Sided, 5/8\" Thick",
+   "field": "custom.kiln_shelf_size",
+   "before": "16\" Diameter",
+   "after": "15\" Diameter"
+  },
+  {
+   "product_id": "gid://shopify/Product/8315813429570",
+   "title": "Cedar Heights CoreLite Semi-Hollow Kiln Shelf - 10\" x 20\" Rectangle, 3/4\" Thick",
+   "field": "seo.description",
+   "before": null,
+   "after": "Corelite Kiln shelves are semi-hollow cordierite making them much lighter saving you wear and tear on your back. Order your kiln shelves online today!",
+   "value_before_2026_09_25": "Corelite Kiln shelves are semi-hollow cordierite making them much lighter saving you wear and tear on your back. Order your kiln shelves online today!"
+  },
+  {
+   "product_id": "gid://shopify/Product/8315814216002",
+   "title": "Cedar Heights CoreLite Semi-Hollow Kiln Shelf - 11\" x 22\" Rectangle, 1\" Thick",
+   "field": "seo.description",
+   "before": null,
+   "after": "Order CoreLite Semi Hollow Kiln Shelves by Cedar Heights on sale at Sheffield Pottery Ceramic Supplies.",
+   "value_before_2026_09_25": "Order CoreLite Semi Hollow Kiln Shelves by Cedar Heights on sale at Sheffield Pottery Ceramic Supplies."
+  },
+  {
+   "product_id": "gid://shopify/Product/8315814347074",
+   "title": "Cedar Heights CoreLite Semi-Hollow Kiln Shelf - 12\" x 24\" Rectangle, 1\" Thick",
+   "field": "seo.description",
+   "before": null,
+   "after": "Corelite Kiln shelves are semi-hollow cordierite making them much lighter saving you wear and tear on your back. Order your kiln shelves online today!",
+   "value_before_2026_09_25": "Corelite Kiln shelves are semi-hollow cordierite making them much lighter saving you wear and tear on your back. Order your kiln shelves online today!"
+  },
+  {
+   "product_id": "gid://shopify/Product/8315814510914",
+   "title": "Cedar Heights CoreLite Semi-Hollow Kiln Shelf - 12\" x 24\" Rectangle, 5/8\" Thick",
+   "field": "seo.description",
+   "before": null,
+   "after": "Order CoreLite Semi Hollow Kiln Shelves by Cedar Heights on sale at Sheffield Pottery Ceramic Supplies.",
+   "value_before_2026_09_25": "Order CoreLite Semi Hollow Kiln Shelves by Cedar Heights on sale at Sheffield Pottery Ceramic Supplies."
+  },
+  {
+   "product_id": "gid://shopify/Product/8315815133506",
+   "title": "Cedar Heights CoreLite Semi-Hollow Kiln Shelf - 13\" x 26\" Rectangle, 1\" Thick",
+   "field": "seo.description",
+   "before": null,
+   "after": "Order CoreLite Semi Hollow Kiln Shelves by Cedar Heights on sale at Sheffield Pottery Ceramic Supplies.",
+   "value_before_2026_09_25": "Order CoreLite Semi Hollow Kiln Shelves by Cedar Heights on sale at Sheffield Pottery Ceramic Supplies."
+  },
+  {
+   "product_id": "gid://shopify/Product/8315815362882",
+   "title": "Cedar Heights CoreLite Semi-Hollow Kiln Shelf - 13\" x 26\" Rectangle, 5/8\" Thick",
+   "field": "seo.description",
+   "before": null,
+   "after": "Order CoreLite Semi Hollow Kiln Shelves by Cedar Heights on sale at Sheffield Pottery Ceramic Supplies.",
+   "value_before_2026_09_25": "Order CoreLite Semi Hollow Kiln Shelves by Cedar Heights on sale at Sheffield Pottery Ceramic Supplies."
+  },
+  {
+   "product_id": "gid://shopify/Product/8315815854402",
+   "title": "Cedar Heights CoreLite Semi-Hollow Kiln Shelf - 14\" x 28\" Rectangle, 1\" Thick",
+   "field": "seo.description",
+   "before": null,
+   "after": "Order CoreLite Semi Hollow Kiln Shelves by Cedar Heights on sale at Sheffield Pottery Ceramic Supplies.",
+   "value_before_2026_09_25": "Order CoreLite Semi Hollow Kiln Shelves by Cedar Heights on sale at Sheffield Pottery Ceramic Supplies."
+  },
+  {
+   "product_id": "gid://shopify/Product/8315814805826",
+   "title": "Cedar Heights CoreLite Semi-Hollow Kiln Shelf - 18\" x 24\" Rectangle, 1\" Thick",
+   "field": "seo.description",
+   "before": null,
+   "after": "Order CoreLite Semi Hollow Kiln Shelves by Cedar Heights on sale at Sheffield Pottery Ceramic Supplies.",
+   "value_before_2026_09_25": "Order CoreLite Semi Hollow Kiln Shelves by Cedar Heights on sale at Sheffield Pottery Ceramic Supplies."
+  },
+  {
+   "product_id": "gid://shopify/Product/8315813495106",
+   "title": "Cedar Heights CoreLite Semi-Hollow Kiln Shelf - 20\" x 20\" Square, 1\" Thick",
+   "field": "seo.description",
+   "before": null,
+   "after": "This hollow square corelite kiln shelf is lightweight and measures 20\"x 20\"x 1\". Experience less warping and use less energy with the Cedar Heights kiln shelf.",
+   "value_before_2026_09_25": "This hollow square corelite kiln shelf is lightweight and measures 20\"x 20\"x 1\". Experience less warping and use less energy with the Cedar Heights kiln shelf."
+  },
+  {
+   "product_id": "gid://shopify/Product/15042839904627",
+   "title": "Spectrum High Alumina Kiln Shelf - 26 1/2\" Half Round, 1\" Thick",
+   "field": "seo.description",
+   "before": null,
+   "after": "Spectrum High Alumina 26 1/2\" x 1\" half round kiln shelf, rated to cone 11. Order from Sheffield Pottery.",
+   "value_before_2026_09_25": "28 1/2\" x 3/4\" HALF ROUND HIGH ALUMINA  KILN SHELF"
+  },
+  {
+   "product_id": "gid://shopify/Product/8316330737986",
+   "title": "Spectrum High Alumina Kiln Shelf - 26 1/2\" Half Round, 3/4\" Thick",
+   "field": "seo.description",
+   "before": null,
+   "after": "Spectrum High Alumina 26 1/2\" x 3/4\" half round kiln shelf, rated to cone 11. Order from Sheffield Pottery.",
+   "value_before_2026_09_25": "28 1/2\" x 3/4\" HALF ROUND HIGH ALUMINA  KILN SHELF"
+  },
+  {
+   "product_id": "gid://shopify/Product/8316333424962",
+   "title": "Spectrum High Alumina Semi-Hollow Kiln Shelf - 20\" Half 10-Sided, 3/4\" Thick",
+   "field": "seo.description",
+   "before": null,
+   "after": "Lightweight 20\" X 3/4\" Half 10 Sided High Semi-Hollow Kiln Shelf are easier to load!",
+   "value_before_2026_09_25": "Lightweight 20\" X 3/4\" Half 10 Sided High Semi-Hollow Kiln Shelf are easier to load!"
+  },
+  {
+   "product_id": "gid://shopify/Product/8316332998978",
+   "title": "Spectrum High Alumina Kiln Shelf - 11\" x 22\" Rectangle, 1\" Thick",
+   "field": "seo.description",
+   "before": null,
+   "after": "22\" x 11\" x 1\"  Rectangle HIGH ALUMINA KILN SHELF",
+   "value_before_2026_09_25": "22\" x 11\" x 1\"  Rectangle HIGH ALUMINA KILN SHELF"
+  },
+  {
+   "product_id": "gid://shopify/Product/8316332605762",
+   "title": "Spectrum High Alumina Kiln Shelf - 11\" x 22\" Rectangle, 3/4\" Thick",
+   "field": "seo.description",
+   "before": null,
+   "after": "Order your 11 x22 x3/4\" Rectangle High Alumina Kiln Shelf from Sheffield Pottery.",
+   "value_before_2026_09_25": "Order your 11 x22 x3/4\" Rectangle High Alumina Kiln Shelf from Sheffield Pottery."
+  },
+  {
+   "product_id": "gid://shopify/Product/8316331786562",
+   "title": "Spectrum High Alumina Kiln Shelf - 13\" x 26\" Rectangle, 3/4\" Thick",
+   "field": "descriptionHtml",
+   "before": "<h2 class=\"abz-seo-product\">SPECTRUM HIGH ALUMINA KILN SHELVES</h2>\n<h2 class=\"abz-seo-product\">26\" x 13\" x 1\" Rectangular High Alumina Kiln Shelf</h2>\n<p>Spectrum High Alumina Kiln Shelves are excellent for electric kilns and gas kilns. The clay body used has a much higher amount of alumina than regular coredierite shelves. Alumina makes it more refractory or resistant to high temperatures. They are rated to cone 11.</p>\n<p>They are pressed into molds rather than cast. This compression makes them much stronger than regular cordierite kiln shelves. They have a very smooth finish making them great for ceramics or glass firing. These shelves are highly recommended for any electric kiln from low fire to cone 10. They are also highly recommended gas kilns. They are occasionally used in the back of wood kilns but for wood firing we recommend <a href=\"https://sheffield-pottery.myshopify.com/collections/silicon-carbide-kiln-shelves\" data-mce-href=\"https://sheffield-pottery.myshopify.com/collections/silicon-carbide-kiln-shelves\">conventional silicon carbide shelves</a>.</p>\n<p>Protect your shelves with <a href=\"https://sheffield-pottery.myshopify.com/products/sheffield-kiln-wash-5lb-bag-rmkilwas\" data-mce-href=\"https://sheffield-pottery.myshopify.com/products/sheffield-kiln-wash-5lb-bag-rmkilwas\">kiln wash</a>. Apply kiln wash to only one side of the shelf. When the kiln wash starts to flake, thoroughly remove it, flip the shelf and apply to the other side. By flipping the shelf, slight warping can be counteracted.</p>\n<p>Best practice when applying kiln wash is to apply a coat, fire it on, and repeat that process two more times. This will give you a long lasting coating to protect the shelves from glaze drips. To remove the kiln wash when it starts to become flaky, we recommend this silicon rubbing brick : makes it easy ! Click here : <a href=\"https://sheffield-pottery.myshopify.com/products/rubbing-brick-with-handle-ssrb\" data-mce-href=\"https://sheffield-pottery.myshopify.com/products/rubbing-brick-with-handle-ssrb\">Rubbing brick</a></p>\n<p>These kiln shelves are made from a body that is very similar to Acme (Dyson) Remcor body and is equivalent in quality and strength. They hold up well, without significant warping to cone 11. Not recommended for use in wood or Raku firing.</p>\n<p><strong>KILN SHELF SHIPPING POLICY</strong></p>\nWe are happy to ship kiln shelves to you via UPS, common carrier, or our own truck in specially prepared boxes using the following guidelines:<br>\n<ol>\n<li>Most shelves can be shipped via UPS except the 28\" and larger</li>\n<li>The weight limit of shelves per box is 60 lbs.</li>\n<li>The number of shelves per box is limited to 6 .</li>\n<li>The packing fee for UPS is $6.00 per shelf in addition to UPS freight.</li>\n<li>Orders for more than 3 boxes will be shipped common carrier or our truck.</li>\n<li>For common carrier or delivery in our own truck, the packing fee is 10% of the value of the shelf. </li>\n</ol>",
+   "after": "<h2 class=\"abz-seo-product\">SPECTRUM HIGH ALUMINA KILN SHELVES</h2>\n<h2 class=\"abz-seo-product\">26\" x 13\" x 3/4\" Rectangular High Alumina Kiln Shelf</h2>\n<p>Spectrum High Alumina Kiln Shelves are excellent for electric kilns and gas kilns. The clay body used has a much higher amount of alumina than regular coredierite shelves. Alumina makes it more refractory or resistant to high temperatures. They are rated to cone 11.</p>\n<p>They are pressed into molds rather than cast. This compression makes them much stronger than regular cordierite kiln shelves. They have a very smooth finish making them great for ceramics or glass firing. These shelves are highly recommended for any electric kiln from low fire to cone 10. They are also highly recommended gas kilns. They are occasionally used in the back of wood kilns but for wood firing we recommend <a href=\"https://sheffield-pottery.myshopify.com/collections/silicon-carbide-kiln-shelves\" data-mce-href=\"https://sheffield-pottery.myshopify.com/collections/silicon-carbide-kiln-shelves\">conventional silicon carbide shelves</a>.</p>\n<p>Protect your shelves with <a href=\"https://sheffield-pottery.myshopify.com/products/sheffield-kiln-wash-5lb-bag-rmkilwas\" data-mce-href=\"https://sheffield-pottery.myshopify.com/products/sheffield-kiln-wash-5lb-bag-rmkilwas\">kiln wash</a>. Apply kiln wash to only one side of the shelf. When the kiln wash starts to flake, thoroughly remove it, flip the shelf and apply to the other side. By flipping the shelf, slight warping can be counteracted.</p>\n<p>Best practice when applying kiln wash is to apply a coat, fire it on, and repeat that process two more times. This will give you a long lasting coating to protect the shelves from glaze drips. To remove the kiln wash when it starts to become flaky, we recommend this silicon rubbing brick : makes it easy ! Click here : <a href=\"https://sheffield-pottery.myshopify.com/products/rubbing-brick-with-handle-ssrb\" data-mce-href=\"https://sheffield-pottery.myshopify.com/products/rubbing-brick-with-handle-ssrb\">Rubbing brick</a></p>\n<p>These kiln shelves are made from a body that is very similar to Acme (Dyson) Remcor body and is equivalent in quality and strength. They hold up well, without significant warping to cone 11. Not recommended for use in wood or Raku firing.</p>\n<p><strong>KILN SHELF SHIPPING POLICY</strong></p>\nWe are happy to ship kiln shelves to you via UPS, common carrier, or our own truck in specially prepared boxes using the following guidelines:<br>\n<ol>\n<li>Most shelves can be shipped via UPS except the 28\" and larger</li>\n<li>The weight limit of shelves per box is 60 lbs.</li>\n<li>The number of shelves per box is limited to 6 .</li>\n<li>The packing fee for UPS is $6.00 per shelf in addition to UPS freight.</li>\n<li>Orders for more than 3 boxes will be shipped common carrier or our truck.</li>\n<li>For common carrier or delivery in our own truck, the packing fee is 10% of the value of the shelf. </li>\n</ol>"
+  }
+ ]
+}

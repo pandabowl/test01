@@ -141,49 +141,35 @@ OVERRIDES = {
     },
     "advancer-kiln-shelf-20-full-10-sided-ssfadv20f": {
         "thickness": Fraction(5, 16),
-        "notes": ['Thickness not in title; set to Advancer standard 5/16" - confirm.'],
+        "notes": ['Thickness not in the old title; Advancer lists its multi-sided shelves at 5/16".'],
     },
     "advancer-kiln-shelf-20-half-10-sided-ssfadv20h": {
         "thickness": Fraction(5, 16),
-        "notes": ['Thickness not in title; set to Advancer standard 5/16" - confirm.'],
+        "notes": ['Thickness not in the old title; Advancer lists its multi-sided shelves at 5/16".'],
     },
     "advancer-kiln-shelf-21-full-10-sided-ssfadv21f": {
         "thickness": Fraction(5, 16),
         "notes": [
-            'Thickness not in title; set to Advancer standard 5/16" - confirm.',
+            'Thickness not in the old title; Advancer lists its multi-sided shelves at 5/16".',
             "Vendor part no. (AKS-ADV2020F10S-1) duplicates the 20\" full shelf's.",
         ],
     },
     "advancer-kiln-shelf-21-half-10-sided-ssfadv21h": {
         "thickness": Fraction(5, 16),
-        "notes": ['Thickness not in title; set to Advancer standard 5/16" - confirm.'],
+        "notes": ['Thickness not in the old title; Advancer lists its multi-sided shelves at 5/16".'],
     },
     "advancer-kiln-shelf-26-half-12-sided-ssfadv26h": {
         "thickness": Fraction(5, 16),
-        "notes": ['Thickness not in title; set to Advancer standard 5/16" - confirm.'],
+        "notes": ['Thickness not in the old title; Advancer lists its multi-sided shelves at 5/16".'],
     },
+    # Dealers sell this as a 15" octagon (15" x 16"); file it with the other 15" octagons.
     "corelite-kiln-semi-hollow-shelves-ch161558": {
-        "notes": [
-            'Octagon listed as 16" x 15" (corner-to-corner x flat-to-flat?); filed under 16" Diameter - confirm.',
-        ],
-    },
-    "kiln-shelf-spha09": {
-        "notes": ['Description says 26" x 13" x 1"; title and SKU say 3/4" (the 1" version is archived). Fix the description.'],
-    },
-    "advancer-kiln-shelf-13-x26-x-5-16-silicon-carbide-ssfadv1326": {
-        "notes": ['Description opens with "12 x28"; fix the description.'],
-    },
-    "advancer-kiln-shelf-14-x28-x-5-16-silicon-carbide-ssfadv1428": {
-        "notes": ['Description opens with "11 x 22"; fix the description.'],
+        "diameter": 15,
+        "title_size": '15" x 16"',
+        "notes": ['Old title said 16" x 15"; sold as a 15" octagon, so filed under 15" Diameter.'],
     },
     "16-x-13-x-5-16-advancer®-kiln-shelf": {
         "notes": ["Vendor part no. field (AKS-ADV1326X5/16-I) belongs to the 13 x 26 shelf."],
-    },
-    "26-1-2-x-1-half-round-high-alumina-kiln-shelf": {
-        "notes": ['Old SEO title said 27 1/2" and meta description says 28 1/2"; fix the meta description too.'],
-    },
-    "kiln-shelf-spha01": {
-        "notes": ['Old SEO title said 27 1/2" and meta description says 28 1/2"; fix the meta description too.'],
     },
     "kiln-shelf-spha14": {
         "notes": ['Vendor part no. #20H is shared with the 20" Half 10-Sided shelf.'],
@@ -243,7 +229,7 @@ query KilnFurniture($q: String!, $after: String) {
 LIVE_QUERY = """
 query LiveProducts($ids: [ID!]!) {
   nodes(ids: $ids) {
-    ... on Product { id title tags seo { title } }
+    ... on Product { id title tags seo { title description } }
   }
 }
 """
@@ -784,7 +770,8 @@ def cmd_apply(args):
         if "titles" in parts and r["new_title"] and r["new_title"] != now["title"]:
             product["title"] = r["new_title"]
         if "seo" in parts and r["new_seo_title"] and r["new_seo_title"] != ((now.get("seo") or {}).get("title") or ""):
-            product["seo"] = {"title": r["new_seo_title"]}
+            # Shopify clears the meta description unless it is sent along with the SEO title.
+            product["seo"] = {"title": r["new_seo_title"], "description": (now.get("seo") or {}).get("description")}
         if len(product) > 1:
             print(f"  update {r['current_title']!r} -> {product.get('title', '(title unchanged)')!r}")
             if args.confirm:
@@ -830,11 +817,13 @@ def cmd_restore(args):
         changed += 1
         print(f"  restore {now['title']!r} -> {p['title']!r}")
         if args.confirm:
+            # Keep the current meta description; Shopify clears it if only the SEO title is sent.
+            seo = {"title": old_seo, "description": (now.get("seo") or {}).get("description")}
             result = client.graphql(UPDATE_PRODUCT, {"product": {"id": p["id"], "title": p["title"],
-                                                                 "seo": {"title": old_seo}}})["productUpdate"]
+                                                                 "seo": seo}})["productUpdate"]
             check_errors(f"restore {p['id']}", result)
     print(f"{changed} product(s) {'restored' if args.confirm else 'would be restored (pass --confirm)'}."
-          " Metafields and added tags are left in place.")
+          " Meta descriptions, filter metafields and added tags are left in place.")
 
 
 def main():
