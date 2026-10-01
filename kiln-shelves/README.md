@@ -145,6 +145,7 @@ Full value list, in the order to show them:
 
 | File | What it is |
 |---|---|
+| `HANDOFF.md` | One-page handoff: what's done, the Experro steps and values, tests, and open items. |
 | `plan.xlsx` / `plan.csv` | The review sheet. One row per shelf: current vs. new title and SEO title, the three filter values, tags to add, and notes. Red rows need a decision; yellow rows have a note worth reading. |
 | `snapshot.json` | Every kiln shelf's title, SEO title, tags and collections as they were on 2026-09-24. `restore` uses it to put titles back. |
 | `changes-2026-10-01.json` | Before and after values for the 2026-10-01 follow-up: restored meta descriptions, corrected descriptions, and the CoreLite octagon. |
