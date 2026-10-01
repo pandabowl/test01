@@ -618,9 +618,10 @@ def write_synonyms(rows, path):
         nums = [parse_number(t) for t in DIM_RE.findall(value)]
         if "Diameter" in value or len(nums) != 2:
             continue
-        # People type 10.5, not 10 1/2.
+        # People type 10.5; titles say 10 1/2. Include both (identical for whole numbers).
         a, b = (str(float(n)).removesuffix(".0") for n in nums)
-        terms = [f"{a}x{b}", f"{a} x {b}", f"{b}x{a}", f"{b} x {a}"]
+        fa, fb = (fmt_inches(n) for n in nums)
+        terms = [f"{a}x{b}", f"{a} x {b}", f"{b}x{a}", f"{b} x {a}", f"{fa} x {fb}", f"{fb} x {fa}"]
         lines.append((value.replace(IN, ""), ", ".join(dict.fromkeys(terms))))
     lines += [
         ("8-sided", "8-sided, 8 sided, octagon, octagonal"),
