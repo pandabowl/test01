@@ -1,0 +1,89 @@
+{%- comment -%}
+  PROPOSED - NOT INSTALLED. See cone_art/AUDIT.md, "Needs a decision" #1.
+
+  Drop-in replacement for the inline Product JSON-LD in layout/theme.liquid
+  (the <script type="application/ld+json"> inside `{% if template contains 'product' %}`).
+  Save as snippets/product-jsonld.liquid and render it in place of that block:
+      {% if template contains 'product' %}{% render 'product-jsonld', product: product %}{% endif %}
+
+  Booster SEO prints a second Product block; keep only one Product schema per page
+  (Booster's FAQPage markup is separate and should stay on - the Cone Art FAQs use it).
+
+  Differences from the current inline block:
+  * one Offer per variant (voltage/phase variants have their own SKU), schema.org URLs
+  * mpn only from a real manufacturer part number (shopify--facts.mpn), never the SKU
+  * gtin only when a barcode exists (no empty strings)
+  * category + spec additionalProperty values from the store's filter metafields
+  * no aggregateRating unless there are real reviews
+  Test in Google's Rich Results Test on an unpublished theme copy before going live.
+{%- endcomment -%}
+{%- liquid
+  assign first_variant = product.selected_or_first_available_variant
+  assign mpn = product.metafields['shopify--facts'].mpn.value
+-%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": {{ canonical_url | append: '#product' | json }},
+  "url": {{ canonical_url | json }},
+  "name": {{ product.title | json }},
+  "description": {{ product.description | strip_html | strip_newlines | truncate: 5000 | json }},
+  "image": [
+    {%- for image in product.images limit: 5 -%}
+      {{ image | image_url: width: 2000 | prepend: 'https:' | json }}{% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
+  ],
+  "brand": { "@type": "Brand", "name": {{ product.vendor | json }} },
+  {%- if product.category %}
+  "category": {{ product.category.name | json }},
+  {%- endif %}
+  {%- if mpn != blank %}
+  "mpn": {{ mpn | json }},
+  {%- endif %}
+  "sku": {{ first_variant.sku | json }},
+  "additionalProperty": [
+    {%- assign sep = '' -%}
+    {%- for pair in 'voltage:Voltage,kiln_type:Kiln type,kiln_style:Loading style,gas_or_electric:Power' | split: ',' -%}
+      {%- assign key = pair | split: ':' | first -%}
+      {%- assign label = pair | split: ':' | last -%}
+      {%- assign value = product.metafields.custom[key].value -%}
+      {%- if value != blank -%}
+        {{ sep }}{ "@type": "PropertyValue", "name": {{ label | json }}, "value": {{ value | json }} }
+        {%- assign sep = ',' -%}
+      {%- endif -%}
+    {%- endfor -%}
+  ],
+  "offers": [
+    {%- for variant in product.variants -%}
+    {
+      "@type": "Offer",
+      "url": {{ shop.url | append: variant.url | json }},
+      "sku": {{ variant.sku | json }},
+      {%- if variant.barcode != blank %}
+      "gtin": {{ variant.barcode | json }},
+      {%- endif %}
+      "price": "{{ variant.price | money_without_currency | remove: ',' }}",
+      "priceCurrency": {{ cart.currency.iso_code | json }},
+      {%- comment -%}
+        Kilns sell with 0 stock ("continue selling") and a lead time. If the Google feed is
+        switched to backorder, change InStock below to:
+        {% if variant.inventory_management and variant.inventory_quantity <= 0 and variant.inventory_policy == 'continue' %}BackOrder{% else %}InStock{% endif %}
+        so the page and the feed agree.
+      {%- endcomment %}
+      "availability": "https://schema.org/{% if variant.available %}InStock{% else %}OutOfStock{% endif %}",
+      "itemCondition": "https://schema.org/NewCondition",
+      "seller": { "@type": "Organization", "name": {{ shop.name | json }} }
+    }{% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
+  ]
+  {%- assign review_count = product.metafields.yotpo.reviews_count.value | plus: 0 -%}
+  {%- if review_count > 0 %},
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": {{ product.metafields.yotpo.reviews_average.value | plus: 0 }},
+    "reviewCount": {{ review_count }}
+  }
+  {%- endif %}
+}
+</script>

@@ -70,3 +70,37 @@ Options:
 ```
 
 Requires `openpyxl` (`pip install openpyxl`).
+
+# Cone Art kilns: Google SEO + AI-agent readiness
+
+`scripts/cone_art_seo.py` fixes and enriches the Cone Art kiln listings (vendor
+**Cone Art Kilns**) so Google and AI shopping agents (Shopify Catalog / ChatGPT,
+Copilot, Perplexity, Google AI Mode) describe them correctly. It does this by writing to
+Shopify product and collection data; the theme is not changed.
+
+- `cone_art/AUDIT.md` — what was wrong, what the tool fixes, and the items that need a
+  human decision (structured-data duplication, identifiers, availability, weights…).
+- `cone_art/plan.md` — before/after review of every change (SEO titles and
+  descriptions, fixes, FAQs, attributes, collections).
+- `cone_art/plan.json` — the same plan, machine-readable; `apply` executes it.
+- `cone_art/snapshot.json` — the store state the plan was built from; `rollback`
+  restores it.
+- `scripts/cone_art_content.py` — the curated copy and per-model facts. Every value
+  comes from the store's own spec tables and descriptions; disputed specs are listed
+  in `DISPUTED_FACTS` and left out.
+- `cone_art/theme/product-jsonld.liquid` — proposed (not installed) single Product
+  JSON-LD block for the theme.
+
+```bash
+export SHOPIFY_STORE_DOMAIN=your-store.myshopify.com
+export SHOPIFY_ADMIN_ACCESS_TOKEN=shpat_xxx   # products + metaobjects (+ definitions) read/write
+python3 scripts/cone_art_seo.py snapshot             # back up current state
+python3 scripts/cone_art_seo.py plan                 # rebuild plan.json + plan.md (offline)
+python3 scripts/cone_art_seo.py apply                # dry run
+python3 scripts/cone_art_seo.py apply --execute      # write to the store
+python3 scripts/cone_art_seo.py rollback --execute   # restore the snapshot
+```
+
+`apply` is idempotent and stops on the first Shopify error. `plan` refuses to run if a
+description fix no longer matches the live text exactly, so re-run `snapshot` before
+`plan` whenever the listings may have been edited.
