@@ -1,0 +1,80 @@
+--- a/layout/theme.liquid
++++ b/layout/theme.liquid
+@@ -163,56 +163,7 @@
+     {% endif %} {% endcomment %}
+     
+     {% render 'qikify-apps' %} 
+-{% if template contains 'product' %}
+-<script type="application/ld+json">
+-{
+-  "@context": "https://schema.org",
+-  "@type": "Product",
+-  "@id": {{ shop.url | append: product.url | append: "#product" | json }},
+-  "name": {{ product.title | strip_html | json }},
+-  "description": {{ product.description | strip_html | strip_newlines | json }},
+-  "url": {{ shop.url | append: product.url | json }},
+-
+-  "image": [
+-    {% for image in product.images limit: 5 %}
+-      {{ image | image_url: width: 2000 | prepend: "https:" | json }}{% unless forloop.last %},{% endunless %}
+-    {% endfor %}
+-  ],
+-
+-  "brand": {
+-    "@type": "Brand",
+-    "name": {{ product.vendor | json }}
+-  },
+-
+-  {% if product.selected_or_first_available_variant.sku != blank %}
+-  "sku": {{ product.selected_or_first_available_variant.sku | json }},
+-  {% endif %}
+-
+-  {% if product.selected_or_first_available_variant.barcode != blank %}
+-  "gtin": {{ product.selected_or_first_available_variant.barcode | json }},
+-  {% endif %}
+-
+-  "mpn": {{ product.selected_or_first_available_variant.sku | json }},
+-
+-  "offers": {
+-    "@type": "Offer",
+-    "url": {{ shop.url | append: product.url | json }},
+-    "priceCurrency": {{ cart.currency.iso_code | json }},
+-    "price": "{{ product.selected_or_first_available_variant.price | money_without_currency | remove: ',' }}",
+-    "availability": "{% if product.selected_or_first_available_variant.available %}InStock{% else %}OutOfStock{% endif %}",
+-    "itemCondition": "NewCondition"
+-  }
+-{% if product.metafields.yotpo.reviews_average.value > '0' and product.metafields.yotpo.reviews_count.value > '0' %}
+-,
+-"aggregateRating": {
+-  "@type": "AggregateRating",
+-  "ratingValue": {{ product.metafields.yotpo.reviews_average.value }},
+-  "reviewCount": {{ product.metafields.yotpo.reviews_count.value }}
+-}
+-{% endif %}
+-}
+-</script>
+-{% endif %}
++{% if template contains 'product' %}{% render 'product-jsonld', product: product %}{% endif %}
+ </head>
+ <body class="{{template.suffix}} template-{{ request.page_type | handle }} {% if settings.ss_enable and collection.handle and collection.handle == settings.ss_collection_handle %} ss-shop{% endif %}">
+      
+--- a/snippets/booster-seo.liquid
++++ b/snippets/booster-seo.liquid
+@@ -358,6 +358,9 @@
+ 
+ {%- if template.name == 'product' or template == 'product' -%}
+ {%- if booster_config.google_snippets_enabled -%}
++{%- comment -%} Sheffield Pottery: snippets/product-jsonld.liquid outputs the page's one Product block, so Booster's is off. Set booster_product_schema to true to bring it back. Booster's BreadcrumbList and FAQPage markup are not affected. {%- endcomment -%}
++{%- assign booster_product_schema = false -%}
++{%- if booster_product_schema -%}
+ <script type="application/ld+json">
+   {
+     "@context": "https://schema.org",
+@@ -764,6 +767,7 @@
+ {%- endif -%}
+ }
+ </script>
++{%- endif -%}
+ {%- comment -%}
+ Breadcrumb Schema Markup (Home > Collection > Product)
+ {%- endcomment -%}

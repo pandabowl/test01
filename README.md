@@ -88,8 +88,9 @@ Shopify product and collection data; the theme is not changed.
 - `scripts/cone_art_content.py` — the curated copy and per-model facts. Every value
   comes from the store's own spec tables and descriptions; disputed specs are listed
   in `DISPUTED_FACTS` and left out.
-- `cone_art/theme/product-jsonld.liquid` — proposed (not installed) single Product
-  JSON-LD block for the theme.
+- `cone_art/theme/product-jsonld.liquid` — the single Product JSON-LD block for the
+  theme. It is installed on an unpublished theme copy for testing, not on the live theme;
+  `cone_art/theme/theme-changes.patch` holds the exact edits made to that copy.
 
 ```bash
 export SHOPIFY_STORE_DOMAIN=your-store.myshopify.com

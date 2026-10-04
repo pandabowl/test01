@@ -183,15 +183,25 @@ Not touched: prices, inventory, variants, handles/URLs, images, the theme, and a
    * The Booster block sets `mpn` and `gtin14` to the barcode, which is blank, so it outputs
      `"mpn": ""` and `"gtin14": ""`.
 
-   Keep one. [`theme/product-jsonld.liquid`](theme/product-jsonld.liquid) is a proposed
-   replacement for the theme's inline block: per-variant offers, schema.org URLs, and spec
-   `additionalProperty` values from the metafields this change fills in. If you keep the
-   theme block, turn off Booster's product schema, but keep Booster's FAQ markup, which the
-   new FAQs rely on.
+   Keep one. [`theme/product-jsonld.liquid`](theme/product-jsonld.liquid) replaces the
+   theme's inline block: per-variant offers, schema.org URLs, and spec `additionalProperty`
+   values from the metafields this change fills in. Booster's Product block is switched off
+   by a flag in its snippet; its BreadcrumbList and FAQPage markup stay on, and the new FAQs
+   rely on the FAQPage block.
+
+   **Status: installed on the unpublished theme copy "Copy of ABZ Stiletto - JSON-LD -
+   (04-10-26)" (theme ID 195816882547) for testing. The live theme is unchanged.** The exact
+   edits are in [`theme/theme-changes.patch`](theme/theme-changes.patch). Check a few
+   product pages on the copy in Google's Rich Results Test before publishing it. Booster
+   updates its snippet from time to time; if that happens after the copy goes live, re-apply
+   the `booster_product_schema` guard from the patch.
 2. **Booster merchant-listing settings are empty.** Return policy category, return days,
    fees, shipping rate, and handling/transit times are all blank. Booster still outputs a
    `MerchantReturnPolicy` without `returnPolicyCategory`, which Google reports as invalid.
-   Fill these in from the real policy in the Booster app.
+   Fill these in from the real policy in the Booster app. If the theme copy from #1 is
+   published, Booster's Product block is no longer output, and its return and shipping markup
+   goes with it. In that case, set the return and shipping policies in Google Merchant Center
+   instead.
 3. **Product identifiers.**
    * Cone Art kilns have no GTIN/barcode.
    * The `custom.pdp_vendor_part_no` field is unreliable: `SCABX2327D` was copied onto

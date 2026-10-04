@@ -1,25 +1,22 @@
 {%- comment -%}
-  PROPOSED - NOT INSTALLED. See cone_art/AUDIT.md, "Needs a decision" #1.
-
-  Drop-in replacement for the inline Product JSON-LD in layout/theme.liquid
-  (the <script type="application/ld+json"> inside `{% if template contains 'product' %}`).
-  Save as snippets/product-jsonld.liquid and render it in place of that block:
+  Product JSON-LD: the one Product structured-data block on product pages.
+  Rendered from layout/theme.liquid:
       {% if template contains 'product' %}{% render 'product-jsonld', product: product %}{% endif %}
+  It replaces the theme's old inline block, which used the SKU as the MPN. Booster SEO's own
+  Product block is switched off in snippets/booster-seo.liquid (booster_product_schema);
+  Booster's BreadcrumbList and FAQPage markup stay on. See cone_art/AUDIT.md, "Needs a decision" #1.
 
-  Booster SEO prints a second Product block; keep only one Product schema per page
-  (Booster's FAQPage markup is separate and should stay on - the Cone Art FAQs use it).
-
-  Differences from the current inline block:
   * one Offer per variant (voltage/phase variants have their own SKU), schema.org URLs
   * mpn only from a real manufacturer part number (shopify--facts.mpn), never the SKU
   * gtin only when a barcode exists (no empty strings)
   * category + spec additionalProperty values from the store's filter metafields
   * no aggregateRating unless there are real reviews
-  Test in Google's Rich Results Test on an unpublished theme copy before going live.
+  Check pages with Google's Rich Results Test after any change.
 {%- endcomment -%}
 {%- liquid
   assign first_variant = product.selected_or_first_available_variant
   assign mpn = product.metafields['shopify--facts'].mpn.value
+  assign spec_pairs = 'voltage:Voltage,kiln_type:Kiln type,kiln_style:Loading style,gas_or_electric:Power' | split: ','
 -%}
 <script type="application/ld+json">
 {
@@ -44,7 +41,7 @@
   "sku": {{ first_variant.sku | json }},
   "additionalProperty": [
     {%- assign sep = '' -%}
-    {%- for pair in 'voltage:Voltage,kiln_type:Kiln type,kiln_style:Loading style,gas_or_electric:Power' | split: ',' -%}
+    {%- for pair in spec_pairs -%}
       {%- assign key = pair | split: ':' | first -%}
       {%- assign label = pair | split: ':' | last -%}
       {%- assign value = product.metafields.custom[key].value -%}
