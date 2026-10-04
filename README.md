@@ -104,3 +104,7 @@ python3 scripts/cone_art_seo.py rollback --execute   # restore the snapshot
 `apply` is idempotent and stops on the first Shopify error. `plan` refuses to run if a
 description fix no longer matches the live text exactly, so re-run `snapshot` before
 `plan` whenever the listings may have been edited.
+
+The current plan was applied to the live store on 2026-10-04 and verified field by field.
+The committed `snapshot.json` is the pre-apply state, which is what `rollback` restores.
+Running `snapshot` again overwrites it with the post-apply state.

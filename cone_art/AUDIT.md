@@ -11,6 +11,12 @@ The fixes that can be made safely from store data are scripted in
 `apply --execute`; roll back with `rollback --execute`. The rest needs a human decision and
 is listed under [Needs a decision](#needs-a-decision-not-applied).
 
+**Status: applied to the live store on 2026-10-04.** Every product, FAQ entry, hidden
+product and collection was read back afterwards and matched `plan.json` field for field
+(1,872 checks, 0 differences). [`snapshot.json`](snapshot.json) is the pre-apply backup that
+`rollback` restores, so don't re-run `snapshot` unless you mean to replace it (git keeps the
+original either way).
+
 ## How Google and AI agents read these pages
 
 * **`<title>` and meta description** come from Shopify's own SEO fields. Booster SEO
@@ -160,7 +166,7 @@ add them to the cart.
 ```bash
 export SHOPIFY_STORE_DOMAIN=sheffield-pottery.myshopify.com
 export SHOPIFY_ADMIN_ACCESS_TOKEN=shpat_xxx
-python3 scripts/cone_art_seo.py snapshot        # refresh the backup first
+python3 scripts/cone_art_seo.py snapshot        # refresh the backup first (replaces the pre-apply rollback baseline)
 python3 scripts/cone_art_seo.py plan            # rebuild plan.json / plan.md from it
 python3 scripts/cone_art_seo.py apply           # dry run
 python3 scripts/cone_art_seo.py apply --execute
