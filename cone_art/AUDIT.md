@@ -195,13 +195,35 @@ Not touched: prices, inventory, variants, handles/URLs, images, the theme, and a
    product pages on the copy in Google's Rich Results Test before publishing it. Booster
    updates its snippet from time to time; if that happens after the copy goes live, re-apply
    the `booster_product_schema` guard from the patch.
-2. **Booster merchant-listing settings are empty.** Return policy category, return days,
-   fees, shipping rate, and handling/transit times are all blank. Booster still outputs a
+2. **Booster merchant-listing settings.** These were all blank, so Booster output a
    `MerchantReturnPolicy` without `returnPolicyCategory`, which Google reports as invalid.
-   Fill these in from the real policy in the Booster app. If the theme copy from #1 is
-   published, Booster's Product block is no longer output, and its return and shipping markup
-   goes with it. In that case, set the return and shipping policies in Google Merchant Center
-   instead.
+
+   **Return fields set on 2026-10-04 from the refund policy** (`/policies/refund-policy`).
+   They are stored in the shop metafield `booster_apps_seo.config`:
+
+   | Field | Value | From the policy |
+   |---|---|---|
+   | `return_policy_category` | `finite_window` | returns accepted for 30 days after receipt |
+   | `merchant_return_days` | `30` | same |
+   | `return_fees` | `customer_responsibility` | 15% restocking fee plus shipping unless defective or our error |
+   | `return_method` | `by_mail` | returns ship back with an authorization and invoice number |
+   | `custom_refund_policy_url` | `https://www.sheffield-pottery.com/policies/refund-policy` | the policy page |
+
+   Still blank on purpose:
+   * `refund_type`: "no cash refunds, credit only" could mean store credit or a card refund.
+   * Shipping rate: it varies by item (free over $50 on most items, freight on equipment).
+   * Handling and transit times: the FAQ's 4–6 + 1–8 business days doesn't fit kiln lead
+     times.
+
+   Caveats:
+   * Booster applies one policy to every product. Kiln parts, electrical items and used
+     equipment are non-returnable under the same policy, so their pages now overstate returns
+     until a per-product exception exists.
+   * Booster rewrites this metafield when it updates (last on 2026-09-22), so also enter the
+     same values in the Booster app to keep them.
+   * To undo, set those five keys back to `null`.
+   * If the theme copy from #1 is published, Booster's Product block is no longer output, and
+     this return markup goes with it.
 3. **Product identifiers.**
    * Cone Art kilns have no GTIN/barcode.
    * The `custom.pdp_vendor_part_no` field is unreliable: `SCABX2327D` was copied onto
