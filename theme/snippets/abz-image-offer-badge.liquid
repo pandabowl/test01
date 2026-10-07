@@ -1,0 +1,56 @@
+{%- comment -%}
+  Promo banner overlaid on a product's main (featured) image.
+
+  Shows only when the product metafield custom.image_offer_badge has a value,
+  e.g. "FREE $50 Gift Certificate with purchase". Clear the metafield in
+  Shopify admin (Products > [product] > Metafields > Image offer badge) to
+  remove the banner — no theme edit needed.
+
+  Rendered from snippets/media.liquid for the product's featured (main)
+  image only, so it shows on the product page and quick view. It's a CSS
+  overlay, not part of the image file, so the product image sent to Google
+  Shopping stays clean (Google disapproves promo overlays).
+
+  Pass in:
+  * prod: product (avoid collision with global product)
+{%- endcomment -%}
+
+{%- assign offer_badge_text = prod.metafields.custom.image_offer_badge.value -%}
+
+{%- if offer_badge_text != blank -%}
+  <style>
+    .media:has(> .abz-offer-badge) {
+      position: relative;
+    }
+    .abz-offer-badge {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      z-index: 2;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5em;
+      max-width: calc(100% - 24px);
+      padding: 0.55em 1em;
+      border-radius: 999px;
+      background: #e51515;
+      color: #fff;
+      font-weight: 700;
+      font-size: clamp(12px, 1.6vw, 16px);
+      line-height: 1.2;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+      pointer-events: none; /* let clicks through to the lightbox/zoom */
+    }
+    .abz-offer-badge__icon {
+      flex: none;
+      font-size: 1.2em;
+      line-height: 1;
+    }
+  </style>
+  <div class="abz-offer-badge">
+    <span class="abz-offer-badge__icon" aria-hidden="true">🎁</span>
+    <span class="abz-offer-badge__text">{{ offer_badge_text | escape }}</span>
+  </div>
+{%- endif -%}

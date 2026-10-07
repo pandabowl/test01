@@ -70,3 +70,27 @@ Options:
 ```
 
 Requires `openpyxl` (`pip install openpyxl`).
+
+# Product image offer badge (theme)
+
+`theme/snippets/` holds a small Shopify theme change that overlays a promo
+banner on a product's main image — first used for the BTH Andromeda D3
+wheel's "FREE $50 Gift Certificate with purchase" offer.
+
+- `theme/snippets/abz-image-offer-badge.liquid` — new snippet; renders the
+  red banner when the product metafield `custom.image_offer_badge` (admin
+  label "Image offer badge") has text.
+- `theme/snippets/media.liquid` — the live theme's `snippets/media.liquid`
+  with three lines added at the end to render the badge on the product's
+  featured image only.
+
+The banner is a CSS overlay, not baked into the image file, so the image
+Google Shopping pulls stays free of promo text (Google disapproves overlays).
+
+**Turning it on/off per product:** set or clear "Image offer badge" in the
+product's Metafields section in Shopify admin. No theme edit needed.
+
+**Installing on the live theme:** copy both files into the published theme
+(Online Store → Themes → Edit code → `snippets/`), or publish the preview
+theme "ABZ Stiletto - D3 gift cert badge (preview)", which is a duplicate of
+the live theme with only these two files changed.
