@@ -1,0 +1,17 @@
+{
+  "name": "bth-d3-gift-certificate-slide",
+  "private": true,
+  "description": "Home page slideshow banner: $50 gift certificate with the BTH Andromeda D3 Pottery Wheel",
+  "type": "module",
+  "scripts": {
+    "render": "node render.mjs"
+  },
+  "dependencies": {
+    "@fontsource/barlow": "5.3.0",
+    "@fontsource/barlow-condensed": "5.3.0",
+    "@fontsource/playfair-display": "5.3.0"
+  },
+  "devDependencies": {
+    "playwright": "1.56.1"
+  }
+}

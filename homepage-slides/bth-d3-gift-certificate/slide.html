@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>BTH Andromeda D3 – $50 Gift Certificate slide</title>
+<!--
+  Home page slideshow banner for the "BTH Andromeda D3 Pottery Wheel" offer:
+  "Buy now and get a $50 gift certificate towards your next order."
+
+  Two artboards, matching the existing abz_slide_show slides:
+    #desktop  1900 x 550 CSS px  (rendered @2x -> 3800 x 1100)
+    #mobile    617 x 800 CSS px  (rendered @2x -> 1234 x 1600)
+
+  Render with `npm run render` (see README.md). Open this file in a browser
+  (after `npm install`) to preview and tweak.
+-->
+<style>
+  /* Open-source stand-ins for the theme fonts (ITC Stepp / Neuzeit S / ITC Clearface). */
+  @font-face { font-family: "Barlow Condensed"; font-weight: 800; src: url("node_modules/@fontsource/barlow-condensed/files/barlow-condensed-latin-800-normal.woff2") format("woff2"); }
+  @font-face { font-family: "Barlow"; font-weight: 500; src: url("node_modules/@fontsource/barlow/files/barlow-latin-500-normal.woff2") format("woff2"); }
+  @font-face { font-family: "Barlow"; font-weight: 600; src: url("node_modules/@fontsource/barlow/files/barlow-latin-600-normal.woff2") format("woff2"); }
+  @font-face { font-family: "Barlow"; font-weight: 700; src: url("node_modules/@fontsource/barlow/files/barlow-latin-700-normal.woff2") format("woff2"); }
+  @font-face { font-family: "Playfair Display"; font-weight: 700; src: url("node_modules/@fontsource/playfair-display/files/playfair-display-latin-700-normal.woff2") format("woff2"); }
+  @font-face { font-family: "Playfair Display"; font-weight: 900; src: url("node_modules/@fontsource/playfair-display/files/playfair-display-latin-900-normal.woff2") format("woff2"); }
+  @font-face { font-family: "Playfair Display"; font-style: italic; font-weight: 400; src: url("node_modules/@fontsource/playfair-display/files/playfair-display-latin-400-italic.woff2") format("woff2"); }
+
+  :root {
+    /* Brand colors from the live theme's config/settings_data.json */
+    --cream: #fdf9f5;   /* color_background_body */
+    --clay: #efe7db;    /* color_background_footer */
+    --red: #f40000;     /* color_background_button */
+    --ink: #17120e;     /* text (theme uses #000; slightly warmed for print feel) */
+    --bronze: #7e6b45;  /* custom_product_badge_group_2_color */
+    --paper: #fffdf9;
+
+    --grain: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .42  0 0 0 0 .34  0 0 0 0 .24  0 0 0 .11 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: #888; }
+  body { display: flex; flex-direction: column; align-items: flex-start; gap: 40px; padding: 0 0 40px; }
+
+  .artboard {
+    position: relative;
+    overflow: hidden;
+    flex: none;
+    color: var(--ink);
+    background:
+      var(--grain),
+      radial-gradient(ellipse 62% 120% at var(--glow-x) var(--glow-y), #ece2d3 0%, #f3ece2 45%, var(--cream) 100%);
+    font-family: "Barlow", sans-serif;
+  }
+
+  /* ---------- concentric "wheel head" throwing rings ---------- */
+  .rings { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .rings circle { fill: none; stroke: var(--bronze); }
+
+  /* ---------- copy ---------- */
+  .eyebrow {
+    display: flex; align-items: center; gap: .7em;
+    color: var(--red);
+    font-weight: 700;
+    letter-spacing: .3em;
+    text-transform: uppercase;
+  }
+  .eyebrow::before { content: ""; width: 2.2em; height: .16em; background: currentColor; }
+
+  .headline {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 800;
+    line-height: .9;
+    letter-spacing: .005em;
+    text-transform: uppercase;
+  }
+  .headline .amt { color: var(--red); }
+
+  .sub { font-weight: 500; line-height: 1.25; color: #2a221b; }
+  .sub strong { font-weight: 700; color: var(--ink); }
+
+  .cta {
+    display: inline-flex; align-items: center; gap: .75em;
+    background: var(--red);
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    box-shadow: 0 .5em 1.2em -.5em rgba(150, 0, 0, .55);
+  }
+  .cta svg { width: 1.15em; height: 1.15em; }
+
+  /* ---------- the gift certificate (sized in em; set font-size to scale) ---------- */
+  .card-wrap { position: absolute; transform: translate(-50%, -50%) rotate(-6deg); }
+  .card {
+    position: relative;
+    width: 66em; height: 38em;
+    background: var(--grain), linear-gradient(160deg, #fffefb 0%, var(--paper) 55%, #f8f1e6 100%);
+    border-radius: .8em;
+    box-shadow:
+      0 3.6em 6em -2.4em rgba(70, 45, 20, .45),
+      0 1em 2em -.6em rgba(70, 45, 20, .22),
+      0 0 0 1px rgba(126, 107, 69, .18);
+  }
+  .card__frame {
+    position: absolute; inset: 1.7em;
+    border: .22em solid var(--bronze);
+    border-radius: .3em;
+  }
+  .card__frame::after {
+    content: ""; position: absolute; inset: .55em;
+    border: .1em solid rgba(126, 107, 69, .7);
+    border-radius: .15em;
+  }
+  .card__ribbon {
+    position: absolute; top: 0; bottom: 0; left: 9.5em; width: 5em;
+    background: linear-gradient(90deg, #c80000 0%, #ff1f1f 30%, var(--red) 55%, #d00000 100%);
+    box-shadow: .25em 0 .5em rgba(90, 0, 0, .18), -.25em 0 .5em rgba(90, 0, 0, .12);
+  }
+  .card__bow {
+    position: absolute; left: 12em; top: 13.5em;
+    width: 19em; height: 15.5em;
+    transform: translate(-50%, -50%);
+    filter: drop-shadow(0 .35em .5em rgba(90, 0, 0, .3));
+    overflow: visible;
+  }
+  .card__body {
+    position: absolute; top: 1.7em; bottom: 1.7em; left: 16.5em; right: 1.7em;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    text-align: center;
+  }
+  .card__brand {
+    font-family: "Playfair Display", serif; font-weight: 700;
+    font-size: 2.15em; letter-spacing: .3em; text-transform: uppercase;
+    margin-right: -.3em; /* balance trailing letter-spacing */
+  }
+  .card__rule { display: flex; align-items: center; gap: .9em; width: 22em; margin: 1.1em 0 1em; color: var(--bronze); }
+  .card__rule::before, .card__rule::after { content: ""; flex: 1; height: .12em; background: currentColor; }
+  .card__rule i { width: .75em; height: .75em; background: currentColor; transform: rotate(45deg); }
+  .card__title { font-family: "Playfair Display", serif; font-style: italic; font-weight: 400; font-size: 4.4em; line-height: 1; }
+  .card__amount { font-family: "Playfair Display", serif; font-weight: 900; font-size: 12.5em; line-height: 1; letter-spacing: -.01em; margin-top: .04em; font-variant-numeric: lining-nums; }
+  .card__amount sup { font-size: .5em; vertical-align: .62em; margin-right: .04em; }
+  .card__note { font-weight: 600; font-size: 1.55em; letter-spacing: .26em; text-transform: uppercase; color: var(--bronze); margin-top: .9em; margin-right: -.26em; }
+
+  /* ============================== DESKTOP 1900 x 550 ============================== */
+  #desktop { width: 1900px; height: 550px; --glow-x: 77%; --glow-y: 50%; }
+  #desktop .rings { -webkit-mask-image: linear-gradient(90deg, transparent 46%, #000 64%); mask-image: linear-gradient(90deg, transparent 46%, #000 64%); }
+  #desktop .copy { position: absolute; left: 150px; top: 50%; transform: translateY(-50%); width: 900px; }
+  #desktop .eyebrow { font-size: 24px; }
+  #desktop .headline { font-size: 112px; margin-top: 20px; }
+  #desktop .sub { font-size: 36px; margin-top: 22px; }
+  #desktop .cta { font-size: 24px; padding: 22px 38px; margin-top: 34px; }
+  #desktop .card-wrap { left: 1452px; top: 278px; font-size: 10px; }
+
+  /* =============================== MOBILE 617 x 800 =============================== */
+  #mobile { width: 617px; height: 800px; --glow-x: 50%; --glow-y: 64%; text-align: center; }
+  #mobile .rings { -webkit-mask-image: linear-gradient(180deg, transparent 30%, #000 50%); mask-image: linear-gradient(180deg, transparent 30%, #000 50%); }
+  #mobile .copy { position: absolute; left: 32px; right: 32px; top: 58px; display: flex; flex-direction: column; align-items: center; }
+  #mobile .eyebrow { font-size: 21px; margin-right: -.3em; }
+  #mobile .eyebrow::before { display: none; }
+  #mobile .headline { font-size: 76px; margin-top: 14px; }
+  #mobile .sub { font-size: 27px; margin-top: 16px; max-width: 460px; }
+  #mobile .cta { position: absolute; left: 50%; top: 688px; transform: translateX(-50%); font-size: 21px; padding: 19px 30px; }
+  #mobile .card-wrap { left: 308px; top: 506px; font-size: 7.1px; }
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="loop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff2a2a"/>
+      <stop offset=".55" stop-color="#f40000"/>
+      <stop offset="1" stop-color="#c30000"/>
+    </linearGradient>
+    <linearGradient id="tail" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d40000"/>
+      <stop offset="1" stop-color="#f40000"/>
+    </linearGradient>
+    <!-- Ribbon bow, drawn around its knot at (0,0) -->
+    <symbol id="bow" viewBox="-95 -62 190 155" overflow="visible">
+      <!-- tails -->
+      <path d="M -6 6 C -16 30, -28 56, -44 86 L -30 80 L -20 92 C -10 62, -2 32, 4 8 Z" fill="url(#tail)"/>
+      <path d="M 6 6 C 16 30, 28 56, 44 86 L 30 80 L 20 92 C 10 62, 2 32, -4 8 Z" fill="url(#tail)"/>
+      <!-- loops -->
+      <path d="M -8 -2 C -34 -58, -96 -60, -88 -14 C -82 20, -40 22, -8 6 Z" fill="url(#loop)"/>
+      <path d="M 8 -2 C 34 -58, 96 -60, 88 -14 C 82 20, 40 22, 8 6 Z" fill="url(#loop)"/>
+      <!-- loop insides -->
+      <path d="M -12 0 C -34 -36, -70 -40, -70 -16 C -70 4, -40 8, -12 3 Z" fill="#a80000" opacity=".55"/>
+      <path d="M 12 0 C 34 -36, 70 -40, 70 -16 C 70 4, 40 8, 12 3 Z" fill="#a80000" opacity=".55"/>
+      <!-- loop highlights -->
+      <path d="M -20 -26 C -38 -46, -70 -48, -80 -28" fill="none" stroke="#ff7a6e" stroke-width="3" stroke-linecap="round" opacity=".65"/>
+      <path d="M 20 -26 C 38 -46, 70 -48, 80 -28" fill="none" stroke="#ff7a6e" stroke-width="3" stroke-linecap="round" opacity=".65"/>
+      <!-- knot -->
+      <rect x="-13" y="-14" width="26" height="26" rx="8" fill="#d60000"/>
+      <rect x="-9" y="-10" width="10" height="16" rx="5" fill="#ff3b30" opacity=".55"/>
+    </symbol>
+  </defs>
+</svg>
+
+<template id="card-tpl">
+  <div class="card-wrap">
+    <div class="card">
+      <div class="card__frame"></div>
+      <div class="card__ribbon"></div>
+      <svg class="card__bow" aria-hidden="true"><use href="#bow"/></svg>
+      <div class="card__body">
+        <div class="card__brand">Sheffield Pottery</div>
+        <div class="card__rule"><i></i></div>
+        <div class="card__title">Gift Certificate</div>
+        <div class="card__amount"><sup>$</sup>50</div>
+        <div class="card__note">Toward your next order</div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<template id="arrow-tpl">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="square" aria-hidden="true"><path d="M3 12h16M13 5l7 7-7 7"/></svg>
+</template>
+
+<!-- ============================== DESKTOP ============================== -->
+<section class="artboard" id="desktop" data-rings="1452,278">
+  <div class="copy">
+    <p class="eyebrow">Special offer</p>
+    <h1 class="headline">Get a <span class="amt">$50</span><br>gift certificate</h1>
+    <p class="sub">when you buy the <strong>BTH Andromeda D3</strong> Pottery Wheel</p>
+    <span class="cta">Shop the Andromeda D3</span>
+  </div>
+</section>
+
+<!-- =============================== MOBILE =============================== -->
+<section class="artboard" id="mobile" data-rings="308,506">
+  <div class="copy">
+    <p class="eyebrow">Special offer</p>
+    <h1 class="headline">Get a <span class="amt">$50</span><br>gift certificate</h1>
+    <p class="sub">when you buy the <strong>BTH Andromeda D3</strong> Pottery Wheel</p>
+  </div>
+  <span class="cta">Shop the Andromeda D3</span>
+</section>
+
+<script>
+  // Build the shared pieces (rings, certificate, CTA arrow) into each artboard.
+  const SVG = "http://www.w3.org/2000/svg";
+  for (const board of document.querySelectorAll(".artboard")) {
+    const [cx, cy] = board.dataset.rings.split(",").map(Number);
+
+    // Concentric throwing rings, like a wheel head seen from above.
+    // Deterministic spacing/weights so every render is identical.
+    const rings = document.createElementNS(SVG, "svg");
+    rings.setAttribute("class", "rings");
+    rings.setAttribute("aria-hidden", "true");
+    let r = 70;
+    for (let i = 0; i < 26; i++) {
+      const c = document.createElementNS(SVG, "circle");
+      c.setAttribute("cx", cx);
+      c.setAttribute("cy", cy);
+      c.setAttribute("r", r);
+      c.setAttribute("stroke-width", [1.5, 3, 1.2, 2.2][i % 4]);
+      c.setAttribute("stroke-opacity", [0.16, 0.1, 0.2, 0.12, 0.08][i % 5]);
+      rings.appendChild(c);
+      r += 22 + ((i * 7) % 5) * 6;
+    }
+    board.prepend(rings);
+
+    board.appendChild(document.getElementById("card-tpl").content.cloneNode(true));
+    board.querySelector(".card-wrap").style.cssText += `left:${cx}px;top:${cy}px;`;
+    board.querySelector(".cta").appendChild(document.getElementById("arrow-tpl").content.cloneNode(true));
+  }
+</script>
+</body>
+</html>

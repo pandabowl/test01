@@ -13,6 +13,8 @@ discount data.
   file, for a scheduled fetch or manual upload in Merchant Center.
 - `scripts/generate_promotions_feed.py` — regenerates both files from the
   Shopify Admin API.
+- `homepage-slides/` — home page slideshow banners (source + rendered
+  images); each folder's README covers setup in the theme.
 
 ## What's in the feed, and why
 
