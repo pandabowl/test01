@@ -11,6 +11,11 @@
     #desktop  1900 x 550 CSS px  (rendered @2x -> 3800 x 1100)
     #mobile    617 x 800 CSS px  (rendered @2x -> 1234 x 1600)
 
+  Layout rules from the theme (see README "Safe zones"): the slideshow dots sit
+  over the bottom-left corner, and on very wide screens the slide's link only
+  covers the middle of the banner, so text and the button stay out of the left
+  edge and the bottom-left corner.
+
   Render with `npm run render` (see README.md). Open this file in a browser
   (after `npm install`) to preview and tweak.
 -->
@@ -47,7 +52,7 @@
     color: var(--ink);
     background:
       var(--grain),
-      radial-gradient(ellipse 62% 120% at var(--glow-x) var(--glow-y), #ece2d3 0%, #f3ece2 45%, var(--cream) 100%);
+      radial-gradient(ellipse var(--glow-w) var(--glow-h) at var(--glow-x) var(--glow-y), #e9ddcb 0%, #f1e9de 45%, var(--cream) 100%);
     font-family: "Barlow", sans-serif;
   }
 
@@ -56,14 +61,17 @@
   .rings circle { fill: none; stroke: var(--bronze); }
 
   /* ---------- copy ---------- */
+  .copy { position: absolute; display: flex; flex-direction: column; align-items: center; text-align: center; }
   .eyebrow {
-    display: flex; align-items: center; gap: .7em;
+    display: flex; align-items: center; gap: .6em;
     color: var(--red);
     font-weight: 700;
-    letter-spacing: .3em;
+    letter-spacing: .28em;
     text-transform: uppercase;
+    margin-right: -.28em; /* balance trailing letter-spacing */
   }
-  .eyebrow::before { content: ""; width: 2.2em; height: .16em; background: currentColor; }
+  .eyebrow::before, .eyebrow::after { content: ""; width: 1.6em; height: .14em; background: currentColor; }
+  .eyebrow::after { margin-left: -.28em; }
 
   .headline {
     font-family: "Barlow Condensed", sans-serif;
@@ -74,20 +82,41 @@
   }
   .headline .amt { color: var(--red); }
 
-  .sub { font-weight: 500; line-height: 1.25; color: #2a221b; }
+  .sub { font-weight: 500; line-height: 1.22; color: #2a221b; }
   .sub strong { font-weight: 700; color: var(--ink); }
 
   .cta {
-    display: inline-flex; align-items: center; gap: .75em;
+    display: inline-flex; align-items: center; gap: .7em;
     background: var(--red);
     color: #fff;
     font-weight: 700;
-    letter-spacing: .14em;
+    letter-spacing: .16em;
     text-transform: uppercase;
     white-space: nowrap;
     box-shadow: 0 .5em 1.2em -.5em rgba(150, 0, 0, .55);
   }
-  .cta svg { width: 1.15em; height: 1.15em; }
+  .cta svg { width: 1.1em; height: 1.1em; }
+
+  /* ---------- the wheel (cut-out of the product's main photo, BTH-D32.jpg) ----------
+     --wx/--wy/--ws place the ORIGINAL 1000x1000 photo frame (left, top, scale).
+     assets/bth-d3-wheel.png is that photo cropped at (125, 65), so offset by it.
+     The photo's right edge (where the pedal cable leaves the frame) and bottom
+     edge (where the pedal is clipped) are placed on the artboard's edges. */
+  .wheel {
+    position: absolute;
+    left: calc(var(--wx) + 125px * var(--ws));
+    top: calc(var(--wy) + 65px * var(--ws));
+    width: calc(875px * var(--ws));
+    filter: drop-shadow(0 calc(14px * var(--ws)) calc(18px * var(--ws)) rgba(60, 40, 20, .22));
+  }
+  .floor {
+    position: absolute;
+    border-radius: 50%;
+    background: radial-gradient(closest-side, rgba(70, 48, 25, .34), rgba(70, 48, 25, .12) 55%, transparent);
+  }
+  /* Floor shadows, in the original photo's coordinates (leg feet ≈ (245,776) and (848,696)). */
+  .floor.legs  { left: calc(var(--wx) + 170px * var(--ws)); top: calc(var(--wy) + 680px * var(--ws)); width: calc(760px * var(--ws)); height: calc(120px * var(--ws)); }
+  .floor.pedal { left: calc(var(--wx) + 560px * var(--ws)); top: calc(var(--wy) + 950px * var(--ws)); width: calc(330px * var(--ws)); height: calc(80px * var(--ws)); }
 
   /* ---------- the gift certificate (sized in em; set font-size to scale) ---------- */
   .card-wrap { position: absolute; transform: translate(-50%, -50%) rotate(-6deg); }
@@ -141,26 +170,30 @@
   .card__amount sup { font-size: .5em; vertical-align: .62em; margin-right: .04em; }
   .card__note { font-weight: 600; font-size: 1.55em; letter-spacing: .26em; text-transform: uppercase; color: var(--bronze); margin-top: .9em; margin-right: -.26em; }
 
-  /* ============================== DESKTOP 1900 x 550 ============================== */
-  #desktop { width: 1900px; height: 550px; --glow-x: 77%; --glow-y: 50%; }
-  #desktop .rings { -webkit-mask-image: linear-gradient(90deg, transparent 46%, #000 64%); mask-image: linear-gradient(90deg, transparent 46%, #000 64%); }
-  #desktop .copy { position: absolute; left: 150px; top: 50%; transform: translateY(-50%); width: 900px; }
-  #desktop .eyebrow { font-size: 24px; }
-  #desktop .headline { font-size: 112px; margin-top: 20px; }
-  #desktop .sub { font-size: 36px; margin-top: 22px; }
-  #desktop .cta { font-size: 24px; padding: 22px 38px; margin-top: 34px; }
-  #desktop .card-wrap { left: 1452px; top: 278px; font-size: 10px; }
+  /* ============================== DESKTOP 1900 x 550 ==============================
+     Keep the button and text right of x≈370 (clickable even on 2560px screens)
+     and out of the dots' corner (x < 350, y > 395). */
+  #desktop { width: 1900px; height: 550px; --glow-x: 77%; --glow-y: 58%; --glow-w: 44%; --glow-h: 110%; }
+  #desktop .rings { -webkit-mask-image: linear-gradient(90deg, transparent 48%, #000 66%); mask-image: linear-gradient(90deg, transparent 48%, #000 66%); }
+  #desktop .copy { left: 200px; width: 810px; top: 30px; }
+  #desktop .eyebrow { font-size: 30px; }
+  #desktop .headline { font-size: 104px; margin-top: 18px; }
+  #desktop .sub { font-size: 35px; margin-top: 18px; }
+  #desktop .cta { font-size: 30px; padding: 21px 46px; margin-top: 26px; }
+  #desktop { --wx: 1350px; --wy: 0px; --ws: .55; }
+  #desktop .card-wrap { left: 1285px; top: 395px; font-size: 6px; }
 
-  /* =============================== MOBILE 617 x 800 =============================== */
-  #mobile { width: 617px; height: 800px; --glow-x: 50%; --glow-y: 64%; text-align: center; }
-  #mobile .rings { -webkit-mask-image: linear-gradient(180deg, transparent 30%, #000 50%); mask-image: linear-gradient(180deg, transparent 30%, #000 50%); }
-  #mobile .copy { position: absolute; left: 32px; right: 32px; top: 58px; display: flex; flex-direction: column; align-items: center; }
-  #mobile .eyebrow { font-size: 21px; margin-right: -.3em; }
-  #mobile .eyebrow::before { display: none; }
-  #mobile .headline { font-size: 76px; margin-top: 14px; }
-  #mobile .sub { font-size: 27px; margin-top: 16px; max-width: 460px; }
-  #mobile .cta { position: absolute; left: 50%; top: 688px; transform: translateX(-50%); font-size: 21px; padding: 19px 30px; }
-  #mobile .card-wrap { left: 308px; top: 506px; font-size: 7.1px; }
+  /* =============================== MOBILE 617 x 800 ===============================
+     Keep the button and text out of the dots' corner (x < 205, y > 700). */
+  #mobile { width: 617px; height: 800px; --glow-x: 62%; --glow-y: 74%; --glow-w: 95%; --glow-h: 55%; }
+  #mobile .rings { -webkit-mask-image: linear-gradient(180deg, transparent 40%, #000 58%); mask-image: linear-gradient(180deg, transparent 40%, #000 58%); }
+  #mobile .copy { left: 28px; right: 28px; top: 40px; }
+  #mobile .eyebrow { font-size: 22px; }
+  #mobile .headline { font-size: 66px; margin-top: 12px; }
+  #mobile .sub { font-size: 26px; margin-top: 14px; max-width: 470px; }
+  #mobile .cta { font-size: 22px; padding: 17px 34px; margin-top: 22px; }
+  #mobile { --wx: 157px; --wy: 340px; --ws: .46; }
+  #mobile .card-wrap { left: 168px; top: 580px; font-size: 4.3px; }
 </style>
 </head>
 <body>
@@ -214,32 +247,38 @@
   </div>
 </template>
 
+<template id="wheel-tpl">
+  <div class="floor legs"></div>
+  <div class="floor pedal"></div>
+  <img class="wheel" src="assets/bth-d3-wheel.png" alt="">
+</template>
+
 <template id="arrow-tpl">
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="square" aria-hidden="true"><path d="M3 12h16M13 5l7 7-7 7"/></svg>
 </template>
 
 <!-- ============================== DESKTOP ============================== -->
-<section class="artboard" id="desktop" data-rings="1452,278">
+<section class="artboard" id="desktop" data-rings="1470,300">
   <div class="copy">
     <p class="eyebrow">Special offer</p>
     <h1 class="headline">Get a <span class="amt">$50</span><br>gift certificate</h1>
-    <p class="sub">when you buy the <strong>BTH Andromeda D3</strong> Pottery Wheel</p>
-    <span class="cta">Shop the Andromeda D3</span>
+    <p class="sub">when you buy the<br><strong>BTH Andromeda D3 Pottery Wheel</strong></p>
+    <span class="cta">Shop now</span>
   </div>
 </section>
 
 <!-- =============================== MOBILE =============================== -->
-<section class="artboard" id="mobile" data-rings="308,506">
+<section class="artboard" id="mobile" data-rings="380,600">
   <div class="copy">
     <p class="eyebrow">Special offer</p>
     <h1 class="headline">Get a <span class="amt">$50</span><br>gift certificate</h1>
-    <p class="sub">when you buy the <strong>BTH Andromeda D3</strong> Pottery Wheel</p>
+    <p class="sub">when you buy the<br><strong>BTH Andromeda D3 Pottery Wheel</strong></p>
+    <span class="cta">Shop now</span>
   </div>
-  <span class="cta">Shop the Andromeda D3</span>
 </section>
 
 <script>
-  // Build the shared pieces (rings, certificate, CTA arrow) into each artboard.
+  // Build the shared pieces (rings, wheel, certificate, CTA arrow) into each artboard.
   const SVG = "http://www.w3.org/2000/svg";
   for (const board of document.querySelectorAll(".artboard")) {
     const [cx, cy] = board.dataset.rings.split(",").map(Number);
@@ -262,8 +301,9 @@
     }
     board.prepend(rings);
 
+    // Wheel first so the certificate overlaps it.
+    board.appendChild(document.getElementById("wheel-tpl").content.cloneNode(true));
     board.appendChild(document.getElementById("card-tpl").content.cloneNode(true));
-    board.querySelector(".card-wrap").style.cssText += `left:${cx}px;top:${cy}px;`;
     board.querySelector(".cta").appendChild(document.getElementById("arrow-tpl").content.cloneNode(true));
   }
 </script>

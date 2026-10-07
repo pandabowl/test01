@@ -9,6 +9,7 @@ offer on the [BTH – Andromeda D3 Pottery Wheel](https://www.sheffield-pottery.
 |---|---|---|
 | `bth-d3-gift-certificate-desktop.jpg` | 3800 × 1100 | Slide **Image** |
 | `bth-d3-gift-certificate-mobile.jpg` | 1234 × 1600 | Slide **Mobile image** |
+| `assets/bth-d3-wheel.png` | 875 × 935 | Cut-out of the product's main photo, used in both |
 
 These are 2× the size of the other slides (1900 × 550 desktop, 617 × 800
 mobile). The proportions are the same, so the slideshow height doesn't change,
@@ -17,50 +18,90 @@ and the text stays sharp on retina screens. The slideshow uses
 re-exported.
 
 The headline, offer, and button are part of the image, the same way the old
-4th of July sale slide worked. Leave the slide's own text fields empty.
+4th of July sale slide worked. The whole slide links to the product.
 
 ## Status (2026-10-07)
 
 - Both images are in **Content → Files** as `bth-d3-gift-certificate-desktop.jpg`
-  and `bth-d3-gift-certificate-mobile.jpg`, with the alt text below.
-- The slide was added as slide 2 (after Kiln Packages) to an unpublished copy
-  of the live theme, **"ABZ Stiletto - D3 gift cert slide (preview)"**, for
-  previewing. The live theme was not changed. The Shopify connector can't
-  write to the live theme.
+  and `bth-d3-gift-certificate-mobile.jpg`, with the alt text below. They were
+  replaced in place with the version that includes the wheel photo, so the
+  filenames (and anything pointing at them) didn't change.
+- The slide is **turned on** as slide 2 (after Kiln Packages) in an
+  unpublished copy of the live theme, **"ABZ Stiletto - D3 gift cert slide
+  (preview)"**. That's what lets the copy's preview link show it.
+  Customers don't see it.
+- The live theme, **"ABZ Stiletto - D3 gift cert badge (preview)"** (published
+  2026-10-07 15:15 UTC, despite the name), was not changed. The Shopify
+  connector can't write to the live theme.
 - `preview-theme/templates/index.json` is the home page template that was
-  written to that copy. It's the live theme's template plus one block,
-  `slide_bthD3g`.
+  written to the copy: the live template plus one block, `slide_bthD3g`.
 
-To go live, use either of these:
+## Going live
 
-1. **Add the slide in the live theme editor** (steps below). This is the safest
-   option if the live theme has been edited since the copy was made.
-2. **Publish the preview copy.** The copy only differs from the live theme in
-   this slide, as long as nobody edits the live theme in the meantime.
+Pick one:
+
+1. **Add the slide in the live theme editor** (steps below). Safest, and the
+   only option if the live theme has changed since the copy was made.
+2. **Publish the preview copy.** The slide goes live the moment you publish.
+   Only do this if the live theme hasn't changed since the copy was made
+   (2026-10-07 15:28 UTC). Apps edit themes too: Experro rewrote three
+   snippets in the current live theme right after it was created. After
+   publishing, rename the theme, since it'll be live with "(preview)" in its
+   name. To roll back, republish "ABZ Stiletto - D3 gift cert badge (preview)".
 
 ## Adding it to the slideshow
 
-In **Online Store → Themes → Customize → Home page → abz slideshow → Add slide**:
+In **Online Store → Themes → Customize → Home page → abz slideshow**:
 
-| Setting | Value |
-|---|---|
-| Image | `bth-d3-gift-certificate-desktop.jpg` |
-| Mobile image | `bth-d3-gift-certificate-mobile.jpg` |
-| Link (media link) | the *BTH - Andromeda D3 Pottery Wheel* product (`/products/bth-dd03-pottery-wheel`) |
-| Heading / Subheading / Text / Buttons | leave empty |
-| Overlay opacity | 0 |
+1. Click **Add slide**. A new slide comes pre-filled with a **Heading**
+   ("Slideshow") and **Text** ("Use this section to make a bold statement").
+   **Delete both**, or they'll be drawn on top of the image.
+2. Set these:
+
+   | Setting | Value |
+   |---|---|
+   | Image | `bth-d3-gift-certificate-desktop.jpg` |
+   | Mobile image | `bth-d3-gift-certificate-mobile.jpg` |
+   | Link (media link) | the *BTH - Andromeda D3 Pottery Wheel* product |
+   | Heading, Subheading, Text, Buttons | empty |
+   | Overlay opacity | 0 |
+
+3. Drag the new slide up so it sits directly below **SHEFFIELD POTTERY KILN
+   PACKAGES**. New slides are added at the end of the list.
+4. Check the editor preview: nothing should be drawn over the image. If you're
+   not ready for it to go live, hide it with the eye icon, then save.
 
 Image alt text (already set on both uploaded files in **Content → Files**):
 
-> Special offer: get a $50 gift certificate toward your next order when you buy the BTH Andromeda D3 Pottery Wheel. Shop the Andromeda D3.
+> Special offer: get a $50 gift certificate toward your next order when you buy the BTH Andromeda D3 Pottery Wheel. Shop now.
 
 Placement: the first enabled slide's heading becomes the home page `<h1>`.
 That heading is currently "SHEFFIELD POTTERY KILN PACKAGES". This slide has
-no text heading, so if you move it to the first position, the home page will
-have no `<h1>` while it's there. Putting it second avoids that.
+no text heading, so if it's moved to the first position, the home page will
+have no `<h1>` while it's there. Second place avoids that.
 
-When the offer ends, disable the slide. The product description and the
-slide both state the offer, so update them together.
+When the offer ends, disable the slide. The product description, the product
+image badge (`custom.image_offer_badge` metafield) and this slide all state the
+offer, so update them together.
+
+## Safe zones
+
+Because the button is part of the image, the layout has to stay clear of
+the theme's slideshow controls. The geometry below comes from the live theme's
+`assets/theme.css`:
+
+- **Dots:** the slideshow dots sit over the image's bottom-left corner,
+  32px above the bottom, one 24px tap target per slide. Keep text and the
+  button out of that corner. Otherwise taps meant for the button switch slides.
+- **Link area:** the slide's link only covers the centred content strip
+  (1400px plus side gutters). On very wide screens, the outer edges of the
+  image aren't clickable, so keep the button in the middle of the banner.
+- **Mobile switch:** the theme shows the mobile image below 720px wide. At
+  768px (iPad portrait), the desktop image is drawn at 40% size, so text in it
+  needs to be about 30px or bigger to stay readable.
+
+`npm run check` tests the text and button positions in `slide.html` against
+all three rules at every screen width from 320 to 2560px.
 
 ## Editing and re-rendering
 
@@ -75,8 +116,16 @@ the certificate.
 ```bash
 npm install          # fonts + Playwright
 npm run render       # rewrites both JPGs
+npm run check        # dots / link-area check at 320-2560px
 ```
 
 To preview while editing, open `slide.html` in a browser after
 `npm install`. If Playwright can't find a browser, run
 `npx playwright install chromium` once.
+
+The wheel is the product's main photo (`BTH-D32.jpg`) with the background
+removed by `make-cutout.py`, which uses rembg's IS-Net model. In the photo,
+the pedal cable runs off the right edge and the pedal is clipped at the
+bottom. `slide.html` puts those two edges on the edge of each artboard
+(`--wx`, `--wy`, `--ws`), so neither cut is visible. Keep that if you move
+the wheel.

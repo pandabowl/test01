@@ -4,7 +4,8 @@
   "description": "Home page slideshow banner: $50 gift certificate with the BTH Andromeda D3 Pottery Wheel",
   "type": "module",
   "scripts": {
-    "render": "node render.mjs"
+    "render": "node render.mjs",
+    "check": "node check-safe-zones.mjs"
   },
   "dependencies": {
     "@fontsource/barlow": "5.3.0",
