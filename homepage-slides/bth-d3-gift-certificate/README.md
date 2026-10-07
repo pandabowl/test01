@@ -19,6 +19,25 @@ re-exported.
 The headline, offer, and button are part of the image, the same way the old
 4th of July sale slide worked. Leave the slide's own text fields empty.
 
+## Status (2026-10-07)
+
+- Both images are in **Content → Files** as `bth-d3-gift-certificate-desktop.jpg`
+  and `bth-d3-gift-certificate-mobile.jpg`, with the alt text below.
+- The slide was added as slide 2 (after Kiln Packages) to an unpublished copy
+  of the live theme, **"ABZ Stiletto - D3 gift cert slide (preview)"**, for
+  previewing. The live theme was not changed. The Shopify connector can't
+  write to the live theme.
+- `preview-theme/templates/index.json` is the home page template that was
+  written to that copy. It's the live theme's template plus one block,
+  `slide_bthD3g`.
+
+To go live, use either of these:
+
+1. **Add the slide in the live theme editor** (steps below). This is the safest
+   option if the live theme has been edited since the copy was made.
+2. **Publish the preview copy.** The copy only differs from the live theme in
+   this slide, as long as nobody edits the live theme in the meantime.
+
 ## Adding it to the slideshow
 
 In **Online Store → Themes → Customize → Home page → abz slideshow → Add slide**:
@@ -31,7 +50,7 @@ In **Online Store → Themes → Customize → Home page → abz slideshow → A
 | Heading / Subheading / Text / Buttons | leave empty |
 | Overlay opacity | 0 |
 
-Image alt text (set it on both files in **Content → Files**):
+Image alt text (already set on both uploaded files in **Content → Files**):
 
 > Special offer: get a $50 gift certificate toward your next order when you buy the BTH Andromeda D3 Pottery Wheel. Shop the Andromeda D3.
 

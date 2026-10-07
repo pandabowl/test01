@@ -1,0 +1,1388 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "f9e0b274-05f3-4d58-bd3f-eef632951523": {
+      "type": "abz_slide_show",
+      "blocks": {
+        "slide_gqEfA8": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Sheffield_Desktop_Hero_3-12-26.jpg",
+            "image_mobile": "shopify://shop_images/Copy_of_Sheffield_Home_-_Mobile_617x800_9b0a8072-2731-419b-b199-47356ae5eee9.jpg",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "media_link": "shopify://collections/amaco-brent-4th-of-july-sale",
+            "text_position": "center_center",
+            "text_position_mobile": "center_center",
+            "accent": "",
+            "title": "",
+            "heading_font_class": "fs-heading-display-2",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link_1": "",
+            "link_text_1": "",
+            "button_style_1": "btn--primary",
+            "link_2": "",
+            "link_text_2": "Read more",
+            "button_style_2": "btn--primary",
+            "text_color": "#ffffff",
+            "button_background_color": "#d70101",
+            "button_text_color": "#efefef",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0
+          }
+        },
+        "slide_raabkA": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/clay-homepage-1050x550.webp",
+            "image_mobile": "shopify://shop_images/Sheffield_800-1200.webp",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "media_link": "/pages/clay-landing-page",
+            "text_position": "center_center",
+            "text_position_mobile": "center_center",
+            "accent": "",
+            "title": "SHEFFIELD POTTERY IS AMERICAS PREMIER CLAY MAKER",
+            "heading_font_class": "fs-heading-display-3",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "<p>Moist clay manufacturing at Sheffield Pottery has set a new standard in the ceramic industry. Our Premium clay bodies are available screened and iron filtered. Stock formulas range from low-fire earthenware clay to the finest cone 10 stoneware and porcelain.</p>",
+            "text_font_class": "fs-body-100",
+            "link_1": "/pages/clay-landing-page",
+            "link_text_1": "SHOP POTTERY CLAY",
+            "button_style_1": "btn--primary",
+            "link_2": "",
+            "link_text_2": "",
+            "button_style_2": "btn--primary",
+            "text_color": "#000000",
+            "button_background_color": "#f40000",
+            "button_text_color": "#fdf9f5",
+            "color_overlay": "#fdf9f5",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 50
+          }
+        },
+        "763451db-7973-4b18-851d-19ede87d2a3d": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Kiln_Packages.jpg",
+            "image_mobile": "shopify://shop_images/Clay_Pot_Hero_Banner_Mobile.jpg",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "media_link": "shopify://collections/kiln-package-deals",
+            "text_position": "center_center",
+            "text_position_mobile": "center_center",
+            "accent": "",
+            "title": "SHEFFIELD POTTERY KILN PACKAGES",
+            "heading_font_class": "fs-heading-display-3",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "<p>Kiln Packages generally include the kiln, a kiln vent system and kiln furniture kit.<br/>Some also include the very popular upgrade to Touch Screen Kiln Controller or have the option of that as a tailored upgrade.</p><p>When you order a package you know you will get everything you need to start firing!<br/>Use the product options to customize and fine tune your package to suit your exact needs. Call us anytime with Kiln questions we're here to help.</p>",
+            "text_font_class": "fs-body-100",
+            "link_1": "shopify://collections/kiln-package-deals",
+            "link_text_1": "SHOP KILN PACKAGES",
+            "button_style_1": "btn--primary",
+            "link_2": "#",
+            "link_text_2": "",
+            "button_style_2": "btn--primary",
+            "text_color": "#000000",
+            "button_background_color": "#f40000",
+            "button_text_color": "#fdf9f5",
+            "color_overlay": "#fdf9f5",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 60
+          }
+        },
+        "slide_bthD3g": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/bth-d3-gift-certificate-desktop.jpg",
+            "image_mobile": "shopify://shop_images/bth-d3-gift-certificate-mobile.jpg",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "media_link": "shopify://products/bth-dd03-pottery-wheel",
+            "text_position": "center_center",
+            "text_position_mobile": "center_center",
+            "accent": "",
+            "title": "",
+            "heading_font_class": "fs-heading-display-2",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link_1": "",
+            "link_text_1": "",
+            "button_style_1": "btn--primary",
+            "link_2": "",
+            "link_text_2": "",
+            "button_style_2": "btn--primary",
+            "text_color": "#ffffff",
+            "button_background_color": "#d70101",
+            "button_text_color": "#efefef",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0
+          }
+        },
+        "5500c854-8458-441e-bfe2-6cdc40ba447d": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Schools_Pottery.jpg",
+            "image_mobile": "shopify://shop_images/Clay_vases_raw_unfinished_Mobile_Hero.jpg",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "media_link": "shopify://collections/ceramic-and-pottery-art-supplies-for-schools",
+            "text_position": "center_center",
+            "text_position_mobile": "center_center",
+            "accent": "",
+            "title": "SHEFFIELD POTTERY FOR SCHOOLS",
+            "heading_font_class": "fs-heading-display-3",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-6-base",
+            "text": "<p>We offer studio and classroom furniture and fixtures including Debcor cabinets and Keystone metal sink traps. Let us provide everything you need for a safe and ergonomic clay studio.</p>",
+            "text_font_class": "fs-body-100",
+            "link_1": "shopify://collections/ceramic-and-pottery-art-supplies-for-schools",
+            "link_text_1": "EXPLORE",
+            "button_style_1": "btn--primary",
+            "link_2": "#",
+            "link_text_2": "",
+            "button_style_2": "btn--primary",
+            "text_color": "#000000",
+            "button_background_color": "#f40000",
+            "button_text_color": "#fdf9f5",
+            "color_overlay": "#fdf9f5",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 50
+          }
+        },
+        "45645e48-e12f-4582-ae19-21caf4d76a14": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/wheel-hero-1050x550.webp",
+            "image_mobile": "shopify://shop_images/sheffiled-mobile-wheels.webp",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "media_link": "shopify://collections/all-pottery-wheels",
+            "text_position": "center_center",
+            "text_position_mobile": "center_center",
+            "accent": "",
+            "title": "POTTERY WHEELS IN STOCK",
+            "heading_font_class": "fs-heading-display-3",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "<p>Shop our selection of Pottery Wheels here.  We offer wheels by <a href=\"https://www.sheffield-pottery.com/collections/amaco-brent-potter-s-wheels\" title=\"https://www.sheffield-pottery.com/collections/amaco-brent-potter-s-wheels\">Brent</a>, <a href=\"https://www.sheffield-pottery.com/collections/lockerbie\" title=\"https://www.sheffield-pottery.com/collections/lockerbie\">Lockerbie</a>, <a href=\"https://www.sheffield-pottery.com/collections/laguna-pottery-wheels\" title=\"https://www.sheffield-pottery.com/collections/laguna-pottery-wheels\">Pacifica</a>, <a href=\"https://www.sheffield-pottery.com/collections/shimpo-pottery-wheels\" title=\"https://www.sheffield-pottery.com/collections/shimpo-pottery-wheels\">Shimpo</a>, <a href=\"https://www.sheffield-pottery.com/collections/skutt-potters-wheels-thomas-stuart\" title=\"https://www.sheffield-pottery.com/collections/skutt-potters-wheels-thomas-stuart\">Skutt</a>, <a href=\"https://www.sheffield-pottery.com/collections/soldner-potters-wheels\" title=\"https://www.sheffield-pottery.com/collections/soldner-potters-wheels\">Soldner</a>, and <a href=\"https://www.sheffield-pottery.com/collections/creative-industries-pottery-wheels\" title=\"https://www.sheffield-pottery.com/collections/creative-industries-pottery-wheels\">Speedball</a>.  We have lots of wheels in stock at all times!</p>",
+            "text_font_class": "fs-body-100",
+            "link_1": "shopify://collections/all-pottery-wheels",
+            "link_text_1": "SHOP POTTERY WHEELS",
+            "button_style_1": "btn--primary",
+            "link_2": "#",
+            "link_text_2": "",
+            "button_style_2": "btn--primary",
+            "text_color": "#000000",
+            "button_background_color": "#f40000",
+            "button_text_color": "#fdf9f5",
+            "color_overlay": "#fdf9f5",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 40
+          }
+        },
+        "6d3507dc-0bd0-49fe-b375-3f70c015c98d": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Pottery_Glaze_Discounts.jpg",
+            "image_mobile": "shopify://shop_images/Sheffield_RESIZE_Home_Mobile_617x800_0b91a5b1-c11c-4121-8dbd-ffd528399f99.jpg",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "media_link": "https://www.sheffield-pottery.com/collections/pottery-glazes",
+            "text_position": "center_center",
+            "text_position_mobile": "center_center",
+            "accent": "",
+            "title": "AUTOMATIC GLAZE DISCOUNTS",
+            "heading_font_class": "fs-heading-display-3",
+            "subheading": "Save on pottery glaze with our bulk discounts!",
+            "subheading_font_class": "fs-heading-4-base",
+            "text": "<p></p><p>Buy 6 or more of any glazes and/or underglazes: Mix and match: pints, gallons, dry and get an automatic 5% discount! Order 12 or more and get 7.5% off! Order 24 or more and get 10% off! Order 36 or more and get 15% off! Order 48 or more and get 20% off!</p>",
+            "text_font_class": "fs-body-100",
+            "link_1": "https://www.sheffield-pottery.com/collections/pottery-glazes",
+            "link_text_1": "SHOP POTTERY GLAZE",
+            "button_style_1": "btn--primary",
+            "link_2": "",
+            "link_text_2": "",
+            "button_style_2": "btn--primary",
+            "text_color": "#000000",
+            "button_background_color": "#f40000",
+            "button_text_color": "#fdf9f5",
+            "color_overlay": "#fdf9f5",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 66
+          }
+        },
+        "ab7bf254-59d7-460b-8319-adab56d08f59": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/sheffield-homepage-banner-vessels.jpg",
+            "image_mobile": "shopify://shop_images/homepage-mobile-vessels.jpg",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "media_link": "shopify://collections/all-products",
+            "text_position": "center_center",
+            "text_position_mobile": "center_center",
+            "accent": "",
+            "title": "SHEFFIELD POTTERY IS AMERICAS PREMIER CLAY MAKER",
+            "heading_font_class": "fs-heading-display-3",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "<p>We offer studio and classroom furniture and fixtures including Debcor cabinets and Keystone metal sink traps. Let us provide everything you need for a safe and ergonomic clay studio.</p>",
+            "text_font_class": "fs-body-100",
+            "link_1": "shopify://collections/all",
+            "link_text_1": "EXPLORE NOW",
+            "button_style_1": "btn--primary",
+            "link_2": "#",
+            "link_text_2": "",
+            "button_style_2": "btn--primary",
+            "text_color": "#fdf9f5",
+            "button_background_color": "#f40000",
+            "button_text_color": "#fdf9f5",
+            "color_overlay": "#aaaaaa",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 40
+          }
+        }
+      },
+      "block_order": [
+        "slide_gqEfA8",
+        "slide_raabkA",
+        "763451db-7973-4b18-851d-19ede87d2a3d",
+        "slide_bthD3g",
+        "5500c854-8458-441e-bfe2-6cdc40ba447d",
+        "45645e48-e12f-4582-ae19-21caf4d76a14",
+        "6d3507dc-0bd0-49fe-b375-3f70c015c98d",
+        "ab7bf254-59d7-460b-8319-adab56d08f59"
+      ],
+      "settings": {
+        "image_aspect": "original",
+        "desktop_height": 50,
+        "mobile_height": 65,
+        "enable_autoplay": true,
+        "duration_autoplay": 6,
+        "navigation_alignment": "left",
+        "navigation_color_foreground": "#ffffff",
+        "navigation_color_background": "",
+        "navigation_background_opacity": 0,
+        "enable_animation": true,
+        "section_padding": "none"
+      }
+    },
+    "rich_text_EPG3Fw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Fk8qbe": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Shop Pottery Wheels, Kilns, Glazes & Clay",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "text_jnQ8tw": {
+          "type": "text",
+          "settings": {
+            "text": "<h1>Shop Pottery Wheels, Kilns, Glazes & Clay</h1>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Fk8qbe",
+        "text_jnQ8tw"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "blog_posts_RFx4Qh": {
+      "type": "blog-posts",
+      "disabled": true,
+      "name": "t:sections.blog_posts.presets.name",
+      "settings": {
+        "heading": "Blog posts",
+        "subheading": "",
+        "button_link": "",
+        "link_text": "View all posts",
+        "display_type": "all",
+        "blog": "ceramic-arts-blog",
+        "max_articles": 2,
+        "show_tags": true,
+        "show_author": true,
+        "show_date": true,
+        "show_excerpt": true,
+        "show_featured_image": true,
+        "aspect_ratio": "landscape",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "featured_collection_grid_tTXwNU": {
+      "type": "featured-collection-grid",
+      "blocks": {
+        "collection_WpdbiA": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-skutt-potters-wheels"
+          }
+        }
+      },
+      "block_order": [
+        "collection_WpdbiA"
+      ],
+      "name": "t:sections.featured_collection_grid.presets.name",
+      "settings": {
+        "heading": "Skutt Pottery Wheel Sale",
+        "subheading": "<p>Great prices on these high quality pottery wheels from Skutt! &nbsp;In stock only, no backorders. Call us anytime with Pottery Wheels questions we're happy to help 1-888-774-2529</p>",
+        "link": "https://www.sheffield-pottery.com/collections/skutt-potters-wheels-on-sale",
+        "link_text": "Shop Pottery Wheels on Sale",
+        "maximum_collections": 8,
+        "columns": "4",
+        "mobile_columns": "2",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "featured_collection_grid_rwr6eC": {
+      "type": "featured-collection-grid",
+      "blocks": {
+        "collection_bwJQKk": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-halloween-studio-supply-stop"
+          }
+        }
+      },
+      "block_order": [
+        "collection_bwJQKk"
+      ],
+      "name": "t:sections.featured_collection_grid.presets.name",
+      "settings": {
+        "heading": "Halloween Shop",
+        "subheading": "<p>Calling all clay crafters and glaze wizards! Our Halloween Shop is packed with all the tools, glazes, pottery wheels, and ceramic supplies...</p>",
+        "link": "shopify://collections/the-halloween-studio-supply-stop",
+        "link_text": "Shop Now",
+        "maximum_collections": 8,
+        "columns": "4",
+        "mobile_columns": "2",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "featured_collection_grid_mpBMp6": {
+      "type": "featured-collection-grid",
+      "blocks": {
+        "collection_XYpwtW": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-things-pink-red-clay-by-sheffield-pottery"
+          }
+        }
+      },
+      "block_order": [
+        "collection_XYpwtW"
+      ],
+      "disabled": true,
+      "name": "t:sections.featured_collection_grid.presets.name",
+      "settings": {
+        "heading": "Gift Ideas for Potters",
+        "subheading": "",
+        "link": "shopify://collections/2025-holiday-gift-guide-for-potters",
+        "link_text": "View More Gift Ideas",
+        "maximum_collections": 5,
+        "columns": "5",
+        "mobile_columns": "2",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "featured_collection_grid_xDcRem": {
+      "type": "featured-collection-grid",
+      "blocks": {
+        "collection_TxPAit": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-things-pink-red-clay-by-sheffield-pottery"
+          }
+        }
+      },
+      "block_order": [
+        "collection_TxPAit"
+      ],
+      "disabled": true,
+      "name": "t:sections.featured_collection_grid.presets.name",
+      "settings": {
+        "heading": "Valentines Pop Up SHop",
+        "subheading": "",
+        "link": "shopify://collections/all-things-pink-red-clay-by-sheffield-pottery",
+        "link_text": "Shop All Things Pink, Red & Clay",
+        "maximum_collections": 4,
+        "columns": "4",
+        "mobile_columns": "2",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "98822b8e-a105-453f-8bdc-addae49a8738": {
+      "type": "abz-multicolumn-collection",
+      "blocks": {
+        "template--18377516024130__98822b8e-a105-453f-8bdc-addae49a8738-1679403507e25828f7-0": {
+          "type": "column",
+          "settings": {
+            "abz_collection_img": "shopify://shop_images/collection-img-1.webp",
+            "accent": "",
+            "heading": "",
+            "heading_font_class": "fs-heading-3-base",
+            "text": "<p>GLAZES</p>",
+            "text_font_class": "fs-body-200",
+            "text_max_width": 50,
+            "link": "shopify://collections/pottery-glazes",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "template--18377516024130__98822b8e-a105-453f-8bdc-addae49a8738-1679403507e25828f7-1": {
+          "type": "column",
+          "settings": {
+            "abz_collection_img": "shopify://shop_images/collection-2.webp",
+            "accent": "",
+            "heading": "",
+            "heading_font_class": "fs-heading-3-base",
+            "text": "<p>KILNS</p>",
+            "text_font_class": "fs-body-200",
+            "text_max_width": 50,
+            "link": "shopify://collections/ceramic-kilns-and-glass-kilns",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "template--18377516024130__98822b8e-a105-453f-8bdc-addae49a8738-1679403507e25828f7-2": {
+          "type": "column",
+          "settings": {
+            "abz_collection_img": "shopify://shop_images/Pottery_clay_sale_-_manufacturer.jpg",
+            "accent": "",
+            "heading": "",
+            "heading_font_class": "fs-heading-2-base",
+            "text": "<p>CLAY BODIES</p>",
+            "text_font_class": "fs-body-200",
+            "text_max_width": 50,
+            "link": "/pages/clay-landing-page",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_wWrek9": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/pottery-wheel-for-sale.jpg",
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_font_class": "fs-heading-2-base",
+            "text": "<p>POTTERY WHEELS</p>",
+            "text_font_class": "fs-body-200",
+            "text_max_width": 100,
+            "link": "shopify://collections/pottery-wheels-sale",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_D3fURr": {
+          "type": "image_column",
+          "name": "Column - TOOLS",
+          "settings": {
+            "image": "shopify://shop_images/pottery_tools_for_sale.jpg",
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "shopify://collections/tools",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_font_class": "fs-heading-2-base",
+            "text": "<p>POTTERY TOOLS</p>",
+            "text_font_class": "fs-body-200",
+            "text_max_width": 100,
+            "link": "shopify://collections/tools",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_yU8hwC": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/mason-stains-supply.jpg",
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_font_class": "fs-heading-2-base",
+            "text": "<p>MASON STAINS</p>",
+            "text_font_class": "fs-body-200",
+            "text_max_width": 100,
+            "link": "shopify://collections/mason-stains",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--18377516024130__98822b8e-a105-453f-8bdc-addae49a8738-1679403507e25828f7-0",
+        "template--18377516024130__98822b8e-a105-453f-8bdc-addae49a8738-1679403507e25828f7-1",
+        "template--18377516024130__98822b8e-a105-453f-8bdc-addae49a8738-1679403507e25828f7-2",
+        "image_column_wWrek9",
+        "image_column_D3fURr",
+        "image_column_yU8hwC"
+      ],
+      "settings": {
+        "title": "",
+        "subheading": "",
+        "heading_font_class": "fs-heading-2-base",
+        "heading_alignment": "center",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "medium",
+        "columns": "6",
+        "column_spacing": 48,
+        "row_spacing": 28,
+        "column_alignment": "center",
+        "columns_mobile": "2",
+        "column_spacing_mobile": 28,
+        "row_spacing_mobile": 28,
+        "column_alignment_mobile": "center",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "2997cda5-b08d-4c00-88ba-429d44d669e4": {
+      "type": "abz-image-text",
+      "blocks": {
+        "template--18377516024130__2997cda5-b08d-4c00-88ba-429d44d669e4-1679404905bfd973e8-0": {
+          "type": "heading",
+          "settings": {
+            "title": "SHEFFIELD POTTERY<br> YOUR COMPLETE CERAMICS <br>SUPPLIES STORE",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "template--18377516024130__2997cda5-b08d-4c00-88ba-429d44d669e4-1679404905bfd973e8-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Americas Premier Clay Maker and Pottery Supplies. Moist clay manufacturing at Sheffield Pottery has set a new standard in the ceramic industry. Our Premium clay bodies are available screened and iron filtered. Stock formulas range from low-fire earthenware clay to the finest cone 10 stoneware and porcelain. We also make custom clay bodies and casting slips to your exact specifications using our state of the art facility.",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "template--18377516024130__2997cda5-b08d-4c00-88ba-429d44d669e4-1679404905bfd973e8-2": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://pages/clay-landing-page",
+            "link_text": "SHOP NOW",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--18377516024130__2997cda5-b08d-4c00-88ba-429d44d669e4-1679404905bfd973e8-0",
+        "template--18377516024130__2997cda5-b08d-4c00-88ba-429d44d669e4-1679404905bfd973e8-1",
+        "template--18377516024130__2997cda5-b08d-4c00-88ba-429d44d669e4-1679404905bfd973e8-2"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/MASS-WHITE-02.webp",
+        "aspect_ratio": "natural",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#f40000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-bottom-only"
+      }
+    },
+    "b2eadcfc-a76b-4a12-9246-e78dbec003b8": {
+      "type": "abz-image-text-2",
+      "blocks": {
+        "template--18377516024130__b2eadcfc-a76b-4a12-9246-e78dbec003b8-16805270345ab0976f-0": {
+          "type": "heading",
+          "settings": {
+            "title": "EVERYTHING YOU NEED FOR<br> YOUR POTTERY STUDIO OR<br>CLASSROOM",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "template--18377516024130__b2eadcfc-a76b-4a12-9246-e78dbec003b8-16805270345ab0976f-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Sheffield Pottery offers the nations most complete offerings to outfit and maintain any pottery and ceramics program, as well as knowledgeable support and service. We are an authorized distributor of all major brands of kilns, potters wheels, tools, safety equipment, studio furniture and glazes. We also manufacture our own premier line of clay bodies. We warehouse a massive inventory of ceramic art supplies, including dry materials ready to ship at all times.   To help you save money on ceramic and pottery art supplies, we offer special pricing for all schools and institutions including delivered pricing and free shipping deals.",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "template--18377516024130__b2eadcfc-a76b-4a12-9246-e78dbec003b8-16805270345ab0976f-2": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://collections/ceramic-and-pottery-art-supplies-for-schools",
+            "link_text": "Read more",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--18377516024130__b2eadcfc-a76b-4a12-9246-e78dbec003b8-16805270345ab0976f-0",
+        "template--18377516024130__b2eadcfc-a76b-4a12-9246-e78dbec003b8-16805270345ab0976f-1",
+        "template--18377516024130__b2eadcfc-a76b-4a12-9246-e78dbec003b8-16805270345ab0976f-2"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "right",
+        "image": "shopify://shop_images/img_text_2.webp",
+        "aspect_ratio": "natural",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#f40000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-bottom-only"
+      }
+    },
+    "e7875185-be65-4f84-96fe-3dc2490aea0c": {
+      "type": "abz-multicolumn-collection-2",
+      "blocks": {
+        "template--18377516024130__e7875185-be65-4f84-96fe-3dc2490aea0c-1679485242ac4a07d6-0": {
+          "type": "column",
+          "settings": {
+            "abz_collection_img": "shopify://shop_images/Pottery-Wheels.webp",
+            "accent": "",
+            "heading": "",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>POTTERY WHEELS</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "shopify://collections/pottery-wheels-sale",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "template--18377516024130__e7875185-be65-4f84-96fe-3dc2490aea0c-1679485242ac4a07d6-1": {
+          "type": "column",
+          "settings": {
+            "abz_collection_img": "shopify://shop_images/Tools.webp",
+            "accent": "",
+            "heading": "",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>TOOLS AND ACCESSORIES</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "shopify://collections/tools",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "template--18377516024130__e7875185-be65-4f84-96fe-3dc2490aea0c-1679485242ac4a07d6-2": {
+          "type": "column",
+          "settings": {
+            "abz_collection_img": "shopify://shop_images/gift-card.webp",
+            "accent": "",
+            "heading": "",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>GIFT CARDS</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "shopify://products/gift-card",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "template--18377516024130__e7875185-be65-4f84-96fe-3dc2490aea0c-1679485242ac4a07d6-3": {
+          "type": "column",
+          "settings": {
+            "abz_collection_img": "shopify://shop_images/Teachers-lounge-ezgif.com-jpg-to-webp-converter.webp",
+            "accent": "",
+            "heading": "",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>TEACHERS LOUNGE</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "shopify://collections/ceramic-and-pottery-art-supplies-for-schools",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--18377516024130__e7875185-be65-4f84-96fe-3dc2490aea0c-1679485242ac4a07d6-0",
+        "template--18377516024130__e7875185-be65-4f84-96fe-3dc2490aea0c-1679485242ac4a07d6-1",
+        "template--18377516024130__e7875185-be65-4f84-96fe-3dc2490aea0c-1679485242ac4a07d6-2",
+        "template--18377516024130__e7875185-be65-4f84-96fe-3dc2490aea0c-1679485242ac4a07d6-3"
+      ],
+      "settings": {
+        "title": "SHEFFIELD POTTERY STORE - ONE OF A KIND",
+        "subheading": "",
+        "heading_font_class": "fs-heading-1-base",
+        "heading_alignment": "center",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "medium",
+        "columns": "4",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "left",
+        "columns_mobile": "2",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-bottom-only"
+      }
+    },
+    "78b3a141-18ad-4531-bf00-8865a67a9cd5": {
+      "type": "abz-countdown-banner",
+      "disabled": true,
+      "settings": {
+        "min_height": 300,
+        "min_height_mobile": 500,
+        "year": 2023,
+        "month": "may",
+        "day": "9",
+        "hour": "5",
+        "minute": "30",
+        "time_zone_selection": "shop",
+        "hide_timer_on_complete": false,
+        "timer_complete_message": "",
+        "heading": "YEARLY SECONDS SALE",
+        "heading_font_class": "fs-heading-1-base",
+        "subheading": "",
+        "text": "<p>Americas Premier Clay Maker and Pottery Supplies. Moist clay manufacturing at Sheffield Pottery has set a new standard in the ceramic industry. Our Premium clay bodies are available screened and iron filtered. Stock formulas range from low-fire earthenware clay to the finest cone 10 stoneware and porcelain.</p>",
+        "link": "shopify://collections",
+        "link_text": "SHOP ALL SPECIALS AND DEALS",
+        "button_style": "btn--primary",
+        "link_2": "",
+        "link_text_2": "",
+        "button_style_2": "btn--primary",
+        "image": "shopify://shop_images/Sheffield_home_Page-xd.png",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "text_color": "#000000",
+        "button_background_color": "#f40000",
+        "button_text_color": "#ffffff",
+        "background_color": "#efe7db",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "show_frame": false,
+        "full_width": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "814d762d-85b6-4056-9009-ded17a282add": {
+      "type": "abz-grid-section",
+      "blocks": {
+        "template--18377516024130__814d762d-85b6-4056-9009-ded17a282add-16794885314429b5ec-0": {
+          "type": "item",
+          "settings": {
+            "width": "50",
+            "height": 500,
+            "mobile_height": 500,
+            "image": "shopify://shop_images/z-bisqueware.webp",
+            "mobile_image": "shopify://shop_images/homepage-mobile-GC.webp",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_center",
+            "accent": "",
+            "title": "JUST STARTING OUT? Beginners start here!",
+            "heading_font_class": "fs-heading-1-base",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "https://www.sheffield-pottery.com/blogs/ceramic-arts-blog/how-to-start-making-pottery-at-home-beginner-s-guide-best-tools-to-get-started",
+            "link_text": "Beginners Guide to Starting Making Pottery",
+            "button_style": "btn--primary",
+            "background_color": "#f40000",
+            "text_color": "#ffffff",
+            "button_background_color": "#f40000",
+            "button_text_color": "#ffffff",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 30
+          }
+        },
+        "template--18377516024130__814d762d-85b6-4056-9009-ded17a282add-16794885314429b5ec-1": {
+          "type": "item",
+          "settings": {
+            "width": "50",
+            "height": 500,
+            "mobile_height": 500,
+            "image": "shopify://shop_images/t3-potterywheel.webp",
+            "mobile_image": "shopify://shop_images/homepage-mobile-CS.webp",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_center",
+            "accent": "",
+            "title": "YOUR COMPLETE CERAMICS SUPPLY STORE",
+            "heading_font_class": "fs-heading-1-base",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "shopify://collections/all",
+            "link_text": "SHOP NOW",
+            "button_style": "btn--primary",
+            "background_color": "",
+            "text_color": "#ffffff",
+            "button_background_color": "#f40000",
+            "button_text_color": "#fdf9f5",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--18377516024130__814d762d-85b6-4056-9009-ded17a282add-16794885314429b5ec-0",
+        "template--18377516024130__814d762d-85b6-4056-9009-ded17a282add-16794885314429b5ec-1"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "content_alignment": "left",
+        "enable_animation": true,
+        "full_width": true,
+        "spacing": 0,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "579c4061-9e76-440d-a709-27ff122766d2": {
+      "type": "abz-featured-collection-slider",
+      "blocks": {
+        "template--18377516024130__579c4061-9e76-440d-a709-27ff122766d2-1679489330a6b13641-0": {
+          "type": "collection",
+          "settings": {
+            "show_view_all": true,
+            "collection": "amaco-crystaltex-low-fire-glazes",
+            "collection_name": "First collection"
+          }
+        }
+      },
+      "block_order": [
+        "template--18377516024130__579c4061-9e76-440d-a709-27ff122766d2-1679489330a6b13641-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "FEATURED PRODUCTS",
+        "subheading": "",
+        "link": "shopify://collections/amaco-glazes",
+        "link_text": "View All",
+        "maximum_products": 4,
+        "columns": "4",
+        "mobile_columns": "2",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "6ea91497-24a7-4ae7-8731-2ffb1fc7aced": {
+      "type": "abz-newslatter",
+      "blocks": {
+        "template--18377516024130__6ea91497-24a7-4ae7-8731-2ffb1fc7aced-167948970333c822b7-0": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "template--18377516024130__6ea91497-24a7-4ae7-8731-2ffb1fc7aced-167948970333c822b7-1": {
+          "type": "heading",
+          "settings": {
+            "title": "SUBSCRIBE TO OUR NEWSLETTER",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "0d18227b-58b4-41a6-b5e5-f36c9c7395ad": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>SIGNUP AND RECEIVE 10% OFF ON YOUR NEXT PURCHASE</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "template--18377516024130__6ea91497-24a7-4ae7-8731-2ffb1fc7aced-167948970333c822b7-4": {
+          "type": "newsletter_signup",
+          "settings": {
+            "signup_link_text": "Subscribe"
+          }
+        },
+        "template--18377516024130__6ea91497-24a7-4ae7-8731-2ffb1fc7aced-167948970333c822b7-5": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        }
+      },
+      "block_order": [
+        "template--18377516024130__6ea91497-24a7-4ae7-8731-2ffb1fc7aced-167948970333c822b7-0",
+        "template--18377516024130__6ea91497-24a7-4ae7-8731-2ffb1fc7aced-167948970333c822b7-1",
+        "0d18227b-58b4-41a6-b5e5-f36c9c7395ad",
+        "template--18377516024130__6ea91497-24a7-4ae7-8731-2ffb1fc7aced-167948970333c822b7-4",
+        "template--18377516024130__6ea91497-24a7-4ae7-8731-2ffb1fc7aced-167948970333c822b7-5"
+      ],
+      "settings": {
+        "alignment": "center",
+        "background_image": "shopify://shop_images/newslatter_d5310b5c-c629-4db3-bd2a-29d00542a10f.webp",
+        "focal_point": "image_presentation",
+        "background_color": "#f5f5f5",
+        "text_color": "#ffffff",
+        "input_color": "#000000",
+        "input_background": "#ffffff",
+        "button_background_color": "#f40000",
+        "button_text_color": "#ffffff",
+        "color_overlay": "rgba(0,0,0,0)",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 850
+      }
+    },
+    "f3e71258-5863-40f5-96dc-d9c5d57bd240": {
+      "type": "abz-image-with-text-product",
+      "blocks": {
+        "template--18377516024130__f3e71258-5863-40f5-96dc-d9c5d57bd240-16794918645daadf0d-0": {
+          "type": "heading",
+          "settings": {
+            "title": "SHEFFIELD POTTERY SPECIAL COMPLETE KILN PACKAGES",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "4ae56dab-935f-4656-915d-e10422dd2aef": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Complete With Everything You Need: </p><p>• Includes Vent System, Furniture Kit, Touch Screen Controller </p><p>• Free Freight to the Lower 48* </p><p>• Free Lift-Gate Residential Delivery!</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "d53dd36b-cf37-4a79-943b-e5090cbc5995": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "STARTING AT JUST $1,799!",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "d8d64886-3a26-476f-bac6-e5a6f91b9b63": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>STARTING AT JUST $1,799!</strong></p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "template--18377516024130__f3e71258-5863-40f5-96dc-d9c5d57bd240-16794918645daadf0d-2": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://collections/kiln-package-deals",
+            "link_text": "SHOP YOUR KILN PACKAGE",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--18377516024130__f3e71258-5863-40f5-96dc-d9c5d57bd240-16794918645daadf0d-0",
+        "4ae56dab-935f-4656-915d-e10422dd2aef",
+        "d53dd36b-cf37-4a79-943b-e5090cbc5995",
+        "d8d64886-3a26-476f-bac6-e5a6f91b9b63",
+        "template--18377516024130__f3e71258-5863-40f5-96dc-d9c5d57bd240-16794918645daadf0d-2"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/pdp-img.webp",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "#efe7db",
+        "text_color": "#000000",
+        "button_background_color": "#f40000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "db22860c-9ac8-4990-ba8f-807e1eb002fb": {
+      "type": "abz_logo_list",
+      "blocks": {
+        "d2ccb194-f96a-4050-84ff-83cb8d61bce4": {
+          "type": "image",
+          "settings": {
+            "logo_icon": "shopify://shop_images/brand-01.png"
+          }
+        },
+        "d0001f9f-f067-4dd5-bc46-e42e62c89991": {
+          "type": "image",
+          "settings": {
+            "logo_icon": "shopify://shop_images/brand-02.png"
+          }
+        },
+        "6ac844f3-7d7e-4872-93ae-80e1099fc36b": {
+          "type": "image",
+          "settings": {
+            "logo_icon": "shopify://shop_images/brand-03.png"
+          }
+        },
+        "ec2de210-9879-49a8-83ff-b8d3ca8b4bd2": {
+          "type": "image",
+          "settings": {
+            "logo_icon": "shopify://shop_images/brand-04.png"
+          }
+        },
+        "12b94f7d-9833-42f2-adb8-0bd876aabd43": {
+          "type": "image",
+          "settings": {
+            "logo_icon": "shopify://shop_images/brand-05.png"
+          }
+        },
+        "4c934bdb-f467-4429-8f11-a4b20f3e5129": {
+          "type": "image",
+          "settings": {
+            "logo_icon": "shopify://shop_images/brand-06.png"
+          }
+        }
+      },
+      "block_order": [
+        "d2ccb194-f96a-4050-84ff-83cb8d61bce4",
+        "d0001f9f-f067-4dd5-bc46-e42e62c89991",
+        "6ac844f3-7d7e-4872-93ae-80e1099fc36b",
+        "ec2de210-9879-49a8-83ff-b8d3ca8b4bd2",
+        "12b94f7d-9833-42f2-adb8-0bd876aabd43",
+        "4c934bdb-f467-4429-8f11-a4b20f3e5129"
+      ],
+      "settings": {}
+    },
+    "e080d0c5-630e-4fc2-89f2-ebb46a32f006": {
+      "type": "abz-img-text-3",
+      "blocks": {
+        "template--18377516024130__e080d0c5-630e-4fc2-89f2-ebb46a32f006-16797414452ffd46ce-1": {
+          "type": "heading",
+          "settings": {
+            "title": "POTTERY WHEELS AND THROWING ACCESSORIES",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "5656f53f-483d-4abd-a68e-03e8d51b2072": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shop our selection of Pottery Wheels here.  We offer wheels by Brent, Lockerbie, Pacifica, Shimpo, Skutt, Soldner, and Speedball.  We have lots of wheels in stock at all times!</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "d3498503-a444-4a43-bccd-11e33f960e2d": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://collections/pottery-wheels-sale",
+            "link_text": "DEALS ON POTTERS WHEELS",
+            "button_style": "btn--primary"
+          }
+        },
+        "44c65d3e-eb4f-44e7-9e57-d1cad2994f12": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/22.png",
+            "image_size": 200,
+            "image_size_mobile": 200
+          }
+        }
+      },
+      "block_order": [
+        "template--18377516024130__e080d0c5-630e-4fc2-89f2-ebb46a32f006-16797414452ffd46ce-1",
+        "5656f53f-483d-4abd-a68e-03e8d51b2072",
+        "d3498503-a444-4a43-bccd-11e33f960e2d",
+        "44c65d3e-eb4f-44e7-9e57-d1cad2994f12"
+      ],
+      "settings": {
+        "image_position": "left",
+        "image_mobile_position": "above-content",
+        "image_padding": "none",
+        "image": "shopify://shop_images/homepage-clay.webp",
+        "aspect_ratio": "natural",
+        "focal_point": "image_presentation",
+        "content_alignment": "left",
+        "background_color": "#efe7db",
+        "text_color": "#000000",
+        "button_background_color": "#f40000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "1679740102724d1986": {
+      "type": "apps",
+      "blocks": {
+        "c86df33f-4288-4029-869f-acf692cf0e11": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "c86df33f-4288-4029-869f-acf692cf0e11"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "App section",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "text": "<p>Use this text area to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+        "text_font_class": "fs-body-100"
+      }
+    },
+    "24818cf7-6491-41ca-87fc-689f32104abd": {
+      "type": "abz-richtext-2",
+      "blocks": {
+        "template--18377516024130__24818cf7-6491-41ca-87fc-689f32104abd-1679578322227625b1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sheffield Pottery is one of the nation’s top distributors for all major lines of production equipment. On-staff experts are available to help you pick the right kiln or potter’s wheel for your needs. We offer great discounts on top-selling gas and  electric kilns by Skutt and L&L, Cone Art, Olympic, and Paragon. Many kilns are in stock and ready to ship.</p>",
+            "text_2": "<p>We offer the extremely diverse kiln lines by Skutt, L&L, Cone Art, and Olympic Kilns and Paragon Kilns. We carry glass kilns and annealing furnaces and ovens by those above as well as the trendsetting Evenheat Kilns. For schools and industry we offer all of the above as well as Fredrickson and Olympic front loading commercial grade kilns. A huge inventory of Amaco Glazes and Brent wheels are in stock and ready for immediate shipment. The entire line of Shimpo potters wheels and pugmills are on sale and free shipping. Laguna clay materials and equipment are also part of our product lines featuring the Pacifica GT potters wheels. North Star slab rollers and extruders are always on sale with free shipping. We also carry Peter Pugger's ever expanding line of pugmills.</p><p>We offer studio and classroom furniture and fixtures including Debcor cabinets and Keystone metal sink traps. Let us provide everything you need for a safe and ergonomic clay studio.</p><p>All glazes at Sheffield Pottery are Free shipping including Spectrum and Coyote Archie's series glazes. Our warehouse is stocked with Amaco glazes from Artist Choice to potters Choice, as well as Midsouth Opulence Enviro colors and Speedball Stroke and Coat glazes. We stock many glazes in the very economical dry form including Clayscapes cone 6 stoneware glazes.</p><p>Small hand tools and trimming tools are always free shipping with great discounts including Xeim and Kemper tools. Complete lines of Dirty Girl Tools and Dolan Tools are in stock. We offer a great selection of potters ribs by Sherrill and Trim Gin as well as the fantastic WiziWig profile ribs. A full line of Groovy Tools and Falcon Tools are also available in store or online.</p><p>For our industrial customers we stock a full line of USG plasters and Gypsum Cements. Refractory businesses will find a complete selection of Louisville hard bricks and BNZ insulating fire bricks. We are a authorized retailer of Thermal Ceramics Kaowool board and Superwool blanket . We stock a variety of mortars and castable refractories for all of your furnace and kiln building and repair needs.</p><p>Sheffield Pottery clay and supplies are featured in classrooms coast to coast. Educational discounts are available to help you maximize your school budget. Please send us your bid requests. Our price matching policy ensures that you will always get the best possible price on all of your ceramic supplies.</p><p>For your convenience we offer one of the largest and most diverse inventories of raw materials and glaze chemicals available anywhere. We carry all Mason Stains colors including the hard to find blended colors. The most popular Ferro frits are in stock.</p><p>So whether you are just starting out or you are a large industrial manufacturer, Sheffield Pottery will be with you every step of the way!<br/><em>Shown in Kilns Slide above Lisa Neimeth: visit her great work </em><a href=\"https://www.lisaneimethceramics.com/\" target=\"_blank\">here</a><em>!</em></p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "babdfccf-0887-4381-9417-4eb1f07f6f65": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://pages/about-us",
+            "link_text": "READ MORE",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--18377516024130__24818cf7-6491-41ca-87fc-689f32104abd-1679578322227625b1-1",
+        "babdfccf-0887-4381-9417-4eb1f07f6f65"
+      ],
+      "settings": {
+        "bg_color": "#efe7db",
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "full",
+        "custom_content_width": 700
+      }
+    },
+    "b44ee0a4-5685-4b3c-9b6e-a37eb61b115d": {
+      "type": "abz-testimonials",
+      "blocks": {
+        "ad218cc8-9c05-40e7-885d-1de499a793d7": {
+          "type": "text",
+          "settings": {
+            "abz_testi_desc": "I don't usually leave reviews, but I must say that I am so thankful to have found this site. I live in Hawai'i and it is so difficult to get large/ heavy things shipped here without spending over +$100, but Sheffield has free shipping here for a lot of things on their site, even 50lb Clay. Because of this I am able to practice my hobby and not spend a fortune.",
+            "abz_testi_author": "- Ariana Babineaux"
+          }
+        },
+        "0ce22f9d-5157-4bfd-bd69-87622871914c": {
+          "type": "text",
+          "settings": {
+            "abz_testi_desc": "I love Sheffield Pottery and the people who work there. The other day I received notice that my glazes were shipped. The problem is I realized the place I asked to have it shipped  was not my home, but to a friend clear across the country! Obviously, a careless error on my part!<br><br>\n\nI emailed Sheffield even though it was still only 6 AM and their store did not open until 8:30 AM. I was totally freaked out knowing that once some thing is shipped, it would be pretty difficult if not impossible to get it rerouted.<br>\n\nAt 8:30 I called their store and while I was being helped, I realized I had already received a return email from my 6 o’clock request for help.<br>\n\nThe problem was already taken care of by an employee, Jen R., who obviously is the kind of employee every company would love to have.<br>\n\nJen  must have been to work either early or right on time to catch my cry for help, call the warehouse, find out that it had not yet shipped, and had the delivery address corrected! What a go-getter!  She made my day!<br>\n\nI love Sheffield Pottery and their free shipping on so many items, but knowing the kind of work ethic and their concern for a customer care will make me think of them first, before I check any other Pottery store!<br>\n\nKudos to Sheffield and special shout out to Jen R.!",
+            "abz_testi_author": "- Ellen Bettencourt"
+          }
+        },
+        "7ccc3b64-365c-4915-8cdd-2d5e4c73ed1e": {
+          "type": "text",
+          "settings": {
+            "abz_testi_desc": "Dealing with these people was extremely delightful… They took the time to help me order a wheel, (had some trouble with my card being denied) Sheffield Team was able to fix the problem and the wheel delivered so quick… Couldn’t be happier with the service and care. Thank you guys so much. Can’t wait for the wife to open!!",
+            "abz_testi_author": "-  \"Gotta Watch It\""
+          }
+        },
+        "6ee4c5b5-08b6-4c6f-b577-4f6ac646324d": {
+          "type": "text",
+          "settings": {
+            "abz_testi_desc": "Amazing service\nIt is not easy to ship a follow of glaze and have it arrive not leaking. Not only did it arrive in pristine condition, it got to me very quickly. I will shop here again!",
+            "abz_testi_author": "- NANETTE R."
+          }
+        },
+        "8666d1e4-3f30-4148-932f-935664266c0b": {
+          "type": "text",
+          "settings": {
+            "abz_testi_desc": "Great Source for Quality Glaze\nThey had everything I was looking for at a fair price.",
+            "abz_testi_author": "- TODD L."
+          }
+        },
+        "98febb0d-1558-45bb-b6bb-dd89b75a71fe": {
+          "type": "text",
+          "settings": {
+            "abz_testi_desc": "Satin... nice yellow!\nI find that this glaze when applied either by dipping or brush is a consistent winner. There is just enough sheen to the satin texture to make the color pop! Even flow without runs makes for predictable results.",
+            "abz_testi_author": "- THOMAS L."
+          }
+        },
+        "74548b73-43fd-4cd8-b14c-2a173e53554e": {
+          "type": "text",
+          "settings": {
+            "abz_testi_desc": "We've done business with Sheffield for over a decade, and our experience has been consistently positive.  I've run into a few snafu's with a recent order, and I hope that isn't indicative of a trend.  (Being ghosted on an email thread, the wrong product getting delivered, and unenthusiastic costumer service over the phone.)  I still recommend Sheffield, based on their former performance.  If the next few orders go well, I'll amend this review accordingly.  Everyone's entitled to a bad day and their good days vastly outweigh my recent experience.",
+            "abz_testi_author": "- Wheel House Studio"
+          }
+        }
+      },
+      "block_order": [
+        "ad218cc8-9c05-40e7-885d-1de499a793d7",
+        "0ce22f9d-5157-4bfd-bd69-87622871914c",
+        "7ccc3b64-365c-4915-8cdd-2d5e4c73ed1e",
+        "6ee4c5b5-08b6-4c6f-b577-4f6ac646324d",
+        "8666d1e4-3f30-4148-932f-935664266c0b",
+        "98febb0d-1558-45bb-b6bb-dd89b75a71fe",
+        "74548b73-43fd-4cd8-b14c-2a173e53554e"
+      ],
+      "disabled": true,
+      "settings": {
+        "bg_image_icon": "shopify://shop_images/gArtboard_21-20.png",
+        "title": "FROM OUR CLIENTS",
+        "testi_icon": "shopify://shop_images/12.png",
+        "testi_icon_2": "shopify://shop_images/Screenshot_2023-02-27_at_12.14.19_PM-removebg-preview_2x_de3e074d-8ed2-452a-b1ac-ac455e73bec2.png"
+      }
+    },
+    "1700069442082e6795": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "heading": "App section",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "text": "<p>Use this text area to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+        "text_font_class": "fs-body-100"
+      }
+    },
+    "17000708541a5a5a55": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "text": "",
+        "text_font_class": "fs-body-100"
+      }
+    },
+    "837fba8f-7294-4843-b6dc-344c95ddf0ea": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".yotpo-label.yotpo-small-box {display: none !important;}"
+      ],
+      "settings": {
+        "custom_liquid": "<script type=\"text/javascript\">(function e(){var e=document.createElement(\"script\");e.type=\"text/javascript\",e.async=true,e.src=\"//staticw2.yotpo.com/IpQsErEb8uQAxOJqBNXvyIPyQN6sNmou8QpEPZ0Z/widget.js\";var t=document.getElementsByTagName(\"script\")[0];t.parentNode.insertBefore(e,t)})(); </script>\n<div class=\"yotpo yotpo-reviews-carousel\" data-background-color=\"transparent\" data-mode=\"top_rated\" data-type=\"both\" data-count=\"9\" data-show-bottomline=\"1\" data-autoplay-enabled=\"1\" data-autoplay-speed=\"3000\" data-show-navigation=\"1\">&nbsp;</div>",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    }
+  },
+  "order": [
+    "f9e0b274-05f3-4d58-bd3f-eef632951523",
+    "rich_text_EPG3Fw",
+    "blog_posts_RFx4Qh",
+    "featured_collection_grid_tTXwNU",
+    "featured_collection_grid_rwr6eC",
+    "featured_collection_grid_mpBMp6",
+    "featured_collection_grid_xDcRem",
+    "98822b8e-a105-453f-8bdc-addae49a8738",
+    "2997cda5-b08d-4c00-88ba-429d44d669e4",
+    "b2eadcfc-a76b-4a12-9246-e78dbec003b8",
+    "e7875185-be65-4f84-96fe-3dc2490aea0c",
+    "78b3a141-18ad-4531-bf00-8865a67a9cd5",
+    "814d762d-85b6-4056-9009-ded17a282add",
+    "579c4061-9e76-440d-a709-27ff122766d2",
+    "6ea91497-24a7-4ae7-8731-2ffb1fc7aced",
+    "f3e71258-5863-40f5-96dc-d9c5d57bd240",
+    "db22860c-9ac8-4990-ba8f-807e1eb002fb",
+    "e080d0c5-630e-4fc2-89f2-ebb46a32f006",
+    "1679740102724d1986",
+    "24818cf7-6491-41ca-87fc-689f32104abd",
+    "b44ee0a4-5685-4b3c-9b6e-a37eb61b115d",
+    "1700069442082e6795",
+    "17000708541a5a5a55",
+    "837fba8f-7294-4843-b6dc-344c95ddf0ea"
+  ]
+}
