@@ -26,28 +26,36 @@ The headline, offer, and button are part of the image, the same way the old
   and `bth-d3-gift-certificate-mobile.jpg`, with the alt text below. They were
   replaced in place with the version that includes the wheel photo, so the
   filenames (and anything pointing at them) didn't change.
-- The slide is **turned on** as slide 2 (after Kiln Packages) in an
-  unpublished copy of the live theme, **"ABZ Stiletto - D3 gift cert slide
-  (preview)"**. That's what lets the copy's preview link show it.
-  Customers don't see it.
-- The live theme, **"ABZ Stiletto - D3 gift cert badge (preview)"** (published
-  2026-10-07 15:15 UTC, despite the name), was not changed. The Shopify
-  connector can't write to the live theme.
+- **Ready to publish (2026-10-08): "ABZ Stiletto - D3 gift cert slide (08-10-26)".**
+  This is a fresh copy of the live theme, made 2026-10-08 18:10 UTC, with the
+  slide **turned on** as slide 2 (after Kiln Packages). Checked file by file,
+  it differs from the live theme only in `templates/index.json`, which is the
+  live template plus one block, `slide_bthD3g`.
+- The first preview copy, made 2026-10-07, is out of date and has been renamed
+  **"OLD - D3 slide preview (don't publish)"**. Publishing it would undo a
+  header text change made on the live theme at 17:43 UTC on 2026-10-07
+  ("SHOWROOM BY APPOINTMENT" became "TOOL ROOM SHOPPING BY APPOINTMENT").
+  Delete it. The Shopify connector can't delete themes.
+- The live theme is **"ABZ Stiletto - D3 gift cert badge (preview)"**,
+  published 2026-10-07 15:15 UTC despite the name. It hasn't been changed by
+  this work. The Shopify connector can't edit or publish the live theme.
 - `preview-theme/templates/index.json` is the home page template that was
-  written to the copy: the live template plus one block, `slide_bthD3g`.
+  written to the copies.
 
 ## Going live
 
 Pick one:
 
-1. **Add the slide in the live theme editor** (steps below). Safest, and the
-   only option if the live theme has changed since the copy was made.
-2. **Publish the preview copy.** The slide goes live the moment you publish.
-   Only do this if the live theme hasn't changed since the copy was made
-   (2026-10-07 15:28 UTC). Apps edit themes too: Experro rewrote three
-   snippets in the current live theme right after it was created. After
-   publishing, rename the theme, since it'll be live with "(preview)" in its
-   name. To roll back, republish "ABZ Stiletto - D3 gift cert badge (preview)".
+1. **Publish "ABZ Stiletto - D3 gift cert slide (08-10-26)"**: go to
+   **Online Store → Themes**, find it in the theme library, open its **…**
+   menu, and choose **Publish**. The slide goes live immediately. This is only
+   safe while the live theme is unchanged since the copy was made
+   (2026-10-08 18:10 UTC). Any edit to the live theme after that, including
+   apps editing theme files or settings changes in the theme editor, would be
+   undone by publishing, so compare the two themes again first if in doubt.
+   To roll back, republish "ABZ Stiletto - D3 gift cert badge (preview)".
+2. **Add the slide in the live theme editor** (steps below). This works
+   whatever has changed on the live theme in the meantime.
 
 ## Adding it to the slideshow
 
