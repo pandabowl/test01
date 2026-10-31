@@ -8,16 +8,19 @@ Buy a Shimpo pottery wheel, get a free Sheffield Pottery gift certificate:
 | Shimpo VL-Whisper | $40 |
 | Shimpo VL-Lite | $30 |
 
-## What is live in Shopify (set Oct 31, 2026)
+## What goes live in Shopify at 12:01am Eastern, Nov 1, 2026
+
+The banners were taken back down on Oct 31 so nothing shows before the
+start. They are re-applied at 12:01am Nov 1 (each banner + its original).
 
 Each change is a `<div class="shimpo-holiday-promo-2026">` block placed at the
 very top of a description. To take the promo down, delete that block, or
 restore the matching file in `originals/`.
 
 - **Landing page:** the `/collections/shimpo-pottery-wheels` description, with
-  `collection-banner.html` added above the original text.
+  `collection-banner.html` (with the red-bow image) added above the original text.
 - **Product pages:** `product-banner-40.html` / `product-banner-30.html` added
-  above the original description on:
+  (with the red-bow image) above the original description on:
   - `nidec-shimpo-vl-whisper-pottery-wheel-svlw` ($40)
   - `shimpo-rk-whisper-potters-wheel-srkw` ($40)
   - `shimpo-vl-lite-wheel-with-splash-pan-svll` ($30)
