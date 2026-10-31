@@ -28,15 +28,21 @@ restore the matching file in `originals/`.
   - `shimpo-rk-whisper-pottery-wheel-special` ($40)
 - The two "Educational Promo" (5-wheel school) listings were left unchanged.
 
-## Home page strip (live theme, set in the theme editor)
+## Home page strip: publish the theme copy at 12:01am
 
-The connection used here cannot edit the live theme, so change the
-"Shimpo holiday" promo strip section by hand:
+Theme **"SHIMPO HOLIDAY PROMO - publish Nov 1 12:01am"** is a copy of the live
+theme ("PREVIEW - Equipment finder hidden v3 (28-10-26)") made Oct 31. The only
+change is the Shimpo strip in `templates/index.json` (saved here as
+`theme/index.json`):
 
-- Heading: `Holiday promo on now!`, with the highlighted part reading `Free gift certificates`
-- Body: `Buy a Shimpo pottery wheel by Dec 31 and get a free $40 Sheffield Pottery gift certificate (RK-Whisper or VL-Whisper) or $30 (VL-Lite).`
-- Image: `shimpo-holiday-promo-red-bow.jpg` (same artwork with red bows)
-- Button: unchanged, `Shop Shimpo wheels` linking to `/collections/shimpo-pottery-wheels`
+- Image: `shimpo-holiday-promo-red-bow.jpg`
+- Heading: "Holiday promo on now!", with the highlighted part reading "Free gift certificates"
+- Body: "Buy a Shimpo pottery wheel by Dec 31 and get a free $40 Sheffield
+  Pottery gift certificate (RK-Whisper or VL-Whisper) or $30 (VL-Lite)."
+
+Preview: https://www.sheffield-pottery.com/?preview_theme_id=197006229875
+
+Theme edits made to the live theme after Oct 31 are not in this copy.
 
 ## Image
 
