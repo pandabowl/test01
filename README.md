@@ -70,3 +70,21 @@ Options:
 ```
 
 Requires `openpyxl` (`pip install openpyxl`).
+
+# Homepage hero: Shimpo holiday promo (live text)
+
+`theme/shimpo-holiday-hero.liquid` replaces the homepage "Shimpo holiday hero"
+Custom liquid section, which used to be a single 1900×560 JPG with all the
+words drawn into the picture.
+
+In the new version, every word is real HTML: the headline (an `<h2>`), the offer
+details, the button, the dates and the gift cards. Search engines can index
+it, it stays sharp at any screen size, and the page loads faster. The only
+images are the three wheel photos, pulled from the products at about 300px
+(about 29 KB in total, compared with 134 KB for the old desktop JPG). Each photo
+links to its product page. The background, snow and gift cards are CSS. It uses
+the theme's own Jost and Marcellus fonts, so it loads no extra fonts.
+
+To install it, paste the file into that Custom liquid section in the theme
+editor, replacing the old code. The wording is set at the top of the file.
+The section hides itself after `promo_ends` (Dec 31, 2026).

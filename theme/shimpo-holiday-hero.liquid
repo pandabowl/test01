@@ -1,0 +1,139 @@
+{%- comment -%}
+  Shimpo Holiday Promo hero, live-text version (Nov 1 to Dec 31, 2026).
+
+  Replaces the old hero, which was one 1900x560 JPG with all the words drawn into it.
+  Here every word is real HTML text (headline, offer details, button, dates, even the
+  gift cards), so Google can read and index it, it stays sharp on every screen, and the
+  page loads faster. The only pictures are the three wheel photos, pulled straight from
+  the products at about 300px wide (a few KB each). The blue background, snow and gift
+  cards are drawn with CSS.
+
+  To use it: paste this whole file into the "Shimpo holiday hero" Custom liquid section
+  on the home page, replacing what is there.
+
+  To change the wording, edit the values in the "Copy" block just below.
+  The section hides itself after the promo end date, so it doesn't need to be taken
+  down by hand.
+{%- endcomment -%}
+{%- liquid
+  # ---- Copy ----
+  assign promo_ends = 20261231
+  assign eyebrow = 'Shimpo pottery wheels · Holiday promo'
+  assign shop_url = '/collections/shimpo-pottery-wheels'
+  assign button_label = 'Shop Shimpo wheels'
+  assign wheel_handles = 'shimpo-rk-whisper-potters-wheel-srkw,nidec-shimpo-vl-whisper-pottery-wheel-svlw,shimpo-vl-lite-wheel-with-splash-pan-svll' | split: ','
+
+  assign today = 'now' | date: '%Y%m%d' | plus: 0
+-%}
+{%- if today <= promo_ends -%}
+<style>
+  .shimpo-hero { --sh-blue: #1b3fcb; --sh-red: #d0102b; --sh-pink: #ffd3dc; --sh-white: #fff;
+    position: relative; overflow: hidden; color: var(--sh-white);
+    background: radial-gradient(120% 140% at 70% 10%, #2f5ae6 0%, var(--sh-blue) 55%, #1633a8 100%);
+    padding: clamp(28px, 4vw, 64px) clamp(16px, 5vw, 110px) clamp(56px, 6vw, 96px); }
+  .shimpo-hero::after { content: ""; position: absolute; left: -5%; right: -5%; bottom: -1px; height: clamp(28px, 4vw, 60px);
+    background: #f1f3fa; border-radius: 50% 50% 0 0 / 100% 100% 0 0; pointer-events: none; }
+  .shimpo-hero__inner { position: relative; z-index: 1; max-width: 1700px; margin: 0 auto; display: grid; align-items: center;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); grid-template-areas: "media copy" "media cta";
+    column-gap: clamp(32px, 6vw, 120px); row-gap: 28px; }
+  .shimpo-hero p, .shimpo-hero h2 { color: inherit; }
+  .shimpo-hero__copy { grid-area: copy; align-self: end; }
+  .shimpo-hero__media { grid-area: media; position: relative; margin: 0 12% 7% 0; }
+  .shimpo-hero .nw { white-space: nowrap; }
+  .shimpo-hero__cta { grid-area: cta; align-self: start; display: flex; flex-wrap: wrap; align-items: center; gap: 16px 20px; }
+
+  .shimpo-hero__eyebrow { margin: 0 0 12px; font: italic 600 clamp(13px, 1.25vw, 22px)/1.2 'Jost', sans-serif;
+    letter-spacing: .14em; text-transform: uppercase; }
+  .shimpo-hero__eyebrow::before { content: ""; display: inline-block; width: .55em; height: .55em; margin-right: .6em;
+    border-radius: 50%; background: #ff4d5e; vertical-align: .1em; }
+  .shimpo-hero__title { margin: 0 0 16px; color: var(--sh-white); font: 400 clamp(38px, 4.6vw, 88px)/1.02 'Marcellus', serif;
+    letter-spacing: 0; text-transform: none; }
+  .shimpo-hero__title span { color: var(--sh-pink); }
+  .shimpo-hero__text { margin: 0; font: 400 clamp(16px, 1.45vw, 26px)/1.45 'Jost', sans-serif; }
+  .shimpo-hero__text strong { font-weight: 700; }
+
+  .shimpo-hero__btn { display: inline-flex; align-items: center; gap: .7em; padding: .7em 1.6em; border-radius: 999px;
+    background: var(--sh-red); color: var(--sh-white); border: 3px solid var(--sh-white); text-decoration: none;
+    font: 600 clamp(17px, 1.4vw, 26px)/1.2 'Jost', sans-serif; box-shadow: 0 6px 18px rgba(0,0,0,.25); transition: transform .15s; }
+  .shimpo-hero__btn:hover, .shimpo-hero__btn:focus-visible { transform: translateY(-2px); color: var(--sh-white); }
+  .shimpo-hero__dates { padding: .55em 1.1em; border-radius: 999px; border: 2px solid rgba(255,255,255,.45);
+    background: rgba(255,255,255,.12); font: 600 clamp(14px, 1.1vw, 20px)/1.2 'Jost', sans-serif; white-space: nowrap; }
+
+  .shimpo-hero__wheels { display: flex; align-items: flex-end; justify-content: space-around; gap: 4%; margin: 0; padding: 4% 5%;
+    list-style: none; background: var(--sh-white); border-radius: clamp(14px, 1.5vw, 26px); box-shadow: 0 10px 30px rgba(0,0,0,.2); }
+  .shimpo-hero__wheels li { flex: 1 1 0; min-width: 0; }
+  .shimpo-hero__wheels a { display: block; }
+  .shimpo-hero__wheels img { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; }
+
+  .shimpo-hero__cards { position: absolute; right: -16%; bottom: -34%; width: 46%; display: flex; }
+  .shimpo-gc { flex: 1 1 0; margin-left: -8%; padding: 6% 4% 5%; background: var(--sh-white); color: var(--sh-red); text-align: center;
+    border-radius: 10px; box-shadow: 0 0 0 3px var(--sh-red), inset 0 0 0 5px var(--sh-white), inset 0 0 0 6px var(--sh-red), 0 10px 22px rgba(0,0,0,.3);
+    transform: rotate(-6deg); container-type: inline-size; }
+  .shimpo-gc + .shimpo-gc { transform: rotate(5deg) translateY(4%); }
+  .shimpo-gc__shop { display: block; color: #222; font: 600 9cqi/1.2 'Jost', sans-serif; }
+  .shimpo-gc__amt { display: block; font: 400 30cqi/1 'Marcellus', serif; margin: 3cqi 0 0; }
+  .shimpo-gc__lbl { display: block; font: italic 600 11cqi/1 'Jost', sans-serif; }
+
+  .shimpo-hero__snow { position: absolute; inset: 0; pointer-events: none; }
+  .shimpo-hero__snow::before, .shimpo-hero__snow::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; }
+  .shimpo-hero__snow::before { top: -200px; background-size: 200px 200px; animation: shimpo-snow-a 10s linear infinite;
+    background-image: radial-gradient(circle at 20px 30px, rgba(255,255,255,.9) 1.5px, rgba(255,255,255,0) 3px), radial-gradient(circle at 80px 120px, rgba(255,255,255,.7) 1px, rgba(255,255,255,0) 2.5px), radial-gradient(circle at 150px 60px, rgba(255,255,255,.85) 2px, rgba(255,255,255,0) 3.5px), radial-gradient(circle at 170px 170px, rgba(255,255,255,.65) 1px, rgba(255,255,255,0) 2.5px), radial-gradient(circle at 45px 180px, rgba(255,255,255,.8) 1.5px, rgba(255,255,255,0) 3px), radial-gradient(circle at 110px 15px, rgba(255,255,255,.7) 1px, rgba(255,255,255,0) 2.5px); }
+  .shimpo-hero__snow::after { top: -320px; background-size: 320px 320px; animation: shimpo-snow-b 16s linear infinite;
+    background-image: radial-gradient(circle at 50px 80px, rgba(255,255,255,.95) 2.5px, rgba(255,255,255,0) 4.5px), radial-gradient(circle at 210px 30px, rgba(255,255,255,.8) 2px, rgba(255,255,255,0) 4px), radial-gradient(circle at 280px 230px, rgba(255,255,255,.9) 3px, rgba(255,255,255,0) 5px), radial-gradient(circle at 130px 270px, rgba(255,255,255,.75) 2px, rgba(255,255,255,0) 4px), radial-gradient(circle at 240px 150px, rgba(255,255,255,.85) 2.5px, rgba(255,255,255,0) 4.5px); }
+  @keyframes shimpo-snow-a { to { transform: translateY(200px); } }
+  @keyframes shimpo-snow-b { to { transform: translateY(320px); } }
+  @media (prefers-reduced-motion: reduce) { .shimpo-hero__snow::before, .shimpo-hero__snow::after { animation: none; } .shimpo-hero__btn { transition: none; } }
+
+  @media (max-width: 719px) {
+    .shimpo-hero__inner { grid-template-columns: minmax(0, 1fr); grid-template-areas: "copy" "media" "cta"; row-gap: 24px; }
+    .shimpo-hero__media { margin: 0 22% 6% 0; }
+    .shimpo-hero__cards { right: -30%; bottom: auto; top: -10%; width: 38%; flex-direction: column; }
+    .shimpo-gc { margin: 0 0 -6%; }
+    .shimpo-hero__cta { flex-direction: column; align-items: stretch; text-align: center; }
+    .shimpo-hero__btn { justify-content: center; }
+    .shimpo-hero__dates { align-self: center; }
+  }
+</style>
+
+<section class="shimpo-hero" aria-labelledby="shimpo-hero-title">
+  <span class="shimpo-hero__snow" aria-hidden="true"></span>
+  <div class="shimpo-hero__inner">
+    <div class="shimpo-hero__copy">
+      <p class="shimpo-hero__eyebrow">{{ eyebrow }}</p>
+      <h2 class="shimpo-hero__title" id="shimpo-hero-title">Get a <span>$40</span> or <span>$30</span> gift card</h2>
+      <p class="shimpo-hero__text">
+        <strong>$40</strong> Sheffield Pottery gift card with a Shimpo <span class="nw">RK-Whisper</span> or <span class="nw">VL-Whisper</span>.
+        <strong>$30</strong> with a <span class="nw">VL-Lite</span>.
+      </p>
+    </div>
+
+    <div class="shimpo-hero__media">
+      <ul class="shimpo-hero__wheels">
+        {%- for handle in wheel_handles -%}
+          {%- assign wheel = all_products[handle] -%}
+          {%- if wheel.featured_image -%}
+            <li>
+              <a href="{{ wheel.url }}">
+                {{ wheel.featured_image | image_url: width: 300 | image_tag:
+                  widths: '150, 220, 300',
+                  sizes: '(max-width: 719px) 26vw, 14vw',
+                  alt: wheel.title,
+                  loading: 'eager' }}
+              </a>
+            </li>
+          {%- endif -%}
+        {%- endfor -%}
+      </ul>
+      <div class="shimpo-hero__cards" aria-hidden="true">
+        <div class="shimpo-gc"><span class="shimpo-gc__shop">Sheffield Pottery</span><span class="shimpo-gc__amt">$40</span><span class="shimpo-gc__lbl">Gift Card</span></div>
+        <div class="shimpo-gc"><span class="shimpo-gc__shop">Sheffield Pottery</span><span class="shimpo-gc__amt">$30</span><span class="shimpo-gc__lbl">Gift Card</span></div>
+      </div>
+    </div>
+
+    <div class="shimpo-hero__cta">
+      <a class="shimpo-hero__btn" href="{{ shop_url }}">{{ button_label }} <span aria-hidden="true">→</span></a>
+      <p class="shimpo-hero__dates" style="margin:0">Offer runs <time datetime="2026-11-01">Nov 1</time> – <time datetime="2026-12-31">Dec 31</time></p>
+    </div>
+  </div>
+</section>
+{%- endif -%}
