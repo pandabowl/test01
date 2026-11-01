@@ -853,6 +853,7 @@
     },
     "shimpo_holiday": {
       "type": "promo-strip",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/shimpo-holiday-promo-red-bow.jpg",
         "eyebrow": "Shimpo holiday promotion",
@@ -1205,6 +1206,7 @@
   "order": [
     "abz_custom_liquid_dJgTnh",
     "shimpo_holiday_hero",
+    "home_cards",
     "f9e0b274-05f3-4d58-bd3f-eef632951523",
     "finder_pills",
     "blog_posts_RFx4Qh",
@@ -1217,7 +1219,6 @@
     "glaze_finder",
     "kiln_finder",
     "store_band",
-    "home_cards",
     "shimpo_holiday",
     "579c4061-9e76-440d-a709-27ff122766d2",
     "db22860c-9ac8-4990-ba8f-807e1eb002fb",
