@@ -56,3 +56,15 @@ Theme edits made to the live theme after Oct 31 are not in this copy.
 with the gift bows recolored red by `recolor_bow.py`:
 
     python3 recolor_bow.py shimpo-holiday-promo-original.jpg shimpo-holiday-promo-red-bow.jpg
+
+## Home page big slide (live Nov 1, 2026)
+
+Theme "SHIMPO BIG SLIDE - copy of live (01-11-26)" was published Nov 1. Its
+home page (`theme/index-big-slide.json`) adds the `shimpo_holiday_hero` section
+(the code in `home-slide/custom-liquid-section.liquid`) above the
+four-card block. The slideshow comes after that block. The old `shimpo_holiday`
+promo strip is hidden, and the Brent slide stays hidden.
+
+To end the promo after Dec 31: hide the "Shimpo holiday hero" section in the
+theme editor, and remove the `shimpo-holiday-promo-2026` banner block from the
+landing page and the five product descriptions (originals are in `originals/`).
