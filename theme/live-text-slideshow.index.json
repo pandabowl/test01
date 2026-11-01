@@ -1,0 +1,64 @@
+{
+  "_comment": "Section entry for templates/index.json. Add it under \"sections\", put \"live_text_slideshow\" in \"order\" where the old slideshow (f9e0b274-05f3-4d58-bd3f-eef632951523) is, and set the old one to \"disabled\": true. Upload the photos in theme/slide-photos to Content > Files first.",
+  "live_text_slideshow": {
+    "type": "live-text-slideshow",
+    "settings": { "label": "Current promotions", "autoplay": true, "autoplay_seconds": 6 },
+    "blocks": {
+      "slide_bth_d3": {
+        "type": "slide",
+        "settings": {
+          "image": "shopify://shop_images/BTH-D32.jpg",
+          "photo_style": "product",
+          "gift_card": "$50",
+          "eyebrow": "Pottery wheel sale",
+          "heading": "BTH Andromeda D3",
+          "text": "Whisper-quiet 1 HP direct drive · 5-year warranty · free $50 gift certificate",
+          "product": "bth-dd03-pottery-wheel",
+          "show_price": true,
+          "link": "shopify://products/bth-dd03-pottery-wheel",
+          "button_label": "Shop now"
+        }
+      },
+      "slide_kilns": {
+        "type": "slide",
+        "settings": {
+          "image": "shopify://shop_images/slide-photo-kilns.webp",
+          "image_mobile": "shopify://shop_images/slide-photo-kilns-mobile.webp",
+          "photo_style": "cover",
+          "eyebrow": "Kiln packages",
+          "heading": "Everything you need to fire",
+          "text": "Kiln, vent and furniture kit in one order. Touchscreen upgrades available.",
+          "link": "shopify://collections/kiln-package-deals",
+          "button_label": "Shop kiln packages"
+        }
+      },
+      "slide_schools": {
+        "type": "slide",
+        "settings": {
+          "image": "shopify://shop_images/slide-photo-schools.webp",
+          "image_mobile": "shopify://shop_images/slide-photo-schools-mobile.webp",
+          "photo_style": "cover",
+          "eyebrow": "Schools, camps and universities",
+          "heading": "Equip your clay classroom",
+          "text": "Clay, wheels, glazes and kilns. Bids and quotes welcome.",
+          "link": "shopify://collections/ceramic-and-pottery-art-supplies-for-schools",
+          "button_label": "Explore for schools"
+        }
+      },
+      "slide_glaze": {
+        "type": "slide",
+        "settings": {
+          "image": "shopify://shop_images/slide-photo-glaze.webp",
+          "image_mobile": "shopify://shop_images/slide-photo-glaze-mobile.webp",
+          "photo_style": "cover",
+          "eyebrow": "Automatic glaze discounts",
+          "heading": "Save up to 20% on glaze",
+          "text": "Mix and match 6 or more glazes and underglazes: 5% off, up to 20% at 48.",
+          "link": "shopify://collections/pottery-glazes",
+          "button_label": "Shop pottery glaze"
+        }
+      }
+    },
+    "block_order": ["slide_bth_d3", "slide_kilns", "slide_schools", "slide_glaze"]
+  }
+}

@@ -88,3 +88,31 @@ the theme's own Jost and Marcellus fonts, so it loads no extra fonts.
 To install it, paste the file into that Custom liquid section in the theme
 editor, replacing the old code. The wording is set at the top of the file.
 The section hides itself after `promo_ends` (Dec 31, 2026).
+
+# Homepage slideshow (live text)
+
+`theme/sections/live-text-slideshow.liquid` replaces the homepage slideshow,
+whose four active slides (BTH D3, kiln packages, schools, glaze discounts)
+were 1900×190 pictures with every word drawn into them.
+
+In the new section, each slide is a small photo with no words in it, next to
+real HTML text: the label, the headline (an `<h2>`), the details and the
+button. All four slides are in the page HTML, so search engines index every
+slide, not only the first one. The words are edited in the theme editor, so
+changing them doesn't require a new image.
+
+- **Photos:** `theme/slide-photos/` holds photo-only crops of the old slides,
+  6–11 KB each. Phones get their own sharper crop (`*-mobile.webp`).
+- **The BTH slide** uses the wheel's own product photo. Its price, compare-at
+  price and "Save $X" come live from the product, so the slide can't show an
+  out-of-date price. The $50 gift certificate is drawn with CSS.
+- Swiping, the dots and autoplay use a small built-in script. Autoplay pauses
+  while a shopper hovers over or taps the slideshow, and it is off for people
+  who have reduced motion turned on.
+
+To install it:
+1. Upload the six images in `theme/slide-photos/` to Content → Files.
+2. Add `live-text-slideshow.liquid` to the theme's `sections/` folder.
+3. Add the entry in `theme/live-text-slideshow.index.json` to
+   `templates/index.json` in place of the old slideshow, or add the section in
+   the theme editor. It comes pre-filled with the four slides' text.
