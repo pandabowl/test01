@@ -1,0 +1,89 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Barlow+Condensed:ital,wght@1,600&family=DM+Sans:wght@500;700&display=block" rel="stylesheet">
+<style>
+:root{--blue1:#0f2a8f;--blue2:#1b3fcb;--red:#d0142f;--ice:#cfe0ff}
+*{box-sizing:border-box;margin:0;padding:0}
+.slide{position:relative;overflow:hidden;background:radial-gradient(ellipse at 70% 20%,#2b55e6 0%,var(--blue2) 40%,var(--blue1) 100%);font-family:'DM Sans',sans-serif;color:#fff}
+.flake{position:absolute;border-radius:50%;background:#fff}
+.star{position:absolute;color:#fff;line-height:1}
+.panel{position:absolute;background:#fff;border-radius:28px;box-shadow:0 18px 40px rgba(0,0,30,.35)}
+.panel img{position:absolute}
+.card{position:absolute;background:#fff;border:3px solid var(--red);border-radius:16px;box-shadow:0 12px 28px rgba(0,0,40,.4);text-align:center;outline:2px solid var(--red);outline-offset:-11px}
+.card .sp{font-weight:700;color:#222}
+.card .amt{font-family:'Playfair Display';font-weight:700;color:var(--red);line-height:1}
+.card .gc{font-family:'Playfair Display';font-style:italic;color:var(--red)}
+.card .wl{font-weight:700;color:#1b3fcb;text-transform:uppercase;letter-spacing:.06em}
+.eyebrow{font-family:'Barlow Condensed';font-style:italic;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--ice);display:flex;align-items:center;gap:12px}
+.eyebrow i{width:12px;height:12px;border-radius:50%;background:#ff4d63;display:block}
+h1{font-family:'Playfair Display';font-weight:700;line-height:1.02;letter-spacing:-.01em;text-shadow:0 3px 14px rgba(0,0,40,.35)}
+h1 span{color:#ffd6dc}
+.sub{color:#e6edff}
+.sub b{color:#fff}
+.btn{display:inline-flex;align-items:center;gap:16px;background:var(--red);color:#fff;border-radius:999px;font-weight:700;box-shadow:0 8px 20px rgba(0,0,40,.4);border:3px solid #fff}
+.pill{display:inline-flex;align-items:center;gap:10px;background:rgba(255,255,255,.14);border:2px solid rgba(255,255,255,.55);color:#fff;border-radius:999px;font-weight:700}
+.ground{position:absolute;left:0;right:0;bottom:0;background:#fff;border-radius:50% 50% 0 0/100% 100% 0 0;opacity:.95}
+/* desktop 1900x560 */
+#d{width:1900px;height:560px}
+#d .panel{left:110px;top:70px;width:850px;height:340px}
+#d .panel .rk{left:24px;top:46px;height:262px}
+#d .panel .vlw{left:300px;top:36px;height:268px}
+#d .panel .vll{left:590px;top:96px;height:208px}
+#d .c1{left:770px;top:300px;width:250px;height:156px;transform:rotate(-6deg)}
+#d .c2{left:965px;top:318px;width:230px;height:144px;transform:rotate(6deg)}
+#d .c1 .sp{font-size:19px;margin-top:20px}#d .c1 .amt{font-size:66px;margin-top:4px}#d .c1 .gc{font-size:22px}
+#d .c2 .sp{font-size:17px;margin-top:18px}#d .c2 .amt{font-size:58px;margin-top:4px}#d .c2 .gc{font-size:20px}
+#d .ground{height:60px;left:-200px;right:-200px}
+#d .text{position:absolute;left:1240px;top:70px;width:620px}
+#d .eyebrow{font-size:27px}
+#d h1{font-size:80px;margin-top:14px}
+#d .sub{font-size:27px;margin-top:20px;line-height:1.35}
+#d .row{display:flex;gap:22px;align-items:center;margin-top:28px}
+#d .btn{font-size:27px;padding:18px 34px;white-space:nowrap}
+#d .pill{font-size:21px;padding:11px 20px;white-space:nowrap}
+/* mobile 800x760 */
+#m{width:800px;height:760px;margin-top:20px}
+#m .text{position:absolute;left:44px;top:40px;width:720px}
+#m .eyebrow{font-size:27px}
+#m h1{font-size:64px;margin-top:10px}
+#m .sub{font-size:25px;margin-top:14px;line-height:1.35}
+#m .panel{left:30px;top:330px;width:570px;height:240px;border-radius:22px}
+#m .panel .rk{left:14px;top:34px;height:180px}
+#m .panel .vlw{left:205px;top:28px;height:185px}
+#m .panel .vll{left:400px;top:74px;height:140px}
+#m .c1{left:560px;top:300px;width:210px;height:132px;transform:rotate(6deg)}
+#m .c2{left:575px;top:448px;width:200px;height:126px;transform:rotate(-5deg)}
+#m .c1 .sp{font-size:15px;margin-top:16px}#m .c1 .amt{font-size:50px;margin-top:3px}#m .c1 .gc{font-size:17px}
+#m .c2 .sp{font-size:14px;margin-top:15px}#m .c2 .amt{font-size:46px;margin-top:3px}#m .c2 .gc{font-size:16px}
+#m .ground{height:44px;left:-120px;right:-120px}
+#m .btn{position:absolute;left:44px;right:44px;bottom:62px;justify-content:center;font-size:30px;padding:20px 0}
+#m .pill{position:absolute;right:44px;top:630px;display:none}
+</style></head><body>
+<div class="slide" id="d"><div class="snow"></div>
+ <div class="panel"><img class="rk" src="rk_c.png"><img class="vlw" src="vlw_c.png"><img class="vll" src="vll_c.png"></div>
+ <div class="card c1"><div class="sp">Sheffield Pottery</div><div class="amt">$40</div><div class="gc">Gift Card</div></div>
+ <div class="card c2"><div class="sp">Sheffield Pottery</div><div class="amt">$30</div><div class="gc">Gift Card</div></div>
+ <div class="ground"></div>
+ <div class="text"><div class="eyebrow"><i></i>Shimpo pottery wheels &middot; Holiday promo</div>
+  <h1>Get a <span>$40</span> or <span>$30</span> gift card</h1>
+  <div class="sub"><b>$40</b> with an RK-Whisper or VL-Whisper.<br><b>$30</b> with a VL-Lite.</div>
+  <div class="row"><div class="btn">Shop Shimpo wheels <span>&rarr;</span></div><div class="pill">Nov 1 &ndash; Dec 31</div></div></div>
+</div>
+<div class="slide" id="m"><div class="snow"></div>
+ <div class="text"><div class="eyebrow"><i></i>Shimpo holiday promo &middot; Nov 1&ndash;Dec 31</div>
+  <h1>Get a <span>$40</span> or <span>$30</span><br>gift card</h1>
+  <div class="sub"><b>$40</b> with an RK-Whisper or VL-Whisper. <b>$30</b> with a VL-Lite.</div></div>
+ <div class="panel"><img class="rk" src="rk_c.png"><img class="vlw" src="vlw_c.png"><img class="vll" src="vll_c.png"></div>
+ <div class="card c1"><div class="sp">Sheffield Pottery</div><div class="amt">$40</div><div class="gc">Gift Card</div></div>
+ <div class="card c2"><div class="sp">Sheffield Pottery</div><div class="amt">$30</div><div class="gc">Gift Card</div></div>
+ <div class="ground"></div>
+ <div class="btn">Shop Shimpo wheels <span>&rarr;</span></div>
+</div>
+<script>window.addEventListener('load',()=>{
+const F={"d": [[1165, 64, 4, 0.49, false], [967, 388, 6, 0.78, true], [1829, 399, 3, 0.59, false], [1425, 456, 3, 0.5, false], [209, 325, 8, 0.37, true], [18, 390, 8, 0.73, false], [59, 540, 10, 0.47, false], [1132, 238, 6, 0.54, false], [941, 296, 14, 0.86, false], [1888, 102, 8, 0.45, false], [607, 123, 14, 0.76, false], [1025, 432, 10, 0.63, false], [621, 290, 4, 0.67, false], [1034, 402, 14, 0.67, true], [1523, 413, 4, 0.58, true], [1807, 383, 8, 0.4, false], [1594, 167, 3, 0.64, false], [1500, 30, 6, 0.61, false], [1259, 403, 14, 0.71, true], [25, 204, 4, 0.65, false], [828, 526, 4, 0.54, false], [940, 275, 5, 0.71, false], [11, 392, 10, 0.78, false], [1049, 132, 10, 0.64, false], [114, 492, 6, 0.83, false], [1033, 423, 4, 0.62, false], [3, 551, 5, 0.65, false], [938, 28, 5, 0.79, false], [1196, 185, 8, 0.82, false], [1743, 261, 14, 0.37, false], [170, 17, 3, 0.6, false], [511, 275, 5, 0.41, false], [594, 71, 5, 0.44, false], [1344, 279, 4, 0.71, false], [659, 508, 10, 0.61, true], [703, 431, 6, 0.79, false], [1842, 522, 5, 0.89, false], [1673, 21, 6, 0.47, false], [1472, 164, 3, 0.6, false], [1115, 225, 6, 0.89, false], [1057, 461, 10, 0.47, false], [1382, 328, 6, 0.71, false], [611, 128, 10, 0.88, false], [144, 78, 5, 0.52, false], [324, 426, 10, 0.66, true], [1799, 38, 8, 0.67, false], [943, 175, 8, 0.81, false], [1441, 521, 14, 0.37, false], [421, 443, 3, 0.68, false], [798, 303, 10, 0.63, true], [1785, 411, 8, 0.84, true], [1756, 335, 4, 0.8, false], [694, 439, 4, 0.47, false], [776, 560, 14, 0.54, false], [1094, 496, 10, 0.77, false], [1485, 41, 3, 0.4, true], [436, 274, 8, 0.77, false], [522, 376, 14, 0.54, true], [1776, 500, 4, 0.42, false], [656, 40, 3, 0.57, false], [301, 128, 14, 0.54, false], [1896, 387, 14, 0.39, false], [167, 273, 8, 0.55, false], [1894, 117, 8, 0.6, false], [93, 302, 14, 0.36, false], [846, 117, 3, 0.8, false], [490, 431, 4, 0.44, false], [494, 162, 10, 0.76, true], [1651, 555, 6, 0.85, false], [1457, 488, 5, 0.52, false], [81, 27, 5, 0.36, false], [1487, 327, 5, 0.6, false], [131, 324, 3, 0.88, false], [512, 220, 3, 0.78, false], [1776, 480, 8, 0.71, false], [425, 314, 8, 0.46, false], [575, 91, 14, 0.89, false], [1176, 347, 10, 0.87, false], [84, 335, 5, 0.45, false], [1829, 310, 8, 0.49, true], [1185, 94, 8, 0.48, true], [822, 74, 4, 0.5, false], [153, 22, 10, 0.7, false], [735, 505, 14, 0.61, false], [1026, 335, 3, 0.39, false], [367, 153, 4, 0.89, false], [625, 109, 5, 0.74, false], [601, 129, 8, 0.84, true], [65, 323, 10, 0.8, false], [1857, 210, 10, 0.45, false], [99, 253, 4, 0.49, true], [1655, 440, 6, 0.65, false], [1101, 464, 14, 0.36, false], [528, 497, 4, 0.36, false], [1168, 19, 6, 0.38, false], [1215, 128, 4, 0.43, false], [814, 410, 5, 0.44, true], [15, 181, 6, 0.64, false], [1885, 448, 10, 0.86, false], [488, 320, 4, 0.62, false], [1459, 422, 4, 0.54, false], [1879, 281, 10, 0.88, false], [1563, 523, 3, 0.7, false], [1568, 208, 8, 0.52, false], [1131, 380, 14, 0.44, false], [1217, 87, 6, 0.82, false], [1169, 386, 8, 0.45, false], [1166, 53, 4, 0.62, false], [712, 393, 10, 0.63, true], [83, 536, 10, 0.89, false], [206, 273, 10, 0.76, true], [1588, 83, 4, 0.59, false], [783, 443, 14, 0.57, false], [258, 499, 6, 0.88, true], [1093, 418, 8, 0.85, false], [508, 387, 5, 0.76, true], [1082, 449, 4, 0.67, true], [496, 266, 8, 0.46, false], [410, 279, 8, 0.52, false], [1399, 457, 14, 0.79, false], [1116, 365, 4, 0.62, false], [427, 392, 14, 0.46, false], [49, 120, 14, 0.66, true], [1380, 139, 5, 0.39, false], [637, 447, 14, 0.63, false], [662, 0, 8, 0.42, false], [624, 552, 5, 0.57, false], [1170, 504, 10, 0.41, false], [417, 3, 6, 0.9, false], [1805, 523, 10, 0.46, false], [1709, 529, 8, 0.57, false], [1439, 174, 5, 0.6, false], [736, 538, 4, 0.35, false], [829, 344, 6, 0.82, false], [1432, 69, 10, 0.62, false], [1328, 297, 10, 0.7, false], [319, 406, 10, 0.78, false], [150, 10, 14, 0.54, false], [842, 557, 10, 0.52, false], [992, 173, 5, 0.61, true], [201, 432, 8, 0.39, true], [40, 168, 6, 0.63, false], [190, 411, 10, 0.7, false], [427, 540, 5, 0.46, false], [140, 76, 5, 0.73, false], [754, 479, 10, 0.63, false], [608, 276, 4, 0.55, false], [1149, 409, 6, 0.44, false], [1250, 337, 14, 0.74, false], [1447, 250, 8, 0.81, true], [1274, 412, 14, 0.52, false], [508, 275, 14, 0.45, false], [1783, 454, 4, 0.67, false], [1241, 268, 4, 0.6, true], [282, 451, 14, 0.55, false], [237, 211, 4, 0.75, false], [466, 406, 3, 0.53, false], [92, 56, 4, 0.8, true], [443, 35, 14, 0.62, false], [1816, 452, 10, 0.54, false], [1255, 176, 3, 0.4, false], [921, 386, 6, 0.76, false], [1679, 290, 4, 0.6, false], [925, 264, 4, 0.53, false], [161, 47, 4, 0.36, true], [654, 392, 6, 0.82, false], [819, 163, 4, 0.83, false], [1625, 31, 4, 0.36, true], [1111, 58, 10, 0.66, false], [947, 310, 3, 0.85, true]], "m": [[57, 93, 14, 0.4, false], [685, 315, 10, 0.49, false], [595, 697, 3, 0.44, false], [740, 521, 6, 0.87, false], [514, 274, 6, 0.85, false], [476, 326, 5, 0.85, false], [168, 573, 8, 0.45, false], [332, 177, 4, 0.43, false], [690, 573, 8, 0.45, false], [424, 752, 14, 0.64, false], [607, 362, 5, 0.55, false], [165, 409, 6, 0.74, false], [255, 501, 8, 0.5, false], [362, 677, 8, 0.84, false], [359, 581, 6, 0.75, false], [498, 674, 6, 0.47, false], [170, 631, 10, 0.5, false], [310, 723, 5, 0.81, false], [667, 630, 8, 0.67, false], [500, 524, 4, 0.55, false], [349, 743, 3, 0.35, false], [108, 60, 10, 0.67, true], [232, 698, 8, 0.83, true], [139, 272, 8, 0.48, false], [433, 734, 3, 0.77, true], [176, 255, 5, 0.72, true], [25, 41, 3, 0.75, true], [130, 160, 5, 0.75, false], [394, 603, 3, 0.37, false], [37, 4, 4, 0.54, false], [765, 115, 10, 0.51, false], [459, 564, 5, 0.77, false], [773, 411, 5, 0.82, false], [230, 95, 6, 0.71, false], [24, 458, 3, 0.78, false], [598, 402, 8, 0.62, false], [349, 265, 14, 0.49, false], [18, 716, 10, 0.66, true], [259, 34, 3, 0.42, true], [650, 237, 6, 0.63, false], [252, 238, 3, 0.74, true], [605, 233, 3, 0.69, false], [368, 262, 10, 0.73, false], [4, 154, 14, 0.37, false], [524, 741, 3, 0.4, true], [186, 237, 3, 0.41, true], [475, 464, 10, 0.52, false], [701, 215, 4, 0.75, false], [21, 595, 8, 0.68, false], [595, 185, 8, 0.86, false], [374, 19, 6, 0.64, false], [375, 296, 8, 0.73, false], [19, 701, 5, 0.58, true], [793, 688, 4, 0.8, false], [420, 652, 3, 0.62, false], [628, 75, 8, 0.35, true], [740, 78, 5, 0.47, false], [585, 382, 3, 0.57, false], [353, 404, 14, 0.84, false], [82, 631, 3, 0.82, false], [709, 107, 4, 0.36, false], [44, 740, 14, 0.74, false], [144, 383, 6, 0.5, false], [736, 745, 6, 0.79, false], [696, 303, 14, 0.57, true], [265, 561, 8, 0.59, false], [599, 745, 3, 0.8, true], [180, 558, 5, 0.43, false], [88, 697, 3, 0.89, false], [303, 399, 4, 0.48, false], [337, 449, 10, 0.44, false], [553, 433, 4, 0.4, false], [526, 263, 10, 0.44, true], [240, 413, 10, 0.83, false], [587, 746, 14, 0.43, false], [609, 392, 3, 0.83, false], [54, 494, 8, 0.5, false], [422, 722, 10, 0.71, false], [338, 730, 8, 0.76, false], [743, 230, 14, 0.64, false], [682, 391, 14, 0.89, false], [320, 475, 3, 0.64, false], [665, 181, 6, 0.8, true], [746, 582, 4, 0.68, false], [399, 571, 3, 0.77, false], [600, 594, 10, 0.46, false], [8, 627, 4, 0.72, false], [579, 177, 8, 0.61, false], [74, 358, 14, 0.35, false], [685, 674, 14, 0.39, false], [342, 470, 10, 0.5, false], [81, 628, 3, 0.76, true], [414, 261, 14, 0.72, false], [736, 138, 14, 0.38, false], [691, 301, 6, 0.44, false]]};
+for(const [id,list] of [['d',F.d],['m',F.m]]){const s=document.querySelector('#'+id+' .snow');
+ const sr=s.parentElement.getBoundingClientRect();const avoid=[...s.parentElement.querySelectorAll('.text h1,.text .sub,.text .eyebrow,.btn,.pill')].map(e=>{const r=e.getBoundingClientRect();return [r.left-sr.left-8,r.top-sr.top-8,r.right-sr.left+8,r.bottom-sr.top+8]});
+ for(const [x,y,sz,o,star] of list){if(avoid.some(([a,b,c,d])=>x>a&&x<c&&y>b&&y<d))continue;const e=document.createElement('div');
+  if(star){e.className='star';e.textContent='❄';e.style.fontSize=(sz*2.2)+'px';}else{e.className='flake';e.style.width=e.style.height=sz+'px';}
+  e.style.left=x+'px';e.style.top=y+'px';e.style.opacity=o;s.appendChild(e);}}
+});</script>
+</body></html>

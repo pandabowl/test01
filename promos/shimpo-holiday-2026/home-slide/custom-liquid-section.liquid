@@ -1,0 +1,25 @@
+{%- comment -%}
+  Shimpo Holiday Promo hero (Nov 1 to Dec 31, 2026).
+  Paste into a "Custom liquid" section on the home page, placed above the slideshow.
+  Needs shimpo-holiday-slide-desktop.jpg and shimpo-holiday-slide-mobile.jpg in Content > Files.
+{%- endcomment -%}
+<style>
+  .shimpo-hero { position: relative; display: block; overflow: hidden; background: #1b3fcb; line-height: 0; }
+  .shimpo-hero img { display: block; width: 100%; height: auto; }
+  .shimpo-hero__snow { position: absolute; inset: 0; pointer-events: none; }
+  .shimpo-hero__snow::before, .shimpo-hero__snow::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; }
+  .shimpo-hero__snow::before { top: -200px; background-size: 200px 200px; animation: shimpo-snow-a 10s linear infinite;
+    background-image: radial-gradient(circle at 20px 30px, rgba(255,255,255,.9) 1.5px, rgba(255,255,255,0) 3px), radial-gradient(circle at 80px 120px, rgba(255,255,255,.7) 1px, rgba(255,255,255,0) 2.5px), radial-gradient(circle at 150px 60px, rgba(255,255,255,.85) 2px, rgba(255,255,255,0) 3.5px), radial-gradient(circle at 170px 170px, rgba(255,255,255,.65) 1px, rgba(255,255,255,0) 2.5px), radial-gradient(circle at 45px 180px, rgba(255,255,255,.8) 1.5px, rgba(255,255,255,0) 3px), radial-gradient(circle at 110px 15px, rgba(255,255,255,.7) 1px, rgba(255,255,255,0) 2.5px); }
+  .shimpo-hero__snow::after { top: -320px; background-size: 320px 320px; animation: shimpo-snow-b 16s linear infinite;
+    background-image: radial-gradient(circle at 50px 80px, rgba(255,255,255,.95) 2.5px, rgba(255,255,255,0) 4.5px), radial-gradient(circle at 210px 30px, rgba(255,255,255,.8) 2px, rgba(255,255,255,0) 4px), radial-gradient(circle at 280px 230px, rgba(255,255,255,.9) 3px, rgba(255,255,255,0) 5px), radial-gradient(circle at 130px 270px, rgba(255,255,255,.75) 2px, rgba(255,255,255,0) 4px), radial-gradient(circle at 240px 150px, rgba(255,255,255,.85) 2.5px, rgba(255,255,255,0) 4.5px); }
+  @keyframes shimpo-snow-a { to { transform: translateY(200px); } }
+  @keyframes shimpo-snow-b { to { transform: translateY(320px); } }
+  @media (prefers-reduced-motion: reduce) { .shimpo-hero__snow::before, .shimpo-hero__snow::after { animation: none; } }
+</style>
+<a class="shimpo-hero" href="/collections/shimpo-pottery-wheels" aria-label="Shimpo holiday promo: get a $40 gift card with an RK-Whisper or VL-Whisper, or a $30 gift card with a VL-Lite, Nov 1 to Dec 31. Shop Shimpo wheels.">
+  <picture>
+    <source media="(max-width: 719px)" srcset="{{ 'shimpo-holiday-slide-mobile.jpg' | file_url }}" width="800" height="760">
+    <img src="{{ 'shimpo-holiday-slide-desktop.jpg' | file_url }}" width="1900" height="560" alt="Shimpo holiday promo: get a $40 Sheffield Pottery gift card with a Shimpo RK-Whisper or VL-Whisper, or a $30 gift card with a VL-Lite. Nov 1 to Dec 31." fetchpriority="high">
+  </picture>
+  <span class="shimpo-hero__snow" aria-hidden="true"></span>
+</a>
