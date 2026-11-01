@@ -70,3 +70,29 @@ Options:
 ```
 
 Requires `openpyxl` (`pip install openpyxl`).
+
+# GTIN audit
+
+`scripts/gtin_audit.py` checks every active Shopify variant for a valid GTIN
+(UPC/EAN/ISBN) and writes:
+
+- `feeds/gtin_audit.csv`: one row per variant, with its status and what to do
+- `feeds/gtin_vendor_summary.csv`: missing GTINs counted per vendor, so you
+  can request barcode lists one vendor at a time
+
+```bash
+export SHOPIFY_STORE_DOMAIN=sheffield-pottery.myshopify.com
+export SHOPIFY_ADMIN_ACCESS_TOKEN=shpat_xxx   # read_products scope
+python3 scripts/gtin_audit.py                 # --include-inactive for drafts/archived
+```
+
+GTINs can't be generated. A valid one has to be assigned by the brand owner
+under a GS1 company prefix, and Google checks them against GS1, so made-up
+numbers get disapproved. Each variant gets one of these statuses:
+
+| Status | Meaning | What to do |
+|---|---|---|
+| `ok` | Valid GTIN on file | Nothing |
+| `fix_format` | Barcode fails the GS1 check digit (often a UPC missing its leading 0) | Use the suggested value after checking it against the packaging, or clear it |
+| `get_from_vendor` | Resold product with no barcode | Ask the manufacturer for their UPC list, or read it off the packaging |
+| `own_brand` | Sheffield Pottery's own product (clay, glazes, slips) | License GTINs from GS1 US and assign them, **or** submit to Google with `identifier_exists = no` plus brand + MPN (allowed when no GTIN was ever assigned) |
