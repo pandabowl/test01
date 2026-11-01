@@ -91,14 +91,9 @@
     .shimpo-hero__media { margin: 0 33% 0 0; }
     .shimpo-hero__cards { right: -46%; bottom: auto; top: 50%; width: 46%; transform: translateY(-50%); }
     .shimpo-gc { margin-left: -6%; }
-    .shimpo-hero__cta { flex-wrap: nowrap; gap: 10px; }
-    .shimpo-hero__btn { flex: 1 1 auto; justify-content: center; padding: .6em 1em; white-space: nowrap; }
+    .shimpo-hero__cta { flex-wrap: wrap; justify-content: center; gap: 10px; }
+    .shimpo-hero__btn { flex: 1 1 auto; justify-content: center; padding: .6em 1em; font-size: 16px; white-space: nowrap; }
     .shimpo-hero__runs { display: none; }
-  }
-  @media (max-width: 379px) {
-    .shimpo-hero__cta { flex-wrap: wrap; }
-    .shimpo-hero__btn { flex-basis: 100%; }
-    .shimpo-hero__dates { margin: 0 auto !important; }
     .shimpo-hero__dates { font-size: 12px; padding: .5em .8em; }
   }
 </style>
@@ -140,7 +135,7 @@
 
     <div class="shimpo-hero__cta">
       <a class="shimpo-hero__btn" href="{{ shop_url }}">{{ button_label }} <span aria-hidden="true">→</span></a>
-      <p class="shimpo-hero__dates" style="margin:0"><span class="shimpo-hero__runs">Offer runs </span><time datetime="2026-11-01">Nov 1</time> – <time datetime="2026-12-31">Dec 31</time></p>
+      <p class="shimpo-hero__dates" style="margin:0"><span class="shimpo-hero__runs">Offer runs&nbsp;</span><time datetime="2026-11-01">Nov 1</time> – <time datetime="2026-12-31">Dec 31</time></p>
     </div>
   </div>
 </section>
