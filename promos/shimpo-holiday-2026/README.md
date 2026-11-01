@@ -8,7 +8,13 @@ Buy a Shimpo pottery wheel, get a free Sheffield Pottery gift certificate:
 | Shimpo VL-Whisper | $40 |
 | Shimpo VL-Lite | $30 |
 
-## What goes live in Shopify at 12:01am Eastern, Nov 1, 2026
+## Launched 12:01am Eastern, Nov 1, 2026
+
+Landing page and product banners were re-applied at launch and verified live.
+The live theme at launch was "PREVIEW - Hide Halloween (01-11-26)", which
+already had the updated Shimpo strip.
+
+## What went live in Shopify
 
 The banners were taken back down on Oct 31 so nothing shows before the
 start. They are re-applied at 12:01am Nov 1 (each banner + its original).
