@@ -1,0 +1,79 @@
+{%- comment -%}
+  Clay product summary under the price (templates/product.clay.json, custom_liquid block).
+  Reads the clay metafields: custom.firing_range, clay_type, color, light_or_dark, grog,
+  speckle, clay_uses, delivered_non_delivered, pricing_pair.
+{%- endcomment -%}
+{%- liquid
+  assign mf = product.metafields.custom
+  assign firing = mf.firing_range.value | join: ', '
+  assign clay_type = mf.clay_type.value
+  assign clay_color = mf.color.value | default: mf.light_or_dark.value
+  assign grog = mf.grog.value
+  assign uses = mf.clay_uses.value | join: ', '
+  assign pricing = mf.delivered_non_delivered.value
+  assign pair = mf.pricing_pair.value
+  assign is_delivered = false
+  if pricing == 'Delivered Pricing'
+    assign is_delivered = true
+  endif
+-%}
+<div class="clay-summary">
+  {%- if firing != blank or clay_type != blank or clay_color != blank or grog != blank or uses != blank -%}
+    <dl class="clay-summary__specs">
+      {%- if firing != blank -%}<div><dt>Firing</dt><dd>{{ firing }}</dd></div>{%- endif -%}
+      {%- if clay_type != blank -%}<div><dt>Clay type</dt><dd>{{ clay_type }}</dd></div>{%- endif -%}
+      {%- if clay_color != blank -%}<div><dt>Color</dt><dd>{{ clay_color }}{% if mf.speckle.value == 'Speckle' %}, speckled{% endif %}</dd></div>{%- endif -%}
+      {%- if grog != blank -%}<div><dt>Grog</dt><dd>{% if grog == 'No Grog' %}None{% else %}{{ grog }}{% endif %}</dd></div>{%- endif -%}
+      {%- if uses != blank -%}<div class="clay-summary__wide"><dt>Good for</dt><dd>{{ uses }}</dd></div>{%- endif -%}
+    </dl>
+  {%- endif -%}
+
+  {%- if pricing != blank -%}
+    <div class="clay-summary__pricing">
+      {%- if is_delivered -%}
+        <p class="clay-summary__pricing-title">Delivered price: shipping included</p>
+        <p>Includes shipping to ME, NH, MA, RI, CT, VT, NY and NJ. Anywhere else in the US, including Alaska and Hawaii, add $5 per 50 lb box.</p>
+        {%- if pair != blank -%}
+          <p><a href="{{ pair.url }}">Picking up in Sheffield, MA, or ordering over 1,000 lb? Pickup / freight price: {{ pair.price | money }}</a></p>
+        {%- endif -%}
+      {%- else -%}
+        <p class="clay-summary__pricing-title">Pickup / freight price: shipping not included</p>
+               <p>For pickup at our plant in Sheffield, MA, or for orders over 1,000 lb shipped by freight. Add to cart to see the shipping price.</p>
+        {%- if pair != blank -%}
+          <p><a href="{{ pair.url }}">Under 1,000 lb? The delivered price includes shipping: {{ pair.price | money }}</a></p>
+        {%- endif -%}
+      {%- endif -%}
+    </div>
+  {%- endif -%}
+
+  <p class="clay-summary__finder"><a href="/pages/find-your-clay">Not sure which clay? Compare them in the Clay Finder</a></p>
+</div>
+
+{%- style -%}
+  /* Theme puts medium blocks after the buy form below 720px; keep this one under the price */
+  .product__block.product__block--medium:has(> .clay-summary) { order: 0; }
+  .clay-summary { margin: 4px 0 8px; }
+  .clay-summary__specs {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1px;
+    margin: 0 0 16px;
+    border: 1px solid var(--color-border);
+    background: var(--color-border);
+  }
+  .clay-summary__specs > div { background: var(--color-background); padding: 8px 12px; }
+  .clay-summary__specs .clay-summary__wide { grid-column: 1 / -1; }
+  .clay-summary__specs dt { font-size: 0.75em; letter-spacing: 0.04em; text-transform: uppercase; opacity: 0.7; margin: 0; }
+  .clay-summary__specs dd { margin: 2px 0 0; font-weight: 600; }
+  .clay-summary__pricing {
+    border-left: 3px solid var(--color-text);
+    background: var(--color-background-meta);
+    padding: 10px 14px;
+    margin: 0 0 12px;
+  }
+  .clay-summary__pricing p { margin: 0 0 6px; }
+  .clay-summary__pricing p:last-child { margin-bottom: 0; }
+  .clay-summary__pricing-title { font-weight: 700; }
+  .clay-summary a { text-decoration: underline; }
+  .clay-summary__finder { margin: 0; }
+{%- endstyle -%}
