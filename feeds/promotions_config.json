@@ -1,0 +1,11 @@
+{
+  "_comment": "Shopify automatic discount ID -> base promotion_id and long_title for the Google promotions feed. Never change a promotion_id once Google has seen it; renewed rows add a _YYYYMMDD suffix automatically. long_title max 60 characters. Optional: product_applicability (specific_products or all_products).",
+  "gid://shopify/DiscountAutomaticNode/1409826357570": {
+    "promotion_id": "TALISMAN_SIEVE_SCREEN",
+    "long_title": "Free Replacement Screen with Talisman Rotary Sieve Purchase"
+  },
+  "gid://shopify/DiscountAutomaticNode/1746714919283": {
+    "promotion_id": "BTH_WHEEL_CLAY_DISCOUNT",
+    "long_title": "$45 Off Clay with BTH Andromeda D3 Pottery Wheel Purchase"
+  }
+}
