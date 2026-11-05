@@ -46,7 +46,7 @@
     letter-spacing: .14em; text-transform: uppercase; }
   .shimpo-hero__eyebrow::before { content: ""; display: inline-block; width: .55em; height: .55em; margin-right: .6em;
     border-radius: 50%; background: #ff4d5e; vertical-align: .1em; }
-  .shimpo-hero__title { margin: 0 0 10px; color: var(--sh-white); font: 400 clamp(27px, 3.7vw, 70px)/1.02 'Marcellus', serif;
+  .shimpo-hero__title { margin: 0 0 10px; color: var(--sh-white); font: 400 clamp(24px, 3.15vw, 60px)/1.02 'Marcellus', serif;
     letter-spacing: 0; text-transform: none; }
   .shimpo-hero__title span { color: var(--sh-pink); }
   .shimpo-hero__text { margin: 0; font: 400 clamp(15px, 1.2vw, 22px)/1.4 'Jost', sans-serif; }
@@ -99,6 +99,7 @@
 
   @media (max-width: 719px) {
     .shimpo-hero { padding-top: 42px; }
+    .shimpo-hero__title { font-size: clamp(24px, 6.6vw, 30px); }
     .shimpo-hero__inner { grid-template-columns: minmax(0, 1fr); grid-template-areas: "copy" "media" "cta"; row-gap: 16px; }
     .shimpo-hero__media { margin: 0 24% 3% 0; }
     .shimpo-hero__cards { right: -30%; bottom: auto; top: -10%; width: 38%; flex-direction: column; }
