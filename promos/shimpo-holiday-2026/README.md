@@ -68,3 +68,12 @@ promo strip is hidden, and the Brent slide stays hidden.
 To end the promo after Dec 31: hide the "Shimpo holiday hero" section in the
 theme editor, and remove the `shimpo-holiday-promo-2026` banner block from the
 landing page and the five product descriptions (originals are in `originals/`).
+
+## Hero restyle (live Nov 5, 2026)
+
+Theme "PREVIEW - Shimpo hero snowflakes (05-11-26)" was published Nov 5. It
+restyles the live-text Shimpo hero to match the social ad: crystal snowflakes,
+a navy gradient and string lights. The code is in
+`home-slide/shimpo-hero-live-text-snowflakes.liquid`, and the full home page
+template is `theme/index-snowflakes.json`. The hero hides itself after Dec 31
+(`promo_ends`).
