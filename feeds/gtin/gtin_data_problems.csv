@@ -1,0 +1,7 @@
+sku,title,issue,fix
+AV301,AMACO Velvet UnderGlazes,"custom.pdp_upc_number = ""123"" is not a valid GTIN",clear it or replace with the real UPC
+XT10299,ALSS1XU Xiem Tools Extra Attachable Letter Stamp Set 12 pcs Uppercase,custom.pdp_upc_number 858558005301 is shared by 2 variants,check packaging; only one of them can be right
+XT10300,ALSS1XL Xiem Tools Extra Attachable Letter Stamp Set 12 pcs Lowercase,custom.pdp_upc_number 858558005301 is shared by 2 variants,check packaging; only one of them can be right
+HPCN,PCN Potter's Cut Off Needle,"barcode field = ""HPCN"" is not a GTIN",clear the barcode field
+ALUG432OZ,Amaco LUG Liquid Underglazes,"barcode field = ""222"" is not a GTIN",clear the barcode field
+AEL7G / AEL8L,Amaco Easy-Lift Upgrade Kits,custom.pdp_vendor_part_no values are swapped (barcodes are correct),"AEL7G -> 25147G, AEL8L -> 25148L (per shop.amaco.com)"

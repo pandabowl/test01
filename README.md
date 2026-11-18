@@ -70,3 +70,34 @@ Options:
 ```
 
 Requires `openpyxl` (`pip install openpyxl`).
+
+# GTINs (product barcodes)
+
+Google Shopping reads each variant's GTIN from Shopify's **Barcode** field.
+As of 2026-11-18 only 44 of ~3,000 active products had one, so most
+listings went to Google without a GTIN.
+
+`feeds/gtin/` holds the results of a GTIN audit of the public catalog
+(6,001 variants):
+
+- `gtin_found.csv` — 310 variants with a GTIN that passes the GS1
+  check digit, ready to write to the Barcode field (`action` column):
+  - 222 come from the variant metafield `custom.pdp_upc_number`, which
+    already held UPCs (mostly Xiem and Speedball) that never reached the
+    Barcode field.
+  - 45 are existing barcodes; 34 of them were stored as 11 digits (the
+    leading `0` was dropped, likely by a spreadsheet) and are restored to 12.
+  - 43 Amaco/Brent items are derived from Amaco's item number
+    (`custom.pdp_vendor_part_no`): Amaco UPCs are `039672` + the 5 digits of
+    the item number + a check digit. This matched all 27 Amaco/Brent
+    barcodes already in the store and 5 independent retailer listings.
+- `gtin_data_problems.csv` — junk or conflicting values to clean up.
+- `gtin_missing.csv` — the 5,691 variants still without a GTIN, bucketed:
+  - `ask vendor`: retail-packaged brands that normally carry UPCs; request
+    a UPC list from the vendor.
+  - `probably none`: own-brand, repackaged bulk materials, made-to-order
+    kilns/equipment and refractories. Send brand + MPN to Google and leave
+    GTIN empty; don't invent one.
+  - `check`: unclear; confirm with the vendor.
+
+Never make up or reuse a GTIN: a wrong one is worse for Google than none.
