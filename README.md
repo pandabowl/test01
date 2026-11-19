@@ -70,3 +70,14 @@ Options:
 ```
 
 Requires `openpyxl` (`pip install openpyxl`).
+
+## Storefront snippets
+
+- `snippets/skutt-free-liftgate-banner.html`: the "Free lift-gate service on
+  all Skutt kilns" offer as a scalable HTML box, replacing the fixed
+  `skutt-kilns-sale-free-lift-gate.jpg` graphic. Paste it into a Shopify
+  product description, page or Custom Liquid block in the editor's HTML view.
+  All styles are inline, the text is real (searchable, crisp at any size), and
+  it scales with the width of whatever column it's placed in. The two logos are
+  still images, loaded from the store's Files.
+  `snippets/skutt-free-liftgate-banner-preview.png` shows it at 280–640px.
