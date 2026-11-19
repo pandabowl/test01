@@ -21,6 +21,14 @@ Page: https://www.sheffield-pottery.com/collections/olympic-kilns
   "Learn more" scrolls to the block. The shared `kiln-compare-styles` entry had
   gained a `.spc-sub` rule from another chat since the preview; it doesn't
   affect this block.
+- 2026-11-19 07:43 UTC: another chat moved the "Which Olympic kiln should I
+  buy?" picks above the model-number box and table (same wording; the
+  site-wide order now, as on Skutt). `blocks/olympic-stackable.html` is synced
+  to that version. The shared `kiln-compare-cta` was reworded at 06:43 UTC
+  ("Not sure which model fits your needs? Call our kiln experts at (888)
+  774-2529."), with no claim about how long Sheffield has sold kilns.
+- 2026-11-19 07:46 UTC: also on `olympic-multi-sided-electric-kilns`
+  (list `olympic-stackable` + `kiln-compare-cta`, user's OK). Verified exact.
 - `draft_section_2026-11-19.html` is the first draft in the old
   (below-text) format, kept for reference; it was never published.
 
