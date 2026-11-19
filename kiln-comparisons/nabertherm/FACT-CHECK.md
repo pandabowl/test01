@@ -24,8 +24,12 @@ below text are exact matches; the table appears once; every link returns 200
 (the existing Kiln Buying Guide link is a 301 to a 200); left edge aligned with
 the below text on desktop and phone; no sideways scroll.
 
-The top description's "Read More!" link points at `#abz_below_richtxt_id`,
-which now comes *after* the blocks (it lands on "Helpful Resources").
+The top description's "Read More!" link pointed at `#abz_below_richtxt_id`,
+which comes *after* the blocks. At the user's request (2026-11-19 06:19 UTC) it now
+points at `#nabertherm-kiln-model-comparison`, the overview block's heading;
+clicking it lands on that heading on desktop and phone. Backup:
+`backup_collection_descriptionHtml_before_2026-11-19.html`; live value:
+`live_collection_descriptionHtml_2026-11-19.html` (exact match on the live page).
 
 History: the comparison was first published embedded at the start of the
 below-text value (2026-11-19 04:50 UTC, units restyled 05:39 UTC), then moved
