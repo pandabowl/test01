@@ -5,10 +5,15 @@
 // Screenshot what is already live:
 //   node preview_shot.js <page-url> <section-selector> <out-prefix>
 //
-// <insert-after-element-id> may also be a CSS selector (anything starting with
-// '#', '.' or '[', or containing a space), and an optional 6th argument sets the
-// insertAdjacentHTML position (default 'afterend'). Use 'afterbegin' when the
-// section goes at the very start of the below block, e.g. Nabertherm:
+// Shared blocks (SHARED-BLOCKS.md): build the draft with tools/build_preview.py,
+// then add "before" as a 6th argument to put it where the theme section renders
+// it, directly above the section that contains the given id:
+//   node preview_shot.js <page-url> '.sp-compare' preview draft.html abz_below_richtxt_id before
+//
+// The 5th argument may also be a CSS selector (anything starting with '#', '.'
+// or '[', or containing a space), and the 6th may be any insertAdjacentHTML
+// position ('beforebegin', 'afterbegin', 'beforeend', 'afterend'), e.g. the old
+// way of embedding at the very start of the below block:
 //   node preview_shot.js <url> '#sp-nabertherm-compare' preview draft.html \
 //     '#abz_below_richtxt_id .rich-text__text' afterbegin
 //
@@ -21,7 +26,7 @@
 const { chromium, devices } = require('playwright');
 const fs = require('fs');
 
-const [url, selector, outPrefix, draftFile, afterId, position = 'afterend'] = process.argv.slice(2);
+const [url, selector, outPrefix, draftFile, afterId, where] = process.argv.slice(2);
 if (!url || !selector || !outPrefix) {
   console.error('usage: node preview_shot.js <url> <selector> <out-prefix> [draft.html insert-after-id]');
   process.exit(2);
@@ -41,13 +46,14 @@ const draft = draftFile ? fs.readFileSync(draftFile, 'utf8') : null;
     await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
     await page.waitForTimeout(4000);
     if (draft) {
-      const ok = await page.evaluate(([html, id, pos]) => {
+      const ok = await page.evaluate(([html, id, where]) => {
         const isSel = /^[#.\[]/.test(id) || id.includes(' ');
         const el = isSel ? document.querySelector(id) : document.getElementById(id);
         if (!el) return false;
-        el.insertAdjacentHTML(pos, html);
+        if (where === 'before') (el.closest('.shopify-section') || el).insertAdjacentHTML('beforebegin', html);
+        else el.insertAdjacentHTML(where || 'afterend', html);
         return true;
-      }, [draft, afterId, position]);
+      }, [draft, afterId, where]);
       if (!ok) throw new Error(`element ${afterId} not found on page`);
     }
     // Hide sticky headers, popups and chat bubbles so they don't cover the shot.
