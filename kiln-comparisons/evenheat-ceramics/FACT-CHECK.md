@@ -1,6 +1,13 @@
 # Evenheat ceramic kilns: fact-check
 
-**Status (2026-11-19): block drafted and previewed, waiting for the go-ahead to publish. Store-data errors below were fixed the same day (see note).**
+**Status: live since 2026-11-19 06:33 UTC.** Entry `evenheat-ceramic` (`gid://shopify/Metaobject/685607649651`); the page's
+`custom.comparison_blocks` = [`evenheat-ceramic`, `kiln-compare-cta` (`gid://shopify/Metaobject/685569474931`)].
+The top description's "Learn more" link now points to `#evenheat-ceramic` (it was `#EvenheatCeramicsKilns-guide`); before/after copies:
+`../evenheat-store-fixes/fixed_2026-11-19/collection_evenheat-ceramics-kilns.description.html` and
+`collection_description_after_2026-11-19.html`. Verified on the live page with `tools/verify_live.py`: the shared
+styles, `blocks/evenheat-ceramic.html` and `kiln-compare-cta` render exactly, in that order, directly above the
+below-grid text (whose value is unchanged), with the same left/right edges (42/1238 px desktop, 18/372 px phone) and
+no sideways scroll. All links in the block return 200. Store-data errors below were fixed the same day (see note).
 
 Page: https://www.sheffield-pottery.com/collections/evenheat-ceramics-kilns
 Published as shared blocks (see `../SHARED-BLOCKS.md`): entry `evenheat-ceramic`

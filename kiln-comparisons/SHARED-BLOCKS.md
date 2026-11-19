@@ -238,7 +238,9 @@ Done:
 
 Not done:
 - Other brands: L&L, Cone Art and Nabertherm have entries in progress. Paragon,
-  Olympic and Evenheat still have drafts. Skutt, Skutt glass, Amaco and
+  Olympic still has drafts. Evenheat is live on blocks (`evenheat-ceramic` on
+  `evenheat-ceramics-kilns`, `evenheat-glass` on `evenheat-glass-kilns`, each + `kiln-compare-cta`;
+  2026-11-19 06:33 UTC). Skutt, Skutt glass, Amaco and
   Nabertherm are still embedded the old way until each one moves. L&L is being drafted in its own chat
   (`ll/`, branch `claude/zealous-ptolemy-711aho`).
 - Skutt and any other brands published the old way can move over afterwards.
