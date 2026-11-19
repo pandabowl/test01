@@ -105,3 +105,32 @@ configuration they want.
   (theme-level, needs a theme code change). Shopify's storefront hCaptcha covers this form, so
   it can't be test-submitted from the cloud sandbox (hCaptcha hosts are blocked there); the
   user tests it from a browser.
+
+## Old spec image removed (2026-11-19, at the user's request)
+
+The below text (`custom.abz_collection_below_descrption`) ended with an older Laguna
+spec table image (`Laguna-gas-kiln-specs_f484ae11-...jpg`). Its last paragraph
+(only that `<p><img ...></p>`) was removed with `metafieldsSet` + `compareDigest`; the
+rest of the text is unchanged. Backup: `backup_abz_collection_below_descrption_before_2026-11-19.html`
+(proved exact against the live page first); new value:
+`live_abz_collection_below_descrption_2026-11-19.html` (exact match on the live page).
+The image file itself was not deleted from Shopify Files.
+
+How the image compared with Laguna's current published volumes:
+
+| Model | Image: stacking vol. | Image: gross interior | Image: stacking area | Image: BTU/hr / burners | Laguna now: inner volume |
+|---|---|---|---|---|---|
+| LE-200-4 | 4.3 | 7.9 | 16x16x29 | 79,000 / 4 | not offered |
+| LE-200-9 | 10.0 | 16.3 | 24x24x30 | 163,000 / 6 | 9.2 |
+| LE-200-12 | 12.7 | 20.65 | 24x24x38 | 206,500 / 6 | 12 |
+| LE-200-18 | 19.8 | 30.9 | 30x30x38 | 309,000 / 8 | 18 |
+| LE-200-24 | 25.0 | 40.1 | 32x32x42.3 | 401,000 / 8 | 23.9 |
+| LE-200-40 | 40.7 | 54.1 | 36x36x54 | 541,000 / 10 | 40 |
+| LE-200-24C (car) | 25.0 | 40.1 | 32x32x42.3 | 401,000 / 8 | not offered |
+| LE-200-40C (car) | 40.7 | 54.1 | 36x36x54 | 541,000 / 10 | 40 |
+
+Laguna's current figures sit 2-9% below the image's stacking volumes and far below its
+gross interior volumes. BTU, burners, stacking dimensions and weights can't be checked
+against anything Laguna publishes now. The text that remains still says "7.9 to over 54
+cubic feet" (the image's LE-200-4 and LE-200-40 gross figures), in both the top
+description and the below text.
