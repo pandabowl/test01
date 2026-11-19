@@ -80,6 +80,11 @@ What it had wrong:
 | 2327D SQ | 8 cu ft | **8.4** |
 | (missing) | no 1818D or 4222D rows | both are current models |
 
+The same block's text "The kiln capacity ranges from 3.3 up to 16.5 cubic feet"
+was **fixed 2026-11-19 at the user's request** to "0.57 up to 16.5" (119D to
+4227D, Cone Art's figures). The `live_…_2026-11-19.html` file in this folder is
+the current value.
+
 `tucker-s-cone-art-kilns` FAQ text: "a floor element on most models" (the
 price list says all models); "roughly 30% lower electricity use" (the catalog
 says 32%).

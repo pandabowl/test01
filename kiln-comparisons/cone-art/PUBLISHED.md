@@ -62,3 +62,19 @@ checked against the live page before the edit.) After the edit:
 blocks on both pages; each page now has only one table (the new block). The
 packages page spec image was left as is (it's correct and that page has no
 comparison block).
+
+## Capacity sentences fixed (2026-11-19 06:36 UTC, user's request)
+
+- `cone-art-cone-10-double-wall-automatic-electric-kilns`, below text: "ranges
+  from 3.3 up to 16.5 cubic feet" → "0.57 up to 16.5" (metafieldsSet with
+  compareDigest).
+- `cone-art-glass-fusing-kilns`, below text (metafieldsSet with compareDigest)
+  and top description (`collectionUpdate`, `descriptionHtml`; backup
+  `../cone-art-glass/backup_descriptionHtml_…_before_2026-11-19.html`, checked
+  exact against the live page first): "ranges from 0.69 up to 8.25 cubic feet"
+  → "ranges from under 1 cubic foot up to 8.25 cubic feet".
+
+`verify_live.py` after the edit: exact matches for all three new values and for
+the Cone Art blocks on both pages; no old figures left on either page. The
+`live_…_2026-11-19.html` files in `../cone-art-pottery/` and `../cone-art-glass/`
+hold the current values.

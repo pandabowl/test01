@@ -57,5 +57,8 @@ optional on the 23 and 28 series and now included on the 42 series.
   swapped on all ten 240/208V models (e.g. 1809G shows 32 | 28; Cone Art says
   28 | 32, and 6.7 kW / 240V = 28 A). It also lists 1 section for every model,
   which matches the newer price list.
-- Same page, text: "capacity ranges from 0.69 up to 8.25 cubic feet" (Cone Art's
-  smallest published figure is 0.9, for the 115G SQ; see the 117G note above).
+- Same page, text: "capacity ranges from 0.69 up to 8.25 cubic feet", in both the
+  top description and the below-grid text. **Fixed 2026-11-19 at the user's
+  request** to "ranges from under 1 cubic foot up to 8.25 cubic feet", which
+  holds whichever 117G figure is right (115G SQ = 0.9; 117G = 1 per Cone Art or
+  about 0.6 by its dimensions). Backups and new values are in this folder.
