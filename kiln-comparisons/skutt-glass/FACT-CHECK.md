@@ -20,6 +20,31 @@ There are two "Skutt Glass Kilns" collections:
 
 Both are in the sitemap, and each has a self-referencing canonical tag.
 
+**Decision (user, 2026-11-19):** use `skutt-glass-kilns`, point the navigation at it, and
+hide `-1` (and the obsolete Scarab collection) with redirects. See "Changes made" below.
+
+## Changes made (2026-11-19)
+
+| What | Before | After | Backup |
+|---|---|---|---|
+| `custom.abz_collection_below_descrption` on `skutt-glass-kilns` | old guide only (digest `486d969f…`) | comparison inserted after `<h3 id="SkuttGlass-guide">` (digest `7064ff7a…`), verified byte for byte on the live page | `backup_abz_collection_below_descrption_before_2026-11-19.html` |
+| Menu `main-menu-draft-nav-fix` (**the menu the live theme shows**, desktop + mobile drawer) | Kilns › Shop by Type › Glass Kilns → `/collections/skutt-glass-kilns-1` | → `/collections/skutt-glass-kilns` (diffed: 1 change, 174 items intact) | `backup_menu_main-menu-draft-nav-fix_before_2026-11-19.json` |
+| Menu `main-menu-new` (not shown on the site) | same item → `-1` | → `skutt-glass-kilns` (diffed: 1 change, 173 items intact) | `backup_menu_main-menu-new_before_2026-11-19.json` |
+| Quick-link metaobject `quick_link_object/skutt-glass-kilns` (Skutt Kilns page chip) | `…/collections/skutt-glass-kilns-1` | `…/collections/skutt-glass-kilns` | (one field) |
+| New redirect | – | `/collections/skutt-glass-kilns-1` → `/collections/skutt-glass-kilns` | – |
+| New redirect | – | `/collections/skutt-scarb-lampworking-kilns` → `/collections/skutt-glass-kilns` | – |
+| Redirect `/collections/skutt-scarab-lampworking-glass-kilns` | → `/collections/skutt-scarb-lampworking-kilns` | → `/collections/skutt-glass-kilns` | – |
+| Redirect `/skutt-scarb-lampworking-kilns-s/812.htm` | → `/collections/skutt-scarb-lampworking-kilns` | → `/collections/skutt-glass-kilns` | – |
+
+**Not done (blocked):** unpublishing `skutt-glass-kilns-1` and `skutt-scarb-lampworking-kilns`
+from the Online Store. The Shopify connector refuses `publishableUnpublish` by policy.
+Do it in Shopify admin (collection → Sales channels → uncheck Online Store). Until then
+both pages still load, because Shopify only applies a redirect once the path stops resolving.
+
+Left alone: `main-menu-1` (the old 291-item menu, not shown on the site) still has
+Kilns › Skutt Kilns › Skutt Glass Kilns → `-1`; it appears only in the Qikify navigator's
+link-list data and will follow the redirect.
+
 ## Sources (read 2026-11-19)
 
 - Skutt *Glass Kiln Catalog* (Rev. 3/20/2018; file dated Jan 2021):
@@ -84,6 +109,7 @@ Other things noticed:
 
 - **FireBox 8 GMLT**: Skutt's site no longer lists a GMLT version (current: FireBox 8 MTS). Worth checking with Skutt that it can still be ordered.
 - **Skutt GM1014 Glass Kiln Package**: ACTIVE but not published to the Online Store, so it isn't linked.
-- **Scarab**: Skutt discontinued the Scarab line in December 2025. `skutt-scarb-lampworking-kilns` holds only 3 archived products (an empty page), and both glass collections still contain the archived Scarabs.
+- **Scarab**: Skutt discontinued the Scarab line in December 2025. `skutt-scarb-lampworking-kilns` holds only 3 archived products (an empty page); it now has a redirect to `skutt-glass-kilns` and is waiting to be unpublished (see above). Both glass collections still contain the archived Scarabs (not shown on the storefront).
+- The Skutt Kilns page text links "flame-working" to `/collections/skutt-scarab-lampworking-glass-kilns`, which now redirects to `skutt-glass-kilns`.
 - The existing below-products text still has a "lead times may be up to 18 weeks" notice. Left as is.
 - The GM814's URL handle is `skutt-kilns-glass-fusing-kiln-furniture-kit-skgm814` (says "furniture kit"). Changing it would need a redirect.

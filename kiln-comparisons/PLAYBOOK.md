@@ -142,7 +142,21 @@ problems you found, and wait for their go-ahead.
    `key: "abz_collection_below_descrption"`, `type: "multi_line_text_field"`,
    the full new value, and **`compareDigest`** (so Shopify refuses the write if
    someone changed it in the meantime). The value has to be typed out in full in
-   the mutation; step 7 catches any transcription mistake.
+   the mutation; step 7 catches any transcription mistake. **Pass the input as a
+   GraphQL variable** (`mutation($mf: [MetafieldsSetInput!]!)`): the GraphQL
+   document itself is capped at 16,384 characters, and a ~20 KB value inline is refused.
+
+Navigation notes (learned on Skutt glass):
+- The menu the live theme shows is **`main-menu-draft-nav-fix`** ("Main menu - DRAFT nav
+  fix"), not `main-menu-new` or `main-menu-1`. Confirm by grepping the live home page for a
+  label only one menu has (e.g. "Raw Materials Dictionary").
+- `menuUpdate` replaces the whole item tree. Back the menu up to a file (alias trick),
+  generate the input from it with one change, send it as variables, then re-read and diff:
+  exactly one difference expected.
+- Collection-page "chips" come from `custom.quick_links` → `quick_link_object` metaobjects
+  (`metaobjectUpdate` on the `url` field).
+- `publishableUnpublish` is blocked by the Shopify connector; ask the user to unpublish in
+  admin. URL redirects only fire once the collection stops resolving.
 
 ## 7. Verify
 
@@ -161,7 +175,7 @@ and `FACT-CHECK.md` in this folder, commit, and push.
 | Brand line | Collection handle(s) | Manufacturer site (confirm) | Status |
 |---|---|---|---|
 | Skutt pottery | `skutt-ceramic-kilns` | skutt.com | **Done** (live 2026-11-18, corrected 2026-11-19) |
-| Skutt glass | `skutt-glass-kilns` (30), `skutt-glass-kilns-1` (14), `skutt-scarb-lampworking-kilns` | skutt.com — catalog: https://skutt.com/skutt-resources/catalogs/glass-kilns/ | Next |
+| Skutt glass | `skutt-glass-kilns` (landing page); `skutt-glass-kilns-1` and `skutt-scarb-lampworking-kilns` redirect to it (unpublish pending in admin) | skutt.com — catalog: https://skutt.com/images/Glass-Kiln-Catalog.pdf + model pages | **Done** (live 2026-11-19); see `skutt-glass/` |
 | L&L | `l-l-kilns` + series (`l-l-easy-fire-kilns`, `l-l-jupiter-series-kilns`, `l-l-equad-pro-production-kiln`, …) | hotkilns.com | To do |
 | Paragon | `paragon-kilns`, `paragon-pottery-and-ceramics-kilns`, `paragon-glass-kilns` | paragonweb.com | To do |
 | Olympic | `olympic-kilns` + series (`olympic-multi-sided-electric-kilns`, `olympic-fl-series-front-loading-commercial-kilns`, …) | greatkilns.com | To do |

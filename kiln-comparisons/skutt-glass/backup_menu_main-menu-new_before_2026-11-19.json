@@ -1,0 +1,1602 @@
+{
+ "id": "gid://shopify/Menu/308666138995",
+ "handle": "main-menu-new",
+ "title": "Main menu-new",
+ "items": [
+  {
+   "id": "gid://shopify/MenuItem/765280846195",
+   "title": "Clay",
+   "type": "HTTP",
+   "url": "https://www.sheffield-pottery.com/pages/clay-landing-page",
+   "resourceId": null,
+   "tags": [],
+   "items": []
+  },
+  {
+   "id": "gid://shopify/MenuItem/765281173875",
+   "title": "Wheels",
+   "type": "COLLECTION",
+   "url": "/collections/pottery-wheels-sale",
+   "resourceId": "gid://shopify/Collection/439634952514",
+   "tags": [],
+   "items": [
+    {
+     "id": "gid://shopify/MenuItem/813064225139",
+     "title": "Find Your Wheel",
+     "type": "PAGE",
+     "url": "/pages/find-your-wheel",
+     "resourceId": "gid://shopify/Page/715804213619",
+     "tags": [],
+     "items": []
+    },
+    {
+     "id": "gid://shopify/MenuItem/765281206643",
+     "title": "Pottery Wheel Type\t",
+     "type": "HTTP",
+     "url": "https://www.sheffield-pottery.com/collections/all-pottery-wheels",
+     "resourceId": null,
+     "tags": [],
+     "items": [
+      {
+       "id": "gid://shopify/MenuItem/765281239411",
+       "title": "Table Top Pottery Wheels",
+       "type": "COLLECTION",
+       "url": "/collections/table-top-portable-potters-wheels",
+       "resourceId": "gid://shopify/Collection/441034309954",
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765281272179",
+       "title": "Kick Pottery Wheels",
+       "type": "COLLECTION",
+       "url": "/collections/pottery-kick-wheels",
+       "resourceId": "gid://shopify/Collection/440939446594",
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765281304947",
+       "title": "Electric Pottery Wheels",
+       "type": "COLLECTION",
+       "url": "/collections/all-pottery-wheels/electric",
+       "resourceId": "gid://shopify/Collection/476891676994",
+       "tags": [
+        "electric"
+       ],
+       "items": []
+      }
+     ]
+    },
+    {
+     "id": "gid://shopify/MenuItem/765294707059",
+     "title": "In-Stock Pottery Wheels",
+     "type": "COLLECTION",
+     "url": "/collections/in-stock-potters-wheels",
+     "resourceId": "gid://shopify/Collection/441008947522",
+     "tags": [],
+     "items": []
+    },
+    {
+     "id": "gid://shopify/MenuItem/765281337715",
+     "title": "Shop By Brand",
+     "type": "HTTP",
+     "url": "https://www.sheffield-pottery.com/collections/all-pottery-wheels",
+     "resourceId": null,
+     "tags": [],
+     "items": [
+      {
+       "id": "gid://shopify/MenuItem/765281370483",
+       "title": "BTH",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/bth-baitaohui-pottery-wheels",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765281403251",
+       "title": "Amaco Brent",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/amaco-brent-potter-s-wheels",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765281436019",
+       "title": "Shimpo",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/shimpo-pottery-wheels",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765281468787",
+       "title": "Speedball",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/creative-industries-pottery-wheels",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765281501555",
+       "title": "Skutt",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/skutt-potters-wheels-thomas-stuart",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765281534323",
+       "title": "Pacifica by Laguna",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/laguna-pottery-wheels",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765281567091",
+       "title": "Soldner",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/soldner-potters-wheels",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765281599859",
+       "title": "Baileys",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/bailey-s-pottery-wheels",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765281632627",
+       "title": "Lockerbie",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/lockerbie",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      }
+     ]
+    },
+    {
+     "id": "gid://shopify/MenuItem/765281665395",
+     "title": "Pottery Wheel Accessories\t",
+     "type": "HTTP",
+     "url": "https://www.sheffield-pottery.com/collections/potters-wheel-accessories",
+     "resourceId": null,
+     "tags": [],
+     "items": [
+      {
+       "id": "gid://shopify/MenuItem/765281698163",
+       "title": "Aprons",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/pottery-aprons",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765281730931",
+       "title": "Bats and Pins",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/pottery-wheel-bats-and-pins",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765281763699",
+       "title": "Splash Pans",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/pottery-wheel-splash-pans",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/MenuItem/765281796467",
+   "title": "Kilns",
+   "type": "HTTP",
+   "url": "https://www.sheffield-pottery.com/collections/ceramic-kilns-and-glass-kilns",
+   "resourceId": null,
+   "tags": [],
+   "items": [
+    {
+     "id": "gid://shopify/MenuItem/813064192371",
+     "title": "Find Your Kiln",
+     "type": "PAGE",
+     "url": "/pages/find-your-kiln",
+     "resourceId": "gid://shopify/Page/715900420467",
+     "tags": [],
+     "items": []
+    },
+    {
+     "id": "gid://shopify/MenuItem/765281829235",
+     "title": "Shop by Type",
+     "type": "HTTP",
+     "url": "https://www.sheffield-pottery.com/collections/ceramic-kilns-and-glass-kilns",
+     "resourceId": null,
+     "tags": [],
+     "items": [
+      {
+       "id": "gid://shopify/MenuItem/765281862003",
+       "title": "Electric Kilns",
+       "type": "COLLECTION",
+       "url": "/collections/ceramic-kilns-and-glass-kilns/Electric-Kilns",
+       "resourceId": "gid://shopify/Collection/443858649410",
+       "tags": [
+        "Electric Kilns"
+       ],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765281894771",
+       "title": "Gas Kilns",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/gas-fired-kilns",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765281927539",
+       "title": "Raku Kilns",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/gas-and-electric-raku-kilns",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765281960307",
+       "title": "Glass Kilns",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/skutt-glass-kilns-1",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765281993075",
+       "title": "Dual Media Kilns",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/glass-and-ceramic-combination-kilns",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765282025843",
+       "title": "Small Test / PMC Kilns",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/small-kilns-test-kilns-and-pmc-kilns",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765282058611",
+       "title": "Heat-Treating Ovens",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/heat-treating-ovens-kilns-furnaces",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765282091379",
+       "title": "True Cone 10 Kilns",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/true-cone-10-electric-kilns",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765282124147",
+       "title": "Commercial / Industrial Furnaces",
+       "type": "COLLECTION",
+       "url": "/collections/fredrickson-front-loading-electric-kilns-1",
+       "resourceId": "gid://shopify/Collection/444755181890",
+       "tags": [],
+       "items": []
+      }
+     ]
+    },
+    {
+     "id": "gid://shopify/MenuItem/765282156915",
+     "title": "Shop by Brand",
+     "type": "HTTP",
+     "url": "https://www.sheffield-pottery.com/collections/ceramic-kilns-and-glass-kilns",
+     "resourceId": null,
+     "tags": [],
+     "items": [
+      {
+       "id": "gid://shopify/MenuItem/765282189683",
+       "title": "Skutt",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/skutt-kilns",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765282222451",
+       "title": "L&L",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/l-l-kilns",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765282255219",
+       "title": "Paragon",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/paragon-kilns",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765282287987",
+       "title": "Olympic",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/olympic-kilns",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765282320755",
+       "title": "Evenheat",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/evenheat-kilns",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765282353523",
+       "title": "Fredrickson",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/fredrickson-front-loading-electric-kilns",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765282386291",
+       "title": "Laguna",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/laguna-front-loading-gas-kilns",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765282419059",
+       "title": "AMACO",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/amaco-kilns",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765282451827",
+       "title": "Cone Art",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/tucker-s-cone-art-kilns",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765282484595",
+       "title": "Nabertherm",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/nabertherm-kilns",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765282517363",
+       "title": "Vitrigraph",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/vitrigraph-kilns-for-glass",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      }
+     ]
+    },
+    {
+     "id": "gid://shopify/MenuItem/765282550131",
+     "title": "Complete Kiln Package Deals",
+     "type": "HTTP",
+     "url": "https://www.sheffield-pottery.com/collections/kiln-package-deals",
+     "resourceId": null,
+     "tags": [],
+     "items": []
+    },
+    {
+     "id": "gid://shopify/MenuItem/765282582899",
+     "title": "Resources",
+     "type": "HTTP",
+     "url": "https://www.sheffield-pottery.com/blogs/ceramic-arts-blog/kiln-buying-guide",
+     "resourceId": null,
+     "tags": [],
+     "items": [
+      {
+       "id": "gid://shopify/MenuItem/765282615667",
+       "title": "Kiln Buyers Guide",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/blogs/ceramic-arts-blog/kiln-buying-guide",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765282648435",
+       "title": "Equipment Ordering Checklist",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/pages/equipment-ordering-checklist",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/MenuItem/765282681203",
+   "title": "Glazes",
+   "type": "HTTP",
+   "url": "https://www.sheffield-pottery.com/collections/pottery-glazes",
+   "resourceId": null,
+   "tags": [],
+   "items": [
+    {
+     "id": "gid://shopify/MenuItem/813064454515",
+     "title": "Find Your Glaze",
+     "type": "PAGE",
+     "url": "/pages/find-your-glaze",
+     "resourceId": "gid://shopify/Page/715900649843",
+     "tags": [],
+     "items": []
+    },
+    {
+     "id": "gid://shopify/MenuItem/765282713971",
+     "title": "Shop By Brand",
+     "type": "HTTP",
+     "url": "https://www.sheffield-pottery.com/collections/pottery-glazes",
+     "resourceId": null,
+     "tags": [],
+     "items": [
+      {
+       "id": "gid://shopify/MenuItem/765282746739",
+       "title": "Amaco",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/amaco-glazes",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765282779507",
+       "title": "Coyote",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/coyote-glazes",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765282812275",
+       "title": "Clayscapes",
+       "type": "COLLECTION",
+       "url": "/collections/clayscapes-pottery-cone-6-glazes",
+       "resourceId": "gid://shopify/Collection/439712121154",
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765282845043",
+       "title": "Mayco",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/mayco-glaze",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765282976115",
+       "title": "Spectrum",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/spectrum-glazes",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765283008883",
+       "title": "Opulence",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/opulence-glazes",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/769173324147",
+       "title": "Ritual Glaze : Textural Mid-Fire Pottery Glazes",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/ritual-glaze-textural-mid-fire-pottery-glazes",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/782958166387",
+       "title": "Speedball",
+       "type": "COLLECTION",
+       "url": "/collections/speedball-arts/Underglazes",
+       "resourceId": "gid://shopify/Collection/467677544770",
+       "tags": [
+        "Underglazes"
+       ],
+       "items": []
+      }
+     ]
+    },
+    {
+     "id": "gid://shopify/MenuItem/765283041651",
+     "title": "Firing Range",
+     "type": "HTTP",
+     "url": "https://www.sheffield-pottery.com/collections/pottery-glazes",
+     "resourceId": null,
+     "tags": [],
+     "items": [
+      {
+       "id": "gid://shopify/MenuItem/765283074419",
+       "title": "Low Fire",
+       "type": "COLLECTION",
+       "url": "/collections/low-fire-glazes",
+       "resourceId": "gid://shopify/Collection/460745802050",
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765283107187",
+       "title": "Mid Fire",
+       "type": "COLLECTION",
+       "url": "/collections/mid-fire-glazes",
+       "resourceId": "gid://shopify/Collection/708845076851",
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765283139955",
+       "title": "High Fire",
+       "type": "COLLECTION",
+       "url": "/collections/spectrum-high-fire-glazes",
+       "resourceId": "gid://shopify/Collection/440042881346",
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765283172723",
+       "title": "Raku",
+       "type": "COLLECTION",
+       "url": "/collections/raku-glazes",
+       "resourceId": "gid://shopify/Collection/708845109619",
+       "tags": [],
+       "items": []
+      }
+     ]
+    },
+    {
+     "id": "gid://shopify/MenuItem/765283205491",
+     "title": "Underglazes and Speciality\t",
+     "type": "HTTP",
+     "url": "https://www.sheffield-pottery.com/collections/underglaze",
+     "resourceId": null,
+     "tags": [],
+     "items": [
+      {
+       "id": "gid://shopify/MenuItem/765283238259",
+       "title": "Underglazes",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/underglaze",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765283271027",
+       "title": "Pen Refills",
+       "type": "HTTP",
+       "url": "https://sheffield-pottery.com/collections/underglaze-pen-refills",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765283303795",
+       "title": "Minnesota Potter’s Pens",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/minnesota-potters-pens-pads-and-stamps",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765283336563",
+       "title": "Terra Sigillata",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/terra-sigillata",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/MenuItem/765283369331",
+   "title": "Tools",
+   "type": "HTTP",
+   "url": "https://www.sheffield-pottery.com/collections/tools",
+   "resourceId": null,
+   "tags": [],
+   "items": [
+    {
+     "id": "gid://shopify/MenuItem/813067796851",
+     "title": "Find Your Tool",
+     "type": "PAGE",
+     "url": "/pages/find-your-tool",
+     "resourceId": "gid://shopify/Page/715901108595",
+     "tags": [],
+     "items": []
+    },
+    {
+     "id": "gid://shopify/MenuItem/765283402099",
+     "title": "Hand Tools",
+     "type": "HTTP",
+     "url": "https://www.sheffield-pottery.com/collections/tools",
+     "resourceId": null,
+     "tags": [],
+     "items": [
+      {
+       "id": "gid://shopify/MenuItem/765283434867",
+       "title": "Rolling Pins",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/rolling-pins-and-wooden-paddles",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765283467635",
+       "title": "Wooden Paddles",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/wooden-paddles-for-clay",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765283500403",
+       "title": "Wire Clay Cutters",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/wire-clay-cutters",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765283533171",
+       "title": "Scoring Tools",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/scoring-tools",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765283565939",
+       "title": "Trimming Tools",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/trimming-tools",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765283598707",
+       "title": "Potters Knives",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/potters-knives",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765283631475",
+       "title": "Throwing Tools",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/throwing-tools",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765283664243",
+       "title": "Calipers",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/calipers",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765283697011",
+       "title": "Throwing Sticks",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/throwing-sticks",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765283729779",
+       "title": "Sculpting Tools",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/sculpting-tools",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765283762547",
+       "title": "Hole Punch",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/hole-punch",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765283795315",
+       "title": "Clean-up & Finishing Tools",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/clean-up-and-finishing-tools",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      }
+     ]
+    },
+    {
+     "id": "gid://shopify/MenuItem/765283828083",
+     "title": "Surface & Texture Tools\t",
+     "type": "HTTP",
+     "url": "https://www.sheffield-pottery.com/collections/slab-mats-texture-mats-and-molds",
+     "resourceId": null,
+     "tags": [],
+     "items": [
+      {
+       "id": "gid://shopify/MenuItem/765283860851",
+       "title": "Texture Tools (General)",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/slab-mats-texture-mats-and-molds",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765283893619",
+       "title": "Texture Mats",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/texture-pads",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765283926387",
+       "title": "Stamps",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/stamps",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765283959155",
+       "title": "MKM Pottery Tools & Texture Stamps",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/mkm-pottery-tools-and-texture-stamps-all-free-shipping",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      }
+     ]
+    },
+    {
+     "id": "gid://shopify/MenuItem/765283991923",
+     "title": "Shaping & Forming",
+     "type": "HTTP",
+     "url": "https://www.sheffield-pottery.com/collections/tools",
+     "resourceId": null,
+     "tags": [],
+     "items": [
+      {
+       "id": "gid://shopify/MenuItem/765284024691",
+       "title": "Potter’s Ribs",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/potters-ribs",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765284057459",
+       "title": "Slip Trailing Bottles & Underglaze Applicators",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/slip-trailing-bottles-underglaze-applicators",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765284090227",
+       "title": "Slabmat",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/slabmat",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765284122995",
+       "title": "Drape Molds (GR Pottery Forms)",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/gr-pottery-forms-drape-molds",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765284155763",
+       "title": "Shape Cutter Sets",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/shape-cutter-sets",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      }
+     ]
+    },
+    {
+     "id": "gid://shopify/MenuItem/765284188531",
+     "title": "Carving, Cutting & Trimming\t",
+     "type": "HTTP",
+     "url": "https://www.sheffield-pottery.com/collections/tools",
+     "resourceId": null,
+     "tags": [],
+     "items": [
+      {
+       "id": "gid://shopify/MenuItem/765284221299",
+       "title": "Tile Cutters & Slab Tools",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/tile-cutters",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765284254067",
+       "title": "Tile Cutters (Additional)",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/tile-cutters-1",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      }
+     ]
+    },
+    {
+     "id": "gid://shopify/MenuItem/765284286835",
+     "title": "Brushes, Sponges & Applicators\t",
+     "type": "HTTP",
+     "url": "https://www.sheffield-pottery.com/collections/tools",
+     "resourceId": null,
+     "tags": [],
+     "items": [
+      {
+       "id": "gid://shopify/MenuItem/765284319603",
+       "title": "Brushes",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/paint-and-glaze-artist-brushes",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765284352371",
+       "title": "Sponges",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/sponges",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      }
+     ]
+    },
+    {
+     "id": "gid://shopify/MenuItem/765284385139",
+     "title": "Glaze & Clay Measuring Tools\t",
+     "type": "HTTP",
+     "url": "https://www.sheffield-pottery.com/collections/tools",
+     "resourceId": null,
+     "tags": [],
+     "items": [
+      {
+       "id": "gid://shopify/MenuItem/765284417907",
+       "title": "Hydrometers",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/hydrometers",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765284450675",
+       "title": "Sieves",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/glaze-sieves",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      }
+     ]
+    },
+    {
+     "id": "gid://shopify/MenuItem/765284483443",
+     "title": "Specialty Tool Brands\t",
+     "type": "HTTP",
+     "url": "https://www.sheffield-pottery.com/collections/tools",
+     "resourceId": null,
+     "tags": [],
+     "items": [
+      {
+       "id": "gid://shopify/MenuItem/765284516211",
+       "title": "Sherrill MudTools",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/sherrill-mudtools",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765284548979",
+       "title": "WiziWig",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/wiziwig-tools-and-ribs",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765284581747",
+       "title": "Xiem Tools",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/xiem-pottery-tools",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/782786494835",
+       "title": "Garrity Tools",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/garrity-pottery-tools",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/786138956147",
+       "title": "Dirty Girls Tools",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/dirty-girls-pottery-tools",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      }
+     ]
+    },
+    {
+     "id": "gid://shopify/MenuItem/765284614515",
+     "title": "Other Tools & Accessories\t",
+     "type": "HTTP",
+     "url": "https://www.sheffield-pottery.com/collections/tools",
+     "resourceId": null,
+     "tags": [],
+     "items": [
+      {
+       "id": "gid://shopify/MenuItem/765284647283",
+       "title": "Banding Wheels",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/banding-wheels",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765284680051",
+       "title": "Tool Bags",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/tool-bags",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765284712819",
+       "title": "Artist Skincare & Cleaners",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/artist-skincare-cleaners",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765284745587",
+       "title": "Airbrushes & Sprayers",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/airbrushes-and-sprayers",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765284778355",
+       "title": "Potters Aprons",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/pottery-aprons",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765284811123",
+       "title": "Underglaze Pen Refills",
+       "type": "HTTP",
+       "url": "https://sheffield-pottery.com/collections/underglaze-pen-refills",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/MenuItem/765284843891",
+   "title": "Equipment",
+   "type": "HTTP",
+   "url": "https://www.sheffield-pottery.com/collections/slab-rollers-and-clay-extruders",
+   "resourceId": null,
+   "tags": [],
+   "items": [
+    {
+     "id": "gid://shopify/MenuItem/813093224819",
+     "title": "Find Your Equipment",
+     "type": "PAGE",
+     "url": "/pages/find-your-equipment",
+     "resourceId": "gid://shopify/Page/715907268979",
+     "tags": [],
+     "items": []
+    },
+    {
+     "id": "gid://shopify/MenuItem/765284876659",
+     "title": "Forming Equipment",
+     "type": "HTTP",
+     "url": "https://www.sheffield-pottery.com/collections/slab-rollers-and-clay-extruders",
+     "resourceId": null,
+     "tags": [],
+     "items": [
+      {
+       "id": "gid://shopify/MenuItem/765284909427",
+       "title": "Slab Rollers",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/slab-rollers",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765284942195",
+       "title": "Clay Extruders",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/clay-extruders",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765284974963",
+       "title": "3D Clay Printers (3D Potter)",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/3d-printers-for-clay-and-other-materials-by-3d-potter",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765285007731",
+       "title": "Fountain Glazer & Vacuum Hand",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/fountain-glazer-and-vacuum-hand",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      }
+     ]
+    },
+    {
+     "id": "gid://shopify/MenuItem/765285040499",
+     "title": "Mixing & Processing Equipment\t",
+     "type": "HTTP",
+     "url": "https://www.sheffield-pottery.com/collections/mixers-and-pugmills",
+     "resourceId": null,
+     "tags": [],
+     "items": [
+      {
+       "id": "gid://shopify/MenuItem/765285073267",
+       "title": "Mixers & Pugmills",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/mixers-and-pugmills",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765285106035",
+       "title": "— Peter Pugger",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/mixers-and-pugmills",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765285138803",
+       "title": "— Shimpo",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/mixers-and-pugmills",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765285171571",
+       "title": "— Soldner",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/mixers-and-pugmills",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765285204339",
+       "title": "— Bluebird",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/mixers-and-pugmills",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765285237107",
+       "title": "Ball Mills",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/ball-mills",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      }
+     ]
+    },
+    {
+     "id": "gid://shopify/MenuItem/765285269875",
+     "title": "More in Equipment",
+     "type": "HTTP",
+     "url": "https://www.sheffield-pottery.com/collections/all-equipment",
+     "resourceId": null,
+     "tags": [],
+     "items": [
+      {
+       "id": "gid://shopify/MenuItem/770068742515",
+       "title": "Austin Air Systems",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/austin-air-systems",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765285302643",
+       "title": "Spray Booths",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/spray-booths",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765285335411",
+       "title": "Scales & Balances (Adam)",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/adam-equipment-scales",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765285368179",
+       "title": "Ceramic Studio Safety Equipment",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/ceramic-studio-safety-equipment",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765285400947",
+       "title": "HEPA Vacuums for Clay Studios",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/hepa-vacuums-for-clay-studios",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765285433715",
+       "title": "Tiger-Vac HEPA Vacuums (Silica Dust)",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/tiger-vac-hepa-vacuums-for-silica-dust",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765285466483",
+       "title": "Lehman Slip Casting Equipment",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/lehman-slip-casting-equipment",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765285499251",
+       "title": "Mold Straps & Rubber Bands",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/slip-casting-mold-straps-and-rubber-bands",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/MenuItem/765285532019",
+   "title": "Raw Materials",
+   "type": "HTTP",
+   "url": "https://www.sheffield-pottery.com/collections/raw-materials-and-ceramic-chemicals",
+   "resourceId": null,
+   "tags": [],
+   "items": [
+    {
+     "id": "gid://shopify/MenuItem/814132265331",
+     "title": "Find Your Stain",
+     "type": "PAGE",
+     "url": "/pages/find-your-mason-stain",
+     "resourceId": "gid://shopify/Page/716151947635",
+     "tags": [],
+     "items": []
+    },
+    {
+     "id": "gid://shopify/MenuItem/765285761395",
+     "title": "Ceramic Chemicals & Raw Materials\t",
+     "type": "HTTP",
+     "url": "https://www.sheffield-pottery.com/collections/raw-materials-and-ceramic-chemicals",
+     "resourceId": null,
+     "tags": [],
+     "items": [
+      {
+       "id": "gid://shopify/MenuItem/765285794163",
+       "title": "Ceramic Chemicals & Raw Materials",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/raw-materials-and-ceramic-chemicals",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      }
+     ]
+    },
+    {
+     "id": "gid://shopify/MenuItem/765285892467",
+     "title": "Plasters",
+     "type": "HTTP",
+     "url": "https://www.sheffield-pottery.com/collections/us-gypsum-usg-plaster-information",
+     "resourceId": null,
+     "tags": [],
+     "items": []
+    },
+    {
+     "id": "gid://shopify/MenuItem/765285564787",
+     "title": "Clays and Slips",
+     "type": "HTTP",
+     "url": "https://www.sheffield-pottery.com/collections/raw-materials-and-ceramic-chemicals",
+     "resourceId": null,
+     "tags": [],
+     "items": [
+      {
+       "id": "gid://shopify/MenuItem/765285597555",
+       "title": "Construction Clay",
+       "type": "COLLECTION",
+       "url": "/collections/construction-clay-baseball-field-clay-horse-stall-clay",
+       "resourceId": "gid://shopify/Collection/441796460866",
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765285630323",
+       "title": "Casting Slips",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/casting-slips",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      }
+     ]
+    },
+    {
+     "id": "gid://shopify/MenuItem/765285663091",
+     "title": "Stains & Colorants",
+     "type": "HTTP",
+     "url": "https://www.sheffield-pottery.com/collections/mason-stains",
+     "resourceId": null,
+     "tags": [],
+     "items": [
+      {
+       "id": "gid://shopify/MenuItem/765285695859",
+       "title": "Mason Stains",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/mason-stains",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765285728627",
+       "title": "Dry Stains & Colorants (merged with 2200 Series)",
+       "type": "COLLECTION",
+       "url": "/collections/raw-materials-dry-clay-chemicals-plaster-1",
+       "resourceId": "gid://shopify/Collection/439634854210",
+       "tags": [],
+       "items": []
+      }
+     ]
+    },
+    {
+     "id": "gid://shopify/MenuItem/765285826931",
+     "title": "Specialty Materials",
+     "type": "HTTP",
+     "url": "https://www.sheffield-pottery.com/collections/raw-materials-and-ceramic-chemicals",
+     "resourceId": null,
+     "tags": [],
+     "items": [
+      {
+       "id": "gid://shopify/MenuItem/765285859699",
+       "title": "Castable Ceramic Mortars",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/castable-mortars",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      },
+      {
+       "id": "gid://shopify/MenuItem/765285925235",
+       "title": "Wax Resists",
+       "type": "HTTP",
+       "url": "https://www.sheffield-pottery.com/collections/wax-resists",
+       "resourceId": null,
+       "tags": [],
+       "items": []
+      }
+     ]
+    },
+    {
+     "id": "gid://shopify/MenuItem/765285958003",
+     "title": "Complete Raw Materials & Pricing Guide\t",
+     "type": "PAGE",
+     "url": "/pages/complete-raw-materials-list-and-pricing-at-a-glance",
+     "resourceId": "gid://shopify/Page/137682846018",
+     "tags": [],
+     "items": []
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/MenuItem/765285990771",
+   "title": "Refractories",
+   "type": "HTTP",
+   "url": "https://www.sheffield-pottery.com/collections/bricks-refractory-mortar-and-kaowool",
+   "resourceId": null,
+   "tags": [],
+   "items": [
+    {
+     "id": "gid://shopify/MenuItem/765286023539",
+     "title": "High Temperature Caulk\t",
+     "type": "HTTP",
+     "url": "https://www.sheffield-pottery.com/collections/high-temperature-caulk",
+     "resourceId": null,
+     "tags": [],
+     "items": []
+    },
+    {
+     "id": "gid://shopify/MenuItem/765286056307",
+     "title": "Kaowool Blankets, Board and Rigidizer\t",
+     "type": "HTTP",
+     "url": "https://www.sheffield-pottery.com/collections/bricks-refractories-and-kaowool",
+     "resourceId": null,
+     "tags": [],
+     "items": []
+    },
+    {
+     "id": "gid://shopify/MenuItem/765286089075",
+     "title": "Kiln Building Refractory Bricks / Insulating Firebrick\t",
+     "type": "HTTP",
+     "url": "https://www.sheffield-pottery.com/collections/kiln-building-refractory-bricks",
+     "resourceId": null,
+     "tags": [],
+     "items": []
+    },
+    {
+     "id": "gid://shopify/MenuItem/765286121843",
+     "title": "Kiln Cement and Castable Refractory and Mortars\t",
+     "type": "HTTP",
+     "url": "https://www.sheffield-pottery.com/collections/kiln-cement-and-castable-refractory-mortars",
+     "resourceId": null,
+     "tags": [],
+     "items": []
+    },
+    {
+     "id": "gid://shopify/MenuItem/765286154611",
+     "title": "DIY Pizza Oven and Outdoor Bread Oven Materials\t",
+     "type": "HTTP",
+     "url": "https://www.sheffield-pottery.com/collections/pizza-and-bread-oven-materials",
+     "resourceId": null,
+     "tags": [],
+     "items": []
+    },
+    {
+     "id": "gid://shopify/MenuItem/765286187379",
+     "title": "Forge Building Materials\t",
+     "type": "HTTP",
+     "url": "https://www.sheffield-pottery.com/collections/diy-forge-building-materials",
+     "resourceId": null,
+     "tags": [],
+     "items": []
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/MenuItem/765286220147",
+   "title": "Furniture",
+   "type": "HTTP",
+   "url": "https://www.sheffield-pottery.com/collections/studio-furniture-and-equipment",
+   "resourceId": null,
+   "tags": [],
+   "items": [
+    {
+     "id": "gid://shopify/MenuItem/765286252915",
+     "title": "North Star Work Table",
+     "type": "HTTP",
+     "url": "https://www.sheffield-pottery.com/collections/north-star-equipment-ceramic-work-table",
+     "resourceId": null,
+     "tags": [],
+     "items": []
+    },
+    {
+     "id": "gid://shopify/MenuItem/765286285683",
+     "title": "VersaCab Ware Cart and Shelf Truck",
+     "type": "HTTP",
+     "url": "https://www.sheffield-pottery.com/collections/versacab-ware-cart-and-shelf-truck",
+     "resourceId": null,
+     "tags": [],
+     "items": []
+    },
+    {
+     "id": "gid://shopify/MenuItem/765286318451",
+     "title": "Wedging Tables",
+     "type": "HTTP",
+     "url": "https://www.sheffield-pottery.com/collections/wedging-tables",
+     "resourceId": null,
+     "tags": [],
+     "items": []
+    },
+    {
+     "id": "gid://shopify/MenuItem/765286351219",
+     "title": "Brent Studio Furniture",
+     "type": "HTTP",
+     "url": "https://www.sheffield-pottery.com/collections/brent-studio-furniture",
+     "resourceId": null,
+     "tags": [],
+     "items": []
+    },
+    {
+     "id": "gid://shopify/MenuItem/765286383987",
+     "title": "Debcor Studio Furniture",
+     "type": "HTTP",
+     "url": "https://www.sheffield-pottery.com/collections/debcor-ceramics-studio-furniture",
+     "resourceId": null,
+     "tags": [],
+     "items": []
+    },
+    {
+     "id": "gid://shopify/MenuItem/765286416755",
+     "title": "Sink Traps",
+     "type": "HTTP",
+     "url": "https://www.sheffield-pottery.com/collections/sink-traps",
+     "resourceId": null,
+     "tags": [],
+     "items": []
+    },
+    {
+     "id": "gid://shopify/MenuItem/765286449523",
+     "title": "Pottery Tables",
+     "type": "HTTP",
+     "url": "https://www.sheffield-pottery.com/collections/pottery-tables",
+     "resourceId": null,
+     "tags": [],
+     "items": []
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/MenuItem/765286482291",
+   "title": "Kiln Room",
+   "type": "HTTP",
+   "url": "https://www.sheffield-pottery.com/collections/kiln-shelves-posts-cones-and-kiln-firing-accessories",
+   "resourceId": null,
+   "tags": [],
+   "items": []
+  }
+ ]
+}
