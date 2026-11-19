@@ -85,13 +85,17 @@ Done:
 - `ll/FACT-CHECK.md` written (sources, L&L's own disagreements, store-data
   errors for the owner). All 10 blocks drafted in `ll/blocks/`; all 28 links
   return 200; local desktop/phone previews checked (no sideways scroll).
-- Shopify: block type `kiln_comparison_block` created; entry
-  `kiln-compare-cta` created.
+- Shopify: block type `kiln_comparison_block` created. Entries created (5 of
+  10): `kiln-compare-cta`, `kiln-compare-styles`, `ll-overview`,
+  `ll-easy-fire`, `ll-equad-pro`.
 
 Not done yet:
-1. Create the other 9 entries (`kiln-compare-styles` first). Check with
+1. Create the other 5 entries: `ll-efl`, `ll-school-master`,
+   `ll-jh-crystalline`, `ll-davinci`, `ll-test-kilns`. Pass each file's exact
+   text as a GraphQL variable (`json.dumps` of the file). Check with
    `metaobjects(type: "kiln_comparison_block")` before re-running a create:
-   a call that was cut off may or may not have run.
+   a call that was cut off may or may not have run. Later, verify each stored
+   `html` equals its file byte for byte.
 2. Create the collection metafield definition and set
    `custom.comparison_blocks` on: `l-l-kilns` (overview, all series blocks,
    CTA), and on each series page its block + CTA: `l-l-easy-fire-kilns`,
