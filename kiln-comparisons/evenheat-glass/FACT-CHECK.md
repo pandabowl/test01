@@ -1,6 +1,6 @@
 # Evenheat glass kilns: fact-check
 
-**Status (2026-11-19): drafted and previewed, waiting for the go-ahead to publish.**
+**Status (2026-11-19): section drafted and previewed, waiting for the go-ahead to publish. Store-data errors below were fixed the same day (see note).**
 
 Page: https://www.sheffield-pottery.com/collections/evenheat-glass-kilns
 Metafield: `custom.abz_collection_below_descrption` on collection
@@ -65,7 +65,17 @@ before the old `<h3 ... id="#abz_below_richtxt_id">` tagline. The top descriptio
   two of them) are labelled "5.44 square feet combined"; that's about 6.2 sq ft. The
   page shows shelf dimensions only, not square feet.
 
-## Errors in the store's data (not fixed; for the user)
+## Errors found in the store's data
+
+Fixed on 2026-11-19 at the user's request (details and backups in
+`../evenheat-store-fixes/README.md`): Studio Pro 14 plug and finder facts, V8 temperature,
+amps/watts and pot size (both listings), GTS 41 outside size, Studio Pro 41 shelf (description
+and finder note), GTS 18-13 watts, the GTS 18-13/GTS 23 "top and side" finder notes, the
+collection text (Studio Pro 15, Fishbone, V8 pot, controllers, "Eveheat"), the PMC page's
+top text, and the main page's 1800–2350°F. Still open (no Evenheat source, or out of scope):
+the Studio Pro 14/17 240V specs, Copper specs, older controller names and "top and side
+fire" sections inside product descriptions, the Studio Pro 28 "two sections" note, handles,
+and the DRAFT duplicate GTS 23.
 
 | Product / place | Field | Store says | Evenheat says |
 |---|---|---|---|

@@ -1,0 +1,344 @@
+{
+ "evenheat-hf-1210b-cone-10-kiln-evehf1210b": {
+  "eyebrow": {
+   "value": "Cone 10 · 240/208 V",
+   "compareDigest": "fce358b9250ad63c0965a9d932a072586613d3470f61ae915b2e282dbd9abe1f"
+  },
+  "note": {
+   "value": "A small 3 inch brick kiln for porcelain bisque that also fires china paint.",
+   "compareDigest": "a6db2cacdd18ff13c7b49ddd866d8db48d010b1778a7de2d050777886cd5d642"
+  },
+  "facts": {
+   "value": "Top-loading · 0.86 cu ft",
+   "compareDigest": "0624ade1526ec3996bb72303de0f571f05bcc49303ffc8068a93284ed6cdbb04"
+  },
+  "power": {
+   "value": "240 or 208 V",
+   "compareDigest": "f272b3e90095f7f714064d58a8cf0f59c0e485cab0d6376a067b60701dec4c5c"
+  }
+ },
+ "evenheat-rm-ii-1822-cone-8-kiln-everm1822": {
+  "eyebrow": {
+   "value": "Cone 8 · 240/208 V",
+   "compareDigest": "9ec1fde01fa109d6ad67ad274f2cc3831f933a657108fb01e0a19c4d354dc163"
+  },
+  "note": {
+   "value": "A cone 8 kiln sized for a home studio.",
+   "compareDigest": "983bf8f49021edd7c327cbc45d8a5024bdd2b12647533695baf13513c8aa18c3"
+  },
+  "facts": {
+   "value": "Top-loading · Small studio",
+   "compareDigest": "3eb7ed7da0552f86af10cb8e9d9c7c490abdcf797cf3a2eae36364942f4b8d39"
+  },
+  "power": {
+   "value": "240 or 208 V",
+   "compareDigest": "f272b3e90095f7f714064d58a8cf0f59c0e485cab0d6376a067b60701dec4c5c"
+  }
+ },
+ "evenheat-rm-ii-1210-120v-china-paininting-kiln-everm1210b": {
+  "eyebrow": {
+   "value": "Cone 8 · 240/208 V",
+   "compareDigest": "9ec1fde01fa109d6ad67ad274f2cc3831f933a657108fb01e0a19c4d354dc163"
+  },
+  "note": {
+   "value": "A small cone 8 kiln made for porcelain bisque and lower temperature china paint.",
+   "compareDigest": "7ed486216b9da18a433139ab0500d7d43d424c6f6f4669811e3f12f494383843"
+  },
+  "facts": {
+   "value": "Top-loading · 0.86 cu ft",
+   "compareDigest": "0624ade1526ec3996bb72303de0f571f05bcc49303ffc8068a93284ed6cdbb04"
+  },
+  "power": {
+   "value": "240 or 208 V",
+   "compareDigest": "f272b3e90095f7f714064d58a8cf0f59c0e485cab0d6376a067b60701dec4c5c"
+  }
+ },
+ "evenheat-rm-ii-2322-cone-8-kiln-everm2322": {
+  "eyebrow": {
+   "value": "Cone 8 · 240/208 V",
+   "compareDigest": "9ec1fde01fa109d6ad67ad274f2cc3831f933a657108fb01e0a19c4d354dc163"
+  },
+  "note": {
+   "value": "A 23.5 inch studio diameter with a load-friendly 22 inch depth, firing to cone 8.",
+   "compareDigest": "c3b7ba29656a7f5a7b8d0ab81d724b74fe3c62118738f87887670c452d2a9062"
+  },
+  "facts": {
+   "value": "Top-loading · 5.8 cu ft",
+   "compareDigest": "a7e3de42a1d48768a50a91068441e28efd53d6b96ed68e75fb0c0e40372515a6"
+  },
+  "power": {
+   "value": "240 or 208 V",
+   "compareDigest": "f272b3e90095f7f714064d58a8cf0f59c0e485cab0d6376a067b60701dec4c5c"
+  }
+ },
+ "evenheat-hf-1413-cone-10-kiln-evehf1413": {
+  "eyebrow": {
+   "value": "Cone 10 · 240/208 V",
+   "compareDigest": "fce358b9250ad63c0965a9d932a072586613d3470f61ae915b2e282dbd9abe1f"
+  },
+  "note": {
+   "value": "The 3 inch brick version of the RM 1413, built to reach cone 10 in a small space.",
+   "compareDigest": "6510b9bc19bb0cd76a5f14fa5a000b4ca7da9a7f29dfb12b8d33ba5989a665d3"
+  },
+  "facts": {
+   "value": "Top-loading · 1.3 cu ft",
+   "compareDigest": "de66af3dc07442dd6c1bd6de5ad94b551a5f739adba7caaa5581db3b8ed5b483"
+  },
+  "power": {
+   "value": "240 or 208 V",
+   "compareDigest": "f272b3e90095f7f714064d58a8cf0f59c0e485cab0d6376a067b60701dec4c5c"
+  }
+ },
+ "evenheat-rm-ii-2329-cone-8-kiln-everm2329": {
+  "eyebrow": {
+   "value": "Cone 8 · 240/208 V",
+   "compareDigest": "9ec1fde01fa109d6ad67ad274f2cc3831f933a657108fb01e0a19c4d354dc163"
+  },
+  "note": {
+   "value": "Medium cone 8 kiln for mid-range studio work.",
+   "compareDigest": "940ddd3a864e87c5245a7ce6d60f4743218942fc56d66ff651c87511b62612fd"
+  },
+  "facts": {
+   "value": "Top-loading · Medium studio",
+   "compareDigest": "df8fa3009c1f838a8b6971be52720386c9be5ce48a08ee216cd645904605d65b"
+  },
+  "power": {
+   "value": "240 or 208 V",
+   "compareDigest": "f272b3e90095f7f714064d58a8cf0f59c0e485cab0d6376a067b60701dec4c5c"
+  }
+ },
+ "evenheat-rm-ii-1413-cone-8-kiln-everm1413": {
+  "eyebrow": {
+   "value": "Cone 8 · 240/208 V",
+   "compareDigest": "9ec1fde01fa109d6ad67ad274f2cc3831f933a657108fb01e0a19c4d354dc163"
+  },
+  "note": {
+   "value": "A compact 14.5 inch cone 8 kiln for china and porcelain that fits any studio.",
+   "compareDigest": "c1c50b3cb3999f1b332cb06bbec59426e55af94f3f0b12bdb3ec4666efe3c244"
+  },
+  "facts": {
+   "value": "Top-loading · 1.3 cu ft",
+   "compareDigest": "de66af3dc07442dd6c1bd6de5ad94b551a5f739adba7caaa5581db3b8ed5b483"
+  },
+  "power": {
+   "value": "240 or 208 V",
+   "compareDigest": "f272b3e90095f7f714064d58a8cf0f59c0e485cab0d6376a067b60701dec4c5c"
+  }
+ },
+ "evenheat-rm-ii-2922-cone-8-kiln-everm2922": {
+  "eyebrow": {
+   "value": "Cone 8 · 240/208 V",
+   "compareDigest": "9ec1fde01fa109d6ad67ad274f2cc3831f933a657108fb01e0a19c4d354dc163"
+  },
+  "note": {
+   "value": "A 29 inch wide cone 8 kiln with a rim only 33 inches up, easy for shorter potters.",
+   "compareDigest": "55c325ee45e0c7139b084b8c7bf4249079a168ed4c71053bdd0657cc9342e663"
+  },
+  "facts": {
+   "value": "Top-loading · 8.7 cu ft",
+   "compareDigest": "eec7b7b1fdbf0bbf11a947e0bd605add6be2edd9e14dc37d189361b9243029f4"
+  },
+  "power": {
+   "value": "240 or 208 V",
+   "compareDigest": "f272b3e90095f7f714064d58a8cf0f59c0e485cab0d6376a067b60701dec4c5c"
+  }
+ },
+ "evenheat-rm-ii-1813-cone-8-kiln-everm1813": {
+  "eyebrow": {
+   "value": "Cone 8 · 240/208 V",
+   "compareDigest": "9ec1fde01fa109d6ad67ad274f2cc3831f933a657108fb01e0a19c4d354dc163"
+  },
+  "note": {
+   "value": "A 17.5 inch wide cone 8 kiln with an easy 13.5 inch depth for larger work.",
+   "compareDigest": "448d5a29d9658da97317c83dcbe8d16018aba522dce7a8fae318697d41ca215c"
+  },
+  "facts": {
+   "value": "Top-loading · 2 cu ft",
+   "compareDigest": "d3a1aa44bc45bca10843bdadef2c6c41a7819ffceb64be580f21e843383d04ad"
+  },
+  "power": {
+   "value": "240 or 208 V",
+   "compareDigest": "f272b3e90095f7f714064d58a8cf0f59c0e485cab0d6376a067b60701dec4c5c"
+  }
+ },
+ "evenheat-hf-1818-cone-10-kiln-evehf1818": {
+  "eyebrow": {
+   "value": "Cone 10 · 240/208 V",
+   "compareDigest": "fce358b9250ad63c0965a9d932a072586613d3470f61ae915b2e282dbd9abe1f"
+  },
+  "note": {
+   "value": "A personal-sized cone 10 kiln with multi-zone control for even heat top to bottom.",
+   "compareDigest": "5817e7cc7bdd07e7a6bd52898e620875a134bd3b45d54b3d91ba6739345474f9"
+  },
+  "facts": {
+   "value": "Top-loading · 2.7 cu ft",
+   "compareDigest": "f9851a1fa2f78eeb01c80bef11a73a6f360e5a046017237b5674f1c90397f742"
+  },
+  "power": {
+   "value": "240 or 208 V",
+   "compareDigest": "f272b3e90095f7f714064d58a8cf0f59c0e485cab0d6376a067b60701dec4c5c"
+  }
+ },
+ "evenheat-rm-ii-2929-cone-8-kiln-everm2929": {
+  "eyebrow": {
+   "value": "Cone 8 · 240/208 V",
+   "compareDigest": "9ec1fde01fa109d6ad67ad274f2cc3831f933a657108fb01e0a19c4d354dc163"
+  },
+  "note": {
+   "value": "An 11.3 cu ft cone 8 kiln built for large studios, production and schools.",
+   "compareDigest": "64136042f890b97a1293ef83c2de65e7442b2f26c19b857c0abef9eb087df676"
+  },
+  "facts": {
+   "value": "Top-loading · 11.3 cu ft",
+   "compareDigest": "69306dd33923bfb7f27067b97ad28d1a3bd2c300e9e68ce6f08a6bd4f18dcc3f"
+  },
+  "power": {
+   "value": "240 or 208 V",
+   "compareDigest": "f272b3e90095f7f714064d58a8cf0f59c0e485cab0d6376a067b60701dec4c5c"
+  }
+ },
+ "evenheat-hf-1813-cone-10-kiln-evehf1813": {
+  "eyebrow": {
+   "value": "Cone 10 · 240/208 V",
+   "compareDigest": "fce358b9250ad63c0965a9d932a072586613d3470f61ae915b2e282dbd9abe1f"
+  },
+  "note": {
+   "value": "A 17.5 inch wide cone 10 kiln with an easy 13.5 inch deep chamber for small studios.",
+   "compareDigest": "7626032212d0a88cf0266b01a2ccac6c3f8309e39a56d1ed2753befdf0d062f2"
+  },
+  "facts": {
+   "value": "Top-loading · 2 cu ft",
+   "compareDigest": "d3a1aa44bc45bca10843bdadef2c6c41a7819ffceb64be580f21e843383d04ad"
+  },
+  "power": {
+   "value": "240 or 208 V",
+   "compareDigest": "f272b3e90095f7f714064d58a8cf0f59c0e485cab0d6376a067b60701dec4c5c"
+  }
+ },
+ "evenheat-rm-ii-2541-oval-cone-low-fire-kiln-everm2541": {
+  "eyebrow": {
+   "value": "Cone 03 · 240/208 V",
+   "compareDigest": "ef4be039bd0310b99ca14ebf488ad68e34c594c25539880cc4e5080d899f8ce7"
+  },
+  "note": {
+   "value": "Oval low-fire kiln for platters, tiles and long forms.",
+   "compareDigest": "476aa947af231ac398ba5d5e7b436eaa0e1acad42f50c9293fe89830c1a527fe"
+  },
+  "facts": {
+   "value": "Top-loading · Large",
+   "compareDigest": "93827b013c4a55df313d617ac831aedc4659128bced7d30c6e1197d8d6229276"
+  },
+  "power": {
+   "value": "240 or 208 V",
+   "compareDigest": "f272b3e90095f7f714064d58a8cf0f59c0e485cab0d6376a067b60701dec4c5c"
+  }
+ },
+ "evenheat-rm-ii-2522-oval-low-fire-kiln-everm2522": {
+  "eyebrow": {
+   "value": "Cone 03 · 240/208 V",
+   "compareDigest": "ef4be039bd0310b99ca14ebf488ad68e34c594c25539880cc4e5080d899f8ce7"
+  },
+  "note": {
+   "value": "A big oval low-fire kiln to cone 03 with a load-friendly 22 inch depth.",
+   "compareDigest": "fab96d0efbc1e38356fbe693479d705991797fec4f01432a9b4a9eaa7674b257"
+  },
+  "facts": {
+   "value": "Top-loading · 11.2 cu ft",
+   "compareDigest": "eff95f43631be9a30fa9c30931ecf9c408ad9e460b272f7e69da54e2846d6575"
+  },
+  "power": {
+   "value": "240 or 208 V",
+   "compareDigest": "f272b3e90095f7f714064d58a8cf0f59c0e485cab0d6376a067b60701dec4c5c"
+  }
+ },
+ "evenheat-rm-ii-810-120-volt-cone-5-kiln-everm810": {
+  "eyebrow": {
+   "value": "Cone 5 · 120 V",
+   "compareDigest": "b91e4d7b6d19c9d899d709bffe77b855cfc861b4ac4a93ae35ab4ea493ba46f3"
+  },
+  "note": {
+   "value": "A 120 V cone 5 kiln for tests, beads and small work.",
+   "compareDigest": "da5ecd8cb4e0677fec48da8eef1993010660710ead8a6d047249f7992315e7fe"
+  },
+  "facts": {
+   "value": "Top-loading · Test size",
+   "compareDigest": "3838c26642381e805238932129c13270720b6a6c11d6541b247544b4d7bc8ad4"
+  },
+  "power": {
+   "value": "120 V",
+   "compareDigest": "6502aac697833537b5d29d3610a853a34adaf03d0977b12e6b569974c5fae8b5"
+  }
+ },
+ "evenheat-glass-kiln-studio-pro-14-120-volt-evesp14120": {
+  "eyebrow": {
+   "value": "Glass · 120 V",
+   "compareDigest": "60b2147949eb4a236d07b6bb3dcde5049e2a011ebf55725a4f03ae64d9dbfd60"
+  },
+  "note": {
+   "value": "Top-fired glass kiln on 120 V for even heat across the shelf.",
+   "compareDigest": "8f6e206b74eb878774efa7193e3a1dc22b98d9ad463cc25729a7df526d41b504"
+  },
+  "facts": {
+   "value": "Top-loading · Test size",
+   "compareDigest": "3838c26642381e805238932129c13270720b6a6c11d6541b247544b4d7bc8ad4"
+  },
+  "power": {
+   "value": "120 V",
+   "compareDigest": "6502aac697833537b5d29d3610a853a34adaf03d0977b12e6b569974c5fae8b5"
+  }
+ },
+ "evenheat-glass-kiln-studio-pro-41-evesp41": {
+  "eyebrow": {
+   "value": "Glass · 240/208 V",
+   "compareDigest": "b6d158e3b91b9b36b6448f269a44f7f4a27d5f7e0d893962bfe7451a8dd5cad6"
+  },
+  "note": {
+   "value": "Front and top access over 884 square inches of seamless shelf for large glass.",
+   "compareDigest": "541b0e956b0d3d728a28cb875a068596a2f62b69ac76333c71faa6e83e5414e6"
+  },
+  "facts": {
+   "value": "Front-loading · 7.52 cu ft",
+   "compareDigest": "63eed760b66f1724dd25890c9f287fca806b8a8440214d210b273a1b83518a7e"
+  },
+  "power": {
+   "value": "240 or 208 V",
+   "compareDigest": "f272b3e90095f7f714064d58a8cf0f59c0e485cab0d6376a067b60701dec4c5c"
+  }
+ },
+ "evenheat-glass-kiln-gts-23-evegts239": {
+  "eyebrow": {
+   "value": "Glass · 240/208 V",
+   "compareDigest": "b6d158e3b91b9b36b6448f269a44f7f4a27d5f7e0d893962bfe7451a8dd5cad6"
+  },
+  "note": {
+   "value": "A 23.5 inch wide glass kiln with top and side fire for one big shelf of work.",
+   "compareDigest": "fa82de23e8f30bbfd331c7b379aef0e439298408b17f9bc04715fb2f41f060fb"
+  },
+  "facts": {
+   "value": "Top-loading · 3.5 cu ft",
+   "compareDigest": "003fb2ffd560c5c3eedc6900c50477f0fa392ccf57affc2787e492d4434ef122"
+  },
+  "power": {
+   "value": "240 or 208 V",
+   "compareDigest": "f272b3e90095f7f714064d58a8cf0f59c0e485cab0d6376a067b60701dec4c5c"
+  }
+ },
+ "evenheat-glass-kiln-gts-18-13-evegts1813": {
+  "eyebrow": {
+   "value": "Glass · 240/208 V",
+   "compareDigest": "b6d158e3b91b9b36b6448f269a44f7f4a27d5f7e0d893962bfe7451a8dd5cad6"
+  },
+  "note": {
+   "value": "Top and side elements fire a single glass shelf evenly, in a small footprint.",
+   "compareDigest": "4c99227c814f23cca04188a9b8a58557d0e0ab5f686a7427209525a4ea44da38"
+  },
+  "facts": {
+   "value": "Top-loading · 2 cu ft",
+   "compareDigest": "d3a1aa44bc45bca10843bdadef2c6c41a7819ffceb64be580f21e843383d04ad"
+  },
+  "power": {
+   "value": "240 or 208 V",
+   "compareDigest": "f272b3e90095f7f714064d58a8cf0f59c0e485cab0d6376a067b60701dec4c5c"
+  }
+ }
+}

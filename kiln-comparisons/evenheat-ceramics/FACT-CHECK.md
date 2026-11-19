@@ -1,6 +1,6 @@
 # Evenheat ceramic kilns: fact-check
 
-**Status (2026-11-19): drafted and previewed, waiting for the go-ahead to publish.**
+**Status (2026-11-19): section drafted and previewed, waiting for the go-ahead to publish. Store-data errors below were fixed the same day (see note).**
 
 Page: https://www.sheffield-pottery.com/collections/evenheat-ceramics-kilns
 Metafield: `custom.abz_collection_below_descrption` on collection
@@ -61,7 +61,15 @@ depth" reading. It holds for every round kiln from the 1413 up (1413 = 14.5" × 
 - Nothing that affects the page. (RM 2522 weight is listed as "370lb. (118Kg)";
   370 lb is about 168 kg. Weight isn't on the page.)
 
-## Errors in the store's data (not fixed; for the user)
+## Errors found in the store's data
+
+Fixed on 2026-11-19 at the user's request (details and backups in
+`../evenheat-store-fixes/README.md`): the RM II 810 description (it was the HF 810's text) and
+title, the 240/208 V finder labels on the 14 kilns below (`custom.kiln_power` is a fixed-choice
+filter, so it was left as "240 or 208 V"), the collection text (five families, controllers,
+"Eveheat"), the main-page 20A note, and the HF 1210B SEO description, which described the
+RM II 810. Still open: the HF 2918 and RM II 1210 descriptions are missing some specs, and the
+RM II 1210B handle.
 
 | Product / place | Field | Store says | Evenheat says |
 |---|---|---|---|

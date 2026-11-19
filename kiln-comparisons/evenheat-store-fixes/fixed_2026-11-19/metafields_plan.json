@@ -1,0 +1,274 @@
+[
+{
+"ownerId": "gid://shopify/Product/8315848655170",
+"namespace": "finder",
+"key": "eyebrow",
+"type": "single_line_text_field",
+"value": "Cone 10 · 240 V",
+"compareDigest": "fce358b9250ad63c0965a9d932a072586613d3470f61ae915b2e282dbd9abe1f"
+},
+{
+"ownerId": "gid://shopify/Product/8315848655170",
+"namespace": "custom",
+"key": "kiln_power",
+"type": "single_line_text_field",
+"value": "240 V",
+"compareDigest": "f272b3e90095f7f714064d58a8cf0f59c0e485cab0d6376a067b60701dec4c5c"
+},
+{
+"ownerId": "gid://shopify/Product/8315853635906",
+"namespace": "finder",
+"key": "eyebrow",
+"type": "single_line_text_field",
+"value": "Cone 8 · 240 V",
+"compareDigest": "9ec1fde01fa109d6ad67ad274f2cc3831f933a657108fb01e0a19c4d354dc163"
+},
+{
+"ownerId": "gid://shopify/Product/8315853635906",
+"namespace": "custom",
+"key": "kiln_power",
+"type": "single_line_text_field",
+"value": "240 V",
+"compareDigest": "f272b3e90095f7f714064d58a8cf0f59c0e485cab0d6376a067b60701dec4c5c"
+},
+{
+"ownerId": "gid://shopify/Product/8315853242690",
+"namespace": "finder",
+"key": "eyebrow",
+"type": "single_line_text_field",
+"value": "Cone 8 · 240 V",
+"compareDigest": "9ec1fde01fa109d6ad67ad274f2cc3831f933a657108fb01e0a19c4d354dc163"
+},
+{
+"ownerId": "gid://shopify/Product/8315853242690",
+"namespace": "custom",
+"key": "kiln_power",
+"type": "single_line_text_field",
+"value": "240 V",
+"compareDigest": "f272b3e90095f7f714064d58a8cf0f59c0e485cab0d6376a067b60701dec4c5c"
+},
+{
+"ownerId": "gid://shopify/Product/8315853734210",
+"namespace": "finder",
+"key": "eyebrow",
+"type": "single_line_text_field",
+"value": "Cone 8 · 240 V",
+"compareDigest": "9ec1fde01fa109d6ad67ad274f2cc3831f933a657108fb01e0a19c4d354dc163"
+},
+{
+"ownerId": "gid://shopify/Product/8315853734210",
+"namespace": "custom",
+"key": "kiln_power",
+"type": "single_line_text_field",
+"value": "240 V",
+"compareDigest": "f272b3e90095f7f714064d58a8cf0f59c0e485cab0d6376a067b60701dec4c5c"
+},
+{
+"ownerId": "gid://shopify/Product/8315848786242",
+"namespace": "finder",
+"key": "eyebrow",
+"type": "single_line_text_field",
+"value": "Cone 10 · 240 V",
+"compareDigest": "fce358b9250ad63c0965a9d932a072586613d3470f61ae915b2e282dbd9abe1f"
+},
+{
+"ownerId": "gid://shopify/Product/8315848786242",
+"namespace": "custom",
+"key": "kiln_power",
+"type": "single_line_text_field",
+"value": "240 V",
+"compareDigest": "f272b3e90095f7f714064d58a8cf0f59c0e485cab0d6376a067b60701dec4c5c"
+},
+{
+"ownerId": "gid://shopify/Product/8315853898050",
+"namespace": "finder",
+"key": "eyebrow",
+"type": "single_line_text_field",
+"value": "Cone 8 · 240 V",
+"compareDigest": "9ec1fde01fa109d6ad67ad274f2cc3831f933a657108fb01e0a19c4d354dc163"
+},
+{
+"ownerId": "gid://shopify/Product/8315853898050",
+"namespace": "custom",
+"key": "kiln_power",
+"type": "single_line_text_field",
+"value": "240 V",
+"compareDigest": "f272b3e90095f7f714064d58a8cf0f59c0e485cab0d6376a067b60701dec4c5c"
+},
+{
+"ownerId": "gid://shopify/Product/8315853373762",
+"namespace": "finder",
+"key": "eyebrow",
+"type": "single_line_text_field",
+"value": "Cone 8 · 240 V",
+"compareDigest": "9ec1fde01fa109d6ad67ad274f2cc3831f933a657108fb01e0a19c4d354dc163"
+},
+{
+"ownerId": "gid://shopify/Product/8315853373762",
+"namespace": "custom",
+"key": "kiln_power",
+"type": "single_line_text_field",
+"value": "240 V",
+"compareDigest": "f272b3e90095f7f714064d58a8cf0f59c0e485cab0d6376a067b60701dec4c5c"
+},
+{
+"ownerId": "gid://shopify/Product/8315854258498",
+"namespace": "finder",
+"key": "eyebrow",
+"type": "single_line_text_field",
+"value": "Cone 8 · 240 V",
+"compareDigest": "9ec1fde01fa109d6ad67ad274f2cc3831f933a657108fb01e0a19c4d354dc163"
+},
+{
+"ownerId": "gid://shopify/Product/8315854258498",
+"namespace": "custom",
+"key": "kiln_power",
+"type": "single_line_text_field",
+"value": "240 V",
+"compareDigest": "f272b3e90095f7f714064d58a8cf0f59c0e485cab0d6376a067b60701dec4c5c"
+},
+{
+"ownerId": "gid://shopify/Product/8315853504834",
+"namespace": "finder",
+"key": "eyebrow",
+"type": "single_line_text_field",
+"value": "Cone 8 · 240 V",
+"compareDigest": "9ec1fde01fa109d6ad67ad274f2cc3831f933a657108fb01e0a19c4d354dc163"
+},
+{
+"ownerId": "gid://shopify/Product/8315853504834",
+"namespace": "custom",
+"key": "kiln_power",
+"type": "single_line_text_field",
+"value": "240 V",
+"compareDigest": "f272b3e90095f7f714064d58a8cf0f59c0e485cab0d6376a067b60701dec4c5c"
+},
+{
+"ownerId": "gid://shopify/Product/8315849015618",
+"namespace": "finder",
+"key": "eyebrow",
+"type": "single_line_text_field",
+"value": "Cone 10 · 240 V",
+"compareDigest": "fce358b9250ad63c0965a9d932a072586613d3470f61ae915b2e282dbd9abe1f"
+},
+{
+"ownerId": "gid://shopify/Product/8315849015618",
+"namespace": "custom",
+"key": "kiln_power",
+"type": "single_line_text_field",
+"value": "240 V",
+"compareDigest": "f272b3e90095f7f714064d58a8cf0f59c0e485cab0d6376a067b60701dec4c5c"
+},
+{
+"ownerId": "gid://shopify/Product/8315854356802",
+"namespace": "finder",
+"key": "eyebrow",
+"type": "single_line_text_field",
+"value": "Cone 8 · 240 V",
+"compareDigest": "9ec1fde01fa109d6ad67ad274f2cc3831f933a657108fb01e0a19c4d354dc163"
+},
+{
+"ownerId": "gid://shopify/Product/8315854356802",
+"namespace": "custom",
+"key": "kiln_power",
+"type": "single_line_text_field",
+"value": "240 V",
+"compareDigest": "f272b3e90095f7f714064d58a8cf0f59c0e485cab0d6376a067b60701dec4c5c"
+},
+{
+"ownerId": "gid://shopify/Product/8315848884546",
+"namespace": "finder",
+"key": "eyebrow",
+"type": "single_line_text_field",
+"value": "Cone 10 · 240 V",
+"compareDigest": "fce358b9250ad63c0965a9d932a072586613d3470f61ae915b2e282dbd9abe1f"
+},
+{
+"ownerId": "gid://shopify/Product/8315848884546",
+"namespace": "custom",
+"key": "kiln_power",
+"type": "single_line_text_field",
+"value": "240 V",
+"compareDigest": "f272b3e90095f7f714064d58a8cf0f59c0e485cab0d6376a067b60701dec4c5c"
+},
+{
+"ownerId": "gid://shopify/Product/8315854127426",
+"namespace": "finder",
+"key": "eyebrow",
+"type": "single_line_text_field",
+"value": "Cone 03 · 240 V",
+"compareDigest": "ef4be039bd0310b99ca14ebf488ad68e34c594c25539880cc4e5080d899f8ce7"
+},
+{
+"ownerId": "gid://shopify/Product/8315854127426",
+"namespace": "custom",
+"key": "kiln_power",
+"type": "single_line_text_field",
+"value": "240 V",
+"compareDigest": "f272b3e90095f7f714064d58a8cf0f59c0e485cab0d6376a067b60701dec4c5c"
+},
+{
+"ownerId": "gid://shopify/Product/8315854029122",
+"namespace": "finder",
+"key": "eyebrow",
+"type": "single_line_text_field",
+"value": "Cone 03 · 240 V",
+"compareDigest": "ef4be039bd0310b99ca14ebf488ad68e34c594c25539880cc4e5080d899f8ce7"
+},
+{
+"ownerId": "gid://shopify/Product/8315854029122",
+"namespace": "custom",
+"key": "kiln_power",
+"type": "single_line_text_field",
+"value": "240 V",
+"compareDigest": "f272b3e90095f7f714064d58a8cf0f59c0e485cab0d6376a067b60701dec4c5c"
+},
+{
+"ownerId": "gid://shopify/Product/8315854487874",
+"namespace": "finder",
+"key": "eyebrow",
+"type": "single_line_text_field",
+"value": "Cone 5½ · 120 V",
+"compareDigest": "b91e4d7b6d19c9d899d709bffe77b855cfc861b4ac4a93ae35ab4ea493ba46f3"
+},
+{
+"ownerId": "gid://shopify/Product/8315854487874",
+"namespace": "finder",
+"key": "note",
+"type": "single_line_text_field",
+"value": "A 120 V cone 5½ kiln for china paint, tests and small work.",
+"compareDigest": "da5ecd8cb4e0677fec48da8eef1993010660710ead8a6d047249f7992315e7fe"
+},
+{
+"ownerId": "gid://shopify/Product/8315854553410",
+"namespace": "finder",
+"key": "facts",
+"type": "single_line_text_field",
+"value": "Front-loading · 0.8 cu ft",
+"compareDigest": "3838c26642381e805238932129c13270720b6a6c11d6541b247544b4d7bc8ad4"
+},
+{
+"ownerId": "gid://shopify/Product/8315855274306",
+"namespace": "finder",
+"key": "note",
+"type": "single_line_text_field",
+"value": "Front and top access to a 40.5 by 25.25 inch chamber, with a seamless one-piece shelf.",
+"compareDigest": "541b0e956b0d3d728a28cb875a068596a2f62b69ac76333c71faa6e83e5414e6"
+},
+{
+"ownerId": "gid://shopify/Product/8315848261954",
+"namespace": "finder",
+"key": "note",
+"type": "single_line_text_field",
+"value": "A 23.5 inch wide, all-firebrick glass kiln that holds one big 21 inch shelf.",
+"compareDigest": "fa82de23e8f30bbfd331c7b379aef0e439298408b17f9bc04715fb2f41f060fb"
+},
+{
+"ownerId": "gid://shopify/Product/8315848130882",
+"namespace": "finder",
+"key": "note",
+"type": "single_line_text_field",
+"value": "An all-firebrick top-loader that fires one 15.5 inch shelf in a small footprint.",
+"compareDigest": "4c99227c814f23cca04188a9b8a58557d0e0ab5f686a7427209525a4ea44da38"
+}
+]
