@@ -218,15 +218,20 @@ Done:
 - Block type `kiln_comparison_block` (created by the L&L chat).
 - Collection list field `custom.comparison_blocks`.
 - Shared entries `kiln-compare-styles` and `kiln-compare-cta`, created by the
-  L&L chat. Repo copies in `shared/`, taken 2026-11-19 05:33 UTC.
+  L&L chat. Repo copies in `shared/` on this branch re-read 2026-11-19 06:35 UTC.
 - Theme copy with the renderer section. Tested on `fredrickson-kilns` with two
   L&L blocks: rendered in the right place, aligned with the page, no sideways
   scroll on desktop or phone. The test list was removed afterwards. With no
   list, the section is 0 px tall and the page matches live.
 - The owner published that theme on 2026-11-19 at 05:50 UTC; checked on the
   live site (see Theme status).
+- Paragon (2026-11-19, branch `claude/sweet-galileo-alyp9k`): blocks
+  `paragon-pottery`, `paragon-glass` and `paragon-compare-links`, listed on
+  `paragon-pottery-and-ceramics-kilns`, `paragon-glass-kilns` and `paragon-kilns`
+  (each followed by `kiln-compare-cta`). Added `span.spc-was` (grey secondary line
+  in the model cell) to `kiln-compare-styles`.
 
 Not done:
-- No collection lists any blocks yet. L&L is being drafted in its own chat
+- L&L is being drafted in its own chat
   (`ll/`, branch `claude/zealous-ptolemy-711aho`).
 - Skutt and any other brands published the old way can move over afterwards.

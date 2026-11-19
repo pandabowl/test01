@@ -163,7 +163,7 @@ and `FACT-CHECK.md` in this folder, commit, and push.
 | Skutt pottery | `skutt-ceramic-kilns` | skutt.com | **Done** (live 2026-11-18, corrected 2026-11-19) |
 | Skutt glass | `skutt-glass-kilns` (30), `skutt-glass-kilns-1` (14), `skutt-scarb-lampworking-kilns` | skutt.com — catalog: https://skutt.com/skutt-resources/catalogs/glass-kilns/ | Next |
 | L&L | `l-l-kilns` + series (`l-l-easy-fire-kilns`, `l-l-jupiter-series-kilns`, `l-l-equad-pro-production-kiln`, …) | hotkilns.com | To do |
-| Paragon | `paragon-kilns`, `paragon-pottery-and-ceramics-kilns`, `paragon-glass-kilns` | paragonweb.com | To do |
+| Paragon | `paragon-pottery-and-ceramics-kilns` (block `paragon-pottery`), `paragon-glass-kilns` (block `paragon-glass`), `paragon-kilns` (link box `paragon-compare-links`) | paragonkilns.com (paragonweb.com redirects there; spec sheets on each product page's Specifications tab) | **Done** as shared blocks (live 2026-11-19); see `paragon-pottery/`, `paragon-glass/`, `paragon-main/` |
 | Olympic | `olympic-kilns` + series (`olympic-multi-sided-electric-kilns`, `olympic-fl-series-front-loading-commercial-kilns`, …) | greatkilns.com | To do |
 | Evenheat | `evenheat-kilns`, `evenheat-ceramics-kilns`, `evenheat-glass-kilns` | evenheat-kiln.com | To do |
 | Amaco Excel | `amaco-kilns`, `amaco-excel-kilns` (duplicates) | amaco.com | To do |
