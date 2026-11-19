@@ -1,9 +1,13 @@
 # Skutt pottery kilns: fact-check
 
 Page: https://www.sheffield-pottery.com/collections/skutt-ceramic-kilns
-Metafield: `custom.abz_collection_below_descrption` on collection
-`gid://shopify/Collection/441789677890`. The section is inserted right after
-`<h3 id="SkuttPoetry-guide">`.
+Since 2026-11-19 06:50 UTC the comparison is the shared block `skutt-pottery`
+(`gid://shopify/Metaobject/685613220211`, repo copy `blocks/skutt-pottery.html`),
+listed with `kiln-compare-cta` in the collection's `custom.comparison_blocks`.
+Before that it was embedded in `custom.abz_collection_below_descrption`
+(backups in this folder). The top description's "Learn more" points at
+`#skutt-pottery`. In the block, the Interior column comes before Sides so the
+phone cards pair up (Inside is full width).
 
 ## Sources (read 2026-11-19)
 

@@ -1,5 +1,11 @@
 # Kiln model comparison sections: playbook
 
+> **Update 2026-11-19:** comparison tables are now published as **shared
+> blocks**, not pasted into `custom.abz_collection_below_descrption`. Steps 1–3
+> below (where things are, store data, fact-check) still apply; steps 4–8 are
+> replaced by [`SHARED-BLOCKS.md`](SHARED-BLOCKS.md). Skutt pottery moved to
+> blocks on 2026-11-19.
+
 How to add a fact-checked "model comparison" section to a kiln brand's
 collection page on sheffield-pottery.com. Skutt pottery kilns were the first
 one (`/collections/skutt-ceramic-kilns`, live since 2026-11-18). Everything in
@@ -160,7 +166,7 @@ and `FACT-CHECK.md` in this folder, commit, and push.
 
 | Brand line | Collection handle(s) | Manufacturer site (confirm) | Status |
 |---|---|---|---|
-| Skutt pottery | `skutt-ceramic-kilns` | skutt.com | **Done** (live 2026-11-18, corrected 2026-11-19) |
+| Skutt pottery | `skutt-ceramic-kilns` | skutt.com | **Done**, on shared blocks since 2026-11-19 (`skutt-pottery` + `kiln-compare-cta`) |
 | Skutt glass | `skutt-glass-kilns` (30), `skutt-glass-kilns-1` (14), `skutt-scarb-lampworking-kilns` | skutt.com — catalog: https://skutt.com/skutt-resources/catalogs/glass-kilns/ | Next |
 | L&L | `l-l-kilns` + series (`l-l-easy-fire-kilns`, `l-l-jupiter-series-kilns`, `l-l-equad-pro-production-kiln`, …) | hotkilns.com | To do |
 | Paragon | `paragon-kilns`, `paragon-pottery-and-ceramics-kilns`, `paragon-glass-kilns` | paragonweb.com | To do |

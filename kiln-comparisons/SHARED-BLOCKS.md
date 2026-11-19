@@ -233,12 +233,22 @@ Done:
 - `kiln-compare-cta` wording changed 06:04 UTC (Laguna chat, with the user's OK):
   "your space and your electrical or gas service", so it fits gas kilns too.
   `shared/kiln-compare-cta.html` updated to match.
+- **Skutt pottery moved to shared blocks** (`skutt-ceramic-kilns`, list
+  `skutt-pottery` + `kiln-compare-cta`), 2026-11-19 06:50 UTC, in one
+  `metafieldsSet` with the below text minus the embedded table. The first
+  attempt was refused as stale: the below text had been edited at 06:49 (the
+  embedded phone line lost "since 1946", matching the CTA change at 06:43);
+  retried against the new value. The top description's "Learn more" now points
+  at `#skutt-pottery`. Verified: styles, block, CTA and below text all render
+  exactly; 24 links return 200; no sideways scroll. Files: `skutt-ceramic/`.
+- `kiln-compare-cta` wording changed again at 06:43 UTC: "Not sure which model
+  fits your needs? Call our kiln experts at (888) 774-2529." `shared/` updated.
 - All ten brand chats were told about the new method on 2026-11-19 (drafts:
   publish as blocks; live tables: move when the user says go).
 
 Not done:
 - Other brands: L&L, Cone Art and Nabertherm have entries in progress. Paragon,
-  Olympic and Evenheat still have drafts. Skutt, Skutt glass, Amaco and
+  Olympic and Evenheat still have drafts. Skutt glass, Amaco and
   Nabertherm are still embedded the old way until each one moves. L&L is being drafted in its own chat
   (`ll/`, branch `claude/zealous-ptolemy-711aho`).
 - Skutt and any other brands published the old way can move over afterwards.
