@@ -51,7 +51,9 @@ etc.), that template needs the same section too.
 
 ## Theme status
 
-**Placement change (2026-11-19, ready to publish):** the user asked for the
+**Placement change: LIVE since 2026-11-19 07:20 UTC** (the owner published "Comparison at top (19-11-26)", now the live theme; "Comparison blocks (19-11-26)" is the unpublished backup; no live-theme edits were lost, the old theme's newest file change was 05:49). Checked live: Paragon pottery and Skutt pottery show the comparison right under the title and description, with products after it; Fredrickson (no list) shows nothing extra.
+
+Original note: the user asked for the
 comparison at the top of collection pages, directly under the title and
 description. Theme copy "Comparison at top (19-11-26)"
 (`gid://shopify/OnlineStoreTheme/197858328947`, copied from the live theme at
