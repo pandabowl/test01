@@ -156,6 +156,7 @@ descriptions through the API, not the live page.
 | All six | venting / insulation text | "3.15\" (80 mm)", "15 mm", "20 mm" | metric in `<small>`, inches first |
 | Top 60R | description | stray "x" before the features image | removed (06:30 UTC; backup `products/backup_top60r_before_x_and_title_fix_2026-11-19.json`) |
 | Top 60R | SEO title | "Nabertherm Top 60R Kiln  Top-Loading Electric Kiln \| Sheffield Pottery" (double space) | "Nabertherm Top 60R Kiln – Top-Loading Electric Kiln \| Sheffield Pottery" |
+| Top 60, 60R, 160, 190, 220 | description CSS | two copies of a page-wide `<style>` (`body{margin:20px;font-family:Arial;color:#222}`, `:root` variables, unscoped `table`/`th`/`td`/`.note`/`.table-wrap` rules); the `.note` box wrapped the whole venting section (12 px grey text) | one `<style>` scoped to `.sp-spec-table` / `.sp-spec-note` (same table look as intended by the old CSS); footnote box closes after the footnotes. Live: page margin 0 (was 20 px), venting text 16 px (was 12 px). 07:17–07:47 UTC; backup `products/backup_toploaders_before_css_cleanup_2026-11-19.json` |
 | Collection page (existing text) | below block | "Bottom heating for Top 140 …"; "80 mm diameter"; "300 liters" / "440 liters" | "Top 160 …"; 3.15" (80 mm); 10.59 cu ft (300 liters) / 15.53 cu ft (440 liters) |
 
 ## Not changed (for the user to decide)
@@ -167,9 +168,8 @@ descriptions through the API, not the live page.
   part number is N300N480, so it may really be a 480V unit; `custom.voltage` says
   "240 or 208". Its description (and the N440's) still has the international
   N 100/G–N 660/H copy and °C-only advice. Neither product is on the website.
-- **Top loader descriptions** contain page-wide CSS (`body{margin:20px;
-  font-family:Arial…}`, unscoped `table{min-width:900px}`) and two stray
-  `<meta>` tags. Left as is.
+- Top loader descriptions still contain two stray `<meta>` tags
+  (`<meta charset>` / `<meta viewport>`) inside a `<p>`. Left as is.
 - The "Kiln Buying Guide" link in the existing page text 301-redirects to
   /blogs/ceramic-arts-blog/kiln-buying-guide (200).
 
