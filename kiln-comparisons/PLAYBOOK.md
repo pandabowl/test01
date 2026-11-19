@@ -164,7 +164,7 @@ and `FACT-CHECK.md` in this folder, commit, and push.
 | Skutt glass | `skutt-glass-kilns` (30), `skutt-glass-kilns-1` (14), `skutt-scarb-lampworking-kilns` | skutt.com — catalog: https://skutt.com/skutt-resources/catalogs/glass-kilns/ | Next |
 | L&L | `l-l-kilns` + series (`l-l-easy-fire-kilns`, `l-l-jupiter-series-kilns`, `l-l-equad-pro-production-kiln`, …) | hotkilns.com | To do |
 | Paragon | `paragon-kilns`, `paragon-pottery-and-ceramics-kilns`, `paragon-glass-kilns` | paragonweb.com | To do |
-| Olympic | `olympic-kilns` + series (`olympic-multi-sided-electric-kilns`, `olympic-fl-series-front-loading-commercial-kilns`, …) | greatkilns.com | To do |
+| Olympic | `olympic-kilns` + series (`olympic-multi-sided-electric-kilns`, `olympic-fl-series-front-loading-commercial-kilns`, …) | **olympickilns.com** (not greatkilns.com). Cloudflare blocks all automated downloads, so the user downloads the price list (spec sheets) and catalog PDFs in a browser | **Main page done**: stackable kilns (18", 23", 28") live 2026-11-19 as shared block `olympic-stackable` (`olympic-kilns/`). Series pages to do |
 | Evenheat | `evenheat-kilns`, `evenheat-ceramics-kilns`, `evenheat-glass-kilns` | evenheat-kiln.com | To do |
 | Amaco Excel | `amaco-kilns`, `amaco-excel-kilns` (duplicates) | amaco.com | To do |
 | Cone Art | `cone-art-kilns`, `tucker-s-cone-art-kilns`, `cone-art-cone-10-double-wall-automatic-electric-kilns`, `cone-art-glass-fusing-kilns` | coneartkilns.com | To do |

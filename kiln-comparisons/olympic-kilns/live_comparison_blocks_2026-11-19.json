@@ -1,0 +1,15 @@
+{
+ "collection": "gid://shopify/Collection/441036341570",
+ "metafield": "custom.comparison_blocks",
+ "type": "list.metaobject_reference",
+ "before": null,
+ "value": [
+  "gid://shopify/Metaobject/685607616883",
+  "gid://shopify/Metaobject/685569474931"
+ ],
+ "handles": [
+  "olympic-stackable",
+  "kiln-compare-cta"
+ ],
+ "set_at": "2026-11-19T06:33:07Z"
+}

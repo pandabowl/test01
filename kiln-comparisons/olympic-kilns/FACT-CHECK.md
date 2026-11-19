@@ -1,11 +1,28 @@
-# Olympic kilns (stackable top-loaders): fact-check
-
 Page: https://www.sheffield-pottery.com/collections/olympic-kilns
-Metafield: `custom.abz_collection_below_descrption` on collection
-`gid://shopify/Collection/441036341570`. The section goes right after
-`<h3 id="#abz_below_richtxt_id">OLYMPIC KILNS…</h3>` (the id really has a `#`
-in it; the top description's "Learn more" link points at the wrapper div
-`#abz_below_richtxt_id`, which starts with this heading).
+(collection `gid://shopify/Collection/441036341570`).
+
+**Live since 2026-11-19 06:33 UTC as a shared comparison block** (see
+`SHARED-BLOCKS.md`), not in `custom.abz_collection_below_descrption`:
+
+- Block entry `olympic-stackable` (`gid://shopify/Metaobject/685607616883`,
+  type `kiln_comparison_block`). Repo copy: `blocks/olympic-stackable.html`.
+- The page's `custom.comparison_blocks` = `olympic-stackable`, then the shared
+  `kiln-compare-cta` (`gid://shopify/Metaobject/685569474931`). It was empty
+  before. Value: `live_comparison_blocks_2026-11-19.json`.
+- The top description's "Learn more" link now points at `#olympic-stackable`
+  (was `#abz_below_richtxt_id`), at the user's request. Backup and new value:
+  `backup_descriptionHtml_before_2026-11-19.html`, `live_descriptionHtml_2026-11-19.html`.
+- `custom.abz_collection_below_descrption` was not changed; it still renders
+  below the block.
+- Verified on the live page: the block, `kiln-compare-cta`, the new description
+  and the untouched below text are exact matches (`tools/verify_live.py`); the
+  block sits in `.sp-compare` directly above the below-text section; all 23
+  page links return 200; no sideways scroll at 1280 px or 390 px; clicking
+  "Learn more" scrolls to the block. The shared `kiln-compare-styles` entry had
+  gained a `.spc-sub` rule from another chat since the preview; it doesn't
+  affect this block.
+- `draft_section_2026-11-19.html` is the first draft in the old
+  (below-text) format, kept for reference; it was never published.
 
 Scope (chosen by the user 2026-11-19): the 18", 23" and 28" stackable electric
 pottery kilns we sell, plus short pointers to Medallion, Freedom, oval, 120V,
