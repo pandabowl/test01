@@ -81,7 +81,9 @@ listings went to Google without a GTIN.
 (6,001 variants):
 
 - `gtin_found.csv` — 310 variants with a GTIN that passes the GS1
-  check digit, ready to write to the Barcode field (`action` column):
+  check digit. All 310 were written to Shopify's Barcode field on
+  2026-11-19 and checked against the live storefront (`action` column
+  shows what changed):
   - 222 come from the variant metafield `custom.pdp_upc_number`, which
     already held UPCs (mostly Xiem and Speedball) that never reached the
     Barcode field.
