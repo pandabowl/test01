@@ -24,6 +24,10 @@ last two = depth, -3 = 3" brick vs. standard 2-1/2", PK = Production Kiln).
 
 - KM818 capacity is 2.6 cu ft (only the KM818-3 is 2.3).
 - KM614-3 runs on 115 volts (we had 120).
+- Buying-advice cards: Shopify sales since Jan 2023 show the KMT1027-3 package is the
+  best-selling Skutt kiln (222 units; KM1027-3 kiln only: 76) and the KMT822-3 package
+  is second (122). The "Most popular" card now names the KMT1027-3 package, and the
+  "First kiln" card mentions the KMT822-3 package.
 
 ## Skutt's own sources disagree
 
