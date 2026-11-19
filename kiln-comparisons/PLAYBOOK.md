@@ -175,7 +175,7 @@ and `FACT-CHECK.md` in this folder, commit, and push.
 | Brand line | Collection handle(s) | Manufacturer site (confirm) | Status |
 |---|---|---|---|
 | Skutt pottery | `skutt-ceramic-kilns` | skutt.com | **Done** (live 2026-11-18, corrected 2026-11-19) |
-| Skutt glass | `skutt-glass-kilns` (landing page); `skutt-glass-kilns-1` and `skutt-scarb-lampworking-kilns` redirect to it (unpublish pending in admin) | skutt.com — catalog: https://skutt.com/images/Glass-Kiln-Catalog.pdf + model pages | **Done** (live 2026-11-19); see `skutt-glass/` |
+| Skutt glass | `skutt-glass-kilns` (landing page); `skutt-glass-kilns-1` and `skutt-scarb-lampworking-kilns` redirect to it (unpublish pending in admin) | skutt.com — catalog: https://skutt.com/images/Glass-Kiln-Catalog.pdf + model pages | **Done** (live 2026-11-19; moved to shared blocks `skutt-glass`, `skutt-glass-picks` the same day); see `skutt-glass/` |
 | L&L | `l-l-kilns` + series (`l-l-easy-fire-kilns`, `l-l-jupiter-series-kilns`, `l-l-equad-pro-production-kiln`, …) | hotkilns.com | To do |
 | Paragon | `paragon-kilns`, `paragon-pottery-and-ceramics-kilns`, `paragon-glass-kilns` | paragonweb.com | To do |
 | Olympic | `olympic-kilns` + series (`olympic-multi-sided-electric-kilns`, `olympic-fl-series-front-loading-commercial-kilns`, …) | greatkilns.com | To do |

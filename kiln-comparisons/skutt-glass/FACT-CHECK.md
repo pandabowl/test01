@@ -1,10 +1,17 @@
 # Skutt glass kilns: fact-check
 
 Page: https://www.sheffield-pottery.com/collections/skutt-glass-kilns
-Metafield: `custom.abz_collection_below_descrption` on collection
-`gid://shopify/Collection/441790693698`. The section is inserted right after
-`<h3 id="SkuttGlass-guide">…</h3>`, the target of the "Learn more" link in the
-collection description.
+(collection `gid://shopify/Collection/441790693698`).
+
+**Since 2026-11-19 07:45 UTC the comparison is shared blocks** (see `SHARED-BLOCKS.md`):
+`custom.comparison_blocks` = `skutt-glass` (`Metaobject/685610336627`),
+`skutt-glass-picks` (`Metaobject/685610369395`), `kiln-compare-cta`
+(`Metaobject/685569474931`). Repo copies: `blocks/`. The "Learn more" link in the
+collection description points at `#skutt-glass`. To fix a spec, edit the block entry
+(Content > Metaobjects > Kiln comparison block) and the copy in `blocks/`.
+
+From 04:51 to 07:45 UTC it was embedded in `custom.abz_collection_below_descrption`
+right after `<h3 id="SkuttGlass-guide">` (`superseded_…_with_embedded_section_…html`).
 
 ## Which collection
 
@@ -35,6 +42,22 @@ hide `-1` (and the obsolete Scarab collection) with redirects. See "Changes made
 | New redirect | – | `/collections/skutt-scarb-lampworking-kilns` → `/collections/skutt-glass-kilns` | – |
 | Redirect `/collections/skutt-scarab-lampworking-glass-kilns` | → `/collections/skutt-scarb-lampworking-kilns` | → `/collections/skutt-glass-kilns` | – |
 | Redirect `/skutt-scarb-lampworking-kilns-s/812.htm` | → `/collections/skutt-scarb-lampworking-kilns` | → `/collections/skutt-glass-kilns` | – |
+
+### Move to shared blocks (2026-11-19, approved by the user)
+
+| What | Before | After | Backup / copy |
+|---|---|---|---|
+| Block entries | – | `skutt-glass` (heading, intro, model-number box, table, footnote) and `skutt-glass-picks` (which to buy + lid-and-side vs. side-fired). Same wording as the embedded version; the long phone-card cell relabelled "Inside"; no `<style>`; no phone line | `blocks/skutt-glass.html`, `blocks/skutt-glass-picks.html` (read back from the store: exact) |
+| `custom.comparison_blocks` | not set | `[skutt-glass, skutt-glass-picks, kiln-compare-cta]` | – |
+| `custom.abz_collection_below_descrption` (same `metafieldsSet` call, `compareDigest` `a90d4843…`) | embedded section (the shared-blocks chat had removed its "since 1946" sentence at 07:10) | the original guide text, byte for byte (digest back to `486d969f…`) | `backup_…_before_blocks_2026-11-19.html`; now `live_…_after_blocks_2026-11-19.html` |
+| Collection description "Learn more" | `#SkuttGlass-guide` | `#skutt-glass` (user's choice) | `backup_descriptionHtml_before_2026-11-19.html`, `live_descriptionHtml_2026-11-19.html` |
+
+Verified on the live page: `kiln-compare-styles`, both blocks, `kiln-compare-cta` and the
+below text each render exactly; the old `#sp-skutt-glass-compare` is gone; the blocks sit
+directly above the below text; all 13 product links return 200; no sideways scrolling.
+
+Rule from the user (via the shared-blocks chat): never claim how long Sheffield has sold
+kilns ("since 1946"). Neither block contains it; the shared call-to-action no longer does either.
 
 **Not done (blocked):** unpublishing `skutt-glass-kilns-1` and `skutt-scarb-lampworking-kilns`
 from the Online Store. The Shopify connector refuses `publishableUnpublish` by policy.
