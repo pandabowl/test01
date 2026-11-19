@@ -7,7 +7,7 @@ storefront /products/<handle>.json). Originals of the updated products are kept
 in backups/ so the change can be reverted.
 
 Writes out_dir/new/<id>.html, out_dir/report.json, and out_dir/bulk.jsonl
-(one {"input": {"id", "descriptionHtml"}} line per product for a bulk productUpdate).
+(one {"product": {"id", "descriptionHtml"}} line per product; productUpdate variables).
 """
 import json
 import os
