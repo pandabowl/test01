@@ -80,4 +80,6 @@ Requires `openpyxl` (`pip install openpyxl`).
   All styles are inline, the text is real (searchable, crisp at any size), and
   it scales with the width of whatever column it's placed in. The two logos are
   still images, loaded from the store's Files.
-  `snippets/skutt-free-liftgate-banner-preview.png` shows it at 280–640px.
+  It is the exact markup used in the Skutt product descriptions and links to
+  `/collections/skutt-kilns`. `snippets/skutt-free-liftgate-banner-preview.png`
+  shows it in 280–640px columns.
