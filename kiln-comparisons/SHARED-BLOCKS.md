@@ -51,6 +51,20 @@ etc.), that template needs the same section too.
 
 ## Theme status
 
+**Placement: reverting (owner, 2026-11-19 ~07:35 UTC: "we went too far, products need to be here").** Final placement = title and description, then products, then the comparison: the original spot directly above the below-text section. To get it, the owner publishes the backup "Comparison blocks (19-11-26)" again (checked: the live theme had no edits after 07:17, and the backup has the same product.quote.json). History: **comparison at the top was live 07:20 UTC** (the owner published "Comparison at top (19-11-26)", now the live theme; "Comparison blocks (19-11-26)" is the unpublished backup; no live-theme edits were lost, the old theme's newest file change was 05:49). Checked live: Paragon pottery and Skutt pottery show the comparison right under the title and description, with products after it; Fredrickson (no list) shows nothing extra.
+
+Original note: the user asked for the
+comparison at the top of collection pages, directly under the title and
+description. Theme copy "Comparison at top (19-11-26)"
+(`gid://shopify/OnlineStoreTheme/197858328947`, copied from the live theme at
+07:15 UTC) moves `sp_comparison_blocks` to directly after `d445fd78-…`
+(abz-main-collection-banner: title + description). Nothing else changed:
+`theme/collection.json.comparison-at-top`, read back and checked. Preview:
+Paragon pottery shows the comparison at 499 px and products after it. The theme
+hides the description on phones, so there the comparison follows the title.
+Publishing it needs the owner. Once published, the placement paragraph below
+("directly above the below-text section") is out of date.
+
 **Live since 2026-11-19 05:50 UTC.** The live theme is "Comparison blocks
 (19-11-26)", `gid://shopify/OnlineStoreTheme/197853249907`. The previous live
 theme, "Collection heading fixes (17-11-26)" (`…/197790761331`), is kept
@@ -237,6 +251,11 @@ Done:
   publish as blocks; live tables: move when the user says go).
 
 Not done:
+- Skutt pottery moved to blocks at about 06:55 UTC (Skutt chat, with the user's OK):
+  `skutt-ceramic-kilns` lists `skutt-pottery` + `kiln-compare-cta`; the embedded table was
+  removed in the same save; "Learn more" points to `#skutt-pottery`. Current files are on
+  branch `claude/elegant-bohr-1e5ynt` (`skutt-ceramic/`). The `..._0649_before_move.html` file
+  here is only the in-between value after the 1946 sentence was removed.
 - Other brands: L&L, Cone Art and Nabertherm have entries in progress. Paragon,
   Olympic and Evenheat still have drafts. Skutt, Skutt glass, Amaco and
   Nabertherm are still embedded the old way until each one moves. L&L is being drafted in its own chat
