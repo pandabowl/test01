@@ -51,9 +51,24 @@ etc.), that template needs the same section too.
 
 ## Theme status
 
-The tools can't write to the live theme (`theme_bash` is refused on this store,
-and `themeFilesUpsert` only works on unpublished themes). So the section was
-added to a copy:
+**Live since 2026-11-19 05:50 UTC.** The live theme is "Comparison blocks
+(19-11-26)", `gid://shopify/OnlineStoreTheme/197853249907`. The previous live
+theme, "Collection heading fixes (17-11-26)" (`…/197790761331`), is kept
+unpublished as the backup. Checked after publishing:
+- The home, collection and product pages all return 200 on the new theme.
+- On collection pages the section sits directly before the below-text section,
+  0 px tall while no list is set.
+- The below-text section is at the same position as before (Fredrickson desktop
+  2303 px), with no sideways scroll.
+- The Skutt page still renders its below-text value exactly.
+
+Any future theme that becomes live must keep the `sp_comparison_blocks`
+section in `templates/collection.json`, or the blocks disappear from every page.
+A theme copied from the live theme after 2026-11-19 05:50 already has it.
+
+How it got there: the tools can't write to the live theme (`theme_bash` is
+refused on this store, and `themeFilesUpsert` only works on unpublished themes).
+So the section was added to a copy, which the owner then published:
 
 - **Copy:** "Comparison blocks (19-11-26)" (first named "PREVIEW - …"),
   `gid://shopify/OnlineStoreTheme/197853249907`, taken 2026-11-19 04:54 UTC
@@ -71,7 +86,8 @@ added to a copy:
 - `theme/collection.json.live-2026-11-19` is the live file before the change;
   `theme/collection.json.with-comparison-blocks` is the copy's file.
 
-**To go live (owner, about 2 minutes, in the theme editor):**
+**To add the section to a theme by hand** (only needed if a live theme ever
+lacks it; owner, about 2 minutes, in the theme editor):
 
 1. Online Store > Themes > live theme > **Customize**.
 2. Top drop-down: **Collections > Default collection**.
@@ -80,16 +96,15 @@ added to a copy:
    **None** and Divider to **None**.
 4. Drag it so it sits **directly above "ABZ Collection Below text"**. Save.
 
-Or publish the copy (Online Store > Themes > "Comparison blocks (19-11-26)" >
-**…** > **Publish**). That's the no-code route, but only if nobody has edited
-the live theme since the check above: publishing throws away any live-theme
-edits made after that. To check, compare the live theme's `updatedAt` (it was
-2026-11-19 05:17:25 UTC) and its file list against the copy. The old live theme
-stays in the library as the backup.
+Or add it to a copy and have the owner publish the copy (Online Store > Themes
+> the copy > **…** > **Publish**). That's the no-code route, but first check
+that nobody has edited the live theme since the copy was taken: compare the
+live theme's `updatedAt` and file list with the copy's, and bring any newer
+files across. Publishing throws away live-theme edits the copy doesn't have.
 
-After it's live, **setting `custom.comparison_blocks` on a collection publishes
-those blocks immediately.** Don't set a list until the blocks have been through
-preview and the user has said yes.
+**Now that the section is live, setting `custom.comparison_blocks` on a
+collection publishes those blocks immediately.** Don't set a list until the
+blocks have been through preview and the user has said yes.
 
 The store has about 100 themes, which is at or near Shopify's limit. Delete old
 `PREVIEW -` copies before the next `themeDuplicate`.
@@ -193,8 +208,9 @@ Paste this into a brand chat that is drafting a comparison:
 > (the shared `kiln-compare-styles` entry has the CSS), `data-label` on every
 > non-model cell, with "Inside" and "Best for" for the long cells. Save them in
 > `<brand>/blocks/`. Preview and wait for my yes as usual. Don't write into
-> `custom.abz_collection_below_descrption`. Once the theme section is live,
-> publish by creating the entries and setting `custom.comparison_blocks`.
+> `custom.abz_collection_below_descrption`. The theme section is live, so after
+> my yes, publish by creating the entries and setting `custom.comparison_blocks`
+> (that makes them visible immediately).
 
 ## Status (2026-11-19)
 
@@ -207,11 +223,10 @@ Done:
   L&L blocks: rendered in the right place, aligned with the page, no sideways
   scroll on desktop or phone. The test list was removed afterwards. With no
   list, the section is 0 px tall and the page matches live.
+- The owner published that theme on 2026-11-19 at 05:50 UTC; checked on the
+  live site (see Theme status).
 
 Not done:
-- The owner publishes "Comparison blocks (19-11-26)" (or adds the section to
-  the live theme by hand, steps above). The user approved publishing on
-  2026-11-19.
 - No collection lists any blocks yet. L&L is being drafted in its own chat
   (`ll/`, branch `claude/zealous-ptolemy-711aho`).
 - Skutt and any other brands published the old way can move over afterwards.
