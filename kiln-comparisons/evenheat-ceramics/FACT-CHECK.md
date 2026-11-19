@@ -1,13 +1,15 @@
 # Evenheat ceramic kilns: fact-check
 
-**Status (2026-11-19): section drafted and previewed, waiting for the go-ahead to publish. Store-data errors below were fixed the same day (see note).**
+**Status (2026-11-19): block drafted and previewed, waiting for the go-ahead to publish. Store-data errors below were fixed the same day (see note).**
 
 Page: https://www.sheffield-pottery.com/collections/evenheat-ceramics-kilns
-Metafield: `custom.abz_collection_below_descrption` on collection
-`gid://shopify/Collection/441127928130`. The section (`#sp-evenheat-ceramic-compare`,
-h2 `#evenheat-ceramic-kiln-model-comparison`) is inserted right after
-`<h1 id="EvenheatCeramicsKilns-guide">Evenheat Ceramics Kilns</h1>`, which is where the
-top description's "Learn more" link lands. The main `evenheat-kilns` page was left
+Published as shared blocks (see `../SHARED-BLOCKS.md`): entry `evenheat-ceramic`
+(`blocks/evenheat-ceramic.html`, h2 `#evenheat-ceramic-kiln-model-comparison`), then the
+shared `kiln-compare-cta`, listed in `custom.comparison_blocks` on collection
+`gid://shopify/Collection/441127928130`. The theme renders them directly above the
+below-grid text. (First drafted as an embedded section for
+`custom.abz_collection_below_descrption`; switched to blocks on 2026-11-19 when the site
+moved to shared blocks.) The main `evenheat-kilns` page was left
 alone (the user chose the sub-pages; it already has its own series overview table).
 
 ## Sources (read 2026-11-19)

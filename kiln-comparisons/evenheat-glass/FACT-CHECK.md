@@ -1,14 +1,14 @@
 # Evenheat glass kilns: fact-check
 
-**Status (2026-11-19): section drafted and previewed, waiting for the go-ahead to publish. Store-data errors below were fixed the same day (see note).**
+**Status (2026-11-19): block drafted and previewed, waiting for the go-ahead to publish. Store-data errors below were fixed the same day (see note).**
 
 Page: https://www.sheffield-pottery.com/collections/evenheat-glass-kilns
-Metafield: `custom.abz_collection_below_descrption` on collection
-`gid://shopify/Collection/441128943938`. The section (`#sp-evenheat-glass-compare`,
-h2 `#evenheat-glass-kiln-model-comparison`) is inserted at the very top of the value,
-before the old `<h3 ... id="#abz_below_richtxt_id">` tagline. The top description's
-"Learn more" link points to `#abz_below_richtxt_id`, which is the theme's wrapper div
-(the h3's id has a stray `#`, so it never matched), so the link lands on the new section.
+Published as shared blocks (see `../SHARED-BLOCKS.md`): entry `evenheat-glass`
+(`blocks/evenheat-glass.html`, h2 `#evenheat-glass-kiln-model-comparison`), then the shared
+`kiln-compare-cta`, listed in `custom.comparison_blocks` on collection
+`gid://shopify/Collection/441128943938`. The theme renders them directly above the
+below-grid text. (First drafted as an embedded section for
+`custom.abz_collection_below_descrption`; switched to blocks on 2026-11-19.)
 
 ## Sources (read 2026-11-19)
 

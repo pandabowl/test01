@@ -1,11 +1,14 @@
 // Screenshot a comparison section on the live storefront, desktop + phone.
 //
 // Preview a draft (nothing is published; the HTML is injected in the browser only):
-//   node preview_shot.js <page-url> <section-selector> <out-prefix> <draft.html> <insert-after-element-id> [position]
-//   (position is an insertAdjacentHTML position: afterend by default; use beforebegin to put the
-//   draft just before the element, e.g. at the very top of the below-grid block)
+//   node preview_shot.js <page-url> <section-selector> <out-prefix> <draft.html> <insert-after-element-id>
 // Screenshot what is already live:
 //   node preview_shot.js <page-url> <section-selector> <out-prefix>
+//
+// Shared blocks (SHARED-BLOCKS.md): build the draft with tools/build_preview.py,
+// then add "before" as a 6th argument to put it where the theme section renders
+// it, directly above the section that contains the given id:
+//   node preview_shot.js <page-url> '.sp-compare' preview draft.html abz_below_richtxt_id before
 //
 // Example:
 //   node preview_shot.js https://www.sheffield-pottery.com/collections/skutt-ceramic-kilns \
@@ -16,9 +19,9 @@
 const { chromium, devices } = require('playwright');
 const fs = require('fs');
 
-const [url, selector, outPrefix, draftFile, afterId, position = 'afterend'] = process.argv.slice(2);
+const [url, selector, outPrefix, draftFile, afterId, where] = process.argv.slice(2);
 if (!url || !selector || !outPrefix) {
-  console.error('usage: node preview_shot.js <url> <selector> <out-prefix> [draft.html insert-after-id [position]]');
+  console.error('usage: node preview_shot.js <url> <selector> <out-prefix> [draft.html insert-after-id]');
   process.exit(2);
 }
 const draft = draftFile ? fs.readFileSync(draftFile, 'utf8') : null;
@@ -36,12 +39,13 @@ const draft = draftFile ? fs.readFileSync(draftFile, 'utf8') : null;
     await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
     await page.waitForTimeout(4000);
     if (draft) {
-      const ok = await page.evaluate(([html, id, pos]) => {
+      const ok = await page.evaluate(([html, id, before]) => {
         const el = document.getElementById(id);
         if (!el) return false;
-        el.insertAdjacentHTML(pos, html);
+        if (before) (el.closest('.shopify-section') || el).insertAdjacentHTML('beforebegin', html);
+        else el.insertAdjacentHTML('afterend', html);
         return true;
-      }, [draft, afterId, position]);
+      }, [draft, afterId, where === 'before']);
       if (!ok) throw new Error(`element #${afterId} not found on page`);
     }
     // Hide sticky headers, popups and chat bubbles so they don't cover the shot.
