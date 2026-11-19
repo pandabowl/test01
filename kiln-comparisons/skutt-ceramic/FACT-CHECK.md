@@ -37,15 +37,30 @@ last two = depth, -3 = 3" brick vs. standard 2-1/2", PK = Production Kiln).
   page 5.25. KM1627-3PK width: catalog 30.75", model page 31". The page uses the
   model pages.
 
-## Errors in the store's product data (not fixed; for the user)
+## Product spec tables fixed (2026-11-19)
 
-| Product | Field | Store says | Skutt says |
-|---|---|---|---|
-| KM1027-3 | spec table, 208V 1-phase | Cone 6, 2250°F | **Cone 10, 2350°F** (the product description is right) |
-| KM1027-3 | spec table, cu ft column | 7 | 6.4 (capacity table already says 6.4) |
-| KM1227-3PK | spec table, 240V 3-phase amps | 640 | **40.0** |
-| KM818-30A-3 | spec table temp | Cone 10, 2300°F | **Cone 8, 2300°F** |
-| KM818 | spec table / capacity | 2.3 cu ft | **2.6 cu ft** |
-| KM1627-3PK | capacity table | 18" deep, 17"×17", 2.3 cu ft, 12 bowls (copied from KM818) | **27" deep, 46"×30.75", 18.5 cu ft, 99 bowls** |
-| KM1627-3PK | spec table watts | 26,300 | **23,600** |
-| KM1427-3PK | spec table | missing | Skutt lists it (12.75 cu ft, 27" deep) |
+Every product in `skutt-ceramic-kilns` was checked row by row against Skutt's
+figures with `spec_check.py` (run it on a saved GraphQL export of the
+collection's products with their `custom.specifications` metafield). 14
+products had errors in `custom.specifications`; all were corrected, read back
+byte for byte, and re-checked (0 errors left). Originals are in
+`backup_product_specifications_before_2026-11-19.json`.
+
+| Product(s) | Was | Now (Skutt) |
+|---|---|---|
+| KM1027-3, KMT1027-3 | 208V 1-phase: Cone 6, 2250°F; cu ft 7 | Cone 10, 2350°F; 6.4 cu ft |
+| KM818 | 2.3 cu ft (spec and capacity tables) | 2.6 cu ft |
+| KMT818 | capacity table 17" × 17", 2.3 cu ft | 18" × 18", 2.6 cu ft |
+| KM818-3, KM818-30A-3, KMT818-3, KMT818-30A-3 | 30-amp rows: Cone 10, 2300°F (KMT: 208V 21.7 A) | Cone 8, 2300°F; 208V 24.0 A |
+| KM1227-3PK | 240V 3-phase 640 A; one row with blank phase | 40 A; phase 3 |
+| KMT1227-3PK | two duplicate rows with swapped amps (240V 69 A, 208V 60 A); 3-phase rows "Cone 1" | duplicates removed; Cone 10 |
+| KM1022, KM1022-3 | 3-phase 208V row labeled 240V | 208V |
+| KM1627-3PK | 26,300 W; capacity table copied from KM818 | 23,600 W; 27" deep, 46" × 31", 18.5 cu ft, 99 bowls |
+| KM1627-3PK-LF | cone 10 rows 26,300 W | 23,600 W |
+
+## Still open (not changed)
+
+- KM1427-3PK has no spec table. Skutt lists the model (12.75 cu ft, 27" deep).
+- KMT1227-3PK: the two single-phase rows show ship dims "0x0x0" and 425 lb
+  (the 3-phase rows say 42x45x44, 410 lb).
+- Descriptions (`descriptionHtml`) weren't audited, only the spec tables.
