@@ -110,5 +110,31 @@ Not done yet:
    `ll/` (blocks, FACT-CHECK.md, the copy's original `collection.json`), and
    update the Brands table in `PLAYBOOK.md`.
 
+Update 2026-11-19 07:15 UTC (from the "Shared blocks for specs" chat; checked
+against Shopify):
+- The theme section `sp_comparison_blocks` is **live** (theme "Comparison
+  blocks (19-11-26)"), and the `custom.comparison_blocks` definition exists. No
+  theme copy is needed any more. **Setting a list now publishes immediately**,
+  so lists are set only after the user's yes on the previews.
+- The brand-neutral method doc and tools are on branch
+  `claude/hopeful-meitner-1d7l0w` (`SHARED-BLOCKS.md`, `shared/`,
+  `tools/build_preview.py`, `preview_shot.js ... before`).
+- User rules: never state how long Sheffield has sold kilns (the shared CTA now
+  reads "Not sure which model fits your needs? Call our kiln experts at (888)
+  774-2529."). Every brand and series page lists its blocks, ending with
+  `kiln-compare-cta`; once a block is approved, adding it to more pages needs no
+  new approval.
+- `kiln-compare-styles` is shared by every brand and others append rules: re-read
+  it before any edit and keep everything in it. Repo copies in `ll/blocks/`
+  were synced to Shopify at 07:15 UTC.
+- L&L pages to list blocks on after approval: `l-l-kilns` (all), `l-l-easy-fire-kilns`,
+  `l-l-easy-fire-kiln-packages`, `l-l-easy-fire-m-kilns`,
+  `l-l-equad-pro-production-kiln`, `l-l-efl-series-front-loading-kilns`,
+  `l-l-school-master-kilns`, `l-l-davinci-series-kilns`,
+  `l-l-jh-series-kilns-cone-12-crystalline-glaze-kilns`,
+  `l-l-kilns-doll-baby-series-test-kilns`, `craft-test-kilns-1`. Ask the user
+  about `l-l-jupiter-series-kilns` (all products archived) and `l-l` (139
+  products).
+
 Open question: the L&L description's "Learn more" link jumps to
 `#abz_below_richtxt_id`, which will sit just below the comparison blocks.
