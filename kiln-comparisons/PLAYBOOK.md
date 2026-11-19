@@ -9,6 +9,14 @@ Why: the SEO plan (Phase 1) calls for explicit sections comparing popular
 models right on the brand's collection landing page, so the page answers
 "which model?" searches for the brand name.
 
+> **New method: shared blocks.** Comparison tables are moving out of each
+> page's `custom.abz_collection_below_descrption` and into shared Shopify blocks
+> that any number of pages can show; see `SHARED-BLOCKS.md`. Steps 0–3 below
+> (setup, finding pages, store data, fact-check) still apply. For drafting,
+> preview, publishing and verifying, follow `SHARED-BLOCKS.md` instead of
+> steps 4–8. Steps 4–8 describe how Skutt was published and how to edit
+> brands that haven't moved yet.
+
 ## Ground rules
 
 - **Show the user before publishing.** Share desktop and phone previews plus
@@ -169,7 +177,7 @@ and `FACT-CHECK.md` in this folder, commit, and push.
 | Amaco Excel | `amaco-kilns`, `amaco-excel-kilns` (duplicates) | amaco.com | To do |
 | Cone Art | `cone-art-kilns`, `tucker-s-cone-art-kilns`, `cone-art-cone-10-double-wall-automatic-electric-kilns`, `cone-art-glass-fusing-kilns` | coneartkilns.com | To do |
 | Nabertherm | `nabertherm-kilns` | nabertherm.com | To do |
-| Laguna | `laguna-front-loading-gas-kilns` | lagunaclay.com | To do |
+| Laguna gas | `laguna-front-loading-gas-kilns` | lagunaclay.com (www.lagunaclay.com); specs from its gas/fiber kiln flyers and gas kiln manual | **Done** (live 2026-11-19 as shared block `laguna-gas`; first brand on shared blocks) |
 
 Manufacturer domains in this table are best guesses: confirm each one before
 asking to allow it.

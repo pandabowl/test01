@@ -1,10 +1,25 @@
 # Laguna front-loading gas kilns: fact-check
 
 Page: https://www.sheffield-pottery.com/collections/laguna-front-loading-gas-kilns
-Metafield: `custom.abz_collection_below_descrption` on collection
-`gid://shopify/Collection/441037422914`. The section is inserted right after
-`<h3 id="Laguna-Front-Guide">` (the "Learn more" link in the top description
-points there).
+(collection `gid://shopify/Collection/441037422914`).
+
+Published 2026-11-19 as a **shared block** (see `../SHARED-BLOCKS.md`), not in
+`custom.abz_collection_below_descrption` (that value was not changed):
+- Block entry `laguna-gas` (`gid://shopify/Metaobject/685585957235`, type
+  `kiln_comparison_block`); repo copy `blocks/laguna-gas.html`.
+- The collection's `custom.comparison_blocks` = `[laguna-gas, kiln-compare-cta]`
+  (`live_comparison_blocks_2026-11-19.json`). It renders above the existing
+  "below text", which starts with `<h3 id="Laguna-Front-Guide">`.
+- The top description's "Learn more" link now points at `#laguna-gas` (was
+  `#Laguna-Front-Guide`); nothing else in it changed. Backup:
+  `backup_descriptionHtml_before_2026-11-19.html`; new value:
+  `live_descriptionHtml_2026-11-19.html`.
+- Shared `kiln-compare-cta` wording changed at the user's request from "fits your
+  space and electrical service?" to "fits your space and your electrical or gas
+  service?" (backup: `backup_kiln-compare-cta_before_2026-11-19.html`).
+- Verified on the live page: styles, block and CTA each an exact match
+  (`tools/verify_live.py`); all 7 links return 200; no sideways scroll at 1280 px
+  or on an iPhone 13.
 
 ## Sources (read 2026-11-19)
 

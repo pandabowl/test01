@@ -226,7 +226,12 @@ Done:
 - The owner published that theme on 2026-11-19 at 05:50 UTC; checked on the
   live site (see Theme status).
 
+- **Laguna gas live (2026-11-19 06:12 UTC):** `laguna-front-loading-gas-kilns`
+  lists `laguna-gas` + `kiln-compare-cta` (first page using blocks). Branch
+  `claude/ecstatic-goldberg-ypnau1`, folder `laguna-gas/`.
+- `kiln-compare-cta` wording changed (user's choice) to "fits your space and
+  your electrical or gas service?" so it suits gas kilns too. Repo copy updated.
+
 Not done:
-- No collection lists any blocks yet. L&L is being drafted in its own chat
-  (`ll/`, branch `claude/zealous-ptolemy-711aho`).
+- L&L is being drafted in its own chat (`ll/`, branch `claude/zealous-ptolemy-711aho`).
 - Skutt and any other brands published the old way can move over afterwards.
