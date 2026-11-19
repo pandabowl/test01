@@ -1,15 +1,35 @@
 # Nabertherm kilns: fact-check
 
 Page: https://www.sheffield-pottery.com/collections/nabertherm-kilns
-Metafield: `custom.abz_collection_below_descrption` on collection
-`gid://shopify/Collection/446611652930`. The page has no heading anchor inside
-the below block: the top description's "Read More!" link points at
-`#abz_below_richtxt_id` (the block itself), so the section is inserted at the
-**start** of the metafield value, before `<h3>Helpful Resources</h3>`.
-Live since 2026-11-19 (units restyled the same day); `tools/verify_live.py` exact
-match on the live page, all links 200 (the old Kiln Buying Guide link is a 301 to a 200).
-Preview with:
-`node tools/preview_shot.js <url> '#sp-nabertherm-compare' preview draft.html '#abz_below_richtxt_id .rich-text__text' afterbegin`
+(collection `gid://shopify/Collection/446611652930`).
+
+**Since 2026-11-19 06:14 UTC the comparison is shared blocks** (see
+`../SHARED-BLOCKS.md`). The page's `custom.comparison_blocks` lists, in order:
+
+| Order | Handle | Metaobject | Repo copy |
+|---|---|---|---|
+| 1 | `nabertherm-overview` | `gid://shopify/Metaobject/685593624947` | `blocks/nabertherm-overview.html` |
+| 2 | `nabertherm-top` | `gid://shopify/Metaobject/685593657715` | `blocks/nabertherm-top.html` |
+| 3 | `nabertherm-n` | `gid://shopify/Metaobject/685593690483` | `blocks/nabertherm-n.html` |
+| 4 | `kiln-compare-cta` (shared) | `gid://shopify/Metaobject/685569474931` | `../shared/kiln-compare-cta.html` |
+
+The same write removed the embedded section from
+`custom.abz_collection_below_descrption`; the rest of that text is unchanged
+(`live_abz_collection_below_descrption_2026-11-19.html`). The value with the
+embedded section is `backup_abz_collection_below_descrption_before_blocks_2026-11-19.html`;
+the original value from before any of this work is
+`backup_abz_collection_below_descrption_before_2026-11-19.html`.
+Verified on the live page: shared styles, all three blocks, the CTA and the
+below text are exact matches; the table appears once; every link returns 200
+(the existing Kiln Buying Guide link is a 301 to a 200); left edge aligned with
+the below text on desktop and phone; no sideways scroll.
+
+The top description's "Read More!" link points at `#abz_below_richtxt_id`,
+which now comes *after* the blocks (it lands on "Helpful Resources").
+
+History: the comparison was first published embedded at the start of the
+below-text value (2026-11-19 04:50 UTC, units restyled 05:39 UTC), then moved
+to blocks at 06:14 UTC.
 
 ## Sources (read 2026-11-19)
 

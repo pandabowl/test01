@@ -200,7 +200,7 @@ and `FACT-CHECK.md` in this folder, commit, and push.
 | Evenheat | `evenheat-kilns`, `evenheat-ceramics-kilns`, `evenheat-glass-kilns` | evenheat-kiln.com | To do |
 | Amaco Excel | `amaco-kilns`, `amaco-excel-kilns` (duplicates) | amaco.com | To do |
 | Cone Art | `cone-art-kilns`, `tucker-s-cone-art-kilns`, `cone-art-cone-10-double-wall-automatic-electric-kilns`, `cone-art-glass-fusing-kilns` | coneartkilns.com | To do |
-| Nabertherm | `nabertherm-kilns` | nabertherm.com (US catalog: https://nabertherm.com/sites/default/files/2025-03/artscrafts-english-US.pdf) | **Done** (live 2026-11-19; product data fixed and units restyled the same day) |
+| Nabertherm | `nabertherm-kilns` | nabertherm.com (US catalog: https://nabertherm.com/sites/default/files/2025-03/artscrafts-english-US.pdf) | **Done**, as shared blocks `nabertherm-overview`, `nabertherm-top`, `nabertherm-n` (moved 2026-11-19; product data fixed the same day) |
 | Laguna | `laguna-front-loading-gas-kilns` | lagunaclay.com | To do |
 
 Manufacturer domains in this table are best guesses: confirm each one before
