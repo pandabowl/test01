@@ -1,0 +1,691 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1686126683e456f066": {
+      "type": "apps",
+      "settings": {
+        "heading": "",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none",
+        "text": "",
+        "text_font_class": "fs-body-100"
+      }
+    },
+    "main": {
+      "type": "main-product--default",
+      "blocks": {
+        "e875fc50-5f66-4a72-b0af-c7d55d214ceb": {
+          "type": "vendor",
+          "settings": {
+            "text": ""
+          }
+        },
+        "c3989cb5-e724-4b17-b287-594db5e9d28f": {
+          "type": "abz_product_head",
+          "settings": {}
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text_font_class": "fs-body-100",
+            "text": "{{ product.metafields.custom.pdp_product_short_desc | metafield_tag }}",
+            "column_placement": "right"
+          }
+        },
+        "929207d9-55f2-4dcc-9de7-0a27e58904aa": {
+          "type": "shopify://apps/yotpo-product-reviews/blocks/star-rating/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "product_header": {
+          "type": "product_header",
+          "settings": {
+            "show_divider": true,
+            "show_vendor": false,
+            "show_sku": true,
+            "show_discount": false,
+            "discount_format": "sale_text",
+            "show_product_rating": false,
+            "show_sale_badge": true,
+            "show_custom_badges": true
+          }
+        },
+        "key_facts": {
+          "type": "custom_liquid",
+          "settings": {
+            "column_placement": "right",
+            "custom_liquid": "{% render 'product-facts', product: product %}"
+          }
+        },
+        "17207687-4389-4688-add6-6167d1077e03": {
+          "type": "text",
+          "settings": {
+            "text_font_class": "fs-body-75",
+            "text": "<p><strong>Item Class</strong> {{ product.metafields.custom.pdp_under_price_short_desc.value }}</p>",
+            "column_placement": "right"
+          },
+          "disabled": true
+        },
+        "a4eb5fb6-7b88-40a8-ab71-14799dff5a0a": {
+          "type": "abz_popuptext",
+          "settings": {
+            "abz_popup_icon": "shopify://shop_images/shipping.png",
+            "main-text": "Free Shipping Eligible on Orders Over $89",
+            "shipping-text": "Does Not Qualify for Free Shipping Offers",
+            "popup_text": "Click For Details",
+            "pop_title": "FREE SHIPPING OFFER DETAILS",
+            "pop-content": "<p>This item qualifies for free shipping on orders over $89.<br/>Not everything on our web site qualifies for free shipping offers.  When you reach the $89 minimum that does not mean that everything in your order is necessarily free shipping.  Some oversized and heavy items may not qualify for free shipping regardless of order size.<br/></p><p><br/><strong>Free Shipping Restrictions</strong>: Kilns, Wheels and other items marked free shipping are for the lower 48 only. Western states, Texas, Long Island NY, some metropolitan areas, limited access locations, island locations may have a sur-charge for larger equipment.<br/><br/>We will have to calculate freight for some items going to Alaska or Hawaii.<br/><br/>Extra charges may apply when shipping freight to hard to reach places such as islands, extreme rural areas, restricted access locations, and metropolitan areas such as NYC, Chicago, LA and North West destinations.<br/>Some manufacturers may have additional sur-charges.<br/><strong>Free shipping on small tools includes all of the USA including Alaska and Hawaii. </strong>Free Shipping on Glazes also includes Alaska and Hawaii <strong>except </strong>for glazes that ship in pails and gallons.<br/>Gallons and Pails of glaze are not including in the free shipping program.<br/><strong>GR FORMS 12\" or larger are exempt from free shipping to AK and HI</strong>Free Shipping does not apply to any international orders.<br/>Free Shipping is voided if you return an item. You are responsible for the shipping in both directions. </p>"
+          }
+        },
+        "2358f810-d8e5-4ebc-aeee-c437e27e1687": {
+          "type": "custom_liquid",
+          "settings": {
+            "column_placement": "right",
+            "custom_liquid": "{{ selected_or_first_available_variant }}\n<strong>{% if product.metafields.custom.pdp_availability != blank %}Availability: {{ product.metafields.custom.pdp_availability }}{% endif %}</strong>"
+          }
+        },
+        "8a2ce041-2cbc-4466-bbd6-74c1125a3bd3": {
+          "type": "multitags",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": ""
+          }
+        },
+        "product_callouts_mini": {
+          "type": "product_callouts_mini",
+          "disabled": true,
+          "settings": {
+            "icon_1": "none",
+            "custom_icon_image_1": "shopify://shop_images/9802780_free_shipping_sales_discount_offer_icon_cb602c9a-78fc-4801-9260-17537af86b1c.png",
+            "text_1": "THIS PRODUCT QUALIFIES FOR FREE SHIPPING FOR MOST LOCATIONS  Click For Details",
+            "icon_2": "padlock",
+            "text_2": "",
+            "icon_3": "chat",
+            "text_3": "",
+            "icon_4": "none",
+            "text_4": "",
+            "icon_5": "none",
+            "text_5": "",
+            "icon_6": "none",
+            "text_6": ""
+          }
+        },
+        "5579d581-b00e-4332-bb46-635a663ae01b": {
+          "type": "abz_product_skus",
+          "disabled": true,
+          "settings": {
+            "show_divider": false,
+            "show_vendor": false,
+            "show_sku": true,
+            "show_discount": false,
+            "discount_format": "percent_off",
+            "show_product_rating": false,
+            "show_sale_badge": true,
+            "show_custom_badges": true
+          }
+        },
+        "c3ced285-cd86-4421-8377-062bcfb31f78": {
+          "type": "abz_map_popup",
+          "disabled": true,
+          "settings": {
+            "abz_map_text": "SELECT YOUR ZONE :",
+            "abz_view_map_link": "View on Map",
+            "map_pop_title": "Map Title",
+            "abz_map_content": "<p>Map content</p>"
+          }
+        },
+        "text_MBMQr8": {
+          "type": "text",
+          "settings": {
+            "text_font_class": "fs-body-100",
+            "text": "<p>{{ product.metafields.custom.pdp_availability.value }}</p>",
+            "column_placement": "right"
+          }
+        },
+        "helpdesk_fnBpWA": {
+          "type": "helpdesk",
+          "settings": {
+            "helpdesk_data": "{{ product.metafields.custom.help_desk_meta.value }}"
+          }
+        },
+        "756f0df8-e2f5-48ad-9072-1db5996faa62": {
+          "type": "product_callouts",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "add_box": true,
+            "add_dividers": true,
+            "icon_1": "package-closed",
+            "custom_icon_image_1": "shopify://shop_images/4213474_call_communication_mobile_phone_ring_icon_d806d656-410b-466b-9af6-0cdd98439e5c.png",
+            "text_1": "<p>HAVE QUESTIONS ? <a href=\"tel:+1 8887742529\" title=\"tel:+1 8887742529\">Call Us</a></p>",
+            "icon_2": "paper-airplane",
+            "text_2": "",
+            "icon_3": "chat",
+            "text_3": "",
+            "icon_4": "none",
+            "text_4": "",
+            "icon_5": "none",
+            "text_5": "",
+            "icon_6": "chat",
+            "text_6": "",
+            "display_as_collapsible_row": false,
+            "expand_by_default": false
+          }
+        },
+        "c4905ad6-270b-4336-8abd-cde16824f52c": {
+          "type": "information_popup",
+          "settings": {
+            "popup_icon": "none",
+            "popup_text": "{{ product.metafields.custom.pdp_technical_specs_heading.value }}",
+            "popup_page": "{{ product.metafields.custom.pdp_technical_specs_description.value }}"
+          }
+        },
+        "description_NtLCxd": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "title": "Description",
+            "text_font_class": "fs-body-100",
+            "column_placement": "right",
+            "display_as_collapsible_row": true,
+            "expand_by_default": true
+          }
+        },
+        "abz_product_callouts_b4Bq4y": {
+          "type": "abz_product_callouts",
+          "settings": {
+            "abz_title": "",
+            "abz_add_box": true,
+            "abz_add_dividers": true,
+            "abz_icon_1": "package-closed",
+            "abz_custom_icon_image_1": "shopify://shop_images/free-delivery.png",
+            "abz_text_1": "<p>Free Shipping (some items excluded)</p>",
+            "abz_hover_text_1": "",
+            "abz_icon_2": "paper-airplane",
+            "abz_custom_icon_image_2": "shopify://shop_images/expert.png",
+            "abz_text_2": "<p>Kiln & Ceramic Experts on staff</p>",
+            "abz_hover_text_2": "",
+            "abz_icon_3": "chat",
+            "abz_custom_icon_image_3": "shopify://shop_images/maintenance.png",
+            "abz_text_3": "<p>One stop shop for Ceramics Supplies</p>",
+            "abz_hover_text_3": "",
+            "abz_icon_4": "none",
+            "abz_custom_icon_image_4": "shopify://shop_images/clay-crafting.png",
+            "abz_text_4": "<p>Americas Premiere Clay Maker</p>",
+            "abz_hover_text_4": "",
+            "abz_icon_5": "none",
+            "abz_custom_icon_image_5": "shopify://shop_images/agreement.png",
+            "abz_text_5": "<p>Ceramic Supplier since 1946</p>",
+            "abz_hover_text_5": "",
+            "abz_icon_6": "chat",
+            "abz_custom_icon_image_6": "shopify://shop_images/support.png",
+            "abz_text_6": "<p>Free Insurance - Peace of Mind with Every Purchase</p>",
+            "abz_hover_text_6": "",
+            "abz_display_as_collapsible_row": false,
+            "abz_expand_by_default": false
+          }
+        },
+        "178659d6-0258-4ddf-8a64-5f0dfb4f178f": {
+          "type": "featured_products",
+          "settings": {
+            "heading": "Frequently Purchased Together",
+            "column_placement": "right",
+            "max_products": 3,
+            "product_source": "custom-product-list",
+            "product_list": "{{ product.metafields[\"shopify--discovery--product_recommendation\"].complementary_products.value }}",
+            "enable_swiper_mobile": true,
+            "display_as_collapsible_row": true,
+            "expand_by_default": true
+          }
+        },
+        "sp_quote_form": {
+          "type": "custom_liquid",
+          "settings": {
+            "column_placement": "right",
+            "custom_liquid": "<div id=\"sp-quote\">\n<style>\n#sp-quote{margin:4px 0 8px;padding:16px;border:1px solid #d9dce8;border-left:4px solid #c8452d;border-radius:8px;background:#fff;color:#222;line-height:1.45}\n#sp-quote h2{margin:0 0 4px;font-size:1.3em;line-height:1.3;color:#1f2a6b}\n#sp-quote p{margin:0 0 12px;font-size:14px}\n#sp-quote .spq-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}\n#sp-quote .spq-full{grid-column:1/-1}\n#sp-quote label{display:block;margin:0 0 3px;font-size:13px;font-weight:700;color:#1f2a6b}\n#sp-quote input,#sp-quote select,#sp-quote textarea{display:block;width:100%;box-sizing:border-box;margin:0;padding:9px 10px;border:1px solid #c9ccd8;border-radius:6px;background:#fff;color:#222;font:inherit;font-size:15px}\n#sp-quote textarea{min-height:90px;resize:vertical}\n#sp-quote button{display:block;width:100%;margin:12px 0 0;padding:12px;border:0;border-radius:6px;background:#c8452d;color:#fff;font-size:16px;font-weight:700;cursor:pointer}\n#sp-quote button:hover{background:#a8371f}\n#sp-quote .spq-ok{padding:12px;border-radius:6px;background:#e9f6ec;color:#1d5c2e}\n#sp-quote .spq-err{padding:12px;border-radius:6px;background:#fdecea;color:#8a1f11}\n#sp-quote .spq-call{margin:10px 0 0;font-size:13px;color:#555}\n#sp-quote .spq-call a{color:#1f2a6b}\n@media screen and (max-width:749px){#sp-quote .spq-grid{grid-template-columns:1fr}}\n</style>\n<h2>Request a quote</h2>\n{%- form 'contact', id: 'sp-quote-form' -%}\n{%- if form.posted_successfully? -%}\n<p class=\"spq-ok\" role=\"status\">Thanks! We got your quote request for the {{ product.title | escape }}. One of our kiln experts will be in touch.</p>\n{%- else -%}\n<p>Tell us where the kiln is going and we'll send you a price and delivery estimate.</p>\n{%- if form.errors -%}<div class=\"spq-err\">{{ form.errors | default_errors }}</div>{%- endif -%}\n<input type=\"hidden\" name=\"contact[Quote request for]\" value=\"{{ product.title | escape }} (SKU {{ product.selected_or_first_available_variant.sku | escape }})\">\n<div class=\"spq-grid\">\n<div><label for=\"spq-name\">Name</label><input id=\"spq-name\" type=\"text\" name=\"contact[name]\" autocomplete=\"name\" required></div>\n<div><label for=\"spq-email\">Email</label><input id=\"spq-email\" type=\"email\" name=\"contact[email]\" autocomplete=\"email\" required></div>\n<div><label for=\"spq-phone\">Phone</label><input id=\"spq-phone\" type=\"tel\" name=\"contact[phone]\" autocomplete=\"tel\"></div>\n<div><label for=\"spq-zip\">Delivery ZIP code</label><input id=\"spq-zip\" type=\"text\" name=\"contact[Delivery ZIP code]\" autocomplete=\"postal-code\" inputmode=\"numeric\"></div>\n<div class=\"spq-full\"><label for=\"spq-fuel\">Fuel</label><select id=\"spq-fuel\" name=\"contact[Fuel]\"><option>Natural gas</option><option>Propane</option><option>Not sure yet</option></select></div>\n<div class=\"spq-full\"><label for=\"spq-msg\">Options or questions (optional)</label><textarea id=\"spq-msg\" name=\"contact[body]\" placeholder=\"Brick or fiber, updraft or downdraft, timeline...\"></textarea></div>\n</div>\n<button type=\"submit\">Request a quote</button>\n{%- endif -%}\n{%- endform -%}\n<p class=\"spq-call\">Prefer to talk? Call our kiln experts at <a href=\"tel:+18887742529\">(888) 774-2529</a>.</p>\n</div>"
+          }
+        }
+      },
+      "block_order": [
+        "e875fc50-5f66-4a72-b0af-c7d55d214ceb",
+        "c3989cb5-e724-4b17-b287-594db5e9d28f",
+        "text",
+        "929207d9-55f2-4dcc-9de7-0a27e58904aa",
+        "product_header",
+        "key_facts",
+        "17207687-4389-4688-add6-6167d1077e03",
+        "a4eb5fb6-7b88-40a8-ab71-14799dff5a0a",
+        "2358f810-d8e5-4ebc-aeee-c437e27e1687",
+        "8a2ce041-2cbc-4466-bbd6-74c1125a3bd3",
+        "product_callouts_mini",
+        "5579d581-b00e-4332-bb46-635a663ae01b",
+        "c3ced285-cd86-4421-8377-062bcfb31f78",
+        "text_MBMQr8",
+        "sp_quote_form",
+        "abz_product_callouts_b4Bq4y",
+        "helpdesk_fnBpWA",
+        "756f0df8-e2f5-48ad-9072-1db5996faa62",
+        "c4905ad6-270b-4336-8abd-cde16824f52c",
+        "description_NtLCxd",
+        "178659d6-0258-4ddf-8a64-5f0dfb4f178f"
+      ],
+      "settings": {
+        "enable_sticky_product_details": true,
+        "show_breadcrumbs": false,
+        "show_navigation_buttons": false,
+        "gallery_style": "thumbnails",
+        "gallery_size": "xsmall",
+        "gallery_overflow": "never",
+        "enable_video_looping": true,
+        "enable_product_lightbox": true,
+        "image_aspect_ratio": "square",
+        "enable_animation": true
+      },
+      "custom_css": [
+        ".product__price {display: none;}"
+      ]
+    },
+    "hk_tab_section_qM6Bxd": {
+      "type": "hk-tab-section",
+      "blocks": {
+        "tab_9MiWRy": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Product Description",
+            "richtext": "{{ product.description }}",
+            "technical": "",
+            "html": "",
+            "liquid": "{% render 'sp-kiln-guide-link' %}{% render \"abz-multi-tags\" %}"
+          }
+        },
+        "specifications_tab_gAqXjx": {
+          "type": "specifications_tab",
+          "settings": {
+            "tab_title": "Specifications"
+          }
+        },
+        "tab_pQgFpE": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Video",
+            "richtext": "",
+            "technical": "",
+            "html": "",
+            "liquid": "{{product.metafields.custom.pdp_extinfo_video}}"
+          }
+        },
+        "tab_AbF4if": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Technical",
+            "richtext": "",
+            "technical": "{{ product.metafields.custom.pdp_technical_specs_description.value }}",
+            "html": "",
+            "liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_9MiWRy",
+        "specifications_tab_gAqXjx",
+        "tab_pQgFpE",
+        "tab_AbF4if"
+      ],
+      "name": "HK-Tab-Section",
+      "settings": {
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "2f7b719d-3bb7-495f-9058-f974ddbe2d00": {
+      "type": "abz-tab-section",
+      "blocks": {
+        "20094644-931f-474d-881f-d5e63e516298": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Product Description",
+            "richtext": "",
+            "technical": "",
+            "html": "",
+            "liquid": "{{product.description}}"
+          }
+        },
+        "tab_hH98WH": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "SPECIFICATIONS",
+            "richtext": "",
+            "technical": "",
+            "html": "",
+            "liquid": "<style>\n.variant-description {\npadding-top:20px;\n}\n</style>\n<div class=\"variant-description rte\"></div>\n{% for variant in product.variants %}\n  <div \n    class=\"variant-description-data\" \n    data-variant-id=\"{{ variant.id }}\" \n    data-variant-description='{{ variant.metafields.custom.variant_description.value | metafield_tag }}'\nstyle=\"display: none;\">\n</div>\n{% endfor %}"
+          }
+        },
+        "cd3546b0-de27-49c6-a070-0f5d4eae2dd3": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Video",
+            "richtext": "",
+            "technical": "",
+            "html": "",
+            "liquid": "{{product.metafields.custom.pdp_extinfo_video}}"
+          }
+        },
+        "2600cb0d-263f-451b-8fc3-834800e45abf": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Technical",
+            "richtext": "",
+            "technical": "{{ product.metafields.custom.pdp_technical_specs_description.value }}",
+            "html": "",
+            "liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "20094644-931f-474d-881f-d5e63e516298",
+        "tab_hH98WH",
+        "cd3546b0-de27-49c6-a070-0f5d4eae2dd3",
+        "2600cb0d-263f-451b-8fc3-834800e45abf"
+      ],
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "abz_faq_dKaMM8": {
+      "type": "abz-faq",
+      "blocks": {
+        "item_PKMH64": {
+          "type": "item",
+          "repeater": "{{ product.metafields.custom.product_faqs.value }}",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "custom_icon_image": "{{ block.repeater.icon.value }}",
+            "title": "{{ block.repeater.question.value }}",
+            "text": "{{ block.repeater.answer | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "item_PKMH64"
+      ],
+      "custom_css": [
+        ".fs-heading-3-base {font-size: 40px !important;}",
+        "@media screen and (max-width: 990px) {.fs-heading-3-base {font-size: 22px !important; }}"
+      ],
+      "name": "ABZ Faq",
+      "settings": {
+        "title": "Frequently Asked Questions",
+        "heading_font_class": "fs-heading-3-base",
+        "subheading": "",
+        "subheading_font_class": "fs-heading-5-base",
+        "heading_alignment": "left",
+        "item_heading_font": "heading",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "full",
+        "custom_content_width": 700
+      }
+    },
+    "recommendations": {
+      "type": "recommended-products",
+      "settings": {
+        "title": "PRODUCTS YOU MAY LIKE",
+        "subheading": "",
+        "maximum_products": 5,
+        "columns": "5",
+        "mobile_columns": "2",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-bottom-only"
+      }
+    },
+    "1681126128b553af62": {
+      "type": "apps",
+      "blocks": {
+        "38139053-b29d-4938-989e-9fd22d389a4f": {
+          "type": "shopify://apps/tabs-studio/blocks/product_tabs_block/19980fb9-f2ca-4ada-ad36-c0364c3318b8",
+          "settings": {
+            "default_tab": "tab",
+            "start_tab_element": "h3",
+            "default_tab_title": "PRODUCT DESCRIPTION",
+            "layout": "vertical",
+            "layout_breakpoint": 750,
+            "open_first_tab": true,
+            "allow_multiple_open": false,
+            "pro_tabs": true,
+            "initialize_tabs": "immediate",
+            "custom_scripts": ""
+          }
+        }
+      },
+      "block_order": [
+        "38139053-b29d-4938-989e-9fd22d389a4f"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "text": "",
+        "text_font_class": "fs-body-100"
+      }
+    },
+    "16823375136bee9fc3": {
+      "type": "apps",
+      "blocks": {
+        "yotpo_product_reviews_ugc_reviews_E3hmiD": {
+          "type": "shopify://apps/yotpo-product-reviews/blocks/reviews/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "disabled": true,
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "yotpo_product_reviews_ugc_reviews_E3hmiD"
+      ],
+      "settings": {
+        "heading": "CUSTOMER REVIEWS - Q&A",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none",
+        "text": "",
+        "text_font_class": "fs-body-100"
+      }
+    },
+    "1736435416df1eb2de": {
+      "type": "apps",
+      "blocks": {
+        "yotpo_product_reviews_questions_and_answers_DVndVR": {
+          "type": "shopify://apps/yotpo-product-reviews/blocks/questions_and_answers/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "yotpo_product_reviews_questions_and_answers_DVndVR"
+      ],
+      "settings": {
+        "heading": "",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "text": "<p>Got a question about this product? Ask it here and get a response from our staff and also input from the Sheffield Pottery community!</p>",
+        "text_font_class": "fs-body-100"
+      }
+    },
+    "ffdaa310-9106-4fa3-961f-297e3950fe19": {
+      "type": "abz-custom-liquid",
+      "disabled": true,
+      "custom_css": [
+        ".product-category {font-weight: 700; text-align: center;}",
+        ".product-category :hover {text-decoration: underline;}"
+      ],
+      "settings": {
+        "custom_liquid": "{%- render 'abz-product-category' -%}",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-bottom-only"
+      }
+    },
+    "eee39c39-472b-47a3-8ef7-691f8646de82": {
+      "type": "abz-countdown-banner",
+      "disabled": true,
+      "settings": {
+        "min_height": 300,
+        "min_height_mobile": 500,
+        "year": 2023,
+        "month": "may",
+        "day": "9",
+        "hour": "0",
+        "minute": "5",
+        "time_zone_selection": "shop",
+        "hide_timer_on_complete": true,
+        "timer_complete_message": "",
+        "heading": "YEARLY SECONDS SALE",
+        "heading_font_class": "fs-heading-1-base",
+        "subheading": "",
+        "text": "<p>Americas Premier Clay Maker and Pottery Supplies. Moist clay manufacturing at Sheffield Pottery has set a new standard in the ceramic industry. Our Premium clay bodies are available screened and iron filtered. Stock formulas range from low-fire earthenware clay to the finest cone 10 stoneware and porcelain.</p>",
+        "link": "shopify://collections",
+        "link_text": "SHOP ALL SPECIALS AND DEALS",
+        "button_style": "btn--primary",
+        "link_2": "shopify://collections",
+        "link_text_2": "",
+        "button_style_2": "btn--primary",
+        "image": "shopify://shop_images/Sheffield_home_Page-xd_1.webp",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "text_color": "#000000",
+        "button_background_color": "#f40000",
+        "button_text_color": "#ffffff",
+        "background_color": "#aaaaaa",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "show_frame": false,
+        "full_width": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "f6be5780-e5f5-42bd-bd89-30bd88f77ed0": {
+      "type": "abz-pdp-featured-collection-grid",
+      "blocks": {
+        "template--18377516679490__f6be5780-e5f5-42bd-bd89-30bd88f77ed0-16811285485380af51-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "spectrum-high-fire-ceramic-pottery-glazes"
+          }
+        }
+      },
+      "block_order": [
+        "template--18377516679490__f6be5780-e5f5-42bd-bd89-30bd88f77ed0-16811285485380af51-0"
+      ],
+      "settings": {
+        "heading": "PEOPLE ALSO VIEWED",
+        "subheading": "",
+        "link": "",
+        "link_text": "",
+        "maximum_collections": 4,
+        "columns": "4",
+        "mobile_columns": "2",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "414a109b-a2a3-4c43-b893-3690be11b73d": {
+      "type": "abz-newslatter",
+      "blocks": {
+        "template--18377516679490__414a109b-a2a3-4c43-b893-3690be11b73d-16811288482be0ebfa-0": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "template--18377516679490__414a109b-a2a3-4c43-b893-3690be11b73d-16811288482be0ebfa-1": {
+          "type": "heading",
+          "settings": {
+            "title": "SUBSCRIBE TO OUR NEWSLETTER",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "template--18377516679490__414a109b-a2a3-4c43-b893-3690be11b73d-16811288482be0ebfa-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>SIGNUP AND RECEIVE NEWS AND SPECIAL ANNOUNCEMENTS</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "template--18377516679490__414a109b-a2a3-4c43-b893-3690be11b73d-16811288482be0ebfa-4": {
+          "type": "newsletter_signup",
+          "settings": {
+            "signup_link_text": "Subscribe"
+          }
+        },
+        "template--18377516679490__414a109b-a2a3-4c43-b893-3690be11b73d-16811288482be0ebfa-5": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        }
+      },
+      "block_order": [
+        "template--18377516679490__414a109b-a2a3-4c43-b893-3690be11b73d-16811288482be0ebfa-0",
+        "template--18377516679490__414a109b-a2a3-4c43-b893-3690be11b73d-16811288482be0ebfa-1",
+        "template--18377516679490__414a109b-a2a3-4c43-b893-3690be11b73d-16811288482be0ebfa-2",
+        "template--18377516679490__414a109b-a2a3-4c43-b893-3690be11b73d-16811288482be0ebfa-4",
+        "template--18377516679490__414a109b-a2a3-4c43-b893-3690be11b73d-16811288482be0ebfa-5"
+      ],
+      "settings": {
+        "alignment": "center",
+        "background_image": "shopify://shop_images/newslatter.webp",
+        "focal_point": "image_presentation",
+        "background_color": "#f5f5f5",
+        "text_color": "#ffffff",
+        "input_color": "#000000",
+        "input_background": "#ffffff",
+        "button_background_color": "#f40000",
+        "button_text_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    }
+  },
+  "order": [
+    "1686126683e456f066",
+    "main",
+    "hk_tab_section_qM6Bxd",
+    "2f7b719d-3bb7-495f-9058-f974ddbe2d00",
+    "abz_faq_dKaMM8",
+    "recommendations",
+    "1681126128b553af62",
+    "16823375136bee9fc3",
+    "1736435416df1eb2de",
+    "ffdaa310-9106-4fa3-961f-297e3950fe19",
+    "eee39c39-472b-47a3-8ef7-691f8646de82",
+    "f6be5780-e5f5-42bd-bd89-30bd88f77ed0",
+    "414a109b-a2a3-4c43-b893-3690be11b73d"
+  ]
+}

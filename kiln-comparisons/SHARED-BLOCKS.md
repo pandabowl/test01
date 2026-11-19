@@ -55,11 +55,17 @@ The tools can't write to the live theme (`theme_bash` is refused on this store,
 and `themeFilesUpsert` only works on unpublished themes). So the section was
 added to a copy:
 
-- **Copy:** "PREVIEW - Comparison blocks (19-11-26)",
-  `gid://shopify/OnlineStoreTheme/197853249907`, taken 2026-11-19 from the live
-  theme "Collection heading fixes (17-11-26)" (`…/197790761331`, last edited
-  2026-11-18 05:53 UTC). Its `collection.json` is the live file plus the one
-  section, and nothing else (checked by reading it back).
+- **Copy:** "Comparison blocks (19-11-26)" (first named "PREVIEW - …"),
+  `gid://shopify/OnlineStoreTheme/197853249907`, taken 2026-11-19 04:54 UTC
+  from the live theme "Collection heading fixes (17-11-26)" (`…/197790761331`).
+  Its `collection.json` is the live file plus the one section (checked by
+  reading it back). Another chat added `templates/product.quote.json` (a
+  request-a-quote form) to the live theme at 05:17, after the copy was taken;
+  that file was copied into the copy too (`theme/product.quote.json.live-2026-11-19`;
+  checked equal). Every other file matched the live theme: same file
+  list, and no live file edited after the copy was taken.
+- **Publishing is blocked for the tools too** (`theme_publish` is refused on
+  this store), so the owner clicks Publish.
 - **Preview:** add `?preview_theme_id=197853249907` to any collection URL. With
   curl, use `-L` and a cookie jar; the first response is a redirect.
 - `theme/collection.json.live-2026-11-19` is the live file before the change;
@@ -74,8 +80,12 @@ added to a copy:
    **None** and Divider to **None**.
 4. Drag it so it sits **directly above "ABZ Collection Below text"**. Save.
 
-Or publish the copy, but only if nobody has edited the live theme since the copy
-was taken. Publishing throws away any live-theme edits made after that.
+Or publish the copy (Online Store > Themes > "Comparison blocks (19-11-26)" >
+**…** > **Publish**). That's the no-code route, but only if nobody has edited
+the live theme since the check above: publishing throws away any live-theme
+edits made after that. To check, compare the live theme's `updatedAt` (it was
+2026-11-19 05:17:25 UTC) and its file list against the copy. The old live theme
+stays in the library as the backup.
 
 After it's live, **setting `custom.comparison_blocks` on a collection publishes
 those blocks immediately.** Don't set a list until the blocks have been through
@@ -199,7 +209,9 @@ Done:
   list, the section is 0 px tall and the page matches live.
 
 Not done:
-- The owner adds the section to the live theme (steps above).
+- The owner publishes "Comparison blocks (19-11-26)" (or adds the section to
+  the live theme by hand, steps above). The user approved publishing on
+  2026-11-19.
 - No collection lists any blocks yet. L&L is being drafted in its own chat
   (`ll/`, branch `claude/zealous-ptolemy-711aho`).
 - Skutt and any other brands published the old way can move over afterwards.
