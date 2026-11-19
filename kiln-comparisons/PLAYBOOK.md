@@ -180,7 +180,7 @@ and `FACT-CHECK.md` in this folder, commit, and push.
 | Paragon | `paragon-kilns`, `paragon-pottery-and-ceramics-kilns`, `paragon-glass-kilns` | paragonweb.com | To do |
 | Olympic | `olympic-kilns` + series (`olympic-multi-sided-electric-kilns`, `olympic-fl-series-front-loading-commercial-kilns`, …) | greatkilns.com | To do |
 | Evenheat | `evenheat-kilns`, `evenheat-ceramics-kilns`, `evenheat-glass-kilns` | evenheat-kiln.com | To do |
-| Amaco Excel | `amaco-kilns` (landing page, in the nav); `amaco-excel-kilns` and `amaco-front-and-top-loading-kilns` are duplicates | amaco.com → shop.amaco.com (no amps published; Excel kilns are Skutt-built, so amps/sides come from the matching Skutt model: see `amaco-excel/FACT-CHECK.md`, never name Skutt on the page) | **Done** (live 2026-11-19) |
+| Amaco Excel | `amaco-kilns` (landing page, in the nav); `amaco-excel-kilns` and `amaco-front-and-top-loading-kilns` are duplicates | amaco.com → shop.amaco.com (no amps published; Excel kilns are Skutt-built, so amps/sides come from the matching Skutt model: see `amaco-excel/FACT-CHECK.md`, never name Skutt on the page) | **Done** (live 2026-11-19; moved to shared block `amaco-excel` the same day) |
 | Cone Art | `cone-art-kilns`, `tucker-s-cone-art-kilns`, `cone-art-cone-10-double-wall-automatic-electric-kilns`, `cone-art-glass-fusing-kilns` | coneartkilns.com | To do |
 | Nabertherm | `nabertherm-kilns` | nabertherm.com | To do |
 | Laguna | `laguna-front-loading-gas-kilns` | lagunaclay.com | To do |

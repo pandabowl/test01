@@ -230,3 +230,6 @@ Not done:
 - No collection lists any blocks yet. L&L is being drafted in its own chat
   (`ll/`, branch `claude/zealous-ptolemy-711aho`).
 - Skutt and any other brands published the old way can move over afterwards.
+- Amaco Excel moved 2026-11-19 06:2x UTC: `amaco-kilns` lists `amaco-excel` +
+  `kiln-compare-cta`; its old below-text metafield was deleted (it held only the
+  comparison). Added `.spc-sub` to `kiln-compare-styles` (see `amaco-excel/blocks/`).

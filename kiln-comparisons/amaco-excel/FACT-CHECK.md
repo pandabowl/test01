@@ -1,8 +1,11 @@
 # Amaco Excel kilns: fact-check
 
 Page: https://www.sheffield-pottery.com/collections/amaco-kilns ("Amaco Excel Kilns")
-Metafield: `custom.abz_collection_below_descrption` on collection
-`gid://shopify/Collection/443935228226`. The metafield did **not exist** before
+**Now served from the shared block `amaco-excel`** (metaobject
+`kiln_comparison_block`, see `blocks/page-lists.md` and `../SHARED-BLOCKS.md`).
+To fix a spec, edit the block's `html` and `blocks/amaco-excel.html`.
+Originally published in `custom.abz_collection_below_descrption` on collection
+`gid://shopify/Collection/443935228226` (moved and deleted 2026-11-19). The metafield did **not exist** before
 (the below-grid block on this page was empty), so the comparison section is the
 whole value. Nothing was overwritten.
 
