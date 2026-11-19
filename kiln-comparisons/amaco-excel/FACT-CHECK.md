@@ -96,7 +96,8 @@ power: KM-822/822-3 38.5 A at 208V 1-ph; KM-1022/1027 families 48 A at 208V
   The intro says "most popular Excel models" instead of "current models".
 - **No °F temperatures.** Amaco gives cone numbers only.
 - **EZ-Lift on the EX-270SF and EX-365SF:** Amaco's page titles say "With EZ-Lift"
-  but the feature lists say "(optional)". The page says "Available" / "an option".
+  but the feature lists say "(optional)". The user confirmed Sheffield's include
+  it, so the page says "Standard".
 - **EX-232SF / EX-329SF EZ-Lift = "No":** neither Amaco's title nor feature list
   mentions it, and Amaco sells no EZ-Lift upgrade kit for the 8-sided sizes.
 - **208V ratings:** the table shows only the 208V single-phase limits Amaco
@@ -155,8 +156,22 @@ bricks only in 3" ("…3-12S"), and the EX-1266SF uses the same shelves as the
 EX-381/399/1099. Worth confirming with Amaco; if it's 3", change the table
 cell, the product description, and note it in the model-number box.
 
-Still waiting on the user: EZ-Lift wording on EX-270/EX-365 (included vs.
-optional).
+**EZ-Lift on EX-270SF / EX-365SF:** the user confirmed it's included on both.
+Removed "(optional)" from both feature lists (and "optional" from the EX-270
+photo caption); table cells changed from "Available" to "Standard"; intro and
+EZ-Lift paragraph now say every 10- and 12-sided Excel kiln we sell comes with
+it. (Amaco's own feature lists still say optional; Sheffield includes it.)
+Backups: `store-fixes/backup_ezlift_2026-11-19.json`,
+`backup_abz_collection_below_descrption_before_ezlift_2026-11-19.html`;
+read-back `store-fixes/after_ezlift_2026-11-19.json` (exact).
+
+**Incident:** the first EX-365 write used the wrong product ID (typed from
+memory), which overwrote the **EX-353SF** description with the EX-365 text at
+06:00:15 UTC. Restored at 06:03:37 UTC from the exact original captured before
+any edits (`store-fixes/backup_ex353_original_2026-11-19.json`, from the
+session's first product query); read back exact. Lesson: take product IDs from
+a lookup by handle, never from memory, and check the handle each mutation
+returns.
 
 Other things noticed, not changed:
 - EX-1099 (active) and EX-1266 have a 1.5 lb shipping weight and shipping group

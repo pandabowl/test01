@@ -151,6 +151,13 @@ problems you found, and wait for their go-ahead.
    someone changed it in the meantime). The value has to be typed out in full in
    the mutation; step 7 catches any transcription mistake.
 
+Product edits (descriptions, metafields): look up each product ID by handle in
+the same session and paste it from that result, never from memory, and check
+the `handle` each mutation returns. (Amaco: a mistyped ID briefly overwrote
+the wrong product; see `amaco-excel/FACT-CHECK.md`.) Values with non-breaking
+spaces can't be typed into a block string; pass them as JSON variables with
+`\u00a0` escapes.
+
 ## 7. Verify
 
 - Fetch the live page with a cache-buster (`?v=$RANDOM`) and run
