@@ -51,6 +51,18 @@ etc.), that template needs the same section too.
 
 ## Theme status
 
+**Placement change (2026-11-19, ready to publish):** the user asked for the
+comparison at the top of collection pages, directly under the title and
+description. Theme copy "Comparison at top (19-11-26)"
+(`gid://shopify/OnlineStoreTheme/197858328947`, copied from the live theme at
+07:15 UTC) moves `sp_comparison_blocks` to directly after `d445fd78-…`
+(abz-main-collection-banner: title + description). Nothing else changed:
+`theme/collection.json.comparison-at-top`, read back and checked. Preview:
+Paragon pottery shows the comparison at 499 px and products after it. The theme
+hides the description on phones, so there the comparison follows the title.
+Publishing it needs the owner. Once published, the placement paragraph below
+("directly above the below-text section") is out of date.
+
 **Live since 2026-11-19 05:50 UTC.** The live theme is "Comparison blocks
 (19-11-26)", `gid://shopify/OnlineStoreTheme/197853249907`. The previous live
 theme, "Collection heading fixes (17-11-26)" (`…/197790761331`), is kept
