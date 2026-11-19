@@ -52,6 +52,11 @@ models right on the brand's collection landing page, so the page answers
   `abz-collection-below-richtext`, div `#abz_below_richtxt_id`. It prints the
   collection metafield **`custom.abz_collection_below_descrption`** (the key is
   misspelled; keep it exactly). It renders raw HTML, `<style>` included.
+- If the collection has **no** `abz_collection_below_descrption` metafield, the
+  section renders empty (no `#abz_below_richtxt_id`). Create the metafield with
+  `metafieldsSet` (`compareDigest: null`); the theme then wraps it like any other.
+  To preview, inject the wrapper copied from a live page into the empty
+  `abz-collection-below-richtext` section (Amaco: `amaco-excel/` notes).
 - `custom.secondary_description` is a legacy copy that the current theme does
   **not** show. Leave it alone unless the user asks.
 - The top description (`descriptionHtml`) often has a "Learn more" link to an id
@@ -138,7 +143,9 @@ problems you found, and wait for their go-ahead.
    `python3 tools/verify_live.py live.html backup.html` (the live page renders it raw).
 3. Build the new value with python (insert the section after the anchor heading,
    assert each anchor occurs exactly once).
-4. `metafieldsSet` with `ownerId`, `namespace: "custom"`,
+4. Tip: put the value in a GraphQL block string (`value: """..."""`) so quotes
+   don't need escaping (check the value has no `"""` or backslashes first).
+5. `metafieldsSet` with `ownerId`, `namespace: "custom"`,
    `key: "abz_collection_below_descrption"`, `type: "multi_line_text_field"`,
    the full new value, and **`compareDigest`** (so Shopify refuses the write if
    someone changed it in the meantime). The value has to be typed out in full in
@@ -166,7 +173,7 @@ and `FACT-CHECK.md` in this folder, commit, and push.
 | Paragon | `paragon-kilns`, `paragon-pottery-and-ceramics-kilns`, `paragon-glass-kilns` | paragonweb.com | To do |
 | Olympic | `olympic-kilns` + series (`olympic-multi-sided-electric-kilns`, `olympic-fl-series-front-loading-commercial-kilns`, …) | greatkilns.com | To do |
 | Evenheat | `evenheat-kilns`, `evenheat-ceramics-kilns`, `evenheat-glass-kilns` | evenheat-kiln.com | To do |
-| Amaco Excel | `amaco-kilns`, `amaco-excel-kilns` (duplicates) | amaco.com | To do |
+| Amaco Excel | `amaco-kilns` (landing page, in the nav); `amaco-excel-kilns` and `amaco-front-and-top-loading-kilns` are duplicates | amaco.com → shop.amaco.com (no amps published; Excel kilns are Skutt-built, so amps/sides come from the matching Skutt model: see `amaco-excel/FACT-CHECK.md`, never name Skutt on the page) | **Done** (live 2026-11-19) |
 | Cone Art | `cone-art-kilns`, `tucker-s-cone-art-kilns`, `cone-art-cone-10-double-wall-automatic-electric-kilns`, `cone-art-glass-fusing-kilns` | coneartkilns.com | To do |
 | Nabertherm | `nabertherm-kilns` | nabertherm.com | To do |
 | Laguna | `laguna-front-loading-gas-kilns` | lagunaclay.com | To do |

@@ -118,3 +118,34 @@ power: KM-822/822-3 38.5 A at 208V 1-ph; KM-1022/1027 families 48 A at 208V
 | EZ-Lift upgrade kits (`…-ael8l`, `…-ael7g`, `…-ael9b`) | description | Lists kit prices of $300 / $315 | Store prices are $795 / $760 — old prices in the description conflict with the product price |
 | EX-381SF | catalog | Not in the store | Current Amaco Excel model (28" × 22", 8.1 cu ft) |
 | `amaco-excel-kilns` collection | below-grid text | "Get up to $275 in FREE Glazes"; mentions EX-1850SF | Amaco's current offer is a $70–$100 glaze gift depending on model; EX-1850SF is no longer on Amaco's Excel page |
+
+## Changes made in the store on 2026-11-19 (with the user's go-ahead)
+
+Backups of every changed field: `store-fixes/backup_2026-11-19.json`; intended
+values: `store-fixes/new_2026-11-19.json`; read back after the write (all
+exact): `store-fixes/after_2026-11-19.json`.
+
+| What | Change |
+|---|---|
+| Comparison section | Created `custom.abz_collection_below_descrption` on `amaco-kilns` (it didn't exist). Verified byte-for-byte on the live page; all 11 links 200. |
+| EX-270 `finder.eyebrow` | "Cone 10 · 240/208 V" → "Cone 10 · 240 V" |
+| EX-399 `finder.eyebrow` | "Cone 8 · 240/208 V" → "Cone 8 · 240 V" |
+| EX-1099 description | Removed the duplicate feature list and the dead "Click Here For More Information."; same wording, now in `<p>`/`<ul>` |
+| EX-1266 description (draft) | Rebuilt the broken bullets from Amaco's feature list; added the same call-us box as the other Excel products |
+| EZ-Lift kits AEL8L, AEL7G, AEL9B | Removed the old " .... $300.00" / " .... $315.00" from the kit lines |
+| `amaco-excel-kilns` below text | Removed "Get up to $275 in FREE Glazes…"; removed EX-1850SF from two bullets |
+| **New product EX-381SF** (DRAFT) | `amaco-excel-ex-381-kiln-with-select-fire-aex381`, SKU AEX381, Amaco item 25165E (240V 1-ph), compare-at $6,300 (Amaco list), price **$5,349 proposed — needs the user's OK**; Amaco's description and photo; metafields copied from EX-399 (kiln_*, finder.*, shipping group, help-desk); published to the same 5 channels; joins the Amaco smart collections automatically |
+| EX-1266SF (still DRAFT) | Added kiln_* and finder.* metafields (so it joins "All Kilns"), fixed SEO description (it claimed "25% off"), published to the same 5 channels |
+
+Not changed, waiting on the user: EZ-Lift wording on EX-270/EX-365 (included
+vs. optional); making EX-381SF and EX-1266SF ACTIVE (then add both rows back to
+the comparison table).
+
+Other things noticed, not changed:
+- EX-1099 (active) and EX-1266 have a 1.5 lb shipping weight and shipping group
+  "Free Shipping Item"; the other Excel kilns use 501 lb and "Kilns Free
+  Shipping, Large Equipment".
+- The other Excel products' SEO descriptions say "is 25% off now!", but actual
+  discounts from list price range from 12% to 23%.
+- `amaco-excel-kilns` below text still says "Choice of infinite control
+  switches or Select Fire"; every current Excel model is Select Fire.
