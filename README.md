@@ -70,3 +70,12 @@ Options:
 ```
 
 Requires `openpyxl` (`pip install openpyxl`).
+
+---
+
+# Kiln model comparison sections
+
+`kiln-comparisons/` holds the playbook, template and tools for adding
+fact-checked model comparison sections to kiln brand collection pages on
+sheffield-pottery.com, plus the published HTML, backups and fact-check notes
+for each brand. Start with `kiln-comparisons/PLAYBOOK.md`.
