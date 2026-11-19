@@ -70,4 +70,23 @@ configuration they want.
 | Below-grid text, standard features | K-23 brick walls / K-26 floor, 6" fiber panels, detachable wind apron | Laguna's current lists don't mention brick grades or panel thickness; they list 1½" fiber board backup on brick kilns, ITC-coated fiber, a wind skirt, and ETL listing |
 | LE-200-9 `finder.note` | "Downdraft gas kiln for reduction and cone 10 firing" | Every model is offered updraft or downdraft |
 | LE-200-12/-18/-24/-40 | `custom.kiln_top_cone` empty (only the LE-200-9 has "10"), so these may be missing from cone filters | Cone 10 (2350°F) for all |
-| LE-200-40C | Not in the store | Laguna's standard 40 cu ft car kiln. Shown in the table without a link, with "call us". |
+
+## LE-200-40C quote page (added 2026-11-19, at the user's request)
+
+- New product `gid://shopify/Product/15679542362483`,
+  `/products/laguna-gas-kiln-le-200-40c-40-cubic-feet-car-kiln-le20040c`, SKU `LE20040C`.
+  Published to the Online Store channel only (not Google & YouTube, Facebook, Shop or POS).
+- Uses the new `templates/product.quote.json` (file in `kiln-comparisons/theme/`), which the
+  user pasted into the live theme because theme writes on the live theme are blocked for the
+  API. It's the live `product.json` with the variant picker, inventory counter, quantity
+  selector, infinite-options app block and buy buttons removed, the price hidden with section
+  CSS, and a "Request a quote" form (Shopify contact form, `form_type=contact`) where the
+  buy buttons were. Submissions go to the store's contact email with the product title and SKU.
+- Not purchasable: inventory tracked at 0, policy DENY, price 0.00 (hidden by the template).
+  No "Laguna Front Loading Gas Kilns" tag, so the collection's smart rules leave it out of the grid.
+- Description uses only Laguna-published facts (gas flyer, fiber flyer, manual); image is the
+  store's existing Laguna car kiln photo.
+- Known limits: the theme's structured data and `og:price` still output 0.00 / out of stock
+  (theme-level, needs a theme code change). Shopify's storefront hCaptcha covers this form, so
+  it can't be test-submitted from the cloud sandbox (hCaptcha hosts are blocked there); the
+  user tests it from a browser.
