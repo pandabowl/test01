@@ -78,3 +78,14 @@ comparison block).
 the Cone Art blocks on both pages; no old figures left on either page. The
 `live_…_2026-11-19.html` files in `../cone-art-pottery/` and `../cone-art-glass/`
 hold the current values.
+
+## Duplicate heading removed (2026-11-19 06:58 UTC, user's request)
+
+`cone-art-glass-fusing-kilns` top description started with
+`<h2>Cone Art Glass Kilns <br>\n</h2>`, which repeated the page title (H1)
+word for word. Removed with `collectionUpdate`; the rest of the description is
+unchanged. Previous value: the capacity-fix version in git history
+(`../cone-art-glass/live_descriptionHtml_…_2026-11-19.html` at commit 865946e);
+current value: same file now. Checked live: exact match; headings are now
+H1 "Cone Art Glass Kilns" then H2 "Cone Art Glass Kiln Comparison". The other
+two Cone Art pages have no heading that repeats their title.
