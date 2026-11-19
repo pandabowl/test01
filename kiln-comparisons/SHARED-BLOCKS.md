@@ -51,7 +51,7 @@ etc.), that template needs the same section too.
 
 ## Theme status
 
-**Placement change: LIVE since 2026-11-19 07:20 UTC** (the owner published "Comparison at top (19-11-26)", now the live theme; "Comparison blocks (19-11-26)" is the unpublished backup; no live-theme edits were lost, the old theme's newest file change was 05:49). Checked live: Paragon pottery and Skutt pottery show the comparison right under the title and description, with products after it; Fredrickson (no list) shows nothing extra.
+**Placement: reverting (owner, 2026-11-19 ~07:35 UTC: "we went too far, products need to be here").** Final placement = title and description, then products, then the comparison: the original spot directly above the below-text section. To get it, the owner publishes the backup "Comparison blocks (19-11-26)" again (checked: the live theme had no edits after 07:17, and the backup has the same product.quote.json). History: **comparison at the top was live 07:20 UTC** (the owner published "Comparison at top (19-11-26)", now the live theme; "Comparison blocks (19-11-26)" is the unpublished backup; no live-theme edits were lost, the old theme's newest file change was 05:49). Checked live: Paragon pottery and Skutt pottery show the comparison right under the title and description, with products after it; Fredrickson (no list) shows nothing extra.
 
 Original note: the user asked for the
 comparison at the top of collection pages, directly under the title and
