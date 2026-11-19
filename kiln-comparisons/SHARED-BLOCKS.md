@@ -20,8 +20,8 @@ for L&L (2026-11-19). Skutt still uses the older per-page method in
 
 | Piece | Where | Details |
 |---|---|---|
-| Block type | Shopify admin > Content > Metaobjects | Definition `kiln_comparison_block` ("Kiln comparison block"). Fields: `title` (single line, the admin label) and `html` (multi-line text, the block's raw HTML). Storefront access: public read (Liquid needs it). |
-| Blocks | entries of that type | Handles: `kiln-compare-styles` (the shared CSS, output once per page), `ll-overview`, `ll-easy-fire`, `ll-equad-pro`, `ll-efl`, `ll-school-master`, `ll-jh-crystalline`, `ll-davinci`, `ll-test-kilns`. |
+| Block type | Shopify admin > Content > Metaobjects | Definition `kiln_comparison_block` ("Kiln comparison block", `gid://shopify/MetaobjectDefinition/48391291251`). Fields: `title` (single line, the admin label) and `html` (multi-line text, the block's raw HTML). Storefront access: public read (Liquid needs it). |
+| Blocks | entries of that type | Shared by all brands: `kiln-compare-styles` (the CSS, output once per page by the section) and `kiln-compare-cta` (phone call-to-action, listed last on every page). L&L: `ll-overview` (main page only: decoder, jump links, buying picks), `ll-easy-fire`, `ll-equad-pro`, `ll-efl`, `ll-school-master`, `ll-jh-crystalline`, `ll-davinci`, `ll-test-kilns`. |
 | Which blocks a page shows | collection metafield `custom.comparison_blocks` | Type `list.metaobject_reference` (limited to `kiln_comparison_block`). Order = display order. Empty = nothing shown. |
 | Renderer | theme `templates/collection.json` | One `abz-custom-liquid` section ("ABZ Custom Liquid"), placed directly **above** the "below rich text" section (`4ab91e11-...`). Padding: none. Every collection uses this one template, so the section shows nothing on collections without `custom.comparison_blocks`. |
 
@@ -67,6 +67,10 @@ The Liquid in that section:
   `metaobjectUpdate`). Then update `<brand>/blocks/` and the fact-check notes.
 - **Show a block on another page:** add the entry to that collection's
   `custom.comparison_blocks` list.
+- **Preview before a block is in Shopify:** `python3 tools/render_blocks.py
+  <brand>/blocks <handle> ... > rendered.html` reproduces the section's output;
+  inject it with `tools/preview_shot.js <url> '.sp-compare' <out> rendered.html
+  shopify-section-template--29972624277875__abz_collection_description_67jKkK`.
 - **Verify:** fetch the live page with a cache-buster and run
   `tools/verify_live.py live.html <brand>/blocks/<handle>.html` for each block
   (and for `kiln-compare-styles`): each must be an exact match. Check every
@@ -78,14 +82,20 @@ The Liquid in that section:
 Done:
 - hotkilns.com is on the network allowlist.
 - L&L store data pulled (31 active kilns; all Jupiter kilns are archived).
-- L&L 2026 Potters/School/Industry catalogs and the 25 active model pages on
-  hotkilns.com downloaded and parsed; store-data errors being listed.
+- `ll/FACT-CHECK.md` written (sources, L&L's own disagreements, store-data
+  errors for the owner). All 10 blocks drafted in `ll/blocks/`; all 28 links
+  return 200; local desktop/phone previews checked (no sideways scroll).
+- Shopify: block type `kiln_comparison_block` created; entry
+  `kiln-compare-cta` created.
 
-Not done yet (nothing has been created in Shopify so far):
-1. Finish `ll/FACT-CHECK.md`; draft the blocks in `ll/blocks/`.
-2. Create the metaobject definition, the entries, the collection metafield
-   definition, and set `custom.comparison_blocks` on: `l-l-kilns` (all L&L
-   blocks), `l-l-easy-fire-kilns`, `l-l-easy-fire-m-kilns`,
+Not done yet:
+1. Create the other 9 entries (`kiln-compare-styles` first). Check with
+   `metaobjects(type: "kiln_comparison_block")` before re-running a create:
+   a call that was cut off may or may not have run.
+2. Create the collection metafield definition and set
+   `custom.comparison_blocks` on: `l-l-kilns` (overview, all series blocks,
+   CTA), and on each series page its block + CTA: `l-l-easy-fire-kilns`,
+   `l-l-easy-fire-m-kilns`,
    `l-l-equad-pro-production-kiln`, `l-l-efl-series-front-loading-kilns`,
    `l-l-school-master-kilns`, `l-l-jh-series-kilns-cone-12-crystalline-glaze-kilns`,
    `l-l-davinci-series-kilns` (and test kilns on `l-l-kilns-doll-baby-series-test-kilns`).
