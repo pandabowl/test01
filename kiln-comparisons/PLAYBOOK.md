@@ -121,7 +121,8 @@ Start from `template/comparison-section.html` and keep its structure and look:
   ratings can differ.
 - "Which <Brand> kiln should I buy?" — 3 or 4 picks (`ul.spc-picks`).
 - Short notes on the brand's options (brick, controllers, packages), smaller
-  kilns, and the phone CTA: (888) 774-2529, "helping potters choose kilns since 1946".
+  kilns. The phone call-to-action is the shared `kiln-compare-cta` block. **Never
+  claim how long Sheffield has sold kilns** (no "since 1946").
 - Plain, specific language; no hype; short sentences.
 
 ## 5. Preview
