@@ -83,3 +83,13 @@ Requires `openpyxl` (`pip install openpyxl`).
   It is the exact markup used in the Skutt product descriptions and links to
   `/collections/skutt-kilns`. `snippets/skutt-free-liftgate-banner-preview.png`
   shows it in 280–640px columns.
+
+### Where the offer box is used (Nov 2026)
+
+The old JPG was replaced by this box in 66 Skutt product descriptions: all 58
+live ones plus 8 drafts/archived/unpublished. Four hidden products still have
+the JPG (the three archived Scarab kilns and the KMT1027-3 draft copy). The
+originals are in `backups/` so the change can be reverted, and
+`scripts/replace_liftgate_graphic.py` is the transform that made it. To find
+every product showing the box later (e.g. when the offer ends), search
+descriptions for `on All Skutt Kilns!`.
