@@ -167,7 +167,7 @@ and `FACT-CHECK.md` in this folder, commit, and push.
 | Olympic | `olympic-kilns` + series (`olympic-multi-sided-electric-kilns`, `olympic-fl-series-front-loading-commercial-kilns`, …) | greatkilns.com | To do |
 | Evenheat | `evenheat-kilns`, `evenheat-ceramics-kilns`, `evenheat-glass-kilns` | evenheat-kiln.com | To do |
 | Amaco Excel | `amaco-kilns`, `amaco-excel-kilns` (duplicates) | amaco.com | To do |
-| Cone Art | `cone-art-kilns`, `tucker-s-cone-art-kilns`, `cone-art-cone-10-double-wall-automatic-electric-kilns`, `cone-art-glass-fusing-kilns` | coneartkilns.com | To do |
+| Cone Art | Main page `tucker-s-cone-art-kilns` (overview + pottery + glass blocks); `cone-art-cone-10-double-wall-automatic-electric-kilns` (pottery block); `cone-art-glass-fusing-kilns` (glass block). Not `cone-art-kilns` (all products incl. parts). | coneartkilns.com now redirects to countonconeart.com, which blocks automated fetches; source = Cone Art 2025 catalog + Feb 2026 price lists (PDFs from the user) | **Done** (live 2026-11-19 as shared blocks; `cone-art/PUBLISHED.md`) |
 | Nabertherm | `nabertherm-kilns` | nabertherm.com | To do |
 | Laguna | `laguna-front-loading-gas-kilns` | lagunaclay.com | To do |
 

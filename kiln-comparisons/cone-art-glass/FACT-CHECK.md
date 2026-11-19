@@ -1,7 +1,10 @@
 # Cone Art glass kilns: fact-check
 
-Section: `#sp-coneart-glass-compare` (placement: see the live/backup files in
-this folder or `../cone-art-pottery/`).
+Pages: the `cone-art-glass` shared block (`../cone-art/blocks/cone-art-glass.html`)
+is listed in `custom.comparison_blocks` on the main Cone Art page
+(`tucker-s-cone-art-kilns`) and on
+https://www.sheffield-pottery.com/collections/cone-art-glass-fusing-kilns.
+Live since 2026-11-19; see `../cone-art/PUBLISHED.md`.
 
 ## Sources (read 2026-11-19)
 

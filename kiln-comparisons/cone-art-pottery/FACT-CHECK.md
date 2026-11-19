@@ -1,12 +1,12 @@
 # Cone Art pottery kilns: fact-check
 
-Page: https://www.sheffield-pottery.com/collections/tucker-s-cone-art-kilns
-(the "Cone Art" menu link; `cone-art-kilns` is the everything-incl.-parts page
-and points visitors here). Metafield: `custom.abz_collection_below_descrption`
-on collection `gid://shopify/Collection/441037128002`. The section goes after
-the "Cone Art Kiln Models" overview list, right before
-`<h3>Do Cone Art pottery kilns really fire to cone 10?</h3>`; the top
-description's "Learn more about Cone Art kilns" button jumps to that block.
+Pages: the `cone-art-pottery` shared block (`../cone-art/blocks/cone-art-pottery.html`)
+is listed in `custom.comparison_blocks` on the main Cone Art page,
+https://www.sheffield-pottery.com/collections/tucker-s-cone-art-kilns (the
+"Cone Art" menu link; `cone-art-kilns` is the everything-incl.-parts page and
+points visitors there), and on the pottery page
+https://www.sheffield-pottery.com/collections/cone-art-cone-10-double-wall-automatic-electric-kilns.
+Live since 2026-11-19; see `../cone-art/PUBLISHED.md`.
 
 ## Sources (read 2026-11-19)
 
