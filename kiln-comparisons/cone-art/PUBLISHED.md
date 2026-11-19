@@ -43,3 +43,22 @@ below the comparison; left as is, per the user).
 - All 34 product/collection links in the sections return 200; the two jump
   links (`#cone-art-pottery`, `#cone-art-glass`) have targets on the main page.
 - No sideways scroll on desktop (1280) or phone (390) on any of the three pages.
+
+## Old spec tables removed (2026-11-19 06:31 UTC, user's request)
+
+`custom.abz_collection_below_descrption` was edited on two pages, with
+`compareDigest`, to remove only the old spec listings that now sat under the
+new tables:
+
+| Page | Removed | Backup / new value |
+|---|---|---|
+| `cone-art-cone-10-double-wall-automatic-electric-kilns` | caption "Cone Art Pottery Kilns Models & Specifications", the HTML spec table (errors in 8 rows) and its breaker footnote; 22,152 → 4,773 chars | `../cone-art-pottery/backup_…_before_2026-11-19.html` / `../cone-art-pottery/live_…_2026-11-19.html` |
+| `cone-art-glass-fusing-kilns` | caption "Cone Art Glass Kilns - Models & Specifications" and the spec image (240V/208V amps swapped); 1,276 → 1,012 chars | `../cone-art-glass/backup_…_before_2026-11-19.html` / `../cone-art-glass/live_…_2026-11-19.html` |
+
+The backups are exact copies read three times from the Admin API. (The
+storefront was briefly blocking automated requests, so they could not be
+checked against the live page before the edit.) After the edit:
+`verify_live.py` gives exact matches for both new values and for the Cone Art
+blocks on both pages; each page now has only one table (the new block). The
+packages page spec image was left as is (it's correct and that page has no
+comparison block).

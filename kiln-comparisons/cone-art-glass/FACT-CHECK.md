@@ -51,7 +51,9 @@ optional on the 23 and 28 series and now included on the 42 series.
 
 ## Errors in existing page content (not changed; for the user)
 
-- `cone-art-glass-fusing-kilns`, spec image: the 240V and 208V amp columns are
+- `cone-art-glass-fusing-kilns`, spec image (**removed 2026-11-19 at the user's
+  request**, with its "Models & Specifications" caption; backup and new value
+  are in this folder): the 240V and 208V amp columns were
   swapped on all ten 240/208V models (e.g. 1809G shows 32 | 28; Cone Art says
   28 | 32, and 6.7 kW / 240V = 28 A). It also lists 1 section for every model,
   which matches the newer price list.

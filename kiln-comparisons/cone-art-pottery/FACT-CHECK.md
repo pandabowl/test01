@@ -61,7 +61,11 @@ also calls the 2327D "our most popular kiln".
 ## Errors in existing page content (not changed; for the user)
 
 `cone-art-cone-10-double-wall-automatic-electric-kilns`, spec table in the
-below-grid block:
+below-grid block. **Removed 2026-11-19 at the user's request** (with its caption
+and breaker footnote; the rest of the below text is unchanged). Backup:
+`backup_abz_collection_below_descrption_cone-art-cone-10-double-wall-automatic-electric-kilns_before_2026-11-19.html`;
+new value: `live_abz_collection_below_descrption_cone-art-cone-10-double-wall-automatic-electric-kilns_2026-11-19.html`.
+What it had wrong:
 
 | Row | Store says | Cone Art says |
 |---|---|---|
