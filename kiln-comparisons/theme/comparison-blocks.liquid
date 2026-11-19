@@ -1,0 +1,7 @@
+{%- assign sp_blocks = collection.metafields.custom.comparison_blocks.value -%}
+{%- if sp_blocks != blank -%}
+<div class="sp-compare">
+{{ shop.metaobjects.kiln_comparison_block['kiln-compare-styles'].html.value }}
+{%- for b in sp_blocks -%}{{ b.html.value }}{%- endfor -%}
+</div>
+{%- endif -%}
