@@ -9,6 +9,9 @@ styles, `blocks/evenheat-ceramic.html` and `kiln-compare-cta` render exactly, in
 below-grid text (whose value is unchanged), with the same left/right edges (42/1238 px desktop, 18/372 px phone) and
 no sideways scroll. All links in the block return 200. Store-data errors below were fixed the same day (see note).
 
+2026-11-19 18:54 UTC: also listed on the main `evenheat-kilns` page (`evenheat-ceramic`, `evenheat-glass`,
+`kiln-compare-cta`, user's OK); verified exact, the old overview text below is unchanged.
+
 Page: https://www.sheffield-pottery.com/collections/evenheat-ceramics-kilns
 Published as shared blocks (see `../SHARED-BLOCKS.md`): entry `evenheat-ceramic`
 (`blocks/evenheat-ceramic.html`, h2 `#evenheat-ceramic-kiln-model-comparison`), then the

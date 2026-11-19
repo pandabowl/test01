@@ -9,6 +9,12 @@ styles, `blocks/evenheat-glass.html` and `kiln-compare-cta` render exactly, in t
 below-grid text (whose value is unchanged), with the same left/right edges (42/1238 px desktop, 18/372 px phone) and
 no sideways scroll. All links in the block return 200. Store-data errors below were fixed the same day (see note).
 
+2026-11-19 ~07:32 UTC: another chat moved the "Which Evenheat glass kiln should I buy?" picks above
+the table (same wording; the site-wide order, as on Skutt and Olympic). `blocks/evenheat-glass.html` is
+synced to that version (checked exact on the live pages at 18:55 UTC).
+2026-11-19 18:54 UTC: also listed on the main `evenheat-kilns` page (with `evenheat-ceramic` and
+`kiln-compare-cta`, user's OK); verified exact, the old overview text below is unchanged.
+
 Page: https://www.sheffield-pottery.com/collections/evenheat-glass-kilns
 Published as shared blocks (see `../SHARED-BLOCKS.md`): entry `evenheat-glass`
 (`blocks/evenheat-glass.html`, h2 `#evenheat-glass-kiln-model-comparison`), then the shared
