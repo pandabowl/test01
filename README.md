@@ -35,6 +35,41 @@ discounts, which by definition apply to every shopper at checkout.
 If a real, publicly-advertised promo code should be added to the feed later,
 add it explicitly — don't flip the generator to include all codes.
 
+Two kinds of active *automatic* discounts are also left out, and the
+generator lists each one it skips on stderr (`SKIPPED: ...`):
+
+- **App discounts** (`DiscountAutomaticApp`), e.g. the UpsellKoala volume /
+  quantity-break discounts. Their real terms (tiers, eligible products) live
+  in the app; the Shopify API only exposes a title and dates. The generator
+  can't tell what the offer is, so it can't write an accurate promotion row
+  for one. If one should be advertised, add it to the feed by hand.
+- **Automatic discounts limited to specific customers, customer segments or
+  markets.** Like the courtesy codes, they don't apply to every shopper.
+
+## Shopify API notes
+
+- **API version:** the generator calls Admin GraphQL API version `2026-10`
+  (`SHOPIFY_API_VERSION` near the top of the script). Shopify supports each
+  version for about 12 months; `2026-10` is supported until 16 October 2027.
+  After that, Shopify quietly serves requests with the oldest version it
+  still supports. If that happens, the generator prints
+  `WARNING: requested Shopify API ... but Shopify served ...`. Move the
+  constant to the latest stable version before then, and check that the
+  query still runs without deprecated fields.
+- **Query:** `discountNodes` with `query: "method:automatic status:active"`,
+  sorted by ID. This replaces `automaticDiscountNodes`, which is deprecated
+  as of `2026-10`. The `method:automatic` filter is what keeps code discounts
+  out. The generator also checks the type of every discount that comes back,
+  so a code discount still can't reach the feed if Shopify ever ignores the
+  filter.
+- **Eligibility (`context`):** since API version `2025-10`, automatic
+  discounts can be limited to specific customers, customer segments or
+  markets, and queries return those discounts too. Older versions, including
+  the `2024-10` this generator used to request, filtered them out. To keep
+  the same behavior, the generator only uses automatic discounts whose
+  `context` is all customers (`DiscountBuyerSelectionAll`).
+- **Access scope:** still just `read_discounts`.
+
 ## Before you upload
 
 1. **`specific_products` mapping.** Both current promotions target specific

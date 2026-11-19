@@ -8,11 +8,17 @@ Usage:
     python3 scripts/generate_promotions_feed.py [--out-tsv feeds/promotions.txt] [--out-xlsx feeds/promotions.xlsx]
 
 What it does:
-    Queries the Shopify Admin GraphQL API for ACTIVE automatic discounts (Basic,
-    BxGy, Free Shipping) and converts each into one row of Google's Promotions
+    Queries the Shopify Admin GraphQL API (version SHOPIFY_API_VERSION, via
+    discountNodes filtered to "method:automatic status:active") for ACTIVE
+    automatic discounts (Basic, BxGy, Free Shipping) that are open to all
+    customers, and converts each into one row of Google's Promotions
     feed schema: promotion_id, product_applicability, long_title,
     promotion_effective_dates, promotion_display_dates, redemption_channel,
     offer_type, generic_redemption_code, promotion_destination.
+
+    App-powered automatic discounts (e.g. UpsellKoala volume discounts) and
+    automatic discounts limited to specific customers, customer segments or
+    markets are skipped and listed on stderr.
 
 Why only automatic discounts:
     Shopify code-based discounts on this store include a large number of
@@ -54,15 +60,39 @@ FEED_COLUMNS = [
     "promotion_destination",
 ]
 
+# Shopify supports each Admin API version for about 12 months; requests to a
+# retired version are silently served by the oldest supported one. 2026-10 is
+# supported until 2027-10-16. Bump this (and re-check DISCOUNTS_QUERY against
+# the new version) before then.
+SHOPIFY_API_VERSION = "2026-10"
+
+# Discount types this script turns into feed rows. Anything else that comes
+# back (app discounts, or code discounts if the search filter were ever
+# ignored) is excluded.
+FEED_DISCOUNT_TYPES = {
+    "DiscountAutomaticBasic",
+    "DiscountAutomaticBxgy",
+    "DiscountAutomaticFreeShipping",
+}
+
+# The "method:automatic" filter is what keeps customer-specific courtesy codes
+# out of the feed; FEED_DISCOUNT_TYPES re-checks it on every node. Sorting by
+# ID keeps the row order the old automaticDiscountNodes query returned.
 DISCOUNTS_QUERY = """
-query AutomaticDiscounts($cursor: String) {
-  automaticDiscountNodes(first: 100, after: $cursor) {
+query ActiveAutomaticDiscounts($first: Int!, $after: String) {
+  discountNodes(
+    first: $first
+    after: $after
+    query: "method:automatic status:active"
+    sortKey: ID
+  ) {
     nodes {
       id
-      automaticDiscount {
+      discount {
         __typename
         ... on DiscountAutomaticBasic {
           title status startsAt endsAt
+          context { __typename }
           customerGets {
             items {
               __typename
@@ -72,9 +102,14 @@ query AutomaticDiscounts($cursor: String) {
         }
         ... on DiscountAutomaticBxgy {
           title status startsAt endsAt
+          context { __typename }
         }
         ... on DiscountAutomaticFreeShipping {
           title status startsAt endsAt
+          context { __typename }
+        }
+        ... on DiscountAutomaticApp {
+          title status
         }
       }
     }
@@ -85,7 +120,7 @@ query AutomaticDiscounts($cursor: String) {
 
 
 def shopify_graphql(domain, token, query, variables=None):
-    url = f"https://{domain}/admin/api/2024-10/graphql.json"
+    url = f"https://{domain}/admin/api/{SHOPIFY_API_VERSION}/graphql.json"
     body = json.dumps({"query": query, "variables": variables or {}}).encode()
     req = urllib.request.Request(
         url,
@@ -98,28 +133,46 @@ def shopify_graphql(domain, token, query, variables=None):
     )
     try:
         with urllib.request.urlopen(req, timeout=30) as resp:
+            served_version = resp.headers.get("X-Shopify-API-Version")
             payload = json.loads(resp.read())
     except urllib.error.HTTPError as e:
         raise SystemExit(f"Shopify API error {e.code}: {e.read().decode()}")
+    if served_version and served_version != SHOPIFY_API_VERSION:
+        print(
+            f"WARNING: requested Shopify API {SHOPIFY_API_VERSION} but Shopify served "
+            f"{served_version}; SHOPIFY_API_VERSION is probably out of support. Update it.",
+            file=sys.stderr,
+        )
     if "errors" in payload:
         raise SystemExit(f"Shopify GraphQL errors: {payload['errors']}")
     return payload["data"]
 
 
 def fetch_active_automatic_discounts(domain, token):
+    """Return (discounts for the feed, [(title, reason)] for active automatic discounts skipped)."""
     discounts = []
+    skipped = []
     cursor = None
     while True:
-        data = shopify_graphql(domain, token, DISCOUNTS_QUERY, {"cursor": cursor})
-        conn = data["automaticDiscountNodes"]
+        data = shopify_graphql(domain, token, DISCOUNTS_QUERY, {"first": 100, "after": cursor})
+        conn = data["discountNodes"]
         for node in conn["nodes"]:
-            d = node["automaticDiscount"]
-            if d.get("status") == "ACTIVE":
+            d = node["discount"]
+            if d.get("status") != "ACTIVE":
+                continue
+            typename = d["__typename"]
+            if typename == "DiscountAutomaticApp":
+                skipped.append((d["title"], "app discount"))
+            elif typename not in FEED_DISCOUNT_TYPES:
+                continue
+            elif d["context"]["__typename"] != "DiscountBuyerSelectionAll":
+                skipped.append((d["title"], "not open to all customers"))
+            else:
                 discounts.append(d)
         if not conn["pageInfo"]["hasNextPage"]:
             break
         cursor = conn["pageInfo"]["endCursor"]
-    return discounts
+    return discounts, skipped
 
 
 def slugify_id(title, max_len=40):
@@ -210,13 +263,15 @@ def main():
             "Set SHOPIFY_STORE_DOMAIN and SHOPIFY_ADMIN_ACCESS_TOKEN environment variables first."
         )
 
-    discounts = fetch_active_automatic_discounts(domain, token)
+    discounts, skipped = fetch_active_automatic_discounts(domain, token)
     rows, warnings = build_rows(discounts, args.default_duration_days, args.destination)
 
     write_tsv(rows, args.out_tsv)
     write_xlsx(rows, args.out_xlsx)
 
     print(f"Wrote {len(rows)} promotion row(s) to {args.out_tsv} and {args.out_xlsx}")
+    for title, reason in skipped:
+        print(f"SKIPPED: '{title}' ({reason})", file=sys.stderr)
     for w in warnings:
         print(f"WARNING: {w}", file=sys.stderr)
 
