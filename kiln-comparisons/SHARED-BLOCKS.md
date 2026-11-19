@@ -226,7 +226,19 @@ Done:
 - The owner published that theme on 2026-11-19 at 05:50 UTC; checked on the
   live site (see Theme status).
 
+- **First page on shared blocks: Laguna** (`laguna-front-loading-gas-kilns`,
+  list `laguna-gas` + `kiln-compare-cta`), live 2026-11-19 06:12 UTC, published
+  by the Laguna chat. Checked here: the styles and both blocks render exactly,
+  in order, directly above the below-text section.
+- `kiln-compare-cta` wording changed 06:04 UTC (Laguna chat, with the user's OK):
+  "your space and your electrical or gas service", so it fits gas kilns too.
+  `shared/kiln-compare-cta.html` updated to match.
+- All ten brand chats were told about the new method on 2026-11-19 (drafts:
+  publish as blocks; live tables: move when the user says go).
+
 Not done:
-- No collection lists any blocks yet. L&L is being drafted in its own chat
+- Other brands: L&L, Cone Art and Nabertherm have entries in progress. Paragon,
+  Olympic and Evenheat still have drafts. Skutt, Skutt glass, Amaco and
+  Nabertherm are still embedded the old way until each one moves. L&L is being drafted in its own chat
   (`ll/`, branch `claude/zealous-ptolemy-711aho`).
 - Skutt and any other brands published the old way can move over afterwards.
