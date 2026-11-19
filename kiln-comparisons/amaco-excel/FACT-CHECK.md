@@ -137,9 +137,26 @@ exact): `store-fixes/after_2026-11-19.json`.
 | **New product EX-381SF** (DRAFT) | `amaco-excel-ex-381-kiln-with-select-fire-aex381`, SKU AEX381, Amaco item 25165E (240V 1-ph), compare-at $6,300 (Amaco list), price **$5,349 proposed — needs the user's OK**; Amaco's description and photo; metafields copied from EX-399 (kiln_*, finder.*, shipping group, help-desk); published to the same 5 channels; joins the Amaco smart collections automatically |
 | EX-1266SF (still DRAFT) | Added kiln_* and finder.* metafields (so it joins "All Kilns"), fixed SEO description (it claimed "25% off"), published to the same 5 channels |
 
-Not changed, waiting on the user: EZ-Lift wording on EX-270/EX-365 (included
-vs. optional); making EX-381SF and EX-1266SF ACTIVE (then add both rows back to
-the comparison table).
+Later the same day (user approved $5,349 and "make both live and add them"):
+- EX-381SF and EX-1266SF set ACTIVE; both live on all 5 channels, pages 200.
+- Comparison table updated to all 10 current models (EX-1266SF and EX-381SF
+  rows added, intro says "current Excel models", model-number box and EZ-Lift
+  paragraph updated). Previous value saved as
+  `backup_abz_collection_below_descrption_before_rows_2026-11-19.html`;
+  written with `compareDigest`; live page verified byte-for-byte; 13 links 200.
+- EX-381SF row: Skutt KM-1222-3 → 48 A, 12 sides. EX-1266SF row: Skutt
+  KM-1218-3 → 48 A, 12 sides.
+
+**EX-1266SF brick: open question.** Amaco's page says 2½" firebrick, and the
+table and product page follow Amaco. But the evidence points to 3": the
+Skutt twin (KM-1218-3) is 3" brick with the same 330 lb weight Amaco lists;
+every other 28"-wide Excel model is 3" brick; Amaco's parts list has 12-sided
+bricks only in 3" ("…3-12S"), and the EX-1266SF uses the same shelves as the
+EX-381/399/1099. Worth confirming with Amaco; if it's 3", change the table
+cell, the product description, and note it in the model-number box.
+
+Still waiting on the user: EZ-Lift wording on EX-270/EX-365 (included vs.
+optional).
 
 Other things noticed, not changed:
 - EX-1099 (active) and EX-1266 have a 1.5 lb shipping weight and shipping group
