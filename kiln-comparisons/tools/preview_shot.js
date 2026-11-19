@@ -5,6 +5,11 @@
 // Screenshot what is already live:
 //   node preview_shot.js <page-url> <section-selector> <out-prefix>
 //
+// Shared blocks (SHARED-BLOCKS.md): build the draft with tools/build_preview.py,
+// then add "before" as a 6th argument to put it where the theme section renders
+// it, directly above the section that contains the given id:
+//   node preview_shot.js <page-url> '.sp-compare' preview draft.html abz_below_richtxt_id before
+//
 // Example:
 //   node preview_shot.js https://www.sheffield-pottery.com/collections/skutt-ceramic-kilns \
 //     '#sp-skutt-compare' preview template/comparison-section.html SkuttPoetry-guide
@@ -14,7 +19,7 @@
 const { chromium, devices } = require('playwright');
 const fs = require('fs');
 
-const [url, selector, outPrefix, draftFile, afterId] = process.argv.slice(2);
+const [url, selector, outPrefix, draftFile, afterId, where] = process.argv.slice(2);
 if (!url || !selector || !outPrefix) {
   console.error('usage: node preview_shot.js <url> <selector> <out-prefix> [draft.html insert-after-id]');
   process.exit(2);
@@ -34,12 +39,13 @@ const draft = draftFile ? fs.readFileSync(draftFile, 'utf8') : null;
     await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
     await page.waitForTimeout(4000);
     if (draft) {
-      const ok = await page.evaluate(([html, id]) => {
+      const ok = await page.evaluate(([html, id, before]) => {
         const el = document.getElementById(id);
         if (!el) return false;
-        el.insertAdjacentHTML('afterend', html);
+        if (before) (el.closest('.shopify-section') || el).insertAdjacentHTML('beforebegin', html);
+        else el.insertAdjacentHTML('afterend', html);
         return true;
-      }, [draft, afterId]);
+      }, [draft, afterId, where === 'before']);
       if (!ok) throw new Error(`element #${afterId} not found on page`);
     }
     // Hide sticky headers, popups and chat bubbles so they don't cover the shot.
