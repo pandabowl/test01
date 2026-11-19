@@ -249,6 +249,11 @@ Done:
   publish as blocks; live tables: move when the user says go).
 
 Not done:
+- Skutt pottery moved to blocks at about 06:55 UTC (Skutt chat, with the user's OK):
+  `skutt-ceramic-kilns` lists `skutt-pottery` + `kiln-compare-cta`; the embedded table was
+  removed in the same save; "Learn more" points to `#skutt-pottery`. Current files are on
+  branch `claude/elegant-bohr-1e5ynt` (`skutt-ceramic/`). The `..._0649_before_move.html` file
+  here is only the in-between value after the 1946 sentence was removed.
 - Other brands: L&L, Cone Art and Nabertherm have entries in progress. Paragon,
   Olympic and Evenheat still have drafts. Skutt, Skutt glass, Amaco and
   Nabertherm are still embedded the old way until each one moves. L&L is being drafted in its own chat
