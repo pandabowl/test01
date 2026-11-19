@@ -72,20 +72,28 @@ and the price list shows it costs less. Ovals top out at 20.5 cu ft (3031HE).
 - Controllers: the 2023 catalog lists 3 Key, V6-CF, RTC-1000 and Genesis; the
   2026 price list offers KilnStar or Genesis only. The page doesn't name controllers.
 
-## Errors in the store's product data (not fixed; for the user)
+## Store data fixed 2026-11-19 (at the user's request)
 
-Spec tables inside the product descriptions (`descriptionHtml`), compared with
-Olympic's 2026 price list:
+Spec tables inside the product descriptions (`descriptionHtml`) that didn't
+match Olympic's 2026 price list. Each description was backed up first
+(`product-fixes/backup_<handle>_2026-11-19.html`), only the values below were
+changed, every description was read back and matched the intended HTML byte
+for byte, and the live product pages show the new values.
+
+| Product | Field | Was | Now (Olympic 2026) |
+|---|---|---|---|
+| 2818H | spec table, inside dims (2818 and 2818H rows) | 28 1/4 x 22.5 | 28 1/4 x 18 |
+| 2827H | spec table, 2827 row max temp | Cone 8 – 23000°F | Cone 8 – 2300°F |
+| 2331H | spec table, 2331H 3-phase breaker | P3= 63/41 | P3= 50/60 |
+| 2323H | spec table, 2323H watts | 9600 | 10560 |
+| 2323H | spec table, 2323H 1-phase breaker | P1= 50/60 | P1= 60 |
+| 2318 and 2318H | spec table, 2318H watts | 8400 | 8600 |
+| 2318 and 2318H | furniture kit table, row labels | 2323 / 2323H | 2318 / 2318H |
+
+## Other store-data issues (not fixed; for the user)
 
 | Product | Field | Store says | Olympic says |
 |---|---|---|---|
-| 2818H | spec table, inside dims (2818 and 2818H rows) | 28 1/4 x 22.5 | **28.25 x 18** |
-| 2827H | spec table, 2827 row max temp | Cone 8 – 23000°F | **Cone 8 – 2300°F** |
-| 2331H | spec table, 2331H 3-phase breaker | P3 = 63/41 | **50/60** (3-phase amps are 36/41) |
-| 2323H | spec table, 2323H watts | 9600 | **10,560** |
-| 2323H | spec table, 2323H 1-phase breaker | 50/60 | **60** |
-| 2318 and 2318H | spec table, 2318H watts | 8400 | **8,600** |
-| 2318 and 2318H | furniture kit table | rows labeled 2323 / 2323H | should say 2318 / 2318H (same 23" kit) |
 | 2323H, 2331H, 2818H | spec tables | still list cone 8/cone 4 2323, 2331, 2818 | Olympic now lists these sizes as HE (cone 10) only |
 | Stackable products + `olympic-multi-sided-electric-kilns` page | boilerplate text | "models 2323 and 2331 fire to cone 4" and "Every size kiln is available in a regular … or H version" | 2323, 2331, 2818, 2823 and 2831 are HE only now |
 | Most stackables | spec table outside dims | 2 numbers from an older sheet (e.g. 2827H 42 x 41) | 3 numbers now (2827HE 42 x 53 x 47) |
