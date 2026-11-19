@@ -6,6 +6,8 @@ Metafield: `custom.abz_collection_below_descrption` on collection
 the below block: the top description's "Read More!" link points at
 `#abz_below_richtxt_id` (the block itself), so the section is inserted at the
 **start** of the metafield value, before `<h3>Helpful Resources</h3>`.
+Live since 2026-11-19 (units restyled the same day); `tools/verify_live.py` exact
+match on the live page, all links 200 (the old Kiln Buying Guide link is a 301 to a 200).
 Preview with:
 `node tools/preview_shot.js <url> '#sp-nabertherm-compare' preview draft.html '#abz_below_richtxt_id .rich-text__text' afterbegin`
 
@@ -81,6 +83,19 @@ All rows: 240V single-phase ("2/PE") except the N 200 (240V three-phase, "3/PE")
 - International (metric) models differ from US models (e.g. Top 60 3.6 kW,
   Top 190 11.0 kW three-phase, Top 190/R 13.5 kW). The page uses US models only.
 
+## Units (user request, 2026-11-19)
+
+Every Nabertherm spec shows **standard (US) units first** at normal size, with the
+metric value kept next to it in `<small>` (smaller; in the comparison section also
+grey via `#sp-nabertherm-compare small{font-size:.8em;color:#666}`). Example:
+`2408°F <small>(1320°C)</small>`. Metric values are Nabertherm's own published
+metric figures for the same model (international catalog / web page), e.g. Top 60
+inner Ø 410 × 450 mm, Top 190 Ø 590 × 680 mm, 780 × 1080 × 1160 mm, 135 kg; N range
+1300 °C, N ../H 1340 °C. Nabertherm's US inch figures are rounded conversions of
+these (e.g. 590 mm is printed as 23.0"), so the pairs can differ by ~1%.
+Insulation thicknesses converted: 15 mm = 0.59", 20 mm = 0.79", 80 mm = 3.15".
+The US spec tables were already all-standard and were left as they are.
+
 ## What matched in the store's data
 
 The spec tables in the product descriptions of the Top 60, Top 60/R, Top 160,
@@ -88,27 +103,50 @@ Top 190 and Top 220 are copies of Nabertherm's US tables and match the catalog
 exactly (including the catalog's 15-30 plug for the Top 60/R on 208V 3-phase).
 The finder `facts` capacities (2.11, 5.65, 6.7, 7.76 cu ft) are correct.
 
-## Errors in the store's product data (not fixed; for the user)
+## Store-data errors: fixed on 2026-11-19 (at the user's request)
 
-| Product | Field | Store says | Nabertherm says |
+Backups of every changed field are in `products/backup_*.json` (taken right
+before the changes); the values now live are in `products/live_description_*.html`.
+Each product description was checked against the Admin API after writing: exact
+for Top 60, Top 60/R, Top 160 and N200; Top 190 and Top 220 differ only by
+newlines Shopify's formatter inserts before `</li>` (no visible change). Product
+pages also get `loading="lazy"` added to images by the theme, so verify product
+descriptions through the API, not the live page.
+
+| Product | Field | Was | Now |
 |---|---|---|---|
-| Top 60R | SEO meta description | "Buy the Nabertherm **Top 190** … 190L capacity" (copied) | Should describe the Top 60/R (60 L, 2.11 cu ft) |
-| Top 60R | description intro | Tmax 1300 °C | **1320 °C / 2408 °F** |
-| Top 60R | description intro | "Incl. NEMA-plug 60-50P" | **NEMA 6-30** at 240V (6-50 at 208V) |
-| Top 60R | description intro | 5,5 kW; inner 410 × 460 mm; outer 580 × 870 × 870 mm (metric/international) | US: **5.6 kW; Ø 16 × 17.8 in; 23.6 × 35.0 × 35.4 in** |
-| Top 160 | handle / part no. | handle `nabertherm-top-190`, `pdp_vendor_part_no` TOP190 | It's the Top 160. (Changing the handle needs a URL redirect.) |
-| Top 160 | Yotpo metafields | `preloaded_product_filters` productId 8304889004354 | That is the **N200's** product ID (listing was duplicated) |
-| Top 190 | "Specifications" list | Power 13.5 kW | **10.0 kW** (13.5 kW is the international Top 190/R) |
-| Top 190 | "Specifications" list | Interior Ø 600 × 670 mm (23.6" × 26.4") | **Ø 23.0 × 26.7 in** (intl Ø 590 × 680 mm) |
-| Top 190 | "Specifications" list | Exterior 35.43 × 35.43 × 41.34 in; weight 441 lb (200 kg) | **30.7 × 42.5 × 45.6 in; 298 lb** |
-| Top 190, Top 220 | "Specifications" list | Controller: B 400 (standard) | **AC590** touch controller is standard |
-| Top 190, Top 220 | "Specifications" list | "High-quality ceramic fiber insulation" | Light-weight refractory brick + microporous back-up insulation; Nabertherm says it uses **no ceramic fiber (RCF)** |
-| Top 190, Top 220 | "Specifications" list | Elements "on all sides including floor" | Floor (bottom) heating is an **option** for Top 160–220 |
-| N200 | description / metafields | No spec table; `custom.voltage` "240 or 208"; never says three-phase | **Three-phase only** (208V or 240V 3-phase), 15.2 kW, 42.7 / 37.0 A, hardwired; 7.06 cu ft; 18.5 × 20.9 × 30.7 in |
-| N200 | description | Mentions models N 100/G … N 660/H and °C temperature advice (international copy) | US lineup is N 200, N 300, N 440 (and /H) |
-| Top 160, Top 190, N200 | `custom.kiln_top_cone` | missing | Cone 10 (all three) |
-| N300 (unlisted) | SEO title | "480V 3PH" (but `custom.voltage` says 240 or 208) | US catalog lists N 300 at 208/240V 3-phase only |
-| Collection page (existing text) | below block | "Bottom heating for **Top 140**, Top 190, and Top 220" | US catalog: **Top 160 – Top 220** (no Top 140 in the US lineup). Left unchanged. |
+| Top 60R | SEO meta description | copied from the Top 190 ("190L capacity") | Top 60/R text: 2.11 cu ft (60 L), cone 10 (2408°F), AC590 |
+| Top 60R | description intro | Tmax 1300 °C; "NEMA-plug 60-50P"; 5,5 kW; 410 × 460 / 580 × 870 × 870 mm; 240 V only | Tmax 2408 °F (1320 °C); NEMA 6-30P at 240 V, 6-50P at 208 V; 5.6 kW; 16.0" × 17.8" (410 × 450 mm); 23.6" × 35.0" × 35.4" (600 × 890 × 900 mm); 240 V or 208 V |
+| Top 160 | handle | `nabertherm-top-190` | `nabertherm-top-160-kiln` (Shopify redirect from the old URL, checked: 301 → 200) |
+| Top 160 | `custom.pdp_vendor_part_no` | TOP190 | TOP160 |
+| Top 160 | description | "160-liter chamber capacity" | "5.65 cu ft (160-liter)" |
+| Top 160 | SEO meta description | "160-liter …" | "5.65 cu ft (160 L) … cone 10 … AC590" |
+| Top 190 | Specifications list | 13.5 kW; Ø 600 × 670 mm (23.6" × 26.4"); 35.43 × 35.43 × 41.34 in; 200 kg (441 lbs); 190 liters; 1320°C (2408°F) | 10.0 kW; Ø 23.0" × 26.7" (Ø 590 × 680 mm); 30.7" × 42.5" × 45.6" (780 × 1080 × 1160 mm); 298 lbs (135 kg); 6.70 cu ft (190 liters); 2408°F (1320°C) |
+| Top 190 | SEO meta description | "190L capacity, 1320°C max temp" | "6.70 cu ft (190 L) chamber, 2408°F (1320°C) max temp" |
+| Top 190, Top 220 | Specifications / Features | B 400 controller; "ceramic fiber insulation"; elements "including floor" | AC590 touch controller; refractory brick + microporous, no ceramic fiber; wall elements, bottom heating optional |
+| Top 220 | Specifications | 1320°C (2408°F) | 2408°F (1320°C) |
+| N200 | description | no spec table; never said three-phase; N 100/G–N 660/H and °C advice (international copy); "N 100.. – N 300.." ranges; stainless side panels; "See page 22" | added US spec table and "three-phase only, hard-wired" note; US lineup N 200–N 440/H with °F (°C); ranges removed (standard on all US N models); galvanized side panels + stainless door cover (US catalog p. 28); AC590 |
+| Top 160, Top 190, N200 | `custom.kiln_top_cone` | missing | 10 |
+| Top 160, Top 190 | `finder.eyebrow` | Pottery · 240/208 V | Cone 10 · 240/208 V (matches the other top loaders) |
+| N200 | `finder.eyebrow` / `custom.kiln_power` | Pottery / missing | Cone 10 · 240/208 V 3-phase / "240 or 208 V" (the field only accepts "120 V", "240 or 208 V", "Gas or propane") |
+| All six | venting / insulation text | "3.15\" (80 mm)", "15 mm", "20 mm" | metric in `<small>`, inches first |
+| Collection page (existing text) | below block | "Bottom heating for Top 140 …"; "80 mm diameter"; "300 liters" / "440 liters" | "Top 160 …"; 3.15" (80 mm); 10.59 cu ft (300 liters) / 15.53 cu ft (440 liters) |
+
+## Not changed (for the user to decide)
+
+- **Top 160 Yotpo data** (`yotpo.preloaded_product_filters`) still carries the
+  N200's product ID. `metafieldsSet` returned no error but did not change it; the
+  Yotpo app owns that field. Fix it from Yotpo (re-sync) if reviews look wrong.
+- **N300** (unlisted, not on the Online Store): SEO title says "480V 3PH" and the
+  part number is N300N480, so it may really be a 480V unit; `custom.voltage` says
+  "240 or 208". Its description (and the N440's) still has the international
+  N 100/G–N 660/H copy and °C-only advice. Neither product is on the website.
+- **Top loader descriptions** contain page-wide CSS (`body{margin:20px;
+  font-family:Arial…}`, unscoped `table{min-width:900px}`) and two stray
+  `<meta>` tags; the Top 60/R has a stray "x" before its features image. Left as is.
+- Top 60R SEO title has a double space and no separator ("Kiln  Top-Loading").
+- The "Kiln Buying Guide" link in the existing page text 301-redirects to
+  /blogs/ceramic-arts-blog/kiln-buying-guide (200).
 
 ## Notes
 

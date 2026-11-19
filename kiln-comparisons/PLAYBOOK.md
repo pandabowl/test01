@@ -57,6 +57,10 @@ models right on the brand's collection landing page, so the page answers
 - The top description (`descriptionHtml`) often has a "Learn more" link to an id
   inside the below block (Skutt: `#SkuttPoetry-guide`). Insert the comparison
   right after that heading so the link lands on it.
+- If the link points at the block itself (`#abz_below_richtxt_id`, as on
+  Nabertherm), put the comparison at the **start** of the metafield value. Preview
+  it with a selector and position:
+  `node tools/preview_shot.js <url> '#sp-<brand>-compare' preview draft.html '#abz_below_richtxt_id .rich-text__text' afterbegin`
 
 ## 2. Pull the store's product data
 
@@ -94,6 +98,11 @@ have an `onlineStoreUrl`.
   its model pages), pick one consistently and note it.
 - Write `<brand-line>/FACT-CHECK.md`: sources with URLs, what matched, what you
   corrected, and the store-data errors for the user to fix.
+- **Units:** use US standard units (°F, inches, cu ft, lbs). When a spec also has
+  a metric value, keep it, but put it second and smaller:
+  `2408°F <small>(1320°C)</small>` (the user asked for this on Nabertherm,
+  2026-11-19). Brands with US and international sites (Nabertherm) publish a US
+  catalog: use it, not the metric one.
 
 ## 4. Draft the section
 
@@ -110,7 +119,9 @@ Start from `template/comparison-section.html` and keep its structure and look:
   need different columns, e.g. interior W × L × D, shelf/firing area, max temp,
   volts/amps/plug, element placement (lid/sides), best for. Every `<td>` except
   the model cell needs `data-label` (that's what turns rows into cards on
-  phones). Mark the best seller with `class="spc-pop"` and a `<span>` badge.
+  phones). Mark the best seller with `class="spc-pop"` and a `<span>` badge, but only if
+  sales data or the user says so (check `run-analytics-query`; Nabertherm had no
+  online sales, so no badge).
 - A footnote on what the ratings assume (voltage/phase) and that 208V or 3-phase
   ratings can differ.
 - "Which <Brand> kiln should I buy?" — 3 or 4 picks (`ul.spc-picks`).
@@ -142,7 +153,10 @@ problems you found, and wait for their go-ahead.
    `key: "abz_collection_below_descrption"`, `type: "multi_line_text_field"`,
    the full new value, and **`compareDigest`** (so Shopify refuses the write if
    someone changed it in the meantime). The value has to be typed out in full in
-   the mutation; step 7 catches any transcription mistake.
+   the mutation; step 7 catches any transcription mistake. Pass it in `variables`
+   and print it first with `python3 tools/escape_value.py value.html`: existing
+   content often hides no-break spaces (U+00A0) and emoji variation selectors
+   (U+FE0E/U+FE0F) that are lost when retyped.
 
 ## 7. Verify
 
@@ -156,6 +170,24 @@ problems you found, and wait for their go-ahead.
 Put `<brand-line>/live_abz_collection_below_descrption_<date>.html`, the backup,
 and `FACT-CHECK.md` in this folder, commit, and push.
 
+## If the user asks you to fix the store-data errors
+
+(Done for Nabertherm; see `nabertherm/FACT-CHECK.md` and `nabertherm/products/`.)
+
+- Back up first: query each product's `descriptionHtml`, `seo` and `metafields`
+  and save the JSON in `<brand-line>/products/`.
+- Build each new description in Python from the backup with exact replacements
+  (assert each target occurs once), then `productUpdate` with the full value.
+- Verify through the Admin API, not the live page: the theme adds
+  `loading="lazy"` to images, and Shopify's formatter may insert a newline before
+  `</li>` (whitespace only).
+- Renaming a handle: `productUpdate(product: {id, handle, redirectNewHandle: true})`
+  creates the redirect; update your section's links to the new handle.
+- Metafield gotchas: `custom.kiln_power` only accepts "120 V", "240 or 208 V" or
+  "Gas or propane" (the whole `metafieldsSet` batch fails otherwise); writes to the
+  `yotpo` namespace are silently ignored (Yotpo owns it); use `compareDigest: null`
+  to create a metafield that must not already exist.
+
 ## Brands and pages (as of 2026-11-19)
 
 | Brand line | Collection handle(s) | Manufacturer site (confirm) | Status |
@@ -168,7 +200,7 @@ and `FACT-CHECK.md` in this folder, commit, and push.
 | Evenheat | `evenheat-kilns`, `evenheat-ceramics-kilns`, `evenheat-glass-kilns` | evenheat-kiln.com | To do |
 | Amaco Excel | `amaco-kilns`, `amaco-excel-kilns` (duplicates) | amaco.com | To do |
 | Cone Art | `cone-art-kilns`, `tucker-s-cone-art-kilns`, `cone-art-cone-10-double-wall-automatic-electric-kilns`, `cone-art-glass-fusing-kilns` | coneartkilns.com | To do |
-| Nabertherm | `nabertherm-kilns` | nabertherm.com | To do |
+| Nabertherm | `nabertherm-kilns` | nabertherm.com (US catalog: https://nabertherm.com/sites/default/files/2025-03/artscrafts-english-US.pdf) | **Done** (live 2026-11-19; product data fixed and units restyled the same day) |
 | Laguna | `laguna-front-loading-gas-kilns` | lagunaclay.com | To do |
 
 Manufacturer domains in this table are best guesses: confirm each one before
