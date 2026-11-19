@@ -151,7 +151,9 @@ Later the same day (user approved $5,349 and "make both live and add them"):
 - EX-381SF row: Skutt KM-1222-3 → 48 A, 12 sides. EX-1266SF row: Skutt
   KM-1218-3 → 48 A, 12 sides.
 
-**EX-1266SF brick: open question.** Amaco's page says 2½" firebrick, and the
+**EX-1266SF brick: RESOLVED 2026-11-19 — the user confirmed 3". Block row and product page changed from 2.5" to 3" (18:52 UTC), read back exact and verified live. Original note kept below.**
+
+~~EX-1266SF brick: open question.~~ Amaco's page says 2½" firebrick, and the
 table and product page follow Amaco. But the evidence points to 3": the
 Skutt twin (KM-1218-3) is 3" brick with the same 330 lb weight Amaco lists;
 every other 28"-wide Excel model is 3" brick; Amaco's parts list has 12-sided
@@ -184,3 +186,14 @@ Other things noticed, not changed:
   discounts from list price range from 12% to 23%.
 - `amaco-excel-kilns` below text still says "Choice of infinite control
   switches or Select Fire"; every current Excel model is Select Fire.
+
+## 2026-11-19 later changes
+- Another chat (shared-blocks work) moved the "Which Amaco Excel kiln should I
+  buy?" picks to just after the intro in the `amaco-excel` block (07:38 UTC).
+  Kept as is.
+- EX-1266SF brick → 3" in the block and the product description (user
+  confirmed). Block backup before the change:
+  `blocks/backup_amaco-excel_before_ex1266_brick_2026-11-19.html`; product
+  backup: `store-fixes/backup_ex1266_brick_2026-11-19.json`.
+- The shared `kiln-compare-cta` no longer carries the "since 1946" kiln claim
+  (changed by the shared-blocks chat at the user's request); repo copy synced.
