@@ -70,3 +70,22 @@ Options:
 ```
 
 Requires `openpyxl` (`pip install openpyxl`).
+
+# Kiln package "What's in the package" boxes
+
+`kiln-packages/` adds a "What's in the package" box to each kiln package
+description. The box lists the kiln, everything in its furniture kit and
+everything that comes with its vent.
+
+- `kiln-packages/build_package_boxes.py`: the per-package contents (with
+  sources noted in the docstring) and the code that builds the box and puts
+  it in the description. Running it again replaces the box rather than
+  adding a second one.
+- `kiln-packages/originals/`: every package description as it was before
+  this change (pulled 2026-11-19), so any of them can be restored.
+- `kiln-packages/updated/`: the new descriptions, ready to send to Shopify.
+- `kiln-packages/preview.html`: all the boxes on one page for review.
+
+```bash
+python3 kiln-packages/build_package_boxes.py
+```

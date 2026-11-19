@@ -1,0 +1,434 @@
+[
+ {
+  "id": "gid://shopify/Product/8304898015554",
+  "title": "Paragon Super Dragon Kiln Package w Touch Screen and Vent",
+  "handle": "paragon-super-dragon-kiln-package-w-touch-screen-and-vent",
+  "status": "DRAFT"
+ },
+ {
+  "id": "gid://shopify/Product/8304899490114",
+  "title": "Paragon Kilns TnF 23-3 Kiln Package with Vent, Furniture Kit and Touch Screen Controller",
+  "handle": "paragon-kilns-tnf-23-3-kiln-package-with-vent-furniture-kit-and-touch-screen-controller",
+  "status": "DRAFT"
+ },
+ {
+  "id": "gid://shopify/Product/8304899588418",
+  "title": "Paragon Kiln Tnf24-3 Kiln Package with Vent, Furniture and Sentinel Touch",
+  "handle": "paragon-kiln-tnf24-3-kiln-package-with-vent-furniture-and-sentinel-touch",
+  "status": "DRAFT"
+ },
+ {
+  "id": "gid://shopify/Product/8304899817794",
+  "title": "Paragon Kilns Tnf82 Kiln Package with Vent, Furniture Kit and Touch Screen Controller",
+  "handle": "paragon-kilns-tnf82-kiln-package-with-vent-furniture-kit-and-touch-screen-controller",
+  "status": "DRAFT"
+ },
+ {
+  "id": "gid://shopify/Product/8304899883330",
+  "title": "Paragon Kilns TnF82-3 Kiln Package with Vent, Furniture and Touch Screen Controller",
+  "handle": "paragon-kilns-tnf82-3-kiln-package-with-vent-furniture-and-touch-screen-controller",
+  "status": "DRAFT"
+ },
+ {
+  "id": "gid://shopify/Product/8312988041538",
+  "title": "Skutt KMT1231-3PK Kiln with Touchscreen Controller",
+  "handle": "skutt-kmt1231-3pk-kiln-package-skkm12313pkcs",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/8315913634114",
+  "title": "L&L e18M-3 Easy-Fire Kiln Package with Vent, Furniture and Genesis Touchscreen",
+  "handle": "l-l-e18m-3-easy-fire-kiln-package-lke18m3-cm",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/8315913765186",
+  "title": "L&L e18S-3 Easy-Fire Kiln Package with Vent, Furniture and Genesis Touchscreen",
+  "handle": "l-l-e18s-3-easy-fire-kiln-special-package-lke18s3-cm",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/8315913994562",
+  "title": "L&L e18T-3  Easy-Fire Kiln Package with Vent, Furniture and Genesis Touchscreen",
+  "handle": "l-l-e18t3-easy-fire-kiln-special-package-lke18t3-cm",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/8315914289474",
+  "title": "L&L e23M-3 Easy-Fire Kiln Package with Vent, Furniture and Genesis Touchscreen",
+  "handle": "l-l-e23m-3-easy-fire-kiln-package-lke23m3-cm",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/8315914649922",
+  "title": "L&L e23S-3 Easy-Fire Kiln Package with Vent, Furniture and Genesis Touchscreen",
+  "handle": "l-l-e23s-3-easy-fire-kiln-package-lke23s3-cm",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/8315915108674",
+  "title": "L&L e23T-3 Easy-Fire Kiln Package with Vent, Furniture and Genesis Touchscreen",
+  "handle": "l-l-e23t-3-easy-fire-kiln-special-package-lke23t3-cm",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/8315915469122",
+  "title": "L&L e28M-3 Easy-Fire Kiln Package with Vent, Furniture and Genesis Touchscreen",
+  "handle": "l-l-e28m-easy-fire-kiln-package-lke28m-cm",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/8315915796802",
+  "title": "L&L e28S-3 Easy-Fire Kiln Package with Vent, Furniture and Genesis Touchscreen",
+  "handle": "l-l-e28s-easy-fire-kiln-package-lke28s-cm",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/8315916157250",
+  "title": "L&L e28T-3 Easy-Fire Kiln Package with Vent, Furniture and Genesis Touchscreen",
+  "handle": "l-l-e28t-easy-fire-kiln-package-lke28t-cm",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/8315917041986",
+  "title": "L&L eQ2827-3 Equad-Pro Commercial Kiln Package with Vent, Furniture, and Genesis Touchscreen",
+  "handle": "l-l-eq2827-3-equad-pro-commercial-kiln-package-lkeq282732083p",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/8316052308290",
+  "title": "Olympic Freedom 1414He Kiln Package: Cone 10, Electronic Control With Vent, Furniture Kit And More",
+  "handle": "olympic-freedom-1414-he-kiln-olf1414he",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/8316052373826",
+  "title": "Olympic Freedom 1823He Kiln Package: Cone 10 Package",
+  "handle": "olympic-freedom-1823-he-kiln-olf1823he",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/8316052439362",
+  "title": "Olympic Freedom 2323He Kiln Package With Vent, Furniture Kit And More",
+  "handle": "olympic-freedom-2323-he-kiln-olf2323he",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/8316052537666",
+  "title": "Olympic Freedom 2327He Kiln Package: With Vent, Furniture Kit And More!",
+  "handle": "olympic-freedom-2327-he-kiln-olf2327he",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/8316052570434",
+  "title": "Olympic Freedom 2527He Kiln Package: with Vent, Furniture Kit and More!",
+  "handle": "olympic-freedom-2527-he-kiln-olf2527he",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/8316052701506",
+  "title": "Olympic Freedom 2823He Kiln Package: with Vent, Furniture Kit and More!",
+  "handle": "olympic-freedom-2823-he-kiln-olf2823he",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/8316052734274",
+  "title": "Olympic Freedom 2827HE Kiln Package: Cone 10, Electronic Control With Vent, Furniture Kit And More!",
+  "handle": "olympic-freedom-2827-he-kiln-olf2827he",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/8316066234690",
+  "title": "Paragon Dragon Kiln Package With Stand and Vent",
+  "handle": "paragon-dragon-front-loading-kiln-p706121badk",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/8316066431298",
+  "title": "Paragon Iguana Kiln Package with Stand, S-thermo, Sentinel 208/3",
+  "handle": "paragon-iguana-kiln-208-3-package-p7275211acd",
+  "status": "DRAFT"
+ },
+ {
+  "id": "gid://shopify/Product/8316071543106",
+  "title": "Sheffield Pottery Bull Elk Pro Kiln Package",
+  "handle": "sheffield-pottery-bull-elk-front-loading-kiln-pack-ps1665-10",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/8316071674178",
+  "title": "Sheffield Pottery Bull Elk Studio Kiln Package",
+  "handle": "sheffield-pottery-bull-elk-studio-kiln-ps1665-11",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/8316161327426",
+  "title": "Skutt KMT1022-3 Kiln Package with Touchscreen Controller, Furniture Kit & Vent",
+  "handle": "skutt-kiln-kmt1022-3-complete-package-skkm10223cs",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/8316169322818",
+  "title": "Skutt KMT1027-3 Kiln Package with Touchscreen Controller, Furniture Kit & Vent",
+  "handle": "skutt-kiln-kmt1027-3-package-with-vent-furniture-skkmt10273cs",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/8316170174786",
+  "title": "Skutt KMT822-3 Kiln Package with Touchscreen Controller, Furniture Kit & Vent",
+  "handle": "skutt-kiln-kmt822-3-package-skkmt8223p",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/8316333556034",
+  "title": "Olympic FL12 Complete Front Loading Kiln Package",
+  "handle": "olympic-fl12-front-loading-kiln-package-spifl12",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/8316333785410",
+  "title": "Olympic FL17 Complete Front Loading Kiln Package",
+  "handle": "olympic-fl17-front-loading-kiln-package-spifl17",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/8316333982018",
+  "title": "Olympic FL20 Complete Front Loading Kiln Package",
+  "handle": "olympic-fl20-front-loading-kiln-package-spifl20",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/8316334211394",
+  "title": "Olympic FL24 Complete Front Loading Kiln Package",
+  "handle": "olympic-fl24-front-loading-kiln-package-spifl24",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/8316334342466",
+  "title": "Olympic FL27 Complete Front Loading Kiln Package",
+  "handle": "olympic-fl27-front-loading-kiln-package-spifl27",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/8316334571842",
+  "title": "Olympic FL31 Complete Front Loading Kiln Package",
+  "handle": "olympic-fl31-front-loading-kiln-package-spifl31",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/8316334866754",
+  "title": "Olympic FL53 Complete Front Loading Kiln Package",
+  "handle": "olympic-fl53-front-loading-kiln-package-spifl53",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/8316335030594",
+  "title": "Olympic FL8 Complete Front Loading Kiln Package",
+  "handle": "olympic-fl8-front-loading-kiln-package-spifl8",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/8316360917314",
+  "title": "Cone Art GX2322D Round Kiln Package with Integrated Vent, Furniture and Genesis Touchscreen",
+  "handle": "cone-art-gx2322d-kiln-package-tucgx2322dp",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/8316361081154",
+  "title": "Cone Art GX2322D-SQ Square Kiln Package with Integrated Vent, Furniture and Genesis Touchscreen",
+  "handle": "coneart-gx2322dsq-kiln-package-tucgx2322dsqp",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/8316361441602",
+  "title": "Cone Art GX2327D Round Kiln Package with Integrated Vent, Furniture and Genesis Touchscreen",
+  "handle": "cone-art-gx2327d-kiln-package-tucgx2327dp",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/8316361900354",
+  "title": "Cone Art GX2827D Round Kiln Package with Integrated Vent, Furniture and Genesis Touchscreen",
+  "handle": "cone-art-gx2827d-kiln-package-tucgx2827dp",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/8316362096962",
+  "title": "Cone Art GX4227D Oval Kiln Package with Integrated Vent, Furniture and Genesis Touchscreen",
+  "handle": "tucker-s-cone-art-bx4227-oval-ceramics-kiln-tucgx4227dpack",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/9372720398658",
+  "title": "Skutt KM1027 Kiln Package with Furniture Kit & Vent",
+  "handle": "skutt-kiln-km1027-package-with-vent-and-furniture-kit",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/9372747497794",
+  "title": "Skutt KM1222-3 Kiln Package with Furniture Kit & Vent - Estimated 14 week Lead Time",
+  "handle": "skutt-kiln-km1222-3-package-with-vent-and-furniture-kit",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/9372750086466",
+  "title": "Skutt KM818-3 Kiln Package with Furniture Kit & Vent",
+  "handle": "skutt-kiln-km818-3-package-with-vent-and-furniture-kit",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/9372760637762",
+  "title": "Skutt KMT1227-3 Kiln Package with Touchscreen Controller, 5/8\" Furniture Kit & Vent",
+  "handle": "skutt-kmt1227-3-kiln-package-with-touch-screen-controller-vent-and-1-furniture-kit",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/9372766208322",
+  "title": "Skutt KMT1227-3PK Kiln Package with Touchscreen Controller, 1\" Furniture Kit & Vent",
+  "handle": "skutt-kmt1227-3pk-kiln-package-with-touch-screen-controller-vent-and-1-furniture-kit",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/9372769485122",
+  "title": "Skutt KMT1231-3PK Kiln Package with Touchscreen Controller, 1\" Furniture Kit & Vent",
+  "handle": "skutt-kmt1231-3pk-kiln-package-touch-screen-furniture-kit-vent",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/9715480625474",
+  "title": "Skutt KM818-30A-3 Kiln Package: 30 Amp with Furniture Kit & Vent",
+  "handle": "skutt-kiln-km818-30a-3-kiln-30-amp-with-vent-and-furniture-kit",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/14795305156979",
+  "title": "Skutt KMT818-3 Kiln Package with Touchscreen Controller, Furniture Kit & Vent",
+  "handle": "skutt-kmt818-3-kiln-package-with-touchscreen-vent-and-furniture-kit",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/14795305681267",
+  "title": "Skutt KM818 Kiln Package with Furniture Kit & Vent",
+  "handle": "skutt-km818-kiln-package-with-vent-and-furniture-kit",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/14795308204403",
+  "title": "Skutt KM822 Kiln Package with Furniture Kit & Vent",
+  "handle": "skutt-km822-kiln-package-with-vent-and-furniture-kit",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/14795313119603",
+  "title": "Skutt KMT822 Kiln Package with Touchscreen Controller, Furniture Kit & Vent",
+  "handle": "skutt-kmt822-kiln-package-with-touchscreen-vent-and-furniture-kit",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/14795313414515",
+  "title": "Skutt KM822-3 Kiln Package with Furniture Kit & Vent",
+  "handle": "skutt-km822-3-kiln-package-with-vent-and-furniture-kit",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/14795313578355",
+  "title": "Skutt KM1027-3 Kiln Package with Furniture Kit & Vent",
+  "handle": "skutt-kiln-km1027-3-package-with-vent-and-furniture-kit-240-1-in-stock-copy",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/14795313709427",
+  "title": "Skutt KMT1222-3 Kiln Package with Furniture Kit & Vent",
+  "handle": "skutt-kiln-kmt1222-3-package-with-vent-and-furniture-kit",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/15141954290035",
+  "title": "Skutt KMT818 Kiln Package with Touchscreen Controller, Furniture Kit & Vent",
+  "handle": "skutt-kmt818-kiln-package-with-touchscreen-controller-vent-and-furniture-kit",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/15380548911475",
+  "title": "Cone Art GX2327D-SQ Square Kiln Package with Integrated Vent, Furniture and Genesis Touchscreen",
+  "handle": "cone-art-gx2327d-sq-square-kiln-package-with-furniture-and-integrated-vent",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/15663311356275",
+  "title": "Skutt GM814 Glass Kiln Package with Furniture Kit & Free Lift-Gate Service",
+  "handle": "skutt-gm814-glass-kiln-package-with-furniture-kit",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/15677737566579",
+  "title": "Skutt GM818 Glass Kiln Package with Furniture Kit & Free Lift-Gate Service",
+  "handle": "skutt-gm818-glass-kiln-package-with-furniture-kit",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/15677744054643",
+  "title": "Skutt GM1014 Glass Kiln Package with Furniture Kit & Free Lift-Gate Service",
+  "handle": "skutt-gm1014-glass-kiln-package-with-furniture-kit",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/15682529493363",
+  "title": "Evenheat RM II 2322 Cone 8 Kiln Package with Furniture Kit & Vent",
+  "handle": "evenheat-rm-ii-2322-kiln-package",
+  "status": "DRAFT"
+ },
+ {
+  "id": "gid://shopify/Product/8316161065282",
+  "title": "Skutt KM1022-3 Kiln Package with Furniture Kit & Vent",
+  "handle": "skutt-22-tall-ceramics-kiln-km1022-3-skkm10223",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/15141949636979",
+  "title": "Skutt KMT818-30A-3 Kiln Package: 30 Amp with Touchscreen Controller, Furniture Kit & Vent",
+  "handle": "skutt-kmt818-30a-3-kiln-30-amp-package-with-vent-furniture-and-touch-screen",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/15141956354419",
+  "title": "Skutt KM1018 Kiln Package with Furniture Kit & Vent",
+  "handle": "skutt-km1018-kiln-package-with-vent-furniture-and-touch-screen",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/15141956878707",
+  "title": "Skutt KM1018-3 Kiln Package with Furniture Kit & Vent",
+  "handle": "skutt-km1018-3-kiln-package-with-vent-furniture-and-touch-screen",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/15141959663987",
+  "title": "Skutt KMT1027 Kiln Package with Touchscreen Controller, Furniture Kit & Vent",
+  "handle": "skutt-kmt1027-kiln-package-with-vent-furniture-and-touch-screen",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/15141964415347",
+  "title": "Skutt KM1227-3 Kiln Package with Furniture Kit & Vent",
+  "handle": "skutt-km1227-3-kiln-package-with-vent-furniture-and-touch-screen",
+  "status": "DRAFT"
+ },
+ {
+  "id": "gid://shopify/Product/15141967823219",
+  "title": "Skutt KM1231-3PK Production Kiln Package with 1\" Furniture Kit & Vent",
+  "handle": "skutt-km1231-3pk-production-kiln-package-with-vent-furniture-and-touch-screen",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/15142970130803",
+  "title": "L&L eQ2327-3 Equad-Pro Kiln Package with Genesis, Vent and Furniture Kit",
+  "handle": "l-l-eq2327-3-equad-pro-kiln-package-with-genesis-vent-and-furniture-kit",
+  "status": "ACTIVE"
+ },
+ {
+  "id": "gid://shopify/Product/15418821083507",
+  "title": "Skutt KMT1018-3 Kiln Package with Touch Screen Furniture Kit & Vent",
+  "handle": "skutt-kmt1018-3-kiln-package-with-furniture-kit-vent",
+  "status": "ACTIVE"
+ }
+]
