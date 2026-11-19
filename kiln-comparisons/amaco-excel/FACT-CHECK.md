@@ -34,7 +34,7 @@ Amaco's own site. `amaco.com/products/...` URLs redirect to `shop.amaco.com`.
 Amaco publishes no PDF catalog or spec sheet for Excel kilns on its site (checked
 the shop sitemap, category pages and model pages).
 
-## Amaco's numbers, as used on the page
+## Amaco's numbers (all current Excel models; EX-381SF and EX-1266SF are not on the page)
 
 | Model | Interior (dia × depth) | Cu ft | Brick | Max cone (240V 1-ph) | 208V 1-ph | Hookup | Phases offered | EZ-Lift |
 |---|---|---|---|---|---|---|---|---|
@@ -53,30 +53,54 @@ Also from Amaco: Select Fire computer control on every model; Kanthal A-1
 elements, 7-foot power cord and two-year warranty on every model; reversible lid
 and bottom slabs listed on all but the EX-399SF and EX-1099SF.
 
-## Choices and gaps
+## Skutt equivalents (internal only: never name Skutt on the page)
 
-- **No amps column.** Amaco's pages give voltage/phase options, SKU and weight
-  for each version, but no amperage. Retailer listings (School Specialty, Dick
-  Blick) give amps but disagree with each other (e.g. EX-381SF 240V 3-ph listed
-  as both 34.6 and 36.4 A), so they weren't used. The footnote asks customers to
-  call with their voltage and phase.
-- **No "Sides" column.** Amaco calls the kilns "round" and doesn't state the
-  number of sides on its model pages. Used a "Brick" column instead.
+Excel kilns are built on Skutt KilnMaster bodies. Amaco doesn't publish amperage,
+so amps and sides come from the matching Skutt model's spec table on skutt.com
+(e.g. https://skutt.com/products-page/ceramic-kilns/km-1027/, same for km-822,
+km-822-3, km-1022, km-1022-3, km-1027-3, km-1222, km-1227, km-1227pk, km-1218).
+Starting point: the Skutt chart on /collections/skutt-ceramic-kilns.
+
+| Amaco | Skutt | Evidence the match is right | Amps 240V 1-ph (Skutt) | Sides |
+|---|---|---|---|---|
+| EX-329SF | KM-822-3 | 2.9 cu ft, 22" deep, 3" brick, 1-phase only on both; ship weight 180 = 180 lb | 33.4 | 8 |
+| EX-232SF | KM-822 | 3.2 cu ft, 22" deep, 2.5" brick, 1-phase only on both; 165 vs 170 lb | 33.4 | 8 |
+| EX-353SF | KM-1022-3 | 5.25 cu ft, 22" deep, 3" brick; 300 vs 298 lb | 48 | 10 |
+| EX-257SF | KM-1022 | 5.7 cu ft, 22" deep, 2.5" brick; 270 vs 240 lb | 48 | 10 |
+| EX-365SF | KM-1027-3 | 27" deep, 3" brick, no 208V cone limit on either; 320 = 320 lb (Amaco 6.57 cu ft vs Skutt 6.4) | 48 | 10 |
+| EX-270SF | KM-1027 | 7.0 cu ft, 27" deep, 2.5" brick; **cone 6 on 208V 1-ph on both**; 290 = 290 lb | 48 | 10 |
+| EX-399SF | KM-1227(-3) | 9.92/9.9 cu ft, 28" x 27", **cone 8, cone 5 on 208V 1-ph on both**; 400 = 400 lb | 48 | 12 |
+| EX-1099SF | KM-1227-3PK | 28" x 27", cone 10, direct wire on both; 410 = 410 lb | 60 | 12 |
+| EX-381SF (not on page) | KM-1222-3 | 8.1 cu ft, 28" x 22", **cone 8 on 208V 1-ph on both** | 48 | 12 |
+| EX-1266SF (not on page) | KM-1218-3? | 6.6 cu ft, 28" x 18"; 330 = 330 lb, but Amaco says 2.5" brick and 1-phase only (Skutt: 3", 1 + 3 phase) | 48 | 12 |
+
+Amaco weights are from Amaco's own variant data (shop.amaco.com
+`/remote/v1/product-attributes/<id>`, one call per voltage option); Skutt
+weights are the ship weights in Skutt's spec tables. Skutt amps on other
+power: KM-822/822-3 38.5 A at 208V 1-ph; KM-1022/1027 families 48 A at 208V
+1-ph, 29.3–40 A on 3-phase; KM-1227PK 69 A at 208V 1-ph.
+
+## Choices made on the page
+
+- **Amps column** uses the Skutt equivalents' 240V single-phase figures (table
+  above). Retailer amps (School Specialty, Dick Blick) weren't used.
+- **Sides column** from the Skutt equivalents; consistent with Amaco's own
+  replacement-brick part names (e.g. "EX Brick Grooved Straight 3 10S",
+  "EX Slab Btm for 399 3 12S").
+- **Model-number box** is derived from Amaco's own specs, not quoted (Amaco
+  publishes no explanation): first digit 2 = 2.5" brick, 3 = 3" brick; last
+  two digits = approximate cu ft. Holds for all eight models on the page
+  except the EX-1099SF, which the box calls out as the exception. EX = Excel
+  and SF = Select Fire are inferred from the names.
+- **EX-381SF and EX-1266SF removed** (not live in the store), per the user.
+  The intro says "most popular Excel models" instead of "current models".
 - **No °F temperatures.** Amaco gives cone numbers only.
-- **No model-number decoder box.** Amaco doesn't publish an explanation of its
-  model numbers.
 - **EZ-Lift on the EX-270SF and EX-365SF:** Amaco's page titles say "With EZ-Lift"
-  but the feature lists say "(optional)". The page says "Available".
+  but the feature lists say "(optional)". The page says "Available" / "an option".
 - **EX-232SF / EX-329SF EZ-Lift = "No":** neither Amaco's title nor feature list
-  mentions it, and Amaco sells no EZ-Lift upgrade kit for these sizes.
-- **208V ratings:** retailer listings show lower 208V single-phase cone ratings
-  for some models where Amaco's pages state none (e.g. EX-365SF at 208V 1-ph
-  listed at 2269°F/cone 6 by School Specialty). The table only shows the 208V
-  limits Amaco itself states; the footnote says some models are rated lower on
-  208V.
-- **EX-381SF and EX-1266SF** are in Amaco's current line but not live in the
-  store (EX-381SF has no product; EX-1266SF is a DRAFT). Listed unlinked with
-  "Call to order".
+  mentions it, and Amaco sells no EZ-Lift upgrade kit for the 8-sided sizes.
+- **208V ratings:** the table shows only the 208V single-phase limits Amaco
+  states, and the Skutt tables agree with every one of them.
 - **Best seller:** EX-399SF, from store sales (6 of the 9 Amaco kilns sold in the
   last 5 years; EX-270SF 2, EX-353SF 1). Amaco also calls it "one of our most
   popular extra-large studio models".
