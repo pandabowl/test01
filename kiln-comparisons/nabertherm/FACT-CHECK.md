@@ -154,6 +154,8 @@ descriptions through the API, not the live page.
 | Top 160, Top 190 | `finder.eyebrow` | Pottery · 240/208 V | Cone 10 · 240/208 V (matches the other top loaders) |
 | N200 | `finder.eyebrow` / `custom.kiln_power` | Pottery / missing | Cone 10 · 240/208 V 3-phase / "240 or 208 V" (the field only accepts "120 V", "240 or 208 V", "Gas or propane") |
 | All six | venting / insulation text | "3.15\" (80 mm)", "15 mm", "20 mm" | metric in `<small>`, inches first |
+| Top 60R | description | stray "x" before the features image | removed (06:30 UTC; backup `products/backup_top60r_before_x_and_title_fix_2026-11-19.json`) |
+| Top 60R | SEO title | "Nabertherm Top 60R Kiln  Top-Loading Electric Kiln \| Sheffield Pottery" (double space) | "Nabertherm Top 60R Kiln – Top-Loading Electric Kiln \| Sheffield Pottery" |
 | Collection page (existing text) | below block | "Bottom heating for Top 140 …"; "80 mm diameter"; "300 liters" / "440 liters" | "Top 160 …"; 3.15" (80 mm); 10.59 cu ft (300 liters) / 15.53 cu ft (440 liters) |
 
 ## Not changed (for the user to decide)
@@ -167,8 +169,7 @@ descriptions through the API, not the live page.
   N 100/G–N 660/H copy and °C-only advice. Neither product is on the website.
 - **Top loader descriptions** contain page-wide CSS (`body{margin:20px;
   font-family:Arial…}`, unscoped `table{min-width:900px}`) and two stray
-  `<meta>` tags; the Top 60/R has a stray "x" before its features image. Left as is.
-- Top 60R SEO title has a double space and no separator ("Kiln  Top-Loading").
+  `<meta>` tags. Left as is.
 - The "Kiln Buying Guide" link in the existing page text 301-redirects to
   /blogs/ceramic-arts-blog/kiln-buying-guide (200).
 
