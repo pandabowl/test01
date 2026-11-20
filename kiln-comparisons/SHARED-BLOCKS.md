@@ -246,6 +246,13 @@ of the description; each brand chat does the per-product work for its brand.
   (`tr.spc-current`: pale orange with a red left edge), by matching the
   `td.spc-model` link to the page URL.
 - Don't add a link or button to descriptions by hand: the theme adds it.
+- **Folder-style tabs (owner, 2026-11-20: "look more like tabs"):** CSS at the
+  end of the section's `{% style %}` block, scoped to `.HK-Tab-Section`. Inactive
+  tabs are beige with rounded tops; the active tab is outlined in navy with a red
+  top edge and opens into the content (it covers the navy baseline). On phones
+  (under 750 px) the tabs are smaller so all three fit; the row scrolls sideways
+  if a product ever has more. This applies to every product page that uses the
+  tab section, not only kilns. The tab JS is unchanged.
 - Don't put the comparison inside an `.rte` element: the theme's
   `.rte table th` rule outranks the block styles and turns the header row pale.
   That's why `rte` sits on the spec-table wrapper only.
@@ -295,8 +302,9 @@ product:
 (20-11-26)" (`gid://shopify/OnlineStoreTheme/197922586995`), duplicated from the
 live theme "Glaze mix-and-match cart message (19-11-26)" (`…/197880349043`;
 it still has `sp_comparison_blocks` after the products). Only
-`sections/hk-tab-section.liquid` changed and `snippets/sp-spec-jump.liquid` was
-added; both read back with matching checksums. Previewed on 17 products (one per
+`sections/hk-tab-section.liquid` changed (spec tab, then the tab styling) and
+`snippets/sp-spec-jump.liquid` was added; both read back with matching checksums
+(section `a2d096f8…`). Previewed on 17 products (one per
 block, desktop and phone): tab and button show, the button opens and scrolls to
 the tab, the comparison styles match the collection pages exactly (0 computed
 differences), the right row is highlighted, no sideways scroll. Waiting for the

@@ -39,6 +39,63 @@
   .hk-specs-table-wrap table tr:last-child td {
     border-bottom: none;
   }
+
+  /* Folder-style product tabs (2026-11-20). Overrides the plain text links from
+     the theme's ul#tabs-nav rules; the tab JS (assets/abz_custom.js) is unchanged. */
+  .HK-Tab-Section .tabs-wrap {
+    border-bottom: 2px solid #1f2a6b;
+    align-items: flex-end;
+  }
+  .HK-Tab-Section ul#tabs-nav {
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 6px;
+    margin: 0 0 -2px;
+    max-width: 100%;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .HK-Tab-Section ul#tabs-nav::-webkit-scrollbar { display: none; }
+  .HK-Tab-Section ul#tabs-nav li { margin: 0; flex: 0 0 auto; }
+  .HK-Tab-Section ul#tabs-nav li a,
+  .HK-Tab-Section ul#tabs-nav li:first-child a {
+    display: block;
+    padding: 11px 22px 10px;
+    font-size: 17px;
+    line-height: 1.25;
+    white-space: nowrap;
+    color: #4a4f63;
+    background: #ece7dd;
+    border: 1px solid #d3cdc1;
+    border-bottom: 0;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 2px;
+    transition: background-color .15s, color .15s;
+  }
+  .HK-Tab-Section ul#tabs-nav li a:hover,
+  .HK-Tab-Section ul#tabs-nav li a:focus-visible {
+    background: #e1dbcf;
+    color: #1f2a6b;
+  }
+  .HK-Tab-Section ul#tabs-nav li.active a,
+  .HK-Tab-Section ul#tabs-nav li.active:first-child a {
+    background: var(--color-background, #fdf9f5);
+    color: #1f2a6b;
+    font-weight: 600;
+    border: 2px solid #1f2a6b;
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 12px;
+    box-shadow: inset 0 3px 0 #c8452d;
+  }
+  .HK-Tab-Section .tab-content { padding-top: 20px; }
+  @media screen and (max-width: 749px) {
+    .HK-Tab-Section ul#tabs-nav { gap: 4px; }
+    .HK-Tab-Section ul#tabs-nav li a,
+    .HK-Tab-Section ul#tabs-nav li:first-child a { padding: 10px 11px 9px; font-size: 15px; }
+    .HK-Tab-Section ul#tabs-nav li.active a,
+    .HK-Tab-Section ul#tabs-nav li.active:first-child a { padding-bottom: 11px; }
+  }
 {%- endstyle -%}
 
 {%- comment -%}
