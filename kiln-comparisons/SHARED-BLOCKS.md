@@ -136,5 +136,12 @@ against Shopify):
   about `l-l-jupiter-series-kilns` (all products archived) and `l-l` (139
   products).
 
+Update 2026-11-20 15:35 UTC (relayed user rule, checked in Shopify): a block's
+"Which ___ kiln should I buy?" heading and `spc-picks` come right after the
+intro paragraph (on overview blocks, right after the `spc-jump` links), above
+the model-number box and the tables. `ll-overview` was reordered in Shopify at
+2026-11-19 07:32 UTC; `ll/blocks/ll-overview.html` now has the same order. Re-read
+blocks from Shopify before editing them.
+
 Open question: the L&L description's "Learn more" link jumps to
 `#abz_below_richtxt_id`, which will sit just below the comparison blocks.
