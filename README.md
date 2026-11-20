@@ -85,7 +85,19 @@ everything that comes with its vent.
   this change (pulled 2026-11-19), so any of them can be restored.
 - `kiln-packages/updated/`: the new descriptions, ready to send to Shopify.
 - `kiln-packages/preview.html`: all the boxes on one page for review.
+- `kiln-packages/verify_live.py`: checks a saved `nodes(ids:)` response
+  (`{ ... on Product { id descriptionHtml } }`) against `updated/`. It
+  prints OK or MISMATCH for each product and exits 1 on any mismatch.
+- `kiln-packages/merge_live.py`: for any product in that saved response
+  whose live description has lost its box, puts the box back into the
+  live text and writes the result to `updated/`. Edits made since the
+  push, such as a new banner, are kept.
+
+Note: `originals/` predates the 2026-11-19 "Free Lift-Gate Service"
+banner, so restoring an original also removes that banner.
 
 ```bash
 python3 kiln-packages/build_package_boxes.py
+python3 kiln-packages/verify_live.py <saved nodes response>.json
+python3 kiln-packages/merge_live.py <saved nodes response>.json
 ```
