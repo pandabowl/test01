@@ -89,3 +89,11 @@ unchanged. Previous value: the capacity-fix version in git history
 current value: same file now. Checked live: exact match; headings are now
 H1 "Cone Art Glass Kilns" then H2 "Cone Art Glass Kiln Comparison". The other
 two Cone Art pages have no heading that repeats their title.
+
+## Buying-guide cards moved up (2026-11-19 07:34/07:46 UTC, by the shared-blocks chat)
+
+The shared-blocks chat reordered `cone-art-glass` and `cone-art-pottery` on
+Shopify so the "Which … kiln should I buy?" heading and cards come right after
+the intro, above the model-number box and the table. Checked 2026-11-20: a pure
+reorder (same lines, same length, no wording changes). `blocks/` now holds the
+live values.
