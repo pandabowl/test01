@@ -1,0 +1,261 @@
+<div id="custom-specifications-section">
+    <style>
+        #custom-specifications-section {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        #custom-specifications-section .specs-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        #custom-specifications-section .section-title {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            color: #333;
+            border-bottom: 2px solid #f0ad4e;
+            padding-bottom: 10px;
+        }
+
+        #custom-specifications-section .section-title:first-child {
+            margin-top: 0;
+        }
+
+        /* Table Wrapper for Responsiveness */
+        #custom-specifications-section .table-wrapper {
+            overflow-x: auto;
+            margin-bottom: 30px;
+            border-radius: 6px;
+            border: 1px solid #ddd;
+            -webkit-overflow-scrolling: touch;
+            position: relative;
+        }
+
+        #custom-specifications-section table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+            min-width: 1000px;
+            border: 1px solid #ddd;
+        }
+
+        #custom-specifications-section th {
+            background-color: #f2f2f2;
+            color: #333;
+            padding: 12px;
+            text-align: left;
+            font-weight: bold;
+            border: 1px solid #ddd;
+            white-space: nowrap;
+        }
+
+        #custom-specifications-section td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            color: #555;
+            white-space: nowrap;
+        }
+
+        /* Freeze the first column (Model) */
+        #custom-specifications-section th:first-child,
+        #custom-specifications-section td:first-child {
+            position: sticky;
+            left: 0;
+            background-color: #ffffff;
+            z-index: 1;
+            min-width: 120px;
+            font-weight: 500;
+        }
+
+        /* Style the frozen header cell */
+        #custom-specifications-section th:first-child {
+            background-color: #f2f2f2;
+            z-index: 2;
+            font-weight: bold;
+        }
+
+        /* Add a subtle shadow to the frozen column for visual separation */
+        #custom-specifications-section td:first-child,
+        #custom-specifications-section th:first-child {
+            box-shadow: 2px 0 4px rgba(0, 0, 0, 0.05);
+        }
+
+        #custom-specifications-section tbody tr:nth-child(even) td:first-child {
+            background-color: #f9f9f9;
+        }
+
+        #custom-specifications-section tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        #custom-specifications-section tbody tr:hover {
+            background-color: #f0f0f0;
+        }
+
+        #custom-specifications-section tbody tr:hover td:first-child {
+            background-color: #e8e8e8;
+        }
+
+        /* Disclaimer text styling */
+        #custom-specifications-section .disclaimer {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 15px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-left: 4px solid #f0ad4e;
+            border-radius: 4px;
+        }
+
+        #custom-specifications-section .disclaimer em {
+            display: block;
+            margin-top: 5px;
+            font-style: italic;
+        }
+
+        /* Responsive Design for Tablet */
+        @media screen and (max-width: 1024px) {
+            #custom-specifications-section .specs-container {
+                padding: 15px;
+            }
+
+            #custom-specifications-section table {
+                font-size: 13px;
+                min-width: 900px;
+            }
+
+            #custom-specifications-section th, #custom-specifications-section td {
+                padding: 10px;
+            }
+
+            #custom-specifications-section th:first-child,
+            #custom-specifications-section td:first-child {
+                min-width: 110px;
+            }
+        }
+
+        /* Responsive Design for Mobile */
+        @media screen and (max-width: 768px) {
+            #custom-specifications-section .specs-container {
+                padding: 12px;
+            }
+
+            #custom-specifications-section .section-title {
+                font-size: 1.2em;
+                margin-top: 20px;
+                margin-bottom: 12px;
+            }
+
+            #custom-specifications-section table {
+                font-size: 12px;
+                min-width: 850px;
+            }
+
+            #custom-specifications-section th, #custom-specifications-section td {
+                padding: 9px 8px;
+            }
+
+            #custom-specifications-section th:first-child,
+            #custom-specifications-section td:first-child {
+                min-width: 100px;
+                padding: 9px 6px;
+            }
+
+            #custom-specifications-section .table-wrapper {
+                margin-bottom: 20px;
+            }
+
+            #custom-specifications-section .table-wrapper::after {
+                content: "← Scroll for more columns →";
+                display: block;
+                text-align: center;
+                font-size: 11px;
+                color: #999;
+                margin-top: 8px;
+                padding-top: 8px;
+                border-top: 1px solid #eee;
+            }
+        }
+
+        /* Responsive Design for Small Mobile */
+        @media screen and (max-width: 480px) {
+            #custom-specifications-section .specs-container {
+                padding: 10px;
+            }
+
+            #custom-specifications-section .section-title {
+                font-size: 1.1em;
+                margin-top: 15px;
+                margin-bottom: 10px;
+            }
+
+            #custom-specifications-section table {
+                font-size: 11px;
+                min-width: 800px;
+            }
+
+            #custom-specifications-section th, #custom-specifications-section td {
+                padding: 8px 6px;
+            }
+
+            #custom-specifications-section th:first-child,
+            #custom-specifications-section td:first-child {
+                min-width: 90px;
+                padding: 8px 5px;
+            }
+
+            #custom-specifications-section th {
+                white-space: normal;
+            }
+        }
+    </style>
+
+    <div class="specs-container">
+        <div class="section-title">Specifications</div>
+        <div class="table-wrapper">
+            <table class="ceramic-specs">
+                <thead>
+<tr>
+<th scope="col">Model</th>
+<th scope="col">Phase</th>
+<th scope="col">Volts</th>
+<th scope="col">Amps</th>
+<th scope="col">Watts</th>
+<th scope="col">Max Temp</th>
+<th scope="col">Cubic Ft</th>
+<th scope="col">Chamber (in)</th>
+<th scope="col">Plug</th>
+<th scope="col">Outside (in)</th>
+<th scope="col">*Weight (lbs)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RM II 1813</td>
+<td>1</td>
+<td>240</td>
+<td>18</td>
+<td>4320</td>
+<td>Cone 8, 2300°F</td>
+<td>2.0</td>
+<td>17.5" dia. × 13.5" deep</td>
+<td>NEMA 6-20</td>
+<td>28.75" D × 22.5" W × 26.5" H (with 8" stand)</td>
+<td>100</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="disclaimer">
+<p>Specs are Evenheat's published ratings for its standard build. *Weights are approximate.</p>
+</div>
+    </div>
+</div>

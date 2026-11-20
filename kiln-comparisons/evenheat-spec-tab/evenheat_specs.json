@@ -1,0 +1,614 @@
+{
+ "evenheat-hf-810-120-volt-cone-8-kiln-evehf810": {
+  "volts": "120",
+  "amps": "18",
+  "watts": "2160",
+  "phase": "1",
+  "hook": "NEMA 5-20",
+  "cf": "0.57",
+  "dims": "11.25\" Diameter x 9\" Deep",
+  "outside": "23.50\" D x 17.25\" W x 23\" H (with 8\" stand)",
+  "temp": "2300°F (1260°C) / Cone 8",
+  "lb": "55",
+  "breaker": "20A breaker",
+  "other": [
+   "Not Available in 3 phase Delta or Wye designs"
+  ],
+  "model": "HF 810",
+  "page": "https://www.evenheat-kiln.com/hf-810-2024"
+ },
+ "evenheat-hf-1210b-cone-10-kiln-evehf1210b": {
+  "volts": "240",
+  "amps": "13",
+  "watts": "3120",
+  "phase": "1",
+  "hook": "NEMA 6-20",
+  "cf": "0.86",
+  "dims": "11.25\" Diameter x 13.5\" Deep",
+  "outside": "23.50\" D x 17.25\" W x 27.5\" H (with 8\" stand)",
+  "temp": "2350°F (1288°C) / Cone 10",
+  "lb": "65",
+  "breaker": "",
+  "other": [
+   "Not Available in 3 phase Delta or Wye designs"
+  ],
+  "model": "HF 1210-B",
+  "page": "https://www.evenheat-kiln.com/hf-1210-b-2024"
+ },
+ "evenheat-hf-1413-cone-10-kiln-evehf1413": {
+  "volts": "240",
+  "amps": "15",
+  "watts": "3600",
+  "phase": "1",
+  "hook": "NEMA 6-20",
+  "cf": "1.30",
+  "dims": "14.5\" Diameter x 13.5\" Deep",
+  "outside": "26.75\" D x 20.5\" W x 27.5\" H (with 8\" stand)",
+  "temp": "2350°F (1288°C) / Cone 10",
+  "lb": "110",
+  "breaker": "",
+  "other": [
+   "Not Available in 3 phase Delta or Wye designs"
+  ],
+  "model": "HF 1413",
+  "page": "https://www.evenheat-kiln.com/hf-1413-2024"
+ },
+ "evenheat-hf-1813-cone-10-kiln-evehf1813": {
+  "volts": "240",
+  "amps": "21",
+  "watts": "5040",
+  "phase": "1",
+  "hook": "NEMA 6-30",
+  "cf": "2.0",
+  "dims": "17.5\" Diameter x 13.5\" Deep",
+  "outside": "29.75\" D x 23.5\" W x 27.5\" H (with 8\" stand)",
+  "temp": "2350°F (1288°C) / Cone 10",
+  "lb": "125",
+  "breaker": "",
+  "other": [
+   "Not Available in 3 phase Delta or Wye designs"
+  ],
+  "model": "HF 1813",
+  "page": "https://www.evenheat-kiln.com/hf-1813-2024"
+ },
+ "evenheat-hf-1818-cone-10-kiln-evehf1818": {
+  "volts": "240",
+  "amps": "28",
+  "watts": "6672",
+  "phase": "1",
+  "hook": "NEMA 6-30",
+  "cf": "2.7",
+  "dims": "17.5\" Diameter x 18\" Deep",
+  "outside": "29.75\" D x 23.5\" W x 32\" H (with 8\" stand)",
+  "temp": "2350°F (1288°C) / Cone 10",
+  "lb": "155",
+  "breaker": "",
+  "other": [
+   "Not Available in 3 phase Delta or Wye designs"
+  ],
+  "model": "HF 1818",
+  "page": "https://www.evenheat-kiln.com/hf-1818-2024"
+ },
+ "evenheat-hf-2318-cone-10-kiln-evehf2318": {
+  "volts": "240",
+  "amps": "31",
+  "watts": "7440",
+  "phase": "1",
+  "hook": "NEMA 6-50",
+  "cf": "4.7",
+  "dims": "23.5\" Diameter x 18\" Deep",
+  "outside": "35.5\" D x 29.5\" W x 32\" H (with 8\" stand)",
+  "temp": "2350°F (1288°C) / Cone 10",
+  "lb": "190",
+  "breaker": "",
+  "other": [
+   "Available in 200V, 208V, 220V and 230V by request",
+   "Available in 3 phase Delta and Wye (380V, 400V, 415V) by request"
+  ],
+  "model": "HF 2318",
+  "page": "https://www.evenheat-kiln.com/hf-2318-2024"
+ },
+ "evenheat-hf-2327-cone-10-kiln-evehf2327": {
+  "volts": "240",
+  "amps": "48",
+  "watts": "11,520",
+  "phase": "1",
+  "hook": "NEMA 6-50",
+  "cf": "7.0",
+  "dims": "23.5\" Diameter x 27\" Deep",
+  "outside": "35.5\" D x 29.5\" W x 41\" H (with 8\" stand)",
+  "temp": "2350°F (1288°C) / Cone 10",
+  "lb": "295",
+  "breaker": "",
+  "other": [
+   "Available in 200V, 208V, 220V and 230V by request",
+   "Available in 3 phase Delta and Wye (380V, 400V, 415V) by request"
+  ],
+  "model": "HF 2327",
+  "page": "https://www.evenheat-kiln.com/hf-2327-2024"
+ },
+ "evenheat-hf-2918-cone-10-kiln-evehf2918": {
+  "volts": "240",
+  "amps": "48",
+  "watts": "11,520",
+  "phase": "1",
+  "hook": "NEMA 6-50",
+  "cf": "7.0",
+  "dims": "29\" Diameter x 18\" Deep",
+  "outside": "41\" D x 35\" W x 32\" H (with 8\" stand)",
+  "temp": "2350°F (1288°C) / Cone 10",
+  "lb": "320",
+  "breaker": "",
+  "other": [
+   "Available in 200V, 208V, 220V and 230V by request",
+   "Available in 3 phase Delta and Wye (380V, 400V, 415V) by request"
+  ],
+  "model": "HF 2918",
+  "page": "https://www.evenheat-kiln.com/hf-2918-2024"
+ },
+ "evenheat-hf-2927-cone-10-kiln-evehf2927": {
+  "volts": "240",
+  "amps": "59",
+  "watts": "14,164",
+  "phase": "1",
+  "hook": "Direct wired",
+  "cf": "10.5",
+  "dims": "29\" Diameter x 27\" Deep",
+  "outside": "41\" D x 35\" W x 41\" H (with 8\" stand)",
+  "temp": "2350°F (1288°C) / Cone 10",
+  "lb": "395",
+  "breaker": "",
+  "other": [
+   "Available in 200V, 208V, 220V and 230V by request",
+   "Available in 3 phase Delta and Wye (380V, 400V, 415V) by request"
+  ],
+  "model": "HF 2927",
+  "page": "https://www.evenheat-kiln.com/hf-2927-2024"
+ },
+ "evenheat-rm-ii-810-120-volt-cone-5-kiln-everm810": {
+  "volts": "120",
+  "amps": "18",
+  "watts": "2160",
+  "phase": "1",
+  "hook": "NEMA 5-20",
+  "cf": "0.57",
+  "dims": "11.25\" Diameter x 9\" Deep",
+  "outside": "22.50\" D x 16.25\" W x 22\" H (with 8\" stand)",
+  "temp": "2200°F (1204°C) / Cone 5-1/2",
+  "lb": "50",
+  "breaker": "20A breaker",
+  "other": [
+   "Available in 100V by request",
+   "Not Available in 3 phase Delta or Wye designs"
+  ],
+  "model": "RM II 810",
+  "page": "https://www.evenheat-kiln.com/rm-810-2024"
+ },
+ "evenheat-rm-ii-1210-120v-china-paininting-kiln-everm1210": {
+  "volts": "120",
+  "amps": "19",
+  "watts": "2280",
+  "phase": "1",
+  "hook": "NEMA 5-20",
+  "cf": "0.86",
+  "dims": "11.25\" Diameter x 13.5\" Deep",
+  "outside": "22.50\" D x 16.25\" W x 26.5\" H (with 8\" stand)",
+  "temp": "1800°F (982°C) / Cone 07",
+  "lb": "58",
+  "breaker": "20A breaker",
+  "other": [
+   "Not Available in 3 phase Delta or Wye designs"
+  ],
+  "model": "RM II 1210",
+  "page": "https://www.evenheat-kiln.com/rm-1210-2024"
+ },
+ "evenheat-rm-ii-1210-120v-china-paininting-kiln-everm1210b": {
+  "volts": "240",
+  "amps": "13",
+  "watts": "3120",
+  "phase": "1",
+  "hook": "NEMA 6-20",
+  "cf": "0.86",
+  "dims": "11.25\" Diameter x 13.5\" Deep",
+  "outside": "22.50\" D x 16.25\" W x 26.5\" H (with 8\" stand)",
+  "temp": "2300°F (1260°C) / Cone 8",
+  "lb": "58",
+  "breaker": "",
+  "other": [
+   "Not Available in 3 phase Delta or Wye designs"
+  ],
+  "model": "RM II 1210-B",
+  "page": "https://www.evenheat-kiln.com/rm-1210b-2024"
+ },
+ "evenheat-rm-ii-1413-cone-8-kiln-everm1413": {
+  "volts": "240",
+  "amps": "15",
+  "watts": "3600",
+  "phase": "1",
+  "hook": "NEMA 6-20",
+  "cf": "1.30",
+  "dims": "14.5\" Diameter x 13.5\" Deep",
+  "outside": "25.75\" D x 19.5\" W x 26.5\" H (with 8\" stand)",
+  "temp": "2300°F (1260°C) / Cone 8",
+  "lb": "85",
+  "breaker": "",
+  "other": [
+   "Not Available in 3 phase Delta or Wye designs"
+  ],
+  "model": "RM II 1413",
+  "page": "https://www.evenheat-kiln.com/rm-1413"
+ },
+ "evenheat-rm-ii-1813-cone-8-kiln-everm1813": {
+  "volts": "240",
+  "amps": "18",
+  "watts": "4320",
+  "phase": "1",
+  "hook": "NEMA 6-20",
+  "cf": "2.0",
+  "dims": "17.5\" Diameter x 13.5\" Deep",
+  "outside": "28.75\" D x 22.5\" W x 26.5\" H (with 8\" stand)",
+  "temp": "2300°F (1260°C) / Cone 8",
+  "lb": "100",
+  "breaker": "",
+  "other": [
+   "Not Available in 3 phase Delta or Wye designs"
+  ],
+  "model": "RM II 1813",
+  "page": "https://www.evenheat-kiln.com/rm-1813-2024"
+ },
+ "evenheat-rm-ii-1822-cone-8-kiln-everm1822": {
+  "volts": "240",
+  "amps": "30",
+  "watts": "7200",
+  "phase": "1",
+  "hook": "NEMA 6-50",
+  "cf": "3.3",
+  "dims": "17.5\" Diameter x 22.25\" Deep",
+  "outside": "28.75\" D x 22.5\" W x 35.25\" H (with 8\" stand)",
+  "temp": "2300°F (1260°C) / Cone 8",
+  "lb": "125",
+  "breaker": "",
+  "other": [
+   "Not Available in 3 phase Delta or Wye designs"
+  ],
+  "model": "RM II 1822",
+  "page": "https://www.evenheat-kiln.com/rm-1822-2024"
+ },
+ "evenheat-rm-ii-2322-cone-8-kiln-everm2322": {
+  "volts": "240",
+  "amps": "39",
+  "watts": "9240",
+  "phase": "1",
+  "hook": "NEMA 6-50",
+  "cf": "5.8",
+  "dims": "23.5\" Diameter x 22.25\" Deep",
+  "outside": "34.5\" D x 27.5\" W x 35.25\" H (with 8\" stand)",
+  "temp": "2300°F (1260°C) / Cone 8",
+  "lb": "195",
+  "breaker": "",
+  "other": [
+   "Available in 220V and 230V by request",
+   "Available in 3 phase Delta and Wye (380V, 400V, 415V) by request"
+  ],
+  "model": "RM II 2322",
+  "page": "https://www.evenheat-kiln.com/rm-2322-2024"
+ },
+ "evenheat-rm-ii-2329-cone-8-kiln-everm2329": {
+  "volts": "240",
+  "amps": "45",
+  "watts": "10,800",
+  "phase": "1",
+  "hook": "NEMA 6-50",
+  "cf": "7.5",
+  "dims": "23.5\" Diameter x 29\" Deep",
+  "outside": "34.5\" D x 27.5\" W x 42\" H (with 8\" stand)",
+  "temp": "2300°F (1260°C) / Cone 8",
+  "lb": "215",
+  "breaker": "",
+  "other": [
+   "Available in 220V and 230V by request",
+   "Available in 3 phase Delta and Wye (380V, 400V, 415V) by request"
+  ],
+  "model": "RM II 2329",
+  "page": "https://www.evenheat-kiln.com/rm-2329-2024"
+ },
+ "evenheat-rm-ii-2922-cone-8-kiln-everm2922": {
+  "volts": "240",
+  "amps": "44",
+  "watts": "10,560",
+  "phase": "1",
+  "hook": "NEMA 6-50",
+  "cf": "8.7",
+  "dims": "29\" Diameter x 22.25\" Deep",
+  "outside": "40\" D x 34\" W x 35.25\" H (with 8\" stand)",
+  "temp": "2300°F (1260°C) / Cone 8",
+  "lb": "260",
+  "breaker": "",
+  "other": [
+   "Available in 220V and 230V by request",
+   "Available in 3 phase Delta and Wye (380V, 400V, 415V) by request"
+  ],
+  "model": "RM II 2922",
+  "page": "https://www.evenheat-kiln.com/rm-2922-2024"
+ },
+ "evenheat-rm-ii-2929-cone-8-kiln-everm2929": {
+  "volts": "240",
+  "amps": "56",
+  "watts": "13,440",
+  "phase": "1",
+  "hook": "Direct wired",
+  "cf": "11.3",
+  "dims": "29\" Diameter x 29\" Deep",
+  "outside": "40\" D x 34\" W x 42\" H (with 8\" stand)",
+  "temp": "2300°F (1260°C) / Cone 8",
+  "lb": "320",
+  "breaker": "",
+  "other": [
+   "Available in 220V and 230V by request",
+   "Available in 3 phase Delta and Wye (380V, 400V, 415V) by request"
+  ],
+  "model": "RM II 2929",
+  "page": "https://www.evenheat-kiln.com/rm-2929-2024"
+ },
+ "evenheat-rm-ii-2522-oval-low-fire-kiln-everm2522": {
+  "volts": "240",
+  "amps": "47",
+  "watts": "11,280",
+  "phase": "1",
+  "hook": "NEMA 6-50",
+  "cf": "11.2",
+  "dims": "41\" Wide x 25.25\" Long x 22.25\" Deep",
+  "outside": "50\" Wide x 30.25\" Long x 35.25\" H (with 8\" stand)",
+  "temp": "2000°F (1093°C) / Cone 03",
+  "lb": "370",
+  "breaker": "",
+  "other": [
+   "Available in 220V and 230V by request",
+   "Available in 3 phase Delta and Wye (380V, 400V, 415V) by request"
+  ],
+  "model": "RM II 2522",
+  "page": "https://www.evenheat-kiln.com/rm-2522-2024"
+ },
+ "evenheat-rm-ii-2541-oval-cone-low-fire-kiln-everm2541": {
+  "volts": "240",
+  "amps": "60",
+  "watts": "14,400",
+  "phase": "1",
+  "hook": "Direct wired",
+  "cf": "14.4",
+  "dims": "41\" Wide x 25.25\" Long x 29\" Deep",
+  "outside": "50\" Wide x 30.25\" Long x 42\" H (with 8\" stand)",
+  "temp": "2000°F (1093°C) / Cone 03",
+  "lb": "420",
+  "breaker": "",
+  "other": [
+   "Available in 220V and 230V by request",
+   "Available in 3 phase Delta and Wye (380V, 400V, 415V) by request"
+  ],
+  "model": "RM II 2541",
+  "page": "https://www.evenheat-kiln.com/rm-2541-2024"
+ },
+ "evenheat-glass-kiln-studio-pro-14-120-volt-evesp14120": {
+  "volts": "120",
+  "amps": "15",
+  "watts": "1800",
+  "phase": "1",
+  "hook": "NEMA 5-20",
+  "cf": "0.80",
+  "dims": "14.5\" L x 14.5\" W x 6.5\" D",
+  "outside": "27\" L x 25.5\" W x 32\" H (with 16\" stand)",
+  "temp": "1650°F (900°C)",
+  "lb": "100",
+  "breaker": "",
+  "other": [
+   "Available in 200V, 208V, 220V, 230V and 240V by request"
+  ],
+  "model": "Studio Pro 14 (120V)",
+  "page": "https://www.evenheat-kiln.com/studio-pro-14"
+ },
+ "evenheat-glass-kiln-studio-pro-17-evesp17": {
+  "volts": "120",
+  "amps": "18",
+  "watts": "2160",
+  "phase": "1",
+  "hook": "NEMA 5-20",
+  "cf": "1.10",
+  "dims": "17\" L x 17\" W x 6.5\" D",
+  "outside": "29.5\" L x 28\" W x 32\" H (with 16\" stand)",
+  "temp": "1650°F (900°C)",
+  "lb": "105",
+  "breaker": "20A breaker",
+  "other": [
+   "Available in 200V, 208V, 220V, 230V and 240V by request"
+  ],
+  "model": "Studio Pro 17",
+  "page": "https://www.evenheat-kiln.com/sp17-2024"
+ },
+ "evenheat-glass-kiln-studio-pro-24-evesp24": {
+  "volts": "240",
+  "amps": "32",
+  "watts": "7680",
+  "phase": "1",
+  "hook": "NEMA 6-50",
+  "cf": "4.2",
+  "dims": "24\" L x 24\" W x 13.5\" D",
+  "outside": "35\" L x 29\" W x 37\" H",
+  "temp": "1800°F (982°C)",
+  "lb": "260",
+  "breaker": "",
+  "other": [
+   "Available in 200V, 208V, 220V and 230V by request",
+   "Available in 3 phase Delta and Wye (380V, 400V, 415V) by request"
+  ],
+  "model": "Studio Pro 24",
+  "page": "https://www.evenheat-kiln.com/sp24-glass-kiln"
+ },
+ "evenheat-glass-kiln-studio-pro-28-evesp28": {
+  "volts": "240",
+  "amps": "40",
+  "watts": "9600",
+  "phase": "1",
+  "hook": "NEMA 6-50",
+  "cf": "5.8",
+  "dims": "28\" L x 28\" W x 13.5\" D",
+  "outside": "38\" L x 33\" W x 37\" H",
+  "temp": "1800°F (982°C)",
+  "lb": "315",
+  "breaker": "",
+  "other": [
+   "Available in 200V, 208V, 220V and 230V by request",
+   "Available in 3 phase Delta and Wye (380V, 400V, 415V) by request"
+  ],
+  "model": "Studio Pro 28",
+  "page": "https://www.evenheat-kiln.com/sp28-glass-kiln"
+ },
+ "evenheat-glass-kiln-studio-pro-41-evesp41": {
+  "volts": "240",
+  "amps": "45",
+  "watts": "10,800",
+  "phase": "1",
+  "hook": "NEMA 6-50",
+  "cf": "7.52",
+  "dims": "25.25\" L x 40.5\" W x 13.5\" D",
+  "outside": "35.5\" L x 45.5\" W x 37\" H",
+  "temp": "1800°F (982°C)",
+  "lb": "340",
+  "breaker": "",
+  "other": [
+   "Available in 200V, 208V, 220V and 230V by request",
+   "Available in 3 phase Delta and Wye (380V, 400V, 415V) by request"
+  ],
+  "model": "Studio Pro 41",
+  "page": "https://www.evenheat-kiln.com/sp41-glass-kiln"
+ },
+ "evenheat-glass-kiln-gts-18-13-evegts1813": {
+  "volts": "240",
+  "amps": "27",
+  "watts": "6480",
+  "phase": "1",
+  "hook": "NEMA 6-30",
+  "cf": "2.0",
+  "dims": "17.5\" Diameter x 13.5\" Deep",
+  "outside": "22.5\" L x 32.5\" W x 26.5\" H (with 8\" stand)",
+  "temp": "1800°F (982°C)",
+  "lb": "80",
+  "breaker": "",
+  "other": [
+   "Available in 200V, 208V, 220V and 230V by request",
+   "Available in 3 phase Delta and Wye (380V, 400V and 415V) designs"
+  ],
+  "model": "GTS 18",
+  "page": "https://www.evenheat-kiln.com/gts-18-2024"
+ },
+ "evenheat-glass-kiln-gts-23-evegts239": {
+  "volts": "240",
+  "amps": "30",
+  "watts": "7200",
+  "phase": "1",
+  "hook": "NEMA 6-50",
+  "cf": "3.5",
+  "dims": "23.5\" Diameter x 13.5\" Deep",
+  "outside": "28.5\" L x 38.5\" W x 26.5\" H (with 8\" stand)",
+  "temp": "1800°F (982°C)",
+  "lb": "210",
+  "breaker": "",
+  "other": [
+   "Available in 200V, 208V, 220V and 230V by request",
+   "Available in 3 phase Delta and Wye (380V, 400V and 415V) designs"
+  ],
+  "model": "GTS 23",
+  "page": "https://www.evenheat-kiln.com/gts-23-2024"
+ },
+ "evenheat-glass-kiln-gts-2541-9-and-2541-13-evegts2541": {
+  "volts": "240",
+  "amps": "40",
+  "watts": "9600",
+  "phase": "1",
+  "hook": "NEMA 6-50",
+  "cf": "7.20",
+  "dims": "25.25\" L x 41\" W x 13.5\" D",
+  "outside": "30.25\" L x 56\" W x 26.5\" H (with 8\" stand)",
+  "temp": "1800°F (982°C)",
+  "lb": "250",
+  "breaker": "",
+  "other": [
+   "Available in 200V, 208V, 220V and 230V by request",
+   "Available in 3 phase Delta and Wye (380V, 400V and 415V) designs"
+  ],
+  "model": "GTS 2541",
+  "page": "https://www.evenheat-kiln.com/gts-2541-2024"
+ },
+ "evenheat-kilns-gts-41-glass-kiln-evegts41": {
+  "volts": "240",
+  "amps": "45",
+  "watts": "10,800",
+  "phase": "1",
+  "hook": "NEMA 6-50",
+  "cf": "7.52",
+  "dims": "25.25\" L x 40.5\" W x 13.5\" D",
+  "outside": "35.5\" L x 45.5\" W x 37\" H",
+  "temp": "1800°F (982°C)",
+  "lb": "335",
+  "breaker": "",
+  "other": [
+   "Available in 200V, 208V, 220V and 230V by request",
+   "Available in 3 phase Delta and Wye (380V, 400V and 415V) designs"
+  ],
+  "model": "GTS 41",
+  "page": "https://www.evenheat-kiln.com/gts-41-2024"
+ },
+ "evenheat-studio-pro-stp-glass-and-metal-clay-kiln-evespstp": {
+  "volts": "120",
+  "amps": "12",
+  "watts": "1440",
+  "phase": "1",
+  "hook": "NEMA 5-15",
+  "cf": "0.17",
+  "dims": "8\" L x 8\" W x 4.5\" D",
+  "outside": "14\" L x 19\" W x 9\" H",
+  "temp": "1800°F (982°C)",
+  "lb": "25",
+  "breaker": "",
+  "other": [
+   "Available in 100V, 200V, 220V, 230V and 240V by request"
+  ],
+  "model": "Studio Pro STP",
+  "page": "https://www.evenheat-kiln.com/studio-pro-stp"
+ },
+ "evenheat-glass-kiln-v8-vitrigraph-base-optional-evev8": {
+  "volts": "120",
+  "amps": "12",
+  "watts": "1440",
+  "phase": "1",
+  "hook": "NEMA 5-15",
+  "cf": "0.24",
+  "dims": "8\" L x 8\" W x 6.5\" D",
+  "outside": "13\" L x 18\" W x 14.5\" H",
+  "temp": "2300°F (1260°C)",
+  "lb": "35",
+  "breaker": "",
+  "other": [
+   "Available in 100V, 200V, 208V, 220V, 230V and 240V by request"
+  ],
+  "model": "V8",
+  "page": "https://www.evenheat-kiln.com/v8-vitrigraph"
+ },
+ "evenheat-glass-kiln-v8-with-vitrigraph-base-evev8v": {
+  "volts": "120",
+  "amps": "12",
+  "watts": "1440",
+  "phase": "1",
+  "hook": "NEMA 5-15",
+  "cf": "0.24",
+  "dims": "8\" L x 8\" W x 6.5\" D",
+  "outside": "13\" L x 18\" W x 14.5\" H",
+  "temp": "2300°F (1260°C)",
+  "lb": "35",
+  "breaker": "",
+  "other": [
+   "Available in 100V, 200V, 208V, 220V, 230V and 240V by request"
+  ],
+  "model": "V8 with vitrigraph base",
+  "page": "https://www.evenheat-kiln.com/v8-vitrigraph"
+ }
+}
