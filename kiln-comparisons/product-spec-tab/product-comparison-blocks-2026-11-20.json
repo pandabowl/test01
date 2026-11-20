@@ -1,0 +1,695 @@
+{
+ "amaco-ex-270-kiln-aex270": [
+  "amaco-excel"
+ ],
+ "amaco-excel-ex-1099-kiln-with-select-fire-aex1099": [
+  "amaco-excel"
+ ],
+ "amaco-excel-ex-1266-kiln-with-select-fire-aex1266": [
+  "amaco-excel"
+ ],
+ "amaco-excel-ex-232-kiln-with-select-fire-aex232": [
+  "amaco-excel"
+ ],
+ "amaco-excel-ex-257-kiln-with-select-fire-aex257": [
+  "amaco-excel"
+ ],
+ "amaco-excel-ex-329-kiln-with-select-fire-aex329": [
+  "amaco-excel"
+ ],
+ "amaco-excel-ex-353-kiln-with-select-fire-aex353": [
+  "amaco-excel"
+ ],
+ "amaco-excel-ex-365-kiln-with-select-fire-aex365": [
+  "amaco-excel"
+ ],
+ "amaco-excel-ex-381-kiln-with-select-fire-aex381": [
+  "amaco-excel"
+ ],
+ "amaco-excel-ex-399-kiln-with-select-fire-aex399": [
+  "amaco-excel"
+ ],
+ "caldera-digital-kiln-ps0743-1": [
+  "paragon-glass"
+ ],
+ "cone-art-2313g-sq-square-glass-fusing-kiln-tuc2313gsq": [
+  "cone-art-glass"
+ ],
+ "cone-art-bx1822d-kiln": [
+  "cone-art-pottery"
+ ],
+ "cone-art-bx4222d-oval-ceramics-kiln-tucbx4222d": [
+  "cone-art-pottery"
+ ],
+ "cone-art-gx119d-kiln-with-genesis-touch-screen-tucgx119d": [
+  "cone-art-pottery"
+ ],
+ "cone-art-gx2322d-kiln-package-tucgx2322d": [
+  "cone-art-pottery"
+ ],
+ "cone-art-gx2322d-kiln-package-tucgx2322dp": [
+  "cone-art-pottery"
+ ],
+ "cone-art-gx2327d-kiln-package-tucgx2327d": [
+  "cone-art-pottery"
+ ],
+ "cone-art-gx2327d-kiln-package-tucgx2327dp": [
+  "cone-art-pottery"
+ ],
+ "cone-art-gx2327d-sq-square-kiln-package-with-furniture-and-integrated-vent": [
+  "cone-art-pottery"
+ ],
+ "cone-art-gx2827d-kiln-package-tucgx2827d": [
+  "cone-art-pottery"
+ ],
+ "cone-art-gx2827d-kiln-package-tucgx2827dp": [
+  "cone-art-pottery"
+ ],
+ "coneart-2818d-round-ceramics-kiln-tucbx2818d": [
+  "cone-art-pottery"
+ ],
+ "coneart-bx2318sq-square-kiln-tucbx2318sq": [
+  "cone-art-pottery"
+ ],
+ "coneart-bx2322d-round-ceramics-kiln-tucbx2322d": [
+  "cone-art-pottery"
+ ],
+ "coneart-bx2322dsq-square-kiln-tucbx2322dsq": [
+  "cone-art-pottery"
+ ],
+ "coneart-bx2327d-round-ceramics-kiln-tucbx2327d": [
+  "cone-art-pottery"
+ ],
+ "coneart-bx2327dsq-square-kiln-tucabx2327dsq": [
+  "cone-art-pottery"
+ ],
+ "coneart-bx2822d-round-ceramics-kiln-tucbx2822d": [
+  "cone-art-pottery"
+ ],
+ "coneart-bx2827-round-ceramics-kiln-tucbx2827d": [
+  "cone-art-pottery"
+ ],
+ "coneart-gx1813d-round-ceramics-kiln-tucgx1813d": [
+  "cone-art-pottery"
+ ],
+ "coneart-gx2322dsq-kiln-package-tucgx2322dsqp": [
+  "cone-art-pottery"
+ ],
+ "coneart-mx1813d-round-ceramics-kiln-tucbx1813d": [
+  "cone-art-pottery"
+ ],
+ "evenheat-copper-120v-annealing-kiln-evecop": [
+  "evenheat-glass"
+ ],
+ "evenheat-glass-kiln-gts-18-13-evegts1813": [
+  "evenheat-glass"
+ ],
+ "evenheat-glass-kiln-gts-23-evegts239": [
+  "evenheat-glass"
+ ],
+ "evenheat-glass-kiln-gts-2541-9-and-2541-13-evegts2541": [
+  "evenheat-glass"
+ ],
+ "evenheat-glass-kiln-studio-pro-14-120-volt-evesp14120": [
+  "evenheat-glass"
+ ],
+ "evenheat-glass-kiln-studio-pro-14-240-volt-evesp14240": [
+  "evenheat-glass"
+ ],
+ "evenheat-glass-kiln-studio-pro-17-evesp17": [
+  "evenheat-glass"
+ ],
+ "evenheat-glass-kiln-studio-pro-24-evesp24": [
+  "evenheat-glass"
+ ],
+ "evenheat-glass-kiln-studio-pro-28-evesp28": [
+  "evenheat-glass"
+ ],
+ "evenheat-glass-kiln-studio-pro-41-evesp41": [
+  "evenheat-glass"
+ ],
+ "evenheat-glass-kiln-v8-vitrigraph-base-optional-evev8": [
+  "evenheat-glass"
+ ],
+ "evenheat-glass-kiln-v8-with-vitrigraph-base-evev8v": [
+  "evenheat-glass"
+ ],
+ "evenheat-hf-1210b-cone-10-kiln-evehf1210b": [
+  "evenheat-ceramic"
+ ],
+ "evenheat-hf-1413-cone-10-kiln-evehf1413": [
+  "evenheat-ceramic"
+ ],
+ "evenheat-hf-1813-cone-10-kiln-evehf1813": [
+  "evenheat-ceramic"
+ ],
+ "evenheat-hf-1818-cone-10-kiln-evehf1818": [
+  "evenheat-ceramic"
+ ],
+ "evenheat-hf-2318-cone-10-kiln-evehf2318": [
+  "evenheat-ceramic"
+ ],
+ "evenheat-hf-2327-cone-10-kiln-evehf2327": [
+  "evenheat-ceramic"
+ ],
+ "evenheat-hf-2918-cone-10-kiln-evehf2918": [
+  "evenheat-ceramic"
+ ],
+ "evenheat-hf-2927-cone-10-kiln-evehf2927": [
+  "evenheat-ceramic"
+ ],
+ "evenheat-hf-810-120-volt-cone-8-kiln-evehf810": [
+  "evenheat-ceramic"
+ ],
+ "evenheat-kilns-gts-41-glass-kiln-evegts41": [
+  "evenheat-glass"
+ ],
+ "evenheat-rm-ii-1210-120v-china-paininting-kiln-everm1210": [
+  "evenheat-ceramic"
+ ],
+ "evenheat-rm-ii-1210-120v-china-paininting-kiln-everm1210b": [
+  "evenheat-ceramic"
+ ],
+ "evenheat-rm-ii-1413-cone-8-kiln-everm1413": [
+  "evenheat-ceramic"
+ ],
+ "evenheat-rm-ii-1813-cone-8-kiln-everm1813": [
+  "evenheat-ceramic"
+ ],
+ "evenheat-rm-ii-1822-cone-8-kiln-everm1822": [
+  "evenheat-ceramic"
+ ],
+ "evenheat-rm-ii-2322-cone-8-kiln-everm2322": [
+  "evenheat-ceramic"
+ ],
+ "evenheat-rm-ii-2329-cone-8-kiln-everm2329": [
+  "evenheat-ceramic"
+ ],
+ "evenheat-rm-ii-2522-oval-low-fire-kiln-everm2522": [
+  "evenheat-ceramic"
+ ],
+ "evenheat-rm-ii-2541-oval-cone-low-fire-kiln-everm2541": [
+  "evenheat-ceramic"
+ ],
+ "evenheat-rm-ii-2922-cone-8-kiln-everm2922": [
+  "evenheat-ceramic"
+ ],
+ "evenheat-rm-ii-2929-cone-8-kiln-everm2929": [
+  "evenheat-ceramic"
+ ],
+ "evenheat-rm-ii-810-120-volt-cone-5-kiln-everm810": [
+  "evenheat-ceramic"
+ ],
+ "evenheat-studio-pro-stp-glass-and-metal-clay-kiln-evespstp": [
+  "evenheat-glass"
+ ],
+ "l-l-e14s-3-easy-fire-kiln-lke14s3": [
+  "ll-easy-fire"
+ ],
+ "l-l-e18m-3-easy-fire-kiln-e18m3": [
+  "ll-easy-fire"
+ ],
+ "l-l-e18m-3-easy-fire-kiln-package-lke18m3-cm": [
+  "ll-easy-fire"
+ ],
+ "l-l-e18s-3-easy-fire-kiln-special-package-lke18s3": [
+  "ll-easy-fire"
+ ],
+ "l-l-e18s-3-easy-fire-kiln-special-package-lke18s3-cm": [
+  "ll-easy-fire"
+ ],
+ "l-l-e18t3-easy-fire-kiln-special-package-lke18t3": [
+  "ll-easy-fire"
+ ],
+ "l-l-e18t3-easy-fire-kiln-special-package-lke18t3-cm": [
+  "ll-easy-fire"
+ ],
+ "l-l-e23m-3-easy-fire-kiln-lke23m3": [
+  "ll-easy-fire"
+ ],
+ "l-l-e23s-3-3-brick-easy-fire-kiln-lke23s3": [
+  "ll-easy-fire"
+ ],
+ "l-l-e23s-3-easy-fire-kiln-package-lke23s3-cm": [
+  "ll-easy-fire"
+ ],
+ "l-l-e23t-3-3-brick-easy-fire-kiln-lke23t3": [
+  "ll-easy-fire"
+ ],
+ "l-l-e23t-3-easy-fire-kiln-special-package-lke23t3-cm": [
+  "ll-easy-fire"
+ ],
+ "l-l-e28m-easy-fire-kiln-lke28m": [
+  "ll-easy-fire"
+ ],
+ "l-l-e28m-easy-fire-kiln-package-lke28m-cm": [
+  "ll-easy-fire"
+ ],
+ "l-l-e28s-easy-fire-kiln-lke28s": [
+  "ll-easy-fire"
+ ],
+ "l-l-e28s-easy-fire-kiln-package-lke28s-cm": [
+  "ll-easy-fire"
+ ],
+ "l-l-e28t-easy-fire-kiln-lke28t": [
+  "ll-easy-fire"
+ ],
+ "l-l-eq2327-3-equad-pro-kiln-package-with-genesis-vent-and-furniture-kit": [
+  "ll-equad-pro"
+ ],
+ "l-l-eq2327-3-equad-pro-production-kiln-lkeq23273": [
+  "ll-equad-pro"
+ ],
+ "l-l-eq2827-3-equad-pro-commercial-kiln-package": [
+  "ll-equad-pro"
+ ],
+ "l-l-eq2827-3-equad-pro-commercial-kiln-package-lkeq282732083p": [
+  "ll-equad-pro"
+ ],
+ "l-lsm23t3-school-master-k-12-school-kiln-lksm23t3": [
+  "ll-easy-fire"
+ ],
+ "laguna-gas-kiln-le-200-12-12-cubic-feet-le20012": [
+  "laguna-gas"
+ ],
+ "laguna-gas-kiln-le-200-18-18-cubic-feet-le20018": [
+  "laguna-gas"
+ ],
+ "laguna-gas-kiln-le-200-24-23-9-cubic-feet-le20024": [
+  "laguna-gas"
+ ],
+ "laguna-gas-kiln-le-200-40-40-cubic-feet-le20040": [
+  "laguna-gas"
+ ],
+ "laguna-gas-kiln-le-200-40c-40-cubic-feet-car-kiln-le20040c": [
+  "laguna-gas"
+ ],
+ "laguna-gas-kiln-le-200-9-9-2-cubic-feet-le2009": [
+  "laguna-gas"
+ ],
+ "nabertherm-n200-kiln": [
+  "nabertherm-n"
+ ],
+ "nabertherm-top-160-kiln": [
+  "nabertherm-top"
+ ],
+ "nabertherm-top-190-kiln": [
+  "nabertherm-top"
+ ],
+ "nabertherm-top-220-oval-kiln": [
+  "nabertherm-top"
+ ],
+ "nabertherm-top-60-kiln": [
+  "nabertherm-top"
+ ],
+ "nabertherm-top-60r-kiln": [
+  "nabertherm-top"
+ ],
+ "olympic-1818-v6-cf-electric-kiln-2-63-cuft-ol1818": [
+  "olympic-stackable"
+ ],
+ "olympic-1818h-v6-cf-electric-kiln-2-63-cuft-ol1818h": [
+  "olympic-stackable"
+ ],
+ "olympic-1823-v6-cf-electric-kiln-3-29-cuft-ol1823": [
+  "olympic-stackable"
+ ],
+ "olympic-1823h-v6-cf-electric-kiln-3-29-cuft-ol1823h": [
+  "olympic-stackable"
+ ],
+ "olympic-1827-v6-cf-electric-kiln-3-29-cuft-ol1827": [
+  "olympic-stackable"
+ ],
+ "olympic-1827h-v6-cf-electric-kiln-3-95-cuft-ol1827h": [
+  "olympic-stackable"
+ ],
+ "olympic-2318-v6-cf-electric-kiln-4-7-cuft-ol2318": [
+  "olympic-stackable"
+ ],
+ "olympic-2318h-v6-cf-electric-kiln-4-7-cuft-ol2318h": [
+  "olympic-stackable"
+ ],
+ "olympic-2323h-v6-cf-electric-kiln-5-83-cuft-ol2323h": [
+  "olympic-stackable"
+ ],
+ "olympic-2327h-v6-cf-electric-kiln-7-cuft-ol2327h": [
+  "olympic-stackable"
+ ],
+ "olympic-2331h-v6-cf-electric-kiln-8-17-cuft-ol2331h": [
+  "olympic-stackable"
+ ],
+ "olympic-2818h-v6-cf-electric-kiln-6-67-cu-ft-ol2818h": [
+  "olympic-stackable"
+ ],
+ "olympic-2823h-v6-cf-electric-kiln-8-34-cu-ft-ol2823h": [
+  "olympic-stackable"
+ ],
+ "olympic-2827h-v6-cf-electric-kiln-10-cu-ft-ol2827h": [
+  "olympic-stackable"
+ ],
+ "olympic-kiln-2831h-v6-cf-electric-11-67-cu-ft-ol2831h": [
+  "olympic-stackable"
+ ],
+ "paragon-cs19d-clamshell-kiln-for-glass-fusing-p4g611j1dcc": [
+  "paragon-glass"
+ ],
+ "paragon-cs19s-clamshell-kiln-for-glass-fusing-p4h61141dcc": [
+  "paragon-glass"
+ ],
+ "paragon-dragon-front-loading-kiln-p706121badk": [
+  "paragon-pottery"
+ ],
+ "paragon-dragon-kiln": [
+  "paragon-pottery"
+ ],
+ "paragon-f-120-glass-lamp-working-kiln-with-stand-pmg04211j3bga": [
+  "paragon-glass"
+ ],
+ "paragon-fusion-cs14d-kiln-for-glass-p4e211j1bga": [
+  "paragon-glass"
+ ],
+ "paragon-home-artist-kiln-phome120": [
+  "paragon-pottery"
+ ],
+ "paragon-iguana-kiln-piguana2401": [
+  "paragon-pottery"
+ ],
+ "paragon-janus-1613-kiln-p86611n1d00": [
+  "paragon-glass"
+ ],
+ "paragon-janus-27-kiln-p25611n1g00": [
+  "paragon-glass"
+ ],
+ "paragon-kiln-caldera-xl-digital-kiln-pcaldxl": [
+  "paragon-glass"
+ ],
+ "paragon-kiln-express-e-10a-120-v-p10211j1bta": [
+  "paragon-glass"
+ ],
+ "paragon-kiln-fusion-10-kiln": [
+  "paragon-glass"
+ ],
+ "paragon-kiln-fusion-14-kiln-for-glass-arts": [
+  "paragon-glass"
+ ],
+ "paragon-kiln-janus-23-multipurpose-kiln-3-brick-p21611n1g00": [
+  "paragon-glass"
+ ],
+ "paragon-kiln-tnf-27-3-p2561111g00": [
+  "paragon-pottery"
+ ],
+ "paragon-kiln-tnf82-3-kiln-ptnf823": [
+  "paragon-pottery"
+ ],
+ "paragon-kiln-viking-24": [
+  "paragon-pottery"
+ ],
+ "paragon-kiln-viking-27-8-11-cubic-feet-ceramics-kiln": [
+  "paragon-pottery"
+ ],
+ "paragon-kiln-viking-28-kiln": [
+  "paragon-pottery"
+ ],
+ "paragon-kiln-xpress-e-12t-for-glass-and-pmc": [
+  "paragon-glass"
+ ],
+ "paragon-kiln-xpress-e-14a-kiln-p14611j1dta": [
+  "paragon-glass"
+ ],
+ "paragon-kiln-xpress-q-11-a-digital-kiln-p11211j1bta": [
+  "paragon-glass"
+ ],
+ "paragon-kilns-xpress-e-9a-digital-kiln-p09211j1bta": [
+  "paragon-glass"
+ ],
+ "paragon-quikfire-6-kiln-pqf6": [
+  "paragon-glass"
+ ],
+ "paragon-sc-2-kiln-p0221131b00": [
+  "paragon-glass"
+ ],
+ "paragon-sc-3-kiln-120v-p03211j1b00": [
+  "paragon-glass"
+ ],
+ "paragon-tnf1613-3-kiln-p8661111eaa": [
+  "paragon-pottery"
+ ],
+ "paragon-tnf23-3-kiln-p2361114g00": [
+  "paragon-pottery"
+ ],
+ "paragon-tnf24-3-kiln-p7961111g00": [
+  "paragon-pottery"
+ ],
+ "paragon-tnf28-3-kiln-p3061111g00": [
+  "paragon-pottery"
+ ],
+ "sheffield-pottery-bull-elk-front-loading-kiln-pack-ps1665-10": [
+  "paragon-pottery"
+ ],
+ "sheffield-pottery-bull-elk-studio-kiln-ps1665-11": [
+  "paragon-pottery"
+ ],
+ "skutt-22-tall-ceramics-kiln-kiln-km1022-skkm1022": [
+  "skutt-pottery"
+ ],
+ "skutt-22-tall-ceramics-kiln-km1022-3-skkm10223": [
+  "skutt-pottery"
+ ],
+ "skutt-22-tall-ceramics-kiln-km1222-3-skkm12223": [
+  "skutt-pottery"
+ ],
+ "skutt-22-tall-ceramics-kiln-km822-3-skkm8223": [
+  "skutt-pottery"
+ ],
+ "skutt-22-tall-ceramics-kiln-m822-skkm822": [
+  "skutt-pottery"
+ ],
+ "skutt-glass-and-ceramics-kiln-firebox-8x4-lt-skfb84lt": [
+  "skutt-glass"
+ ],
+ "skutt-glass-fusing-kiln-firebox-8-gmlt": [
+  "skutt-glass"
+ ],
+ "skutt-glazetech-test-kiln-cone-10-skgt": [
+  "skutt-pottery"
+ ],
+ "skutt-gm1014-glass-kiln-package-with-furniture-kit": [
+  "skutt-glass"
+ ],
+ "skutt-gm814-glass-kiln-package-with-furniture-kit": [
+  "skutt-glass"
+ ],
+ "skutt-gm818-glass-kiln-package-with-furniture-kit": [
+  "skutt-glass"
+ ],
+ "skutt-kiln-firebox-8x6-lt-glass-pmc-or-ceramics-skfb86lt": [
+  "skutt-glass"
+ ],
+ "skutt-kiln-glass-fusing-kiln-firebox-14-skfb14": [
+  "skutt-glass"
+ ],
+ "skutt-kiln-glass-fusing-kiln-gm1014-skgm1014": [
+  "skutt-glass"
+ ],
+ "skutt-kiln-glass-fusing-kiln-gm1018-skgm1018": [
+  "skutt-glass"
+ ],
+ "skutt-kiln-glass-fusing-kiln-gm1227-3-skgm12273": [
+  "skutt-glass"
+ ],
+ "skutt-kiln-glass-fusing-kiln-gm1414-skgm1414": [
+  "skutt-glass"
+ ],
+ "skutt-kiln-glass-fusing-kiln-gm818-skgm818": [
+  "skutt-glass"
+ ],
+ "skutt-kiln-glass-fusing-kiln-studio-gm1214-3-skgm12143": [
+  "skutt-glass"
+ ],
+ "skutt-kiln-km1018-240v-or-208-v-1-phase-skkm1018": [
+  "skutt-pottery"
+ ],
+ "skutt-kiln-km1018-3-240v-or-208-v-1-phase-skkm10183": [
+  "skutt-pottery"
+ ],
+ "skutt-kiln-km1027-3-skkm1027": [
+  "skutt-pottery"
+ ],
+ "skutt-kiln-km1027-3-skkm10273": [
+  "skutt-pottery"
+ ],
+ "skutt-kiln-km1218-3-skkm12183": [
+  "skutt-pottery"
+ ],
+ "skutt-kiln-km1227-3pk-skkm12273pk": [
+  "skutt-pottery"
+ ],
+ "skutt-kiln-km614-3-doll-kiln": [
+  "skutt-pottery"
+ ],
+ "skutt-kiln-km714-furniture-kit-skkm714": [
+  "skutt-pottery"
+ ],
+ "skutt-kiln-km818": [
+  "skutt-pottery"
+ ],
+ "skutt-kiln-km818-3-240v-or-208-v-1-phase-skkm8183": [
+  "skutt-pottery"
+ ],
+ "skutt-kiln-km818-30a-3-30-amp-skkm818-30a-3": [
+  "skutt-pottery"
+ ],
+ "skutt-kiln-km818-30a-3-kiln-30-amp-with-vent-and-furniture-kit": [
+  "skutt-pottery"
+ ],
+ "skutt-kiln-kmt1022-3-complete-package-skkm10223cs": [
+  "skutt-pottery"
+ ],
+ "skutt-kiln-kmt1022-3-with-touch-screen-controller-skkmt10223": [
+  "skutt-pottery"
+ ],
+ "skutt-kiln-kmt1027-3-package-with-vent-furniture-skkmt10273": [
+  "skutt-pottery"
+ ],
+ "skutt-kiln-kmt1027-3-package-with-vent-furniture-skkmt10273cs": [
+  "skutt-pottery"
+ ],
+ "skutt-kiln-kmt822-3-package-skkmt8223p": [
+  "skutt-pottery"
+ ],
+ "skutt-kiln-oval-km1627-3pk-three-phase-only-skkm16273pk": [
+  "skutt-pottery"
+ ],
+ "skutt-kilns-glass-fusing-kiln-furniture-kit-skgm814": [
+  "skutt-glass"
+ ],
+ "skutt-km1018-3-kiln-package-with-vent-furniture-and-touch-screen": [
+  "skutt-pottery"
+ ],
+ "skutt-km1018-kiln-package-with-vent-furniture-and-touch-screen": [
+  "skutt-pottery"
+ ],
+ "skutt-km1022-3-kiln-package-with-vent-furniture-and-touch-screen": [
+  "skutt-pottery"
+ ],
+ "skutt-km1227-3-kiln-skkm12273": [
+  "skutt-pottery"
+ ],
+ "skutt-km1231-3pk-240v-1ph-skkm12313pk": [
+  "skutt-pottery"
+ ],
+ "skutt-km1231-3pk-production-kiln-package-with-vent-furniture-and-touch-screen": [
+  "skutt-pottery"
+ ],
+ "skutt-km818-kiln-package-with-vent-and-furniture-kit": [
+  "skutt-pottery"
+ ],
+ "skutt-km822-3-kiln-package-with-vent-and-furniture-kit": [
+  "skutt-pottery"
+ ],
+ "skutt-km822-kiln-package-with-vent-and-furniture-kit": [
+  "skutt-pottery"
+ ],
+ "skutt-kmt1018-3-kiln-package-with-furniture-kit-vent": [
+  "skutt-pottery"
+ ],
+ "skutt-kmt1018-kiln-with-touch-screen-controller-skkmt1018": [
+  "skutt-pottery"
+ ],
+ "skutt-kmt1027-kiln-package-with-vent-furniture-and-touch-screen": [
+  "skutt-pottery"
+ ],
+ "skutt-kmt1027-kiln-with-touch-screen-controller-skkmt1027": [
+  "skutt-pottery"
+ ],
+ "skutt-kmt1227-3-kiln-with-touch-screen-controller-skkmt12273": [
+  "skutt-pottery"
+ ],
+ "skutt-kmt1227-3pk-kiln-w-touch-screen-controller-skkmt12273pk": [
+  "skutt-pottery"
+ ],
+ "skutt-kmt1231-3pk-kiln-package-skkm12313pkcs": [
+  "skutt-pottery"
+ ],
+ "skutt-kmt818-3-kiln-package-with-touchscreen-vent-and-furniture-kit": [
+  "skutt-pottery"
+ ],
+ "skutt-kmt818-3-kiln-with-touchscreen": [
+  "skutt-pottery"
+ ],
+ "skutt-kmt818-30a-3-kiln-30-amp-3-brick": [
+  "skutt-pottery"
+ ],
+ "skutt-kmt818-30a-3-kiln-30-amp-package-with-vent-furniture-and-touch-screen": [
+  "skutt-pottery"
+ ],
+ "skutt-kmt818-kiln": [
+  "skutt-pottery"
+ ],
+ "skutt-kmt818-kiln-package-with-touchscreen-controller-vent-and-furniture-kit": [
+  "skutt-pottery"
+ ],
+ "skutt-kmt822-3-kiln-with-touchscreen-controller": [
+  "skutt-pottery"
+ ],
+ "skutt-kmt822-kiln": [
+  "skutt-pottery"
+ ],
+ "skutt-kmt822-kiln-package-with-touchscreen-vent-and-furniture-kit": [
+  "skutt-pottery"
+ ],
+ "skutt-low-fire-oval-kiln-km1627-3pk-lf-skkm16273pklf": [
+  "skutt-pottery"
+ ],
+ "tucker-s-cone-art-115g-sq-square-glass-fusing-kiln-tuc115gsq": [
+  "cone-art-glass"
+ ],
+ "tucker-s-cone-art-117g-glass-fusing-kiln-tuc117g": [
+  "cone-art-glass"
+ ],
+ "tucker-s-cone-art-1809g-glass-fusing-kiln-tuc1809g": [
+  "cone-art-glass"
+ ],
+ "tucker-s-cone-art-1813g-glass-fusing-kiln-tuc1813g": [
+  "cone-art-glass"
+ ],
+ "tucker-s-cone-art-2309g-glass-fusing-kiln-tuc2309g": [
+  "cone-art-glass"
+ ],
+ "tucker-s-cone-art-2313g-glass-fusing-kiln-tuc2313g": [
+  "cone-art-glass"
+ ],
+ "tucker-s-cone-art-2809g-glass-fusing-kiln-tuc2809g": [
+  "cone-art-glass"
+ ],
+ "tucker-s-cone-art-2813g-glass-fusing-kiln-tuc2813g": [
+  "cone-art-glass"
+ ],
+ "tucker-s-cone-art-4209g-oval-glass-fusing-kiln-tuc4209g": [
+  "cone-art-glass"
+ ],
+ "tucker-s-cone-art-4213-oval-glass-fusing-kiln-tuc4213g": [
+  "cone-art-glass"
+ ],
+ "tucker-s-cone-art-bx2318d-ceramics-kiln-tucbx2318d": [
+  "cone-art-pottery"
+ ],
+ "tucker-s-cone-art-bx2336-oval-ceramics-kiln-tucbx2336d": [
+  "cone-art-pottery"
+ ],
+ "tucker-s-cone-art-bx4227-oval-ceramics-kiln-tucbx4227d": [
+  "cone-art-pottery"
+ ],
+ "tucker-s-cone-art-bx4227-oval-ceramics-kiln-tucgx4227dpack": [
+  "cone-art-pottery"
+ ],
+ "tucker-s-cone-art-kiln-bx119d-ceramics-test-kiln-tucbx119d": [
+  "cone-art-pottery"
+ ],
+ "tuckers-cone-art-2309g-sq-square-glass-fusing-kiln-tuc2309gsq": [
+  "cone-art-glass"
+ ],
+ "tuckers-cone-art-bx1822-round-ceramics-kiln-tucbx1822d": [
+  "cone-art-pottery"
+ ]
+}

@@ -33,6 +33,8 @@ This file replaces its steps 4–8 (draft, preview, publish, verify, save).
 | Brand blocks | entries of that type | Handle `<brand>-<series>`, e.g. `ll-easy-fire`, `ll-overview`. Repo copies: `<brand>/blocks/<handle>.html`. |
 | Page list | collection metafield `custom.comparison_blocks` | Type `list.metaobject_reference`, limited to `kiln_comparison_block`; pinned on the collection admin page. Order = display order. |
 | Renderer | theme `templates/collection.json`, section `sp_comparison_blocks` | An "ABZ Custom Liquid" section, padding none, placed directly above `4ab91e11-…` ("ABZ Collection Below text"). Liquid: `theme/comparison-blocks.liquid`. |
+| Product list | product metafield `custom.comparison_blocks` | Same type and limit as the collection field (`gid://shopify/MetafieldDefinition/729818464627`). Shown in the product's Specifications tab; see "Product pages: Specifications tab". |
+| Product renderer | theme `sections/hk-tab-section.liquid` + `snippets/sp-spec-jump.liquid` | Specifications tab content and the "See full specifications" button. Repo copies: `theme/hk-tab-section.liquid.with-spec-tab`, `theme/sp-spec-jump.liquid`. |
 
 ```liquid
 {%- assign sp_blocks = collection.metafields.custom.comparison_blocks.value -%}
@@ -213,6 +215,92 @@ scrolling.
 - A big query result is saved to a file instead of shown. To get an exact copy
   of a long value, request it under several aliases to force that, then pull it
   out with `jq -j`.
+- `metafieldsSet` takes at most 50 metafields per call.
+- Screenshots: `preview_shot.js` hides fixed and sticky elements (headers,
+  popups) but not table cells; the store's spec tables pin their first column
+  with `position: sticky`, and hiding it made the model column look blank.
+  `tools/spec_tab_shot.js <handle> <theme-id|live> <out>` screenshots a product's
+  Description and Specifications tabs.
+
+## Product pages: Specifications tab
+
+Owner's request (2026-11-20): on every kiln product where it applies, the specs
+live in the **Specifications tab**, and the description has a clear link that
+jumps straight to them. Choices the owner made: the tab shows the product's own
+spec table, then its brand comparison; spec tables move out of descriptions into
+the tab (backups first); the link is added automatically by the theme at the top
+of the description; each brand chat does the per-product work for its brand.
+
+**How the theme does it** (`sections/hk-tab-section.liquid`, the product tabs):
+
+- The Specifications tab shows when the product has `custom.specifications`
+  (its own table, as before) **or** a `custom.comparison_blocks` list. Inside the
+  tab: the spec table first (wrapped in `<div class="rte hk-specs-table-wrap">`),
+  then the comparison blocks (in `<div class="sp-compare sp-compare--product">`,
+  with the shared styles entry).
+- Whenever the tab shows, the Product Description tab starts with a navy
+  **"☰ See full specifications ↓"** button (`snippets/sp-spec-jump.liquid`).
+  Clicking it opens the Specifications tab and scrolls to it. A link to
+  `<product-url>#specifications` does the same on page load.
+- The snippet also marks the current product's row in the comparison table
+  (`tr.spc-current`: pale orange with a red left edge), by matching the
+  `td.spc-model` link to the page URL.
+- Don't add a link or button to descriptions by hand: the theme adds it.
+- Don't put the comparison inside an `.rte` element: the theme's
+  `.rte table th` rule outranks the block styles and turns the header row pale.
+  That's why `rte` sits on the spec-table wrapper only.
+
+**Which block each product gets** (set 2026-11-20 on 231 products; list in
+`product-spec-tab/product-comparison-blocks-2026-11-20.json`):
+
+1. The block whose table links to the product from a `td.spc-model` cell
+   (164 products, plus 5 whose product type isn't a kiln type: Janus, Caldera XL,
+   RM II 1210). No product is linked from two blocks.
+2. Otherwise, the block of the product's family collection, e.g.
+   `skutt-ceramic-kilns` → `skutt-pottery`, `l-l-easy-fire-kilns` →
+   `ll-easy-fire` (62 products: packages, touchscreen versions, small kilns).
+   Brand-wide collections (`olympic-kilns`, `paragon-kilns`, `evenheat-kilns`,
+   `tucker-s-cone-art-kilns`, `nabertherm-kilns`) are not used for this.
+3. Never the CTA, the styles entry, overview blocks or `skutt-glass-picks`.
+
+Not covered yet (no block fits): Olympic outside the stackable line (75),
+L&L outside Easy-Fire and eQuad-Pro (14), Fredrickson (11), 9 Skutt, 1 Nabertherm.
+These still get the tab and button once they have `custom.specifications`.
+
+When a brand adds a block, attach it to its products the same way (rule 1, then
+rule 2) with `metafieldsSet` (50 per call at most; `type` can be left out
+because the definition exists). The live theme ignores the product list until the
+new theme is published; after that, setting it publishes immediately.
+
+**Per-product work (brand chats):** `product-spec-tab/WORKLIST-2026-11-20.md`
+lists each brand's kilns in three groups: A) has a tab and tables in the
+description (merge, then remove), B) tables in the description only (move),
+C) no spec table anywhere (build one from the manufacturer's specs). For each
+product:
+
+1. Re-read `descriptionHtml` and `custom.specifications` right before writing;
+   other chats edit kiln descriptions too. Save both as the backup.
+2. Move the spec section (heading, its `<style>`, the table(s), weight and
+   footnotes) into `custom.specifications` (multi-line text, raw HTML). Use the
+   existing format as the model (e.g. Skutt KM1027-3,
+   `skutt-kiln-km1027-3-skkm10273`: `<div id="custom-specifications-section">`
+   with a heading, the table and notes). Remove empty layout tables instead of
+   moving them.
+3. Remove that section from the description and leave the rest alone.
+4. Fact-check numbers as in `PLAYBOOK.md`; list store-data errors for the
+   owner instead of silently changing them.
+5. Preview, get the owner's yes, write, then check the live page.
+
+**Theme status (2026-11-20):** built on the copy "Product spec tab + comparison
+(20-11-26)" (`gid://shopify/OnlineStoreTheme/197922586995`), duplicated from the
+live theme "Glaze mix-and-match cart message (19-11-26)" (`…/197880349043`;
+it still has `sp_comparison_blocks` after the products). Only
+`sections/hk-tab-section.liquid` changed and `snippets/sp-spec-jump.liquid` was
+added; both read back with matching checksums. Previewed on 17 products (one per
+block, desktop and phone): tab and button show, the button opens and scrolls to
+the tab, the comparison styles match the collection pages exactly (0 computed
+differences), the right row is highlighted, no sideways scroll. Waiting for the
+owner to publish; check the live theme for newer edits first.
 
 ## Note for the brand chats
 

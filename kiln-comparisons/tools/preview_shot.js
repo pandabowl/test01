@@ -48,11 +48,12 @@ const draft = draftFile ? fs.readFileSync(draftFile, 'utf8') : null;
       }, [draft, afterId, where === 'before']);
       if (!ok) throw new Error(`element #${afterId} not found on page`);
     }
-    // Hide sticky headers, popups and chat bubbles so they don't cover the shot.
+    // Hide sticky headers, popups and chat bubbles so they don't cover the shot
+    // (not sticky table cells: store spec tables pin their first column).
     await page.evaluate(() => {
       for (const n of document.querySelectorAll('body *')) {
         const p = getComputedStyle(n).position;
-        if (p === 'fixed' || p === 'sticky') n.style.setProperty('visibility', 'hidden', 'important');
+        if ((p === 'fixed' || p === 'sticky') && !/^(TD|TH)$/.test(n.tagName)) n.style.setProperty('visibility', 'hidden', 'important');
       }
     });
     const el = await page.$(selector);

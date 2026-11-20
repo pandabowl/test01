@@ -1,0 +1,216 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+  /* HK Specs Table Styling */
+  .hk-specs-table-wrap table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+  }
+
+  .hk-specs-table-wrap table th,
+  .hk-specs-table-wrap table td {
+    text-align: left;
+    padding: 10px 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  }
+
+  .hk-specs-table-wrap table th {
+    font-weight: 700;
+    white-space: nowrap;
+    width: 35%;
+  }
+
+  .hk-specs-table-wrap table tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.02);
+  }
+
+  .hk-specs-table-wrap table tr:last-child th,
+  .hk-specs-table-wrap table tr:last-child td {
+    border-bottom: none;
+  }
+{%- endstyle -%}
+
+{%- comment -%}
+  Capture the specifications metafield once so we can check it in both the nav and content areas.
+  This uses the metafield namespace: custom.specifications (multi_line_text_field type — accepts HTML).
+  Create it in Shopify Admin → Settings → Custom data → Products → Add definition.
+{%- endcomment -%}
+{%- assign specs_metafield = product.metafields.custom.specifications -%}
+{%- assign has_specs = false -%}
+{%- if specs_metafield != blank and specs_metafield.value != blank -%}
+  {%- assign has_specs = true -%}
+{%- endif -%}
+{%- comment -%}
+  Shared kiln comparison blocks (kiln-comparisons/SHARED-BLOCKS.md): a product can list
+  blocks in custom.comparison_blocks. They show in the Specifications tab under the
+  product's own spec table, and the tab shows when either one exists.
+{%- endcomment -%}
+{%- assign sp_compare_blocks = product.metafields.custom.comparison_blocks.value -%}
+{%- assign show_specs = has_specs -%}
+{%- if sp_compare_blocks != blank -%}{%- assign show_specs = true -%}{%- endif -%}
+
+<div class="color-{{ section.settings.color_scheme }} isolate gradient">
+  <div class="collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}">
+    <div class="tabs-wrap">
+      <ul id="tabs-nav" class="tab">
+        {% for block in section.blocks %}
+          {%- if block.type == 'tab' -%}
+            {% if block.settings.richtext != blank or block.settings.html != blank or block.settings.liquid != blank or block.settings.technical != blank %}
+              <li>
+                <a href="#tab{{ block.settings.tab_title | split: " " }}">{{ block.settings.tab_title }}</a>
+              </li>
+            {% endif %}
+          {%- endif -%}
+
+          {%- comment -%} Dynamic Specifications Tab (only shows if metafield has content) {%- endcomment -%}
+          {%- if block.type == 'specifications_tab' and show_specs -%}
+            <li>
+              <a href="#tab-specifications-{{ block.id }}">{{ block.settings.tab_title | default: 'Specifications' }}</a>
+            </li>
+          {%- endif -%}
+        {%- endfor -%}
+      </ul>
+    </div>
+  </div>
+  <slider-component class="page-width">
+    {% for block in section.blocks %}
+      {%- if block.type == 'tab' -%}
+        <div id="tab{{ block.settings.tab_title | split: " " }}" class="tab-content rte">
+          {%- if show_specs and block.settings.tab_title contains 'Description' -%}
+            {%- render 'sp-spec-jump' -%}
+          {%- endif -%}
+          {% if block.settings.richtext != blank %}
+            {{ block.settings.richtext | replace: '<img ', '<img loading="lazy" ' }}
+          {% endif %}
+          {% if block.settings.html != blank %}
+            {{ block.settings.html | replace: '<img ', '<img loading="lazy" ' }}
+          {% endif %}
+          {% if block.settings.liquid != blank %}
+            {{ block.settings.liquid }}
+          {% endif %}
+          {% if block.settings.technical != blank %}
+            {{ pages[block.settings.technical].content | replace: '<img ', '<img loading="lazy" ' }}
+          {% endif %}
+        </div>
+      {%- endif -%}
+
+      {%- comment -%} Dynamic Specifications Tab Content {%- endcomment -%}
+      {%- if block.type == 'specifications_tab' and show_specs -%}
+        <div id="tab-specifications-{{ block.id }}" class="tab-content sp-specs-tab">
+          {%- if has_specs -%}
+            <div class="rte hk-specs-table-wrap">
+              {{ specs_metafield.value | replace: '<img ', '<img loading="lazy" ' }}
+            </div>
+          {%- endif -%}
+          {%- if sp_compare_blocks != blank -%}
+            <div class="sp-compare sp-compare--product">
+              {{ shop.metaobjects.kiln_comparison_block['kiln-compare-styles'].html.value }}
+              {%- for b in sp_compare_blocks -%}{{ b.html.value }}{%- endfor -%}
+            </div>
+          {%- endif -%}
+        </div>
+      {%- endif -%}
+    {% endfor %}
+  </slider-component>
+</div>
+
+{% schema %}
+{
+  "name": "HK-Tab-Section",
+  "tag": "section",
+  "class": "HK-Tab-Section section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "tab",
+      "name": "Tab",
+      "settings": [
+        {
+          "type": "text",
+          "id": "tab_title",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "richtext",
+          "default": "<p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document.</p>",
+          "label": "Content"
+        },
+        {
+          "type": "page",
+          "id": "technical",
+          "label": "Page Content"
+        },
+        {
+          "type": "html",
+          "id": "html",
+          "label": "Html Content"
+        },
+        {
+          "type": "liquid",
+          "id": "liquid",
+          "label": "liquid Content"
+        }
+      ]
+    },
+    {
+      "type": "specifications_tab",
+      "name": "Specifications Tab",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "tab_title",
+          "label": "Tab Title",
+          "default": "Specifications"
+        },
+        {
+          "type": "paragraph",
+          "content": "This tab pulls data from the product metafield: custom.specifications (Multi-line text / HTML). Paste an HTML table into the metafield. If the metafield is empty, this tab will be automatically hidden."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "HK-Tab-Section"
+    }
+  ]
+}
+{% endschema %}
