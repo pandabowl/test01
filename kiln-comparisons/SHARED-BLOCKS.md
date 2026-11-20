@@ -125,6 +125,10 @@ The store has about 100 themes, which is at or near Shopify's limit. Delete old
 
 ## Block HTML rules
 
+- **Order inside a block (owner, 2026-11-19):** `<h2>` heading, intro paragraph
+  (plus `ul.spc-jump` on overview blocks), then **"Which ___ kiln should I buy?"**
+  (`<h3>` + `ul.spc-picks`), then the model-number box, tables, notes and the rest.
+  All 12 live blocks with picks were reordered this way on 2026-11-19/20.
 - One block = one `<div class="spc-block" id="<handle>">`. The id lets
   "Learn more" links and jump lists point at it.
 - **No `<style>` in brand blocks.** All CSS lives in `kiln-compare-styles`,
