@@ -9,6 +9,9 @@ styles, `blocks/evenheat-ceramic.html` and `kiln-compare-cta` render exactly, in
 below-grid text (whose value is unchanged), with the same left/right edges (42/1238 px desktop, 18/372 px phone) and
 no sideways scroll. All links in the block return 200. Store-data errors below were fixed the same day (see note).
 
+2026-11-20 15:33 UTC: the shared-blocks chat (user's request) moved the "Which Evenheat ceramic kiln
+should I buy?" picks right after the intro, above the model-number box and tables (pure reorder,
+checked line for line). `blocks/evenheat-ceramic.html` is synced to that version.
 2026-11-19 18:54 UTC: also listed on the main `evenheat-kilns` page (`evenheat-ceramic`, `evenheat-glass`,
 `kiln-compare-cta`, user's OK); verified exact, the old overview text below is unchanged.
 
