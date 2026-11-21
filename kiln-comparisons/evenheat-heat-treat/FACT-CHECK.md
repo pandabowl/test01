@@ -1,6 +1,11 @@
 # Evenheat heat treat ovens and small kilns: fact-check
 
-**Status (2026-11-19): three blocks drafted and previewed, waiting for the go-ahead.**
+**Status: live since 2026-11-21 (user's OK).** Entries: `evenheat-heat-treat` (`gid://shopify/Metaobject/696365580659`),
+`evenheat-lb` (`…/696365613427`), `evenheat-small-kilns` (`…/696365646195`). Lists set as in the table below, and on the
+main page [`evenheat-ceramic`, `evenheat-glass`, `evenheat-heat-treat`, `evenheat-lb`, `evenheat-small-kilns`,
+`kiln-compare-cta`]. Product `custom.comparison_blocks`: the 13 KH/KO/KF/HT/LT products → `evenheat-heat-treat`,
+LB 18/22.5/27 → `evenheat-lb`, STP and both V8 listings → `evenheat-small-kilns` (were `evenheat-glass`; the Copper
+keeps `evenheat-glass`). Verified exact on all four live pages; all 22 links return 200.
 
 | Block | File | Pages (proposed `custom.comparison_blocks`) |
 |---|---|---|
