@@ -59,9 +59,13 @@ for pkg, kiln in pairs.items():
 h = 'l-l-cone-12-kiln-e23s-jh-for-crystalline-glaze-lke23sjh'
 desc = rd(f'{D}/before/{h}.description.html')
 new_desc, removed, _ = cut_container_section(desc)
+# owner 2026-11-22: drop the JH-series table too
+mt = list(re.finditer(r'<div class="responsive-table">\n<table>.*?</table>\n</div>\n', new_desc, re.S))
+assert len(mt) == 1 and 'JD2927-JH' in mt[0].group(0)
+new_desc = new_desc[:mt[0].start()] + new_desc[mt[0].end():]
 open(f'{D}/drafts/{h}.description.html', 'w', encoding='utf-8').write(new_desc)
 open(f'{D}/drafts/{h}.specifications.html', 'w', encoding='utf-8').write(rd(f'{D}/before/{h}.specifications.html'))
-report.append((h, len(desc), len(new_desc), len(removed), 'spec field unchanged; JH series table left in description pending owner'))
+report.append((h, len(desc), len(new_desc), len(removed), 'spec field unchanged; JH series table dropped'))
 
 # A2: e23T-3 kiln -- move the "Specifications" key/value table into the spec field, above the electrical table.
 h = 'l-l-e23t-3-3-brick-easy-fire-kiln-lke23t3'
