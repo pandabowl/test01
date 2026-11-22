@@ -70,6 +70,9 @@ LL_POSTS = ('Six each of 1/2", 1", 2", 4", 6" and 8" high posts '
             '(1-1/2" square)')
 LL_GLOVES = "One pair of heat-resistant gloves"
 
+# Shown on the vent line of every Skutt, L&L and Cone Art package (store owner's wording).
+PRE_DRILLED = "Our Skutt, L&amp;L and Cone Art kilns are pre-drilled at the factory!"
+
 ENVIROVENT2 = dict(
     name="Skutt EnviroVent 2 downdraft vent",
     badge=IN,
@@ -81,7 +84,8 @@ ENVIROVENT2 = dict(
         "Floor-mount bracket",
     ],
     need="Pulls fumes out through small holes in the kiln floor and lid and "
-         "sends them outdoors, while improving heat uniformity and element life.",
+         "sends them outdoors, while improving heat uniformity and element life. "
+         + PRE_DRILLED,
 )
 
 
@@ -115,7 +119,8 @@ VENTSURE = dict(
         '4" 90&deg; elbow for the outside end of the vent pipe',
     ],
     need="The blower is mounted away from the kiln, so there is no vibration or heat on the motor, "
-         "and the duct runs under negative pressure so a leak pulls air in rather than pushing fumes out.",
+         "and the duct runs under negative pressure so a leak pulls air in rather than pushing fumes out. "
+         + PRE_DRILLED,
 )
 
 CONEART_VENT = dict(
@@ -125,7 +130,7 @@ CONEART_VENT = dict(
         "Installed on the kiln at the Cone Art factory",
         "Integrated with the Genesis controller, so the vent can switch on and off automatically as part of your firing",
     ],
-    need=None,
+    need=PRE_DRILLED,
 )
 
 OLYMPIC_FL_VENT = dict(
@@ -436,7 +441,8 @@ def render_box(rows):
             f'<p class="sppk-foot" style="{ST["foot"]}">{foot}</p></div>')
 
 
-EXISTING_BOX = re.compile(r'<div class="sppk".*?<p class="sppk-foot".*?</p></div>', re.S)
+# Shopify adds newlines between tags when it saves, so allow whitespace before </div>.
+EXISTING_BOX = re.compile(r'<div class="sppk".*?<p class="sppk-foot".*?</p>\s*</div>', re.S)
 
 
 def insert_box(desc, box):
