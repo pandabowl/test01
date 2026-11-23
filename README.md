@@ -70,3 +70,37 @@ Options:
 ```
 
 Requires `openpyxl` (`pip install openpyxl`).
+
+---
+
+# Skutt Kiln Full Set of Replacement Elements
+
+`scripts/build_skutt_element_sets.py` holds the Element tables from Skutt's
+2026 Parts Price List (effective January 10, 2026) and builds the Shopify
+product **Skutt Kiln Full Set of Replacement Elements**
+(`skutt-kiln-full-set-of-replacement-elements`). It follows the Cone Art
+element-set product:
+
+- One variant per kiln model + voltage/phase (option **Kiln Model and
+  Voltage**), plus an **Element Type** option: Standard or APM (Long-Life).
+- Price = Skutt list price × every element in the kiln.
+- APM variants are left out where Skutt lists APM as "Call For Pricing".
+- Wired-ring kilns (WR / -27) get their own variants with the 2 extra
+  elements (1 extra for the 145 WR), per footnote 1 of the price list.
+- SKUs: `SK<model>FSE-<voltage>[-<phase>][-APM]`, e.g. `SK12273FSE-208-3-APM`.
+- Weight: 1 lb per element. Inventory not tracked; continue selling when
+  out of stock.
+
+```bash
+python3 scripts/build_skutt_element_sets.py
+```
+
+writes:
+
+- `data/skutt_element_sets_2026.csv`: one row per variant with its Skutt
+  part numbers, for checking against the price list.
+- `data/skutt_element_sets_2026.json`: the `productSet` input used to create
+  the product.
+
+When Skutt issues a new price list, update the prices in `KILNS`, re-run, and
+update the variant prices from the CSV.
