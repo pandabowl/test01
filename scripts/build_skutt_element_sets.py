@@ -5,11 +5,13 @@ Source: Skutt Kilns Parts Price List, prices effective January 10, 2026
 (revised 12/19/2025), "Elements" tables on pages 1-3.
 
 Modeled on the existing "Cone Art Kiln Full Set of Replacement Elements"
-product: one product, one variant per kiln model + voltage, priced as the
-sum of Skutt's list price for every element in the kiln. Skutt also sells
-APM (long-life) elements, so this product has a second option, Element
-Type, with Standard and APM variants. APM variants are left out where
-Skutt lists APM as "Call For Pricing".
+product: one product with a single "Kiln Model and Voltage" option, priced
+as the sum of Skutt's list price for every element in the kiln. Skutt also
+sells APM (long-life) elements, so each kiln model + voltage appears twice,
+"... – Standard" and "... – APM (Long-Life)". APM is left out where Skutt
+lists it as "Call For Pricing". (A separate Element Type option was tried
+first, but it let shoppers pick APM for kilns with no APM set, which the
+theme shows as "Unavailable", so type is folded into the one option.)
 
 Wired-ring (WR / -27) kilns: footnote 1 of the price list says they hold
 2 more elements than the "Qty in Kiln" column shows (145 WR holds 1 more),
@@ -38,7 +40,6 @@ OUT_CSV = os.path.join(ROOT, "data", "skutt_element_sets_2026.csv")
 OUT_JSON = os.path.join(ROOT, "data", "skutt_element_sets_2026.json")
 
 OPT_MODEL = "Kiln Model and Voltage"
-OPT_TYPE = "Element Type"
 STANDARD = "Standard"
 APM = "APM (Long-Life)"
 
@@ -233,8 +234,8 @@ KILNS = [
 GROUP_ORDER = [GROUP_PK, GROUP_TEN_TWELVE, GROUP_EIGHT, GROUP_OLD, GROUP_OTHER]
 
 
-def option_value(kiln, c):
-    return f"{kiln['model']} – {c['voltage']}"
+def option_value(kiln, c, element_type):
+    return f"{kiln['model']} – {c['voltage']} – {element_type}"
 
 
 def describe(elements, part_key):
@@ -256,7 +257,7 @@ def build_variants():
             std_total = sum(el["qty"] * el["std_price"] for el in els)
             rows.append({
                 "model": kiln["model"], "group": kiln["group"], "voltage": c["voltage"],
-                "option_value": option_value(kiln, c), "element_type": STANDARD,
+                "option_value": option_value(kiln, c, STANDARD), "element_type": STANDARD,
                 "sku": base_sku, "elements": qty,
                 "list_total": std_total, "price": sell_price(std_total),
                 "parts": describe(els, "std_part"),
@@ -265,7 +266,7 @@ def build_variants():
                 apm_total = sum(el["qty"] * el["apm_price"] for el in els)
                 rows.append({
                     "model": kiln["model"], "group": kiln["group"], "voltage": c["voltage"],
-                    "option_value": option_value(kiln, c), "element_type": APM,
+                    "option_value": option_value(kiln, c, APM), "element_type": APM,
                     "sku": f"{base_sku}-APM", "elements": qty,
                     "list_total": apm_total, "price": sell_price(apm_total),
                     "parts": describe(els, "apm_part"),
@@ -336,11 +337,7 @@ SEO_DESC = ("Full replacement element sets for Skutt KM, KMT and KS kilns. Stand
 
 
 def product_set_input(rows):
-    option_values = []
-    for r in rows:
-        if r["option_value"] not in option_values:
-            option_values.append(r["option_value"])
-    type_values = [STANDARD, APM]
+    option_values = [r["option_value"] for r in rows]
 
     # Copied from the Cone Art element-set product (shared help-desk widgets etc).
     metafields = [
@@ -370,10 +367,7 @@ def product_set_input(rows):
     variants = []
     for i, r in enumerate(rows, start=1):
         variants.append({
-            "optionValues": [
-                {"optionName": OPT_MODEL, "name": r["option_value"]},
-                {"optionName": OPT_TYPE, "name": r["element_type"]},
-            ],
+            "optionValues": [{"optionName": OPT_MODEL, "name": r["option_value"]}],
             "price": f"{r['price']:.2f}",
             "sku": r["sku"],
             "taxable": True,
@@ -404,7 +398,6 @@ def product_set_input(rows):
         }],
         "productOptions": [
             {"name": OPT_MODEL, "position": 1, "values": [{"name": v} for v in option_values]},
-            {"name": OPT_TYPE, "position": 2, "values": [{"name": v} for v in type_values]},
         ],
         "variants": variants,
     }
@@ -414,8 +407,8 @@ def main():
     rows = build_variants()
     skus = [r["sku"] for r in rows]
     assert len(skus) == len(set(skus)), "duplicate SKU"
-    combos = [(r["option_value"], r["element_type"]) for r in rows]
-    assert len(combos) == len(set(combos)), "duplicate option combination"
+    values = [r["option_value"] for r in rows]
+    assert len(values) == len(set(values)), "duplicate option value"
 
     os.makedirs(os.path.dirname(OUT_CSV), exist_ok=True)
     with open(OUT_CSV, "w", newline="") as f:
@@ -429,10 +422,8 @@ def main():
         json.dump(product_set_input(rows), f, indent=2, ensure_ascii=False)
         f.write("\n")
 
-    n_models = len({r["option_value"] for r in rows})
     n_apm = sum(r["element_type"] == APM for r in rows)
-    print(f"{len(rows)} variants ({len(rows) - n_apm} standard, {n_apm} APM) "
-          f"across {n_models} model/voltage choices")
+    print(f"{len(rows)} variants / dropdown choices ({len(rows) - n_apm} standard, {n_apm} APM)")
     print(f"wrote {os.path.relpath(OUT_CSV, ROOT)} and {os.path.relpath(OUT_JSON, ROOT)}")
 
 

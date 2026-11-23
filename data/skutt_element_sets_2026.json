@@ -101,214 +101,346 @@
       "position": 1,
       "values": [
         {
-          "name": "KMT/KM1627-3 PK – 240V 3-Phase"
+          "name": "KMT/KM1627-3 PK – 240V 3-Phase – Standard"
         },
         {
-          "name": "KMT/KM1627-3 PK – 208V 3-Phase"
+          "name": "KMT/KM1627-3 PK – 240V 3-Phase – APM (Long-Life)"
         },
         {
-          "name": "KMT/KM1627-3 PK-LF – 240V 1 or 3-Phase"
+          "name": "KMT/KM1627-3 PK – 208V 3-Phase – Standard"
         },
         {
-          "name": "KMT/KM1627-3 PK-LF – 208V 1 or 3-Phase"
+          "name": "KMT/KM1627-3 PK – 208V 3-Phase – APM (Long-Life)"
         },
         {
-          "name": "KMT/KM1231-3 PK – 240V 1-Phase"
+          "name": "KMT/KM1627-3 PK-LF – 240V 1 or 3-Phase – Standard"
         },
         {
-          "name": "KMT/KM1231-3 PK – 208V 1-Phase"
+          "name": "KMT/KM1627-3 PK-LF – 240V 1 or 3-Phase – APM (Long-Life)"
         },
         {
-          "name": "KMT/KM1231-3 PK – 240V 3-Phase"
+          "name": "KMT/KM1627-3 PK-LF – 208V 1 or 3-Phase – Standard"
         },
         {
-          "name": "KMT/KM1231-3 PK – 208V 3-Phase"
+          "name": "KMT/KM1627-3 PK-LF – 208V 1 or 3-Phase – APM (Long-Life)"
         },
         {
-          "name": "KMT/KM1227-3 PK – 240V 1-Phase"
+          "name": "KMT/KM1231-3 PK – 240V 1-Phase – Standard"
         },
         {
-          "name": "KMT/KM1227-3 PK – 208V 1-Phase"
+          "name": "KMT/KM1231-3 PK – 240V 1-Phase – APM (Long-Life)"
         },
         {
-          "name": "KMT/KM1227-3 PK – 240V 3-Phase"
+          "name": "KMT/KM1231-3 PK – 208V 1-Phase – Standard"
         },
         {
-          "name": "KMT/KM1227-3 PK – 208V 3-Phase"
+          "name": "KMT/KM1231-3 PK – 208V 1-Phase – APM (Long-Life)"
         },
         {
-          "name": "KMT/KM1227-3, KS1227-3, 280-3 – 240V 1 or 3-Phase"
+          "name": "KMT/KM1231-3 PK – 240V 3-Phase – Standard"
         },
         {
-          "name": "KMT/KM1227-3, KS1227-3, 280-3 – 208V 1-Phase"
+          "name": "KMT/KM1231-3 PK – 240V 3-Phase – APM (Long-Life)"
         },
         {
-          "name": "KMT/KM1227-3, KS1227-3, 280-3 – 208V 3-Phase"
+          "name": "KMT/KM1231-3 PK – 208V 3-Phase – Standard"
         },
         {
-          "name": "KMT/KM1027, KS1027, 230, 231, 235 – 240V 1 or 3-Phase"
+          "name": "KMT/KM1231-3 PK – 208V 3-Phase – APM (Long-Life)"
         },
         {
-          "name": "KMT/KM1027, KS1027, 230, 231, 235 – 208V 1-Phase"
+          "name": "KMT/KM1227-3 PK – 240V 1-Phase – Standard"
         },
         {
-          "name": "KMT/KM1027, KS1027, 230, 231, 235 – 208V 3-Phase"
+          "name": "KMT/KM1227-3 PK – 240V 1-Phase – APM (Long-Life)"
         },
         {
-          "name": "KMT/KM1027-3, KS1027-3 – 240V 1 or 3-Phase"
+          "name": "KMT/KM1227-3 PK – 208V 1-Phase – Standard"
         },
         {
-          "name": "KMT/KM1027-3, KS1027-3 – 208V 1-Phase"
+          "name": "KMT/KM1227-3 PK – 208V 1-Phase – APM (Long-Life)"
         },
         {
-          "name": "KMT/KM1027-3, KS1027-3 – 208V 3-Phase"
+          "name": "KMT/KM1227-3 PK – 240V 3-Phase – Standard"
         },
         {
-          "name": "KMT/KM1222-3 – 240V 1 or 3-Phase"
+          "name": "KMT/KM1227-3 PK – 240V 3-Phase – APM (Long-Life)"
         },
         {
-          "name": "KMT/KM1222-3 – 208V 1-Phase"
+          "name": "KMT/KM1227-3 PK – 208V 3-Phase – Standard"
         },
         {
-          "name": "KMT/KM1222-3 – 208V 3-Phase"
+          "name": "KMT/KM1227-3 PK – 208V 3-Phase – APM (Long-Life)"
         },
         {
-          "name": "KMT/KM1022 – 240V 1 or 3-Phase"
+          "name": "KMT/KM1227-3, KS1227-3, 280-3 – 240V 1 or 3-Phase – Standard"
         },
         {
-          "name": "KMT/KM1022 – 208V 1 or 3-Phase"
+          "name": "KMT/KM1227-3, KS1227-3, 280-3 – 240V 1 or 3-Phase – APM (Long-Life)"
         },
         {
-          "name": "KMT/KM1022-3 – 240V 1 or 3-Phase"
+          "name": "KMT/KM1227-3, KS1227-3, 280-3 – 208V 1-Phase – Standard"
         },
         {
-          "name": "KMT/KM1022-3 – 208V 1 or 3-Phase"
+          "name": "KMT/KM1227-3, KS1227-3, 280-3 – 208V 1-Phase – APM (Long-Life)"
         },
         {
-          "name": "KMT/KM822 – 240V 1-Phase"
+          "name": "KMT/KM1227-3, KS1227-3, 280-3 – 208V 3-Phase – Standard"
         },
         {
-          "name": "KMT/KM822 – 208V 1-Phase"
+          "name": "KMT/KM1227-3, KS1227-3, 280-3 – 208V 3-Phase – APM (Long-Life)"
         },
         {
-          "name": "KMT/KM822-3 – 240V 1-Phase"
+          "name": "KMT/KM1027, KS1027, 230, 231, 235 – 240V 1 or 3-Phase – Standard"
         },
         {
-          "name": "KMT/KM822-3 – 208V 1-Phase"
+          "name": "KMT/KM1027, KS1027, 230, 231, 235 – 240V 1 or 3-Phase – APM (Long-Life)"
         },
         {
-          "name": "KMT/KM1218-3 – 240V 1 or 3-Phase"
+          "name": "KMT/KM1027, KS1027, 230, 231, 235 – 208V 1-Phase – Standard"
         },
         {
-          "name": "KMT/KM1218-3 – 208V 1 or 3-Phase"
+          "name": "KMT/KM1027, KS1027, 230, 231, 235 – 208V 1-Phase – APM (Long-Life)"
         },
         {
-          "name": "KMT/KM1018, KS1018, 231-18 – 240V 1-Phase"
+          "name": "KMT/KM1027, KS1027, 230, 231, 235 – 208V 3-Phase – Standard"
         },
         {
-          "name": "KMT/KM1018, KS1018, 231-18 – 208V 1-Phase"
+          "name": "KMT/KM1027, KS1027, 230, 231, 235 – 208V 3-Phase – APM (Long-Life)"
         },
         {
-          "name": "KMT/KM1018-3, KS1018-3 – 240V 1-Phase"
+          "name": "KMT/KM1027-3, KS1027-3 – 240V 1 or 3-Phase – Standard"
         },
         {
-          "name": "KMT/KM1018-3, KS1018-3 – 208V 1-Phase"
+          "name": "KMT/KM1027-3, KS1027-3 – 240V 1 or 3-Phase – APM (Long-Life)"
         },
         {
-          "name": "KMT/KM818, KS818 – 240V 1-Phase"
+          "name": "KMT/KM1027-3, KS1027-3 – 208V 1-Phase – Standard"
         },
         {
-          "name": "KMT/KM818, KS818 – 208V 1-Phase"
+          "name": "KMT/KM1027-3, KS1027-3 – 208V 1-Phase – APM (Long-Life)"
         },
         {
-          "name": "KMT/KM818-3, KS818-3 – 240V 1-Phase"
+          "name": "KMT/KM1027-3, KS1027-3 – 208V 3-Phase – Standard"
         },
         {
-          "name": "KMT/KM818-3, KS818-3 – 208V 1-Phase"
+          "name": "KMT/KM1027-3, KS1027-3 – 208V 3-Phase – APM (Long-Life)"
         },
         {
-          "name": "KMT/KM818-3 30 Amp, KS818P-3 – 240V 1-Phase"
+          "name": "KMT/KM1222-3 – 240V 1 or 3-Phase – Standard"
         },
         {
-          "name": "KMT/KM818-3 30 Amp, KS818P-3 – 208V 1-Phase"
+          "name": "KMT/KM1222-3 – 240V 1 or 3-Phase – APM (Long-Life)"
         },
         {
-          "name": "818, 185 (old style) – 240V 1-Phase"
+          "name": "KMT/KM1222-3 – 208V 1-Phase – Standard"
         },
         {
-          "name": "818, 185 (old style) – 208V 1-Phase"
+          "name": "KMT/KM1222-3 – 208V 1-Phase – APM (Long-Life)"
         },
         {
-          "name": "KS818WR, 181-27 (wired ring) – 240V 1-Phase"
+          "name": "KMT/KM1222-3 – 208V 3-Phase – Standard"
         },
         {
-          "name": "KS818WR, 181-27 (wired ring) – 208V 1-Phase"
+          "name": "KMT/KM1222-3 – 208V 3-Phase – APM (Long-Life)"
         },
         {
-          "name": "818-3 (old style) – 240V 1-Phase"
+          "name": "KMT/KM1022 – 240V 1 or 3-Phase – Standard"
         },
         {
-          "name": "818-3 (old style) – 208V 1-Phase"
+          "name": "KMT/KM1022 – 240V 1 or 3-Phase – APM (Long-Life)"
         },
         {
-          "name": "KS818-3 WR (wired ring) – 240V 1-Phase"
+          "name": "KMT/KM1022 – 208V 1 or 3-Phase – Standard"
         },
         {
-          "name": "KS818-3 WR (wired ring) – 208V 1-Phase"
+          "name": "KMT/KM1022 – 208V 1 or 3-Phase – APM (Long-Life)"
         },
         {
-          "name": "KS818P, 183 – 240V 1-Phase"
+          "name": "KMT/KM1022-3 – 240V 1 or 3-Phase – Standard"
         },
         {
-          "name": "KS818P, 183 – 208V 1-Phase"
+          "name": "KMT/KM1022-3 – 240V 1 or 3-Phase – APM (Long-Life)"
         },
         {
-          "name": "KS818P WR, 183-27 (wired ring) – 240V 1-Phase"
+          "name": "KMT/KM1022-3 – 208V 1 or 3-Phase – Standard"
         },
         {
-          "name": "KS818P WR, 183-27 (wired ring) – 208V 1-Phase"
+          "name": "KMT/KM1022-3 – 208V 1 or 3-Phase – APM (Long-Life)"
         },
         {
-          "name": "KS818P-3 WR (wired ring) – 240V 1-Phase"
+          "name": "KMT/KM822 – 240V 1-Phase – Standard"
         },
         {
-          "name": "KS818P-3 WR (wired ring) – 208V 1-Phase"
+          "name": "KMT/KM822 – 240V 1-Phase – APM (Long-Life)"
         },
         {
-          "name": "181, 180 – 208V or 240V 1-Phase"
+          "name": "KMT/KM822 – 208V 1-Phase – Standard"
         },
         {
-          "name": "KMT/KM714, KS714, 145 – 208V or 240V 1-Phase"
+          "name": "KMT/KM822 – 208V 1-Phase – APM (Long-Life)"
         },
         {
-          "name": "145 WR (wired ring) – 208V or 240V 1-Phase"
+          "name": "KMT/KM822-3 – 240V 1-Phase – Standard"
         },
         {
-          "name": "KMT/KM614-3, KS614-3 – 120V"
+          "name": "KMT/KM822-3 – 240V 1-Phase – APM (Long-Life)"
         },
         {
-          "name": "KS609 – 120V"
+          "name": "KMT/KM822-3 – 208V 1-Phase – Standard"
         },
         {
-          "name": "GlazeTech – 240V"
+          "name": "KMT/KM822-3 – 208V 1-Phase – APM (Long-Life)"
         },
         {
-          "name": "GlazeTech – 208V"
+          "name": "KMT/KM1218-3 – 240V 1 or 3-Phase – Standard"
         },
         {
-          "name": "FireBox 8x4, FireBox 8x6 – 120V"
-        }
-      ]
-    },
-    {
-      "name": "Element Type",
-      "position": 2,
-      "values": [
+          "name": "KMT/KM1218-3 – 240V 1 or 3-Phase – APM (Long-Life)"
+        },
+        {
+          "name": "KMT/KM1218-3 – 208V 1 or 3-Phase – Standard"
+        },
+        {
+          "name": "KMT/KM1218-3 – 208V 1 or 3-Phase – APM (Long-Life)"
+        },
+        {
+          "name": "KMT/KM1018, KS1018, 231-18 – 240V 1-Phase – Standard"
+        },
+        {
+          "name": "KMT/KM1018, KS1018, 231-18 – 240V 1-Phase – APM (Long-Life)"
+        },
+        {
+          "name": "KMT/KM1018, KS1018, 231-18 – 208V 1-Phase – Standard"
+        },
+        {
+          "name": "KMT/KM1018, KS1018, 231-18 – 208V 1-Phase – APM (Long-Life)"
+        },
+        {
+          "name": "KMT/KM1018-3, KS1018-3 – 240V 1-Phase – Standard"
+        },
+        {
+          "name": "KMT/KM1018-3, KS1018-3 – 240V 1-Phase – APM (Long-Life)"
+        },
+        {
+          "name": "KMT/KM1018-3, KS1018-3 – 208V 1-Phase – Standard"
+        },
+        {
+          "name": "KMT/KM1018-3, KS1018-3 – 208V 1-Phase – APM (Long-Life)"
+        },
+        {
+          "name": "KMT/KM818, KS818 – 240V 1-Phase – Standard"
+        },
+        {
+          "name": "KMT/KM818, KS818 – 240V 1-Phase – APM (Long-Life)"
+        },
+        {
+          "name": "KMT/KM818, KS818 – 208V 1-Phase – Standard"
+        },
+        {
+          "name": "KMT/KM818, KS818 – 208V 1-Phase – APM (Long-Life)"
+        },
+        {
+          "name": "KMT/KM818-3, KS818-3 – 240V 1-Phase – Standard"
+        },
+        {
+          "name": "KMT/KM818-3, KS818-3 – 240V 1-Phase – APM (Long-Life)"
+        },
+        {
+          "name": "KMT/KM818-3, KS818-3 – 208V 1-Phase – Standard"
+        },
+        {
+          "name": "KMT/KM818-3, KS818-3 – 208V 1-Phase – APM (Long-Life)"
+        },
+        {
+          "name": "KMT/KM818-3 30 Amp, KS818P-3 – 240V 1-Phase – Standard"
+        },
+        {
+          "name": "KMT/KM818-3 30 Amp, KS818P-3 – 208V 1-Phase – Standard"
+        },
+        {
+          "name": "818, 185 (old style) – 240V 1-Phase – Standard"
+        },
+        {
+          "name": "818, 185 (old style) – 208V 1-Phase – Standard"
+        },
+        {
+          "name": "KS818WR, 181-27 (wired ring) – 240V 1-Phase – Standard"
+        },
+        {
+          "name": "KS818WR, 181-27 (wired ring) – 208V 1-Phase – Standard"
+        },
+        {
+          "name": "818-3 (old style) – 240V 1-Phase – Standard"
+        },
+        {
+          "name": "818-3 (old style) – 208V 1-Phase – Standard"
+        },
+        {
+          "name": "KS818-3 WR (wired ring) – 240V 1-Phase – Standard"
+        },
+        {
+          "name": "KS818-3 WR (wired ring) – 208V 1-Phase – Standard"
+        },
+        {
+          "name": "KS818P, 183 – 240V 1-Phase – Standard"
+        },
+        {
+          "name": "KS818P, 183 – 208V 1-Phase – Standard"
+        },
+        {
+          "name": "KS818P WR, 183-27 (wired ring) – 240V 1-Phase – Standard"
+        },
+        {
+          "name": "KS818P WR, 183-27 (wired ring) – 208V 1-Phase – Standard"
+        },
+        {
+          "name": "KS818P-3 WR (wired ring) – 240V 1-Phase – Standard"
+        },
+        {
+          "name": "KS818P-3 WR (wired ring) – 208V 1-Phase – Standard"
+        },
+        {
+          "name": "181, 180 – 208V or 240V 1-Phase – Standard"
+        },
+        {
+          "name": "KMT/KM714, KS714, 145 – 208V or 240V 1-Phase – Standard"
+        },
+        {
+          "name": "KMT/KM714, KS714, 145 – 208V or 240V 1-Phase – APM (Long-Life)"
+        },
+        {
+          "name": "145 WR (wired ring) – 208V or 240V 1-Phase – Standard"
+        },
+        {
+          "name": "145 WR (wired ring) – 208V or 240V 1-Phase – APM (Long-Life)"
+        },
+        {
+          "name": "KMT/KM614-3, KS614-3 – 120V – Standard"
+        },
+        {
+          "name": "KMT/KM614-3, KS614-3 – 120V – APM (Long-Life)"
+        },
+        {
+          "name": "KS609 – 120V – Standard"
+        },
+        {
+          "name": "KS609 – 120V – APM (Long-Life)"
+        },
+        {
+          "name": "GlazeTech – 240V – Standard"
+        },
+        {
+          "name": "GlazeTech – 240V – APM (Long-Life)"
+        },
+        {
+          "name": "GlazeTech – 208V – Standard"
+        },
         {
-          "name": "Standard"
+          "name": "GlazeTech – 208V – APM (Long-Life)"
         },
         {
-          "name": "APM (Long-Life)"
+          "name": "FireBox 8x4, FireBox 8x6 – 120V – Standard"
         }
       ]
     }
@@ -318,11 +450,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1627-3 PK – 240V 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM1627-3 PK – 240V 3-Phase – Standard"
         }
       ],
       "price": "780.00",
@@ -345,11 +473,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1627-3 PK – 240V 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM1627-3 PK – 240V 3-Phase – APM (Long-Life)"
         }
       ],
       "price": "2016.00",
@@ -372,11 +496,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1627-3 PK – 208V 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM1627-3 PK – 208V 3-Phase – Standard"
         }
       ],
       "price": "780.00",
@@ -399,11 +519,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1627-3 PK – 208V 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM1627-3 PK – 208V 3-Phase – APM (Long-Life)"
         }
       ],
       "price": "2016.00",
@@ -426,11 +542,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1627-3 PK-LF – 240V 1 or 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM1627-3 PK-LF – 240V 1 or 3-Phase – Standard"
         }
       ],
       "price": "780.00",
@@ -453,11 +565,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1627-3 PK-LF – 240V 1 or 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM1627-3 PK-LF – 240V 1 or 3-Phase – APM (Long-Life)"
         }
       ],
       "price": "2016.00",
@@ -480,11 +588,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1627-3 PK-LF – 208V 1 or 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM1627-3 PK-LF – 208V 1 or 3-Phase – Standard"
         }
       ],
       "price": "780.00",
@@ -507,11 +611,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1627-3 PK-LF – 208V 1 or 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM1627-3 PK-LF – 208V 1 or 3-Phase – APM (Long-Life)"
         }
       ],
       "price": "2016.00",
@@ -534,11 +634,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1231-3 PK – 240V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM1231-3 PK – 240V 1-Phase – Standard"
         }
       ],
       "price": "518.00",
@@ -561,11 +657,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1231-3 PK – 240V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM1231-3 PK – 240V 1-Phase – APM (Long-Life)"
         }
       ],
       "price": "1295.00",
@@ -588,11 +680,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1231-3 PK – 208V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM1231-3 PK – 208V 1-Phase – Standard"
         }
       ],
       "price": "518.00",
@@ -615,11 +703,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1231-3 PK – 208V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM1231-3 PK – 208V 1-Phase – APM (Long-Life)"
         }
       ],
       "price": "1295.00",
@@ -642,11 +726,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1231-3 PK – 240V 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM1231-3 PK – 240V 3-Phase – Standard"
         }
       ],
       "price": "518.00",
@@ -669,11 +749,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1231-3 PK – 240V 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM1231-3 PK – 240V 3-Phase – APM (Long-Life)"
         }
       ],
       "price": "1295.00",
@@ -696,11 +772,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1231-3 PK – 208V 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM1231-3 PK – 208V 3-Phase – Standard"
         }
       ],
       "price": "518.00",
@@ -723,11 +795,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1231-3 PK – 208V 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM1231-3 PK – 208V 3-Phase – APM (Long-Life)"
         }
       ],
       "price": "1295.00",
@@ -750,11 +818,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1227-3 PK – 240V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM1227-3 PK – 240V 1-Phase – Standard"
         }
       ],
       "price": "444.00",
@@ -777,11 +841,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1227-3 PK – 240V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM1227-3 PK – 240V 1-Phase – APM (Long-Life)"
         }
       ],
       "price": "1110.00",
@@ -804,11 +864,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1227-3 PK – 208V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM1227-3 PK – 208V 1-Phase – Standard"
         }
       ],
       "price": "444.00",
@@ -831,11 +887,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1227-3 PK – 208V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM1227-3 PK – 208V 1-Phase – APM (Long-Life)"
         }
       ],
       "price": "1110.00",
@@ -858,11 +910,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1227-3 PK – 240V 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM1227-3 PK – 240V 3-Phase – Standard"
         }
       ],
       "price": "444.00",
@@ -885,11 +933,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1227-3 PK – 240V 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM1227-3 PK – 240V 3-Phase – APM (Long-Life)"
         }
       ],
       "price": "1110.00",
@@ -912,11 +956,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1227-3 PK – 208V 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM1227-3 PK – 208V 3-Phase – Standard"
         }
       ],
       "price": "444.00",
@@ -939,11 +979,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1227-3 PK – 208V 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM1227-3 PK – 208V 3-Phase – APM (Long-Life)"
         }
       ],
       "price": "1110.00",
@@ -966,11 +1002,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1227-3, KS1227-3, 280-3 – 240V 1 or 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM1227-3, KS1227-3, 280-3 – 240V 1 or 3-Phase – Standard"
         }
       ],
       "price": "444.00",
@@ -993,11 +1025,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1227-3, KS1227-3, 280-3 – 240V 1 or 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM1227-3, KS1227-3, 280-3 – 240V 1 or 3-Phase – APM (Long-Life)"
         }
       ],
       "price": "1110.00",
@@ -1020,11 +1048,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1227-3, KS1227-3, 280-3 – 208V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM1227-3, KS1227-3, 280-3 – 208V 1-Phase – Standard"
         }
       ],
       "price": "444.00",
@@ -1047,11 +1071,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1227-3, KS1227-3, 280-3 – 208V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM1227-3, KS1227-3, 280-3 – 208V 1-Phase – APM (Long-Life)"
         }
       ],
       "price": "1110.00",
@@ -1074,11 +1094,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1227-3, KS1227-3, 280-3 – 208V 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM1227-3, KS1227-3, 280-3 – 208V 3-Phase – Standard"
         }
       ],
       "price": "444.00",
@@ -1101,11 +1117,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1227-3, KS1227-3, 280-3 – 208V 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM1227-3, KS1227-3, 280-3 – 208V 3-Phase – APM (Long-Life)"
         }
       ],
       "price": "1110.00",
@@ -1128,11 +1140,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1027, KS1027, 230, 231, 235 – 240V 1 or 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM1027, KS1027, 230, 231, 235 – 240V 1 or 3-Phase – Standard"
         }
       ],
       "price": "444.00",
@@ -1155,11 +1163,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1027, KS1027, 230, 231, 235 – 240V 1 or 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM1027, KS1027, 230, 231, 235 – 240V 1 or 3-Phase – APM (Long-Life)"
         }
       ],
       "price": "1110.00",
@@ -1182,11 +1186,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1027, KS1027, 230, 231, 235 – 208V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM1027, KS1027, 230, 231, 235 – 208V 1-Phase – Standard"
         }
       ],
       "price": "444.00",
@@ -1209,11 +1209,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1027, KS1027, 230, 231, 235 – 208V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM1027, KS1027, 230, 231, 235 – 208V 1-Phase – APM (Long-Life)"
         }
       ],
       "price": "1110.00",
@@ -1236,11 +1232,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1027, KS1027, 230, 231, 235 – 208V 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM1027, KS1027, 230, 231, 235 – 208V 3-Phase – Standard"
         }
       ],
       "price": "444.00",
@@ -1263,11 +1255,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1027, KS1027, 230, 231, 235 – 208V 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM1027, KS1027, 230, 231, 235 – 208V 3-Phase – APM (Long-Life)"
         }
       ],
       "price": "1110.00",
@@ -1290,11 +1278,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1027-3, KS1027-3 – 240V 1 or 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM1027-3, KS1027-3 – 240V 1 or 3-Phase – Standard"
         }
       ],
       "price": "444.00",
@@ -1317,11 +1301,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1027-3, KS1027-3 – 240V 1 or 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM1027-3, KS1027-3 – 240V 1 or 3-Phase – APM (Long-Life)"
         }
       ],
       "price": "1110.00",
@@ -1344,11 +1324,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1027-3, KS1027-3 – 208V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM1027-3, KS1027-3 – 208V 1-Phase – Standard"
         }
       ],
       "price": "444.00",
@@ -1371,11 +1347,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1027-3, KS1027-3 – 208V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM1027-3, KS1027-3 – 208V 1-Phase – APM (Long-Life)"
         }
       ],
       "price": "1110.00",
@@ -1398,11 +1370,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1027-3, KS1027-3 – 208V 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM1027-3, KS1027-3 – 208V 3-Phase – Standard"
         }
       ],
       "price": "444.00",
@@ -1425,11 +1393,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1027-3, KS1027-3 – 208V 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM1027-3, KS1027-3 – 208V 3-Phase – APM (Long-Life)"
         }
       ],
       "price": "1110.00",
@@ -1452,11 +1416,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1222-3 – 240V 1 or 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM1222-3 – 240V 1 or 3-Phase – Standard"
         }
       ],
       "price": "370.00",
@@ -1479,11 +1439,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1222-3 – 240V 1 or 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM1222-3 – 240V 1 or 3-Phase – APM (Long-Life)"
         }
       ],
       "price": "925.00",
@@ -1506,11 +1462,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1222-3 – 208V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM1222-3 – 208V 1-Phase – Standard"
         }
       ],
       "price": "370.00",
@@ -1533,11 +1485,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1222-3 – 208V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM1222-3 – 208V 1-Phase – APM (Long-Life)"
         }
       ],
       "price": "925.00",
@@ -1560,11 +1508,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1222-3 – 208V 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM1222-3 – 208V 3-Phase – Standard"
         }
       ],
       "price": "370.00",
@@ -1587,11 +1531,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1222-3 – 208V 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM1222-3 – 208V 3-Phase – APM (Long-Life)"
         }
       ],
       "price": "925.00",
@@ -1614,11 +1554,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1022 – 240V 1 or 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM1022 – 240V 1 or 3-Phase – Standard"
         }
       ],
       "price": "370.00",
@@ -1641,11 +1577,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1022 – 240V 1 or 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM1022 – 240V 1 or 3-Phase – APM (Long-Life)"
         }
       ],
       "price": "925.00",
@@ -1668,11 +1600,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1022 – 208V 1 or 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM1022 – 208V 1 or 3-Phase – Standard"
         }
       ],
       "price": "370.00",
@@ -1695,11 +1623,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1022 – 208V 1 or 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM1022 – 208V 1 or 3-Phase – APM (Long-Life)"
         }
       ],
       "price": "925.00",
@@ -1722,11 +1646,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1022-3 – 240V 1 or 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM1022-3 – 240V 1 or 3-Phase – Standard"
         }
       ],
       "price": "370.00",
@@ -1749,11 +1669,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1022-3 – 240V 1 or 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM1022-3 – 240V 1 or 3-Phase – APM (Long-Life)"
         }
       ],
       "price": "925.00",
@@ -1776,11 +1692,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1022-3 – 208V 1 or 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM1022-3 – 208V 1 or 3-Phase – Standard"
         }
       ],
       "price": "370.00",
@@ -1803,11 +1715,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1022-3 – 208V 1 or 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM1022-3 – 208V 1 or 3-Phase – APM (Long-Life)"
         }
       ],
       "price": "925.00",
@@ -1830,11 +1738,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM822 – 240V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM822 – 240V 1-Phase – Standard"
         }
       ],
       "price": "315.00",
@@ -1857,11 +1761,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM822 – 240V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM822 – 240V 1-Phase – APM (Long-Life)"
         }
       ],
       "price": "750.00",
@@ -1884,11 +1784,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM822 – 208V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM822 – 208V 1-Phase – Standard"
         }
       ],
       "price": "315.00",
@@ -1911,11 +1807,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM822 – 208V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM822 – 208V 1-Phase – APM (Long-Life)"
         }
       ],
       "price": "750.00",
@@ -1938,11 +1830,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM822-3 – 240V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM822-3 – 240V 1-Phase – Standard"
         }
       ],
       "price": "315.00",
@@ -1965,11 +1853,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM822-3 – 240V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM822-3 – 240V 1-Phase – APM (Long-Life)"
         }
       ],
       "price": "750.00",
@@ -1992,11 +1876,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM822-3 – 208V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM822-3 – 208V 1-Phase – Standard"
         }
       ],
       "price": "315.00",
@@ -2019,11 +1899,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM822-3 – 208V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM822-3 – 208V 1-Phase – APM (Long-Life)"
         }
       ],
       "price": "750.00",
@@ -2046,11 +1922,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1218-3 – 240V 1 or 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM1218-3 – 240V 1 or 3-Phase – Standard"
         }
       ],
       "price": "296.00",
@@ -2073,11 +1945,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1218-3 – 240V 1 or 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM1218-3 – 240V 1 or 3-Phase – APM (Long-Life)"
         }
       ],
       "price": "740.00",
@@ -2100,11 +1968,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1218-3 – 208V 1 or 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM1218-3 – 208V 1 or 3-Phase – Standard"
         }
       ],
       "price": "296.00",
@@ -2127,11 +1991,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1218-3 – 208V 1 or 3-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM1218-3 – 208V 1 or 3-Phase – APM (Long-Life)"
         }
       ],
       "price": "710.00",
@@ -2154,11 +2014,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1018, KS1018, 231-18 – 240V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM1018, KS1018, 231-18 – 240V 1-Phase – Standard"
         }
       ],
       "price": "296.00",
@@ -2181,11 +2037,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1018, KS1018, 231-18 – 240V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM1018, KS1018, 231-18 – 240V 1-Phase – APM (Long-Life)"
         }
       ],
       "price": "740.00",
@@ -2208,11 +2060,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1018, KS1018, 231-18 – 208V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM1018, KS1018, 231-18 – 208V 1-Phase – Standard"
         }
       ],
       "price": "296.00",
@@ -2235,11 +2083,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1018, KS1018, 231-18 – 208V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM1018, KS1018, 231-18 – 208V 1-Phase – APM (Long-Life)"
         }
       ],
       "price": "740.00",
@@ -2262,11 +2106,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1018-3, KS1018-3 – 240V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM1018-3, KS1018-3 – 240V 1-Phase – Standard"
         }
       ],
       "price": "296.00",
@@ -2289,11 +2129,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1018-3, KS1018-3 – 240V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM1018-3, KS1018-3 – 240V 1-Phase – APM (Long-Life)"
         }
       ],
       "price": "740.00",
@@ -2316,11 +2152,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1018-3, KS1018-3 – 208V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM1018-3, KS1018-3 – 208V 1-Phase – Standard"
         }
       ],
       "price": "296.00",
@@ -2343,11 +2175,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM1018-3, KS1018-3 – 208V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM1018-3, KS1018-3 – 208V 1-Phase – APM (Long-Life)"
         }
       ],
       "price": "740.00",
@@ -2370,11 +2198,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM818, KS818 – 240V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM818, KS818 – 240V 1-Phase – Standard"
         }
       ],
       "price": "272.00",
@@ -2397,11 +2221,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM818, KS818 – 240V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM818, KS818 – 240V 1-Phase – APM (Long-Life)"
         }
       ],
       "price": "600.00",
@@ -2424,11 +2244,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM818, KS818 – 208V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM818, KS818 – 208V 1-Phase – Standard"
         }
       ],
       "price": "272.00",
@@ -2451,11 +2267,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM818, KS818 – 208V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM818, KS818 – 208V 1-Phase – APM (Long-Life)"
         }
       ],
       "price": "600.00",
@@ -2478,11 +2290,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM818-3, KS818-3 – 240V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM818-3, KS818-3 – 240V 1-Phase – Standard"
         }
       ],
       "price": "272.00",
@@ -2505,11 +2313,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM818-3, KS818-3 – 240V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM818-3, KS818-3 – 240V 1-Phase – APM (Long-Life)"
         }
       ],
       "price": "600.00",
@@ -2532,11 +2336,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM818-3, KS818-3 – 208V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM818-3, KS818-3 – 208V 1-Phase – Standard"
         }
       ],
       "price": "272.00",
@@ -2559,11 +2359,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM818-3, KS818-3 – 208V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM818-3, KS818-3 – 208V 1-Phase – APM (Long-Life)"
         }
       ],
       "price": "600.00",
@@ -2586,11 +2382,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM818-3 30 Amp, KS818P-3 – 240V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM818-3 30 Amp, KS818P-3 – 240V 1-Phase – Standard"
         }
       ],
       "price": "272.00",
@@ -2613,11 +2405,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM818-3 30 Amp, KS818P-3 – 208V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM818-3 30 Amp, KS818P-3 – 208V 1-Phase – Standard"
         }
       ],
       "price": "272.00",
@@ -2640,11 +2428,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "818, 185 (old style) – 240V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "818, 185 (old style) – 240V 1-Phase – Standard"
         }
       ],
       "price": "272.00",
@@ -2667,11 +2451,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "818, 185 (old style) – 208V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "818, 185 (old style) – 208V 1-Phase – Standard"
         }
       ],
       "price": "272.00",
@@ -2694,11 +2474,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KS818WR, 181-27 (wired ring) – 240V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KS818WR, 181-27 (wired ring) – 240V 1-Phase – Standard"
         }
       ],
       "price": "378.00",
@@ -2721,11 +2497,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KS818WR, 181-27 (wired ring) – 208V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KS818WR, 181-27 (wired ring) – 208V 1-Phase – Standard"
         }
       ],
       "price": "378.00",
@@ -2748,11 +2520,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "818-3 (old style) – 240V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "818-3 (old style) – 240V 1-Phase – Standard"
         }
       ],
       "price": "272.00",
@@ -2775,11 +2543,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "818-3 (old style) – 208V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "818-3 (old style) – 208V 1-Phase – Standard"
         }
       ],
       "price": "272.00",
@@ -2802,11 +2566,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KS818-3 WR (wired ring) – 240V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KS818-3 WR (wired ring) – 240V 1-Phase – Standard"
         }
       ],
       "price": "378.00",
@@ -2829,11 +2589,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KS818-3 WR (wired ring) – 208V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KS818-3 WR (wired ring) – 208V 1-Phase – Standard"
         }
       ],
       "price": "378.00",
@@ -2856,11 +2612,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KS818P, 183 – 240V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KS818P, 183 – 240V 1-Phase – Standard"
         }
       ],
       "price": "272.00",
@@ -2883,11 +2635,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KS818P, 183 – 208V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KS818P, 183 – 208V 1-Phase – Standard"
         }
       ],
       "price": "272.00",
@@ -2910,11 +2658,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KS818P WR, 183-27 (wired ring) – 240V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KS818P WR, 183-27 (wired ring) – 240V 1-Phase – Standard"
         }
       ],
       "price": "378.00",
@@ -2937,11 +2681,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KS818P WR, 183-27 (wired ring) – 208V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KS818P WR, 183-27 (wired ring) – 208V 1-Phase – Standard"
         }
       ],
       "price": "378.00",
@@ -2964,11 +2704,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KS818P-3 WR (wired ring) – 240V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KS818P-3 WR (wired ring) – 240V 1-Phase – Standard"
         }
       ],
       "price": "378.00",
@@ -2991,11 +2727,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KS818P-3 WR (wired ring) – 208V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KS818P-3 WR (wired ring) – 208V 1-Phase – Standard"
         }
       ],
       "price": "378.00",
@@ -3018,11 +2750,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "181, 180 – 208V or 240V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "181, 180 – 208V or 240V 1-Phase – Standard"
         }
       ],
       "price": "272.00",
@@ -3045,11 +2773,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM714, KS714, 145 – 208V or 240V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM714, KS714, 145 – 208V or 240V 1-Phase – Standard"
         }
       ],
       "price": "176.00",
@@ -3072,11 +2796,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM714, KS714, 145 – 208V or 240V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM714, KS714, 145 – 208V or 240V 1-Phase – APM (Long-Life)"
         }
       ],
       "price": "390.00",
@@ -3099,11 +2819,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "145 WR (wired ring) – 208V or 240V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "145 WR (wired ring) – 208V or 240V 1-Phase – Standard"
         }
       ],
       "price": "228.00",
@@ -3126,11 +2842,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "145 WR (wired ring) – 208V or 240V 1-Phase"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "145 WR (wired ring) – 208V or 240V 1-Phase – APM (Long-Life)"
         }
       ],
       "price": "520.00",
@@ -3153,11 +2865,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM614-3, KS614-3 – 120V"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KMT/KM614-3, KS614-3 – 120V – Standard"
         }
       ],
       "price": "176.00",
@@ -3180,11 +2888,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KMT/KM614-3, KS614-3 – 120V"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KMT/KM614-3, KS614-3 – 120V – APM (Long-Life)"
         }
       ],
       "price": "390.00",
@@ -3207,11 +2911,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KS609 – 120V"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "KS609 – 120V – Standard"
         }
       ],
       "price": "124.00",
@@ -3234,11 +2934,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "KS609 – 120V"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "KS609 – 120V – APM (Long-Life)"
         }
       ],
       "price": "260.00",
@@ -3261,11 +2957,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "GlazeTech – 240V"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "GlazeTech – 240V – Standard"
         }
       ],
       "price": "184.00",
@@ -3288,11 +2980,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "GlazeTech – 240V"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "GlazeTech – 240V – APM (Long-Life)"
         }
       ],
       "price": "320.00",
@@ -3315,11 +3003,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "GlazeTech – 208V"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "GlazeTech – 208V – Standard"
         }
       ],
       "price": "184.00",
@@ -3342,11 +3026,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "GlazeTech – 208V"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "APM (Long-Life)"
+          "name": "GlazeTech – 208V – APM (Long-Life)"
         }
       ],
       "price": "320.00",
@@ -3369,11 +3049,7 @@
       "optionValues": [
         {
           "optionName": "Kiln Model and Voltage",
-          "name": "FireBox 8x4, FireBox 8x6 – 120V"
-        },
-        {
-          "optionName": "Element Type",
-          "name": "Standard"
+          "name": "FireBox 8x4, FireBox 8x6 – 120V – Standard"
         }
       ],
       "price": "102.00",

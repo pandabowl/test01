@@ -81,8 +81,11 @@ product **Skutt Kiln Full Set of Replacement Elements**
 (`skutt-kiln-full-set-of-replacement-elements`). It follows the Cone Art
 element-set product:
 
-- One variant per kiln model + voltage/phase (option **Kiln Model and
-  Voltage**), plus an **Element Type** option: Standard or APM (Long-Life).
+- One dropdown, **Kiln Model and Voltage**, with each model + voltage/phase
+  listed twice: "... – Standard" and "... – APM (Long-Life)". Element type
+  is folded in, not a second option: a separate Element Type dropdown let
+  shoppers pick APM for kilns that have no APM set, which the theme shows
+  as "Unavailable".
 - Price = Skutt list price × every element in the kiln. Sets whose list
   total is $252 or less sell for $20 over list (`SMALL_SET_MAX` /
   `SMALL_SET_SURCHARGE` in the script).
