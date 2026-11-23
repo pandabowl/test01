@@ -2377,7 +2377,7 @@
           "name": "Standard"
         }
       ],
-      "price": "252.00",
+      "price": "272.00",
       "sku": "SK818FSE-240",
       "taxable": true,
       "inventoryPolicy": "CONTINUE",
@@ -2431,7 +2431,7 @@
           "name": "Standard"
         }
       ],
-      "price": "252.00",
+      "price": "272.00",
       "sku": "SK818FSE-208",
       "taxable": true,
       "inventoryPolicy": "CONTINUE",
@@ -2485,7 +2485,7 @@
           "name": "Standard"
         }
       ],
-      "price": "252.00",
+      "price": "272.00",
       "sku": "SK8183FSE-240",
       "taxable": true,
       "inventoryPolicy": "CONTINUE",
@@ -2539,7 +2539,7 @@
           "name": "Standard"
         }
       ],
-      "price": "252.00",
+      "price": "272.00",
       "sku": "SK8183FSE-208",
       "taxable": true,
       "inventoryPolicy": "CONTINUE",
@@ -2593,7 +2593,7 @@
           "name": "Standard"
         }
       ],
-      "price": "252.00",
+      "price": "272.00",
       "sku": "SK8183PFSE-240",
       "taxable": true,
       "inventoryPolicy": "CONTINUE",
@@ -2620,7 +2620,7 @@
           "name": "Standard"
         }
       ],
-      "price": "252.00",
+      "price": "272.00",
       "sku": "SK8183PFSE-208",
       "taxable": true,
       "inventoryPolicy": "CONTINUE",
@@ -2647,7 +2647,7 @@
           "name": "Standard"
         }
       ],
-      "price": "252.00",
+      "price": "272.00",
       "sku": "SK818OSFSE-240",
       "taxable": true,
       "inventoryPolicy": "CONTINUE",
@@ -2674,7 +2674,7 @@
           "name": "Standard"
         }
       ],
-      "price": "252.00",
+      "price": "272.00",
       "sku": "SK818OSFSE-208",
       "taxable": true,
       "inventoryPolicy": "CONTINUE",
@@ -2755,7 +2755,7 @@
           "name": "Standard"
         }
       ],
-      "price": "252.00",
+      "price": "272.00",
       "sku": "SK8183OSFSE-240",
       "taxable": true,
       "inventoryPolicy": "CONTINUE",
@@ -2782,7 +2782,7 @@
           "name": "Standard"
         }
       ],
-      "price": "252.00",
+      "price": "272.00",
       "sku": "SK8183OSFSE-208",
       "taxable": true,
       "inventoryPolicy": "CONTINUE",
@@ -2863,7 +2863,7 @@
           "name": "Standard"
         }
       ],
-      "price": "252.00",
+      "price": "272.00",
       "sku": "SK818PFSE-240",
       "taxable": true,
       "inventoryPolicy": "CONTINUE",
@@ -2890,7 +2890,7 @@
           "name": "Standard"
         }
       ],
-      "price": "252.00",
+      "price": "272.00",
       "sku": "SK818PFSE-208",
       "taxable": true,
       "inventoryPolicy": "CONTINUE",
@@ -3025,7 +3025,7 @@
           "name": "Standard"
         }
       ],
-      "price": "252.00",
+      "price": "272.00",
       "sku": "SK181FSE-208240",
       "taxable": true,
       "inventoryPolicy": "CONTINUE",
@@ -3052,7 +3052,7 @@
           "name": "Standard"
         }
       ],
-      "price": "156.00",
+      "price": "176.00",
       "sku": "SK714FSE-208240",
       "taxable": true,
       "inventoryPolicy": "CONTINUE",
@@ -3106,7 +3106,7 @@
           "name": "Standard"
         }
       ],
-      "price": "208.00",
+      "price": "228.00",
       "sku": "SK145WRFSE-208240",
       "taxable": true,
       "inventoryPolicy": "CONTINUE",
@@ -3160,7 +3160,7 @@
           "name": "Standard"
         }
       ],
-      "price": "156.00",
+      "price": "176.00",
       "sku": "SK6143FSE-120",
       "taxable": true,
       "inventoryPolicy": "CONTINUE",
@@ -3214,7 +3214,7 @@
           "name": "Standard"
         }
       ],
-      "price": "104.00",
+      "price": "124.00",
       "sku": "SK609FSE-120",
       "taxable": true,
       "inventoryPolicy": "CONTINUE",
@@ -3268,7 +3268,7 @@
           "name": "Standard"
         }
       ],
-      "price": "164.00",
+      "price": "184.00",
       "sku": "SKGTFSE-240",
       "taxable": true,
       "inventoryPolicy": "CONTINUE",
@@ -3322,7 +3322,7 @@
           "name": "Standard"
         }
       ],
-      "price": "164.00",
+      "price": "184.00",
       "sku": "SKGTFSE-208",
       "taxable": true,
       "inventoryPolicy": "CONTINUE",
@@ -3376,7 +3376,7 @@
           "name": "Standard"
         }
       ],
-      "price": "82.00",
+      "price": "102.00",
       "sku": "SKFB8FSE-120",
       "taxable": true,
       "inventoryPolicy": "CONTINUE",

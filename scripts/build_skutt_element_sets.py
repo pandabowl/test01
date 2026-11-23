@@ -15,6 +15,11 @@ Wired-ring (WR / -27) kilns: footnote 1 of the price list says they hold
 2 more elements than the "Qty in Kiln" column shows (145 WR holds 1 more),
 so they get their own variants with the extra elements counted.
 
+Small-set surcharge: sets whose list total is $252 or less sell for $20
+over list (SMALL_SET_MAX / SMALL_SET_SURCHARGE). The rule was "under $250",
+widened to take in the $252 818-family sets. The CSV shows both the list
+total and the selling price.
+
 Outputs (both overwritten):
   data/skutt_element_sets_2026.csv      one row per variant, with the parts
   data/skutt_element_sets_2026.json     productSet input for the Admin API
@@ -38,6 +43,15 @@ STANDARD = "Standard"
 APM = "APM (Long-Life)"
 
 LB_PER_ELEMENT = Decimal("1.0")  # matches the store's single Skutt element weight
+
+SMALL_SET_MAX = Decimal("252")       # list totals at or below this...
+SMALL_SET_SURCHARGE = Decimal("20")  # ...sell for this much over list
+
+
+def sell_price(list_total):
+    if list_total <= SMALL_SET_MAX:
+        return list_total + SMALL_SET_SURCHARGE
+    return list_total
 
 # Element locations as printed on the price list.
 TB, INT, CTR, ALL = "top/bottom", "intermediate", "center", "all"
@@ -243,7 +257,8 @@ def build_variants():
             rows.append({
                 "model": kiln["model"], "group": kiln["group"], "voltage": c["voltage"],
                 "option_value": option_value(kiln, c), "element_type": STANDARD,
-                "sku": base_sku, "elements": qty, "price": std_total,
+                "sku": base_sku, "elements": qty,
+                "list_total": std_total, "price": sell_price(std_total),
                 "parts": describe(els, "std_part"),
             })
             if all(el["apm_part"] for el in els):
@@ -251,7 +266,8 @@ def build_variants():
                 rows.append({
                     "model": kiln["model"], "group": kiln["group"], "voltage": c["voltage"],
                     "option_value": option_value(kiln, c), "element_type": APM,
-                    "sku": f"{base_sku}-APM", "elements": qty, "price": apm_total,
+                    "sku": f"{base_sku}-APM", "elements": qty,
+                    "list_total": apm_total, "price": sell_price(apm_total),
                     "parts": describe(els, "apm_part"),
                 })
     return rows
@@ -405,10 +421,10 @@ def main():
     with open(OUT_CSV, "w", newline="") as f:
         w = csv.writer(f)
         w.writerow(["Group", "Kiln Model", "Voltage", "Element Type", "SKU",
-                    "Elements in Set", "Parts", "Price"])
+                    "Elements in Set", "Parts", "List Total", "Price"])
         for r in rows:
             w.writerow([r["group"], r["model"], r["voltage"], r["element_type"], r["sku"],
-                        r["elements"], r["parts"], f"{r['price']:.2f}"])
+                        r["elements"], r["parts"], f"{r['list_total']:.2f}", f"{r['price']:.2f}"])
     with open(OUT_JSON, "w") as f:
         json.dump(product_set_input(rows), f, indent=2, ensure_ascii=False)
         f.write("\n")

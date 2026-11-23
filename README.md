@@ -83,7 +83,9 @@ element-set product:
 
 - One variant per kiln model + voltage/phase (option **Kiln Model and
   Voltage**), plus an **Element Type** option: Standard or APM (Long-Life).
-- Price = Skutt list price × every element in the kiln.
+- Price = Skutt list price × every element in the kiln. Sets whose list
+  total is $252 or less sell for $20 over list (`SMALL_SET_MAX` /
+  `SMALL_SET_SURCHARGE` in the script).
 - APM variants are left out where Skutt lists APM as "Call For Pricing".
 - Wired-ring kilns (WR / -27) get their own variants with the 2 extra
   elements (1 extra for the 145 WR), per footnote 1 of the price list.

@@ -1,115 +1,115 @@
-Group,Kiln Model,Voltage,Element Type,SKU,Elements in Set,Parts,Price
-Skutt PK production kilns,KMT/KM1627-3 PK,240V 3-Phase,Standard,SK16273PKFSE-240-3,12,"4 top/bottom #0409, 4 intermediate #0410, 4 center #0411",780.00
-Skutt PK production kilns,KMT/KM1627-3 PK,240V 3-Phase,APM (Long-Life),SK16273PKFSE-240-3-APM,12,"4 top/bottom #1692, 4 intermediate #1693, 4 center #1694",2016.00
-Skutt PK production kilns,KMT/KM1627-3 PK,208V 3-Phase,Standard,SK16273PKFSE-208-3,12,"4 top/bottom #0406, 4 intermediate #0407, 4 center #0408",780.00
-Skutt PK production kilns,KMT/KM1627-3 PK,208V 3-Phase,APM (Long-Life),SK16273PKFSE-208-3-APM,12,"4 top/bottom #1695, 4 intermediate #1696, 4 center #1697",2016.00
-Skutt PK production kilns,KMT/KM1627-3 PK-LF,240V 1 or 3-Phase,Standard,SK16273PKLFFSE-240,12,"4 top/bottom #2540, 4 intermediate #2541, 4 center #2542",780.00
-Skutt PK production kilns,KMT/KM1627-3 PK-LF,240V 1 or 3-Phase,APM (Long-Life),SK16273PKLFFSE-240-APM,12,"4 top/bottom #1698, 4 intermediate #1699, 4 center #1700",2016.00
-Skutt PK production kilns,KMT/KM1627-3 PK-LF,208V 1 or 3-Phase,Standard,SK16273PKLFFSE-208,12,"4 top/bottom #2543, 4 intermediate #2544, 4 center #2545",780.00
-Skutt PK production kilns,KMT/KM1627-3 PK-LF,208V 1 or 3-Phase,APM (Long-Life),SK16273PKLFFSE-208-APM,12,"4 top/bottom #1661, 4 intermediate #1662, 4 center #1663",2016.00
-Skutt PK production kilns,KMT/KM1231-3 PK,240V 1-Phase,Standard,SK12313PKFSE-240-1,7,"2 top/bottom #1429, 2 intermediate #1430, 3 center #1431",518.00
-Skutt PK production kilns,KMT/KM1231-3 PK,240V 1-Phase,APM (Long-Life),SK12313PKFSE-240-1-APM,7,"2 top/bottom #1664, 2 intermediate #1665, 3 center #1666",1295.00
-Skutt PK production kilns,KMT/KM1231-3 PK,208V 1-Phase,Standard,SK12313PKFSE-208-1,7,"2 top/bottom #1432, 2 intermediate #1433, 3 center #1434",518.00
-Skutt PK production kilns,KMT/KM1231-3 PK,208V 1-Phase,APM (Long-Life),SK12313PKFSE-208-1-APM,7,"2 top/bottom #1667, 2 intermediate #1669, 3 center #1668",1295.00
-Skutt PK production kilns,KMT/KM1231-3 PK,240V 3-Phase,Standard,SK12313PKFSE-240-3,7,"2 top/bottom #1435, 2 intermediate #1436, 3 center #1437",518.00
-Skutt PK production kilns,KMT/KM1231-3 PK,240V 3-Phase,APM (Long-Life),SK12313PKFSE-240-3-APM,7,"2 top/bottom #1664, 2 intermediate #1665, 3 center #1666",1295.00
-Skutt PK production kilns,KMT/KM1231-3 PK,208V 3-Phase,Standard,SK12313PKFSE-208-3,7,"2 top/bottom #1438, 2 intermediate #1439, 3 center #1440",518.00
-Skutt PK production kilns,KMT/KM1231-3 PK,208V 3-Phase,APM (Long-Life),SK12313PKFSE-208-3-APM,7,"2 top/bottom #1667, 2 intermediate #1669, 3 center #1668",1295.00
-Skutt PK production kilns,KMT/KM1227-3 PK,240V 1-Phase,Standard,SK12273PKFSE-240-1,6,"2 top/bottom #1441, 2 intermediate #1442, 2 center #1443",444.00
-Skutt PK production kilns,KMT/KM1227-3 PK,240V 1-Phase,APM (Long-Life),SK12273PKFSE-240-1-APM,6,"2 top/bottom #1640, 2 intermediate #1641, 2 center #1642",1110.00
-Skutt PK production kilns,KMT/KM1227-3 PK,208V 1-Phase,Standard,SK12273PKFSE-208-1,6,"2 top/bottom #1548, 2 intermediate #1549, 2 center #1550",444.00
-Skutt PK production kilns,KMT/KM1227-3 PK,208V 1-Phase,APM (Long-Life),SK12273PKFSE-208-1-APM,6,"2 top/bottom #1658, 2 intermediate #1659, 2 center #1660",1110.00
-Skutt PK production kilns,KMT/KM1227-3 PK,240V 3-Phase,Standard,SK12273PKFSE-240-3,6,"2 top/bottom #1444, 2 intermediate #1445, 2 center #1446",444.00
-Skutt PK production kilns,KMT/KM1227-3 PK,240V 3-Phase,APM (Long-Life),SK12273PKFSE-240-3-APM,6,"2 top/bottom #1640, 2 intermediate #1641, 2 center #1642",1110.00
-Skutt PK production kilns,KMT/KM1227-3 PK,208V 3-Phase,Standard,SK12273PKFSE-208-3,6,"2 top/bottom #1447, 2 intermediate #1448, 2 center #1449",444.00
-Skutt PK production kilns,KMT/KM1227-3 PK,208V 3-Phase,APM (Long-Life),SK12273PKFSE-208-3-APM,6,"2 top/bottom #1658, 2 intermediate #1659, 2 center #1660",1110.00
-Skutt 12-sided and 10-sided kilns,"KMT/KM1227-3, KS1227-3, 280-3",240V 1 or 3-Phase,Standard,SK12273FSE-240,6,"2 top/bottom #1368, 4 center #1370",444.00
-Skutt 12-sided and 10-sided kilns,"KMT/KM1227-3, KS1227-3, 280-3",240V 1 or 3-Phase,APM (Long-Life),SK12273FSE-240-APM,6,"2 top/bottom #1654, 4 center #1655",1110.00
-Skutt 12-sided and 10-sided kilns,"KMT/KM1227-3, KS1227-3, 280-3",208V 1-Phase,Standard,SK12273FSE-208-1,6,"2 top/bottom #1369, 4 center #1371",444.00
-Skutt 12-sided and 10-sided kilns,"KMT/KM1227-3, KS1227-3, 280-3",208V 1-Phase,APM (Long-Life),SK12273FSE-208-1-APM,6,"2 top/bottom #1650, 4 center #1651",1110.00
-Skutt 12-sided and 10-sided kilns,"KMT/KM1227-3, KS1227-3, 280-3",208V 3-Phase,Standard,SK12273FSE-208-3,6,"2 top/bottom #1369, 4 center #1391",444.00
-Skutt 12-sided and 10-sided kilns,"KMT/KM1227-3, KS1227-3, 280-3",208V 3-Phase,APM (Long-Life),SK12273FSE-208-3-APM,6,"2 top/bottom #1650, 4 center #1687",1110.00
-Skutt 12-sided and 10-sided kilns,"KMT/KM1027, KS1027, 230, 231, 235",240V 1 or 3-Phase,Standard,SK1027FSE-240,6,"2 top/bottom #0171, 4 center #0172",444.00
-Skutt 12-sided and 10-sided kilns,"KMT/KM1027, KS1027, 230, 231, 235",240V 1 or 3-Phase,APM (Long-Life),SK1027FSE-240-APM,6,"2 top/bottom #1656, 4 center #1657",1110.00
-Skutt 12-sided and 10-sided kilns,"KMT/KM1027, KS1027, 230, 231, 235",208V 1-Phase,Standard,SK1027FSE-208-1,6,"2 top/bottom #1372, 4 center #1375",444.00
-Skutt 12-sided and 10-sided kilns,"KMT/KM1027, KS1027, 230, 231, 235",208V 1-Phase,APM (Long-Life),SK1027FSE-208-1-APM,6,"2 top/bottom #1671, 4 center #2742",1110.00
-Skutt 12-sided and 10-sided kilns,"KMT/KM1027, KS1027, 230, 231, 235",208V 3-Phase,Standard,SK1027FSE-208-3,6,"2 top/bottom #1372, 4 center #1392",444.00
-Skutt 12-sided and 10-sided kilns,"KMT/KM1027, KS1027, 230, 231, 235",208V 3-Phase,APM (Long-Life),SK1027FSE-208-3-APM,6,"2 top/bottom #1671, 4 center #1672",1110.00
-Skutt 12-sided and 10-sided kilns,"KMT/KM1027-3, KS1027-3",240V 1 or 3-Phase,Standard,SK10273FSE-240,6,"2 top/bottom #1373, 4 center #1376",444.00
-Skutt 12-sided and 10-sided kilns,"KMT/KM1027-3, KS1027-3",240V 1 or 3-Phase,APM (Long-Life),SK10273FSE-240-APM,6,"2 top/bottom #1684, 4 center #1685",1110.00
-Skutt 12-sided and 10-sided kilns,"KMT/KM1027-3, KS1027-3",208V 1-Phase,Standard,SK10273FSE-208-1,6,"2 top/bottom #1374, 4 center #1377",444.00
-Skutt 12-sided and 10-sided kilns,"KMT/KM1027-3, KS1027-3",208V 1-Phase,APM (Long-Life),SK10273FSE-208-1-APM,6,"2 top/bottom #1649, 4 center #2743",1110.00
-Skutt 12-sided and 10-sided kilns,"KMT/KM1027-3, KS1027-3",208V 3-Phase,Standard,SK10273FSE-208-3,6,"2 top/bottom #1374, 4 center #1393",444.00
-Skutt 12-sided and 10-sided kilns,"KMT/KM1027-3, KS1027-3",208V 3-Phase,APM (Long-Life),SK10273FSE-208-3-APM,6,"2 top/bottom #1649, 4 center #2744",1110.00
-Skutt 12-sided and 10-sided kilns,KMT/KM1222-3,240V 1 or 3-Phase,Standard,SK12223FSE-240,5,"2 top/bottom #3266, 3 center #3267",370.00
-Skutt 12-sided and 10-sided kilns,KMT/KM1222-3,240V 1 or 3-Phase,APM (Long-Life),SK12223FSE-240-APM,5,"2 top/bottom #3271, 3 center #3272",925.00
-Skutt 12-sided and 10-sided kilns,KMT/KM1222-3,208V 1-Phase,Standard,SK12223FSE-208-1,5,"2 top/bottom #3268, 3 center #3269",370.00
-Skutt 12-sided and 10-sided kilns,KMT/KM1222-3,208V 1-Phase,APM (Long-Life),SK12223FSE-208-1-APM,5,"2 top/bottom #3273, 3 center #3274",925.00
-Skutt 12-sided and 10-sided kilns,KMT/KM1222-3,208V 3-Phase,Standard,SK12223FSE-208-3,5,"2 top/bottom #3270, 3 center #3249",370.00
-Skutt 12-sided and 10-sided kilns,KMT/KM1222-3,208V 3-Phase,APM (Long-Life),SK12223FSE-208-3-APM,5,"2 top/bottom #3275, 3 center #3349",925.00
-Skutt 12-sided and 10-sided kilns,KMT/KM1022,240V 1 or 3-Phase,Standard,SK1022FSE-240,5,"2 top/bottom #3258, 3 center #3259",370.00
-Skutt 12-sided and 10-sided kilns,KMT/KM1022,240V 1 or 3-Phase,APM (Long-Life),SK1022FSE-240-APM,5,"2 top/bottom #3276, 3 center #3277",925.00
-Skutt 12-sided and 10-sided kilns,KMT/KM1022,208V 1 or 3-Phase,Standard,SK1022FSE-208,5,"2 top/bottom #3260, 3 center #3261",370.00
-Skutt 12-sided and 10-sided kilns,KMT/KM1022,208V 1 or 3-Phase,APM (Long-Life),SK1022FSE-208-APM,5,"2 top/bottom #3278, 3 center #3279",925.00
-Skutt 12-sided and 10-sided kilns,KMT/KM1022-3,240V 1 or 3-Phase,Standard,SK10223FSE-240,5,"2 top/bottom #3262, 3 center #3263",370.00
-Skutt 12-sided and 10-sided kilns,KMT/KM1022-3,240V 1 or 3-Phase,APM (Long-Life),SK10223FSE-240-APM,5,"2 top/bottom #3280, 3 center #3281",925.00
-Skutt 12-sided and 10-sided kilns,KMT/KM1022-3,208V 1 or 3-Phase,Standard,SK10223FSE-208,5,"2 top/bottom #3264, 3 center #3265",370.00
-Skutt 12-sided and 10-sided kilns,KMT/KM1022-3,208V 1 or 3-Phase,APM (Long-Life),SK10223FSE-208-APM,5,"2 top/bottom #3282, 3 center #3283",925.00
-Skutt 8-sided and smaller kilns,KMT/KM822,240V 1-Phase,Standard,SK822FSE-240,5,"2 top/bottom #3250, 3 center #3251",315.00
-Skutt 8-sided and smaller kilns,KMT/KM822,240V 1-Phase,APM (Long-Life),SK822FSE-240-APM,5,"2 top/bottom #3284, 3 center #3285",750.00
-Skutt 8-sided and smaller kilns,KMT/KM822,208V 1-Phase,Standard,SK822FSE-208,5,"2 top/bottom #3252, 3 center #3253",315.00
-Skutt 8-sided and smaller kilns,KMT/KM822,208V 1-Phase,APM (Long-Life),SK822FSE-208-APM,5,"2 top/bottom #3286, 3 center #3287",750.00
-Skutt 8-sided and smaller kilns,KMT/KM822-3,240V 1-Phase,Standard,SK8223FSE-240,5,"2 top/bottom #3254, 3 center #3255",315.00
-Skutt 8-sided and smaller kilns,KMT/KM822-3,240V 1-Phase,APM (Long-Life),SK8223FSE-240-APM,5,"2 top/bottom #3288, 3 center #3289",750.00
-Skutt 8-sided and smaller kilns,KMT/KM822-3,208V 1-Phase,Standard,SK8223FSE-208,5,"2 top/bottom #3256, 3 center #3257",315.00
-Skutt 8-sided and smaller kilns,KMT/KM822-3,208V 1-Phase,APM (Long-Life),SK8223FSE-208-APM,5,"2 top/bottom #3290, 3 center #3291",750.00
-Skutt 12-sided and 10-sided kilns,KMT/KM1218-3,240V 1 or 3-Phase,Standard,SK12183FSE-240,4,"2 top/bottom #2550, 2 center #2551",296.00
-Skutt 12-sided and 10-sided kilns,KMT/KM1218-3,240V 1 or 3-Phase,APM (Long-Life),SK12183FSE-240-APM,4,"2 top/bottom #2719, 2 center #2720",740.00
-Skutt 12-sided and 10-sided kilns,KMT/KM1218-3,208V 1 or 3-Phase,Standard,SK12183FSE-208,4,"2 top/bottom #2552, 2 center #2553",296.00
-Skutt 12-sided and 10-sided kilns,KMT/KM1218-3,208V 1 or 3-Phase,APM (Long-Life),SK12183FSE-208-APM,4,"2 top/bottom #2721, 2 center #2722",710.00
-Skutt 12-sided and 10-sided kilns,"KMT/KM1018, KS1018, 231-18",240V 1-Phase,Standard,SK1018FSE-240,4,"2 top/bottom #0176, 2 center #0177",296.00
-Skutt 12-sided and 10-sided kilns,"KMT/KM1018, KS1018, 231-18",240V 1-Phase,APM (Long-Life),SK1018FSE-240-APM,4,"2 top/bottom #2725, 2 center #2726",740.00
-Skutt 12-sided and 10-sided kilns,"KMT/KM1018, KS1018, 231-18",208V 1-Phase,Standard,SK1018FSE-208,4,"2 top/bottom #0295, 2 center #0296",296.00
-Skutt 12-sided and 10-sided kilns,"KMT/KM1018, KS1018, 231-18",208V 1-Phase,APM (Long-Life),SK1018FSE-208-APM,4,"2 top/bottom #1673, 2 center #1674",740.00
-Skutt 12-sided and 10-sided kilns,"KMT/KM1018-3, KS1018-3",240V 1-Phase,Standard,SK10183FSE-240,4,"2 top/bottom #1378, 2 center #1380",296.00
-Skutt 12-sided and 10-sided kilns,"KMT/KM1018-3, KS1018-3",240V 1-Phase,APM (Long-Life),SK10183FSE-240-APM,4,"2 top/bottom #2727, 2 center #2728",740.00
-Skutt 12-sided and 10-sided kilns,"KMT/KM1018-3, KS1018-3",208V 1-Phase,Standard,SK10183FSE-208,4,"2 top/bottom #1379, 2 center #1381",296.00
-Skutt 12-sided and 10-sided kilns,"KMT/KM1018-3, KS1018-3",208V 1-Phase,APM (Long-Life),SK10183FSE-208-APM,4,"2 top/bottom #1675, 2 center #1676",740.00
-Skutt 8-sided and smaller kilns,"KMT/KM818, KS818",240V 1-Phase,Standard,SK818FSE-240,4,"2 top/bottom #1540, 2 center #1541",252.00
-Skutt 8-sided and smaller kilns,"KMT/KM818, KS818",240V 1-Phase,APM (Long-Life),SK818FSE-240-APM,4,"2 top/bottom #2700, 2 center #2701",600.00
-Skutt 8-sided and smaller kilns,"KMT/KM818, KS818",208V 1-Phase,Standard,SK818FSE-208,4,"2 top/bottom #1542, 2 center #1543",252.00
-Skutt 8-sided and smaller kilns,"KMT/KM818, KS818",208V 1-Phase,APM (Long-Life),SK818FSE-208-APM,4,"2 top/bottom #1678, 2 center #1679",600.00
-Skutt 8-sided and smaller kilns,"KMT/KM818-3, KS818-3",240V 1-Phase,Standard,SK8183FSE-240,4,"2 top/bottom #1544, 2 center #1545",252.00
-Skutt 8-sided and smaller kilns,"KMT/KM818-3, KS818-3",240V 1-Phase,APM (Long-Life),SK8183FSE-240-APM,4,"2 top/bottom #2723, 2 center #2724",600.00
-Skutt 8-sided and smaller kilns,"KMT/KM818-3, KS818-3",208V 1-Phase,Standard,SK8183FSE-208,4,"2 top/bottom #1546, 2 center #1547",252.00
-Skutt 8-sided and smaller kilns,"KMT/KM818-3, KS818-3",208V 1-Phase,APM (Long-Life),SK8183FSE-208-APM,4,"2 top/bottom #1689, 2 center #1690",600.00
-Skutt 8-sided and smaller kilns,"KMT/KM818-3 30 Amp, KS818P-3",240V 1-Phase,Standard,SK8183PFSE-240,4,"2 top/bottom #1552, 2 center #1553",252.00
-Skutt 8-sided and smaller kilns,"KMT/KM818-3 30 Amp, KS818P-3",208V 1-Phase,Standard,SK8183PFSE-208,4,"2 top/bottom #1554, 2 center #1555",252.00
-Older KilnSitter and wired-ring (WR) kilns,"818, 185 (old style)",240V 1-Phase,Standard,SK818OSFSE-240,4,4 elements #0269,252.00
-Older KilnSitter and wired-ring (WR) kilns,"818, 185 (old style)",208V 1-Phase,Standard,SK818OSFSE-208,4,4 elements #0318,252.00
-Older KilnSitter and wired-ring (WR) kilns,"KS818WR, 181-27 (wired ring)",240V 1-Phase,Standard,SK818WRFSE-240,6,6 elements #0269,378.00
-Older KilnSitter and wired-ring (WR) kilns,"KS818WR, 181-27 (wired ring)",208V 1-Phase,Standard,SK818WRFSE-208,6,6 elements #0318,378.00
-Older KilnSitter and wired-ring (WR) kilns,818-3 (old style),240V 1-Phase,Standard,SK8183OSFSE-240,4,4 elements #1386,252.00
-Older KilnSitter and wired-ring (WR) kilns,818-3 (old style),208V 1-Phase,Standard,SK8183OSFSE-208,4,4 elements #1387,252.00
-Older KilnSitter and wired-ring (WR) kilns,KS818-3 WR (wired ring),240V 1-Phase,Standard,SK8183WRFSE-240,6,6 elements #1386,378.00
-Older KilnSitter and wired-ring (WR) kilns,KS818-3 WR (wired ring),208V 1-Phase,Standard,SK8183WRFSE-208,6,6 elements #1387,378.00
-Older KilnSitter and wired-ring (WR) kilns,"KS818P, 183",240V 1-Phase,Standard,SK818PFSE-240,4,4 elements #0272,252.00
-Older KilnSitter and wired-ring (WR) kilns,"KS818P, 183",208V 1-Phase,Standard,SK818PFSE-208,4,4 elements #1382,252.00
-Older KilnSitter and wired-ring (WR) kilns,"KS818P WR, 183-27 (wired ring)",240V 1-Phase,Standard,SK818PWRFSE-240,6,6 elements #0272,378.00
-Older KilnSitter and wired-ring (WR) kilns,"KS818P WR, 183-27 (wired ring)",208V 1-Phase,Standard,SK818PWRFSE-208,6,6 elements #1382,378.00
-Older KilnSitter and wired-ring (WR) kilns,KS818P-3 WR (wired ring),240V 1-Phase,Standard,SK8183PWRFSE-240,6,6 elements #1388,378.00
-Older KilnSitter and wired-ring (WR) kilns,KS818P-3 WR (wired ring),208V 1-Phase,Standard,SK8183PWRFSE-208,6,6 elements #1389,378.00
-Older KilnSitter and wired-ring (WR) kilns,"181, 180",208V or 240V 1-Phase,Standard,SK181FSE-208240,4,4 elements #1383,252.00
-Skutt 8-sided and smaller kilns,"KMT/KM714, KS714, 145",208V or 240V 1-Phase,Standard,SK714FSE-208240,3,3 elements #0472,156.00
-Skutt 8-sided and smaller kilns,"KMT/KM714, KS714, 145",208V or 240V 1-Phase,APM (Long-Life),SK714FSE-208240-APM,3,3 elements #1677,390.00
-Older KilnSitter and wired-ring (WR) kilns,145 WR (wired ring),208V or 240V 1-Phase,Standard,SK145WRFSE-208240,4,4 elements #0472,208.00
-Older KilnSitter and wired-ring (WR) kilns,145 WR (wired ring),208V or 240V 1-Phase,APM (Long-Life),SK145WRFSE-208240-APM,4,4 elements #1677,520.00
-Skutt 8-sided and smaller kilns,"KMT/KM614-3, KS614-3",120V,Standard,SK6143FSE-120,3,3 elements #1029,156.00
-Skutt 8-sided and smaller kilns,"KMT/KM614-3, KS614-3",120V,APM (Long-Life),SK6143FSE-120-APM,3,3 elements #2642,390.00
-Skutt 8-sided and smaller kilns,KS609,120V,Standard,SK609FSE-120,2,2 elements #0340,104.00
-Skutt 8-sided and smaller kilns,KS609,120V,APM (Long-Life),SK609FSE-120-APM,2,2 elements #1688,260.00
-Skutt GlazeTech and FireBox kilns,GlazeTech,240V,Standard,SKGTFSE-240,4,4 elements #3021,164.00
-Skutt GlazeTech and FireBox kilns,GlazeTech,240V,APM (Long-Life),SKGTFSE-240-APM,4,4 elements #3186,320.00
-Skutt GlazeTech and FireBox kilns,GlazeTech,208V,Standard,SKGTFSE-208,4,4 elements #3022,164.00
-Skutt GlazeTech and FireBox kilns,GlazeTech,208V,APM (Long-Life),SKGTFSE-208-APM,4,4 elements #3187,320.00
-Skutt GlazeTech and FireBox kilns,"FireBox 8x4, FireBox 8x6",120V,Standard,SKFB8FSE-120,2,2 elements #0910,82.00
+Group,Kiln Model,Voltage,Element Type,SKU,Elements in Set,Parts,List Total,Price
+Skutt PK production kilns,KMT/KM1627-3 PK,240V 3-Phase,Standard,SK16273PKFSE-240-3,12,"4 top/bottom #0409, 4 intermediate #0410, 4 center #0411",780.00,780.00
+Skutt PK production kilns,KMT/KM1627-3 PK,240V 3-Phase,APM (Long-Life),SK16273PKFSE-240-3-APM,12,"4 top/bottom #1692, 4 intermediate #1693, 4 center #1694",2016.00,2016.00
+Skutt PK production kilns,KMT/KM1627-3 PK,208V 3-Phase,Standard,SK16273PKFSE-208-3,12,"4 top/bottom #0406, 4 intermediate #0407, 4 center #0408",780.00,780.00
+Skutt PK production kilns,KMT/KM1627-3 PK,208V 3-Phase,APM (Long-Life),SK16273PKFSE-208-3-APM,12,"4 top/bottom #1695, 4 intermediate #1696, 4 center #1697",2016.00,2016.00
+Skutt PK production kilns,KMT/KM1627-3 PK-LF,240V 1 or 3-Phase,Standard,SK16273PKLFFSE-240,12,"4 top/bottom #2540, 4 intermediate #2541, 4 center #2542",780.00,780.00
+Skutt PK production kilns,KMT/KM1627-3 PK-LF,240V 1 or 3-Phase,APM (Long-Life),SK16273PKLFFSE-240-APM,12,"4 top/bottom #1698, 4 intermediate #1699, 4 center #1700",2016.00,2016.00
+Skutt PK production kilns,KMT/KM1627-3 PK-LF,208V 1 or 3-Phase,Standard,SK16273PKLFFSE-208,12,"4 top/bottom #2543, 4 intermediate #2544, 4 center #2545",780.00,780.00
+Skutt PK production kilns,KMT/KM1627-3 PK-LF,208V 1 or 3-Phase,APM (Long-Life),SK16273PKLFFSE-208-APM,12,"4 top/bottom #1661, 4 intermediate #1662, 4 center #1663",2016.00,2016.00
+Skutt PK production kilns,KMT/KM1231-3 PK,240V 1-Phase,Standard,SK12313PKFSE-240-1,7,"2 top/bottom #1429, 2 intermediate #1430, 3 center #1431",518.00,518.00
+Skutt PK production kilns,KMT/KM1231-3 PK,240V 1-Phase,APM (Long-Life),SK12313PKFSE-240-1-APM,7,"2 top/bottom #1664, 2 intermediate #1665, 3 center #1666",1295.00,1295.00
+Skutt PK production kilns,KMT/KM1231-3 PK,208V 1-Phase,Standard,SK12313PKFSE-208-1,7,"2 top/bottom #1432, 2 intermediate #1433, 3 center #1434",518.00,518.00
+Skutt PK production kilns,KMT/KM1231-3 PK,208V 1-Phase,APM (Long-Life),SK12313PKFSE-208-1-APM,7,"2 top/bottom #1667, 2 intermediate #1669, 3 center #1668",1295.00,1295.00
+Skutt PK production kilns,KMT/KM1231-3 PK,240V 3-Phase,Standard,SK12313PKFSE-240-3,7,"2 top/bottom #1435, 2 intermediate #1436, 3 center #1437",518.00,518.00
+Skutt PK production kilns,KMT/KM1231-3 PK,240V 3-Phase,APM (Long-Life),SK12313PKFSE-240-3-APM,7,"2 top/bottom #1664, 2 intermediate #1665, 3 center #1666",1295.00,1295.00
+Skutt PK production kilns,KMT/KM1231-3 PK,208V 3-Phase,Standard,SK12313PKFSE-208-3,7,"2 top/bottom #1438, 2 intermediate #1439, 3 center #1440",518.00,518.00
+Skutt PK production kilns,KMT/KM1231-3 PK,208V 3-Phase,APM (Long-Life),SK12313PKFSE-208-3-APM,7,"2 top/bottom #1667, 2 intermediate #1669, 3 center #1668",1295.00,1295.00
+Skutt PK production kilns,KMT/KM1227-3 PK,240V 1-Phase,Standard,SK12273PKFSE-240-1,6,"2 top/bottom #1441, 2 intermediate #1442, 2 center #1443",444.00,444.00
+Skutt PK production kilns,KMT/KM1227-3 PK,240V 1-Phase,APM (Long-Life),SK12273PKFSE-240-1-APM,6,"2 top/bottom #1640, 2 intermediate #1641, 2 center #1642",1110.00,1110.00
+Skutt PK production kilns,KMT/KM1227-3 PK,208V 1-Phase,Standard,SK12273PKFSE-208-1,6,"2 top/bottom #1548, 2 intermediate #1549, 2 center #1550",444.00,444.00
+Skutt PK production kilns,KMT/KM1227-3 PK,208V 1-Phase,APM (Long-Life),SK12273PKFSE-208-1-APM,6,"2 top/bottom #1658, 2 intermediate #1659, 2 center #1660",1110.00,1110.00
+Skutt PK production kilns,KMT/KM1227-3 PK,240V 3-Phase,Standard,SK12273PKFSE-240-3,6,"2 top/bottom #1444, 2 intermediate #1445, 2 center #1446",444.00,444.00
+Skutt PK production kilns,KMT/KM1227-3 PK,240V 3-Phase,APM (Long-Life),SK12273PKFSE-240-3-APM,6,"2 top/bottom #1640, 2 intermediate #1641, 2 center #1642",1110.00,1110.00
+Skutt PK production kilns,KMT/KM1227-3 PK,208V 3-Phase,Standard,SK12273PKFSE-208-3,6,"2 top/bottom #1447, 2 intermediate #1448, 2 center #1449",444.00,444.00
+Skutt PK production kilns,KMT/KM1227-3 PK,208V 3-Phase,APM (Long-Life),SK12273PKFSE-208-3-APM,6,"2 top/bottom #1658, 2 intermediate #1659, 2 center #1660",1110.00,1110.00
+Skutt 12-sided and 10-sided kilns,"KMT/KM1227-3, KS1227-3, 280-3",240V 1 or 3-Phase,Standard,SK12273FSE-240,6,"2 top/bottom #1368, 4 center #1370",444.00,444.00
+Skutt 12-sided and 10-sided kilns,"KMT/KM1227-3, KS1227-3, 280-3",240V 1 or 3-Phase,APM (Long-Life),SK12273FSE-240-APM,6,"2 top/bottom #1654, 4 center #1655",1110.00,1110.00
+Skutt 12-sided and 10-sided kilns,"KMT/KM1227-3, KS1227-3, 280-3",208V 1-Phase,Standard,SK12273FSE-208-1,6,"2 top/bottom #1369, 4 center #1371",444.00,444.00
+Skutt 12-sided and 10-sided kilns,"KMT/KM1227-3, KS1227-3, 280-3",208V 1-Phase,APM (Long-Life),SK12273FSE-208-1-APM,6,"2 top/bottom #1650, 4 center #1651",1110.00,1110.00
+Skutt 12-sided and 10-sided kilns,"KMT/KM1227-3, KS1227-3, 280-3",208V 3-Phase,Standard,SK12273FSE-208-3,6,"2 top/bottom #1369, 4 center #1391",444.00,444.00
+Skutt 12-sided and 10-sided kilns,"KMT/KM1227-3, KS1227-3, 280-3",208V 3-Phase,APM (Long-Life),SK12273FSE-208-3-APM,6,"2 top/bottom #1650, 4 center #1687",1110.00,1110.00
+Skutt 12-sided and 10-sided kilns,"KMT/KM1027, KS1027, 230, 231, 235",240V 1 or 3-Phase,Standard,SK1027FSE-240,6,"2 top/bottom #0171, 4 center #0172",444.00,444.00
+Skutt 12-sided and 10-sided kilns,"KMT/KM1027, KS1027, 230, 231, 235",240V 1 or 3-Phase,APM (Long-Life),SK1027FSE-240-APM,6,"2 top/bottom #1656, 4 center #1657",1110.00,1110.00
+Skutt 12-sided and 10-sided kilns,"KMT/KM1027, KS1027, 230, 231, 235",208V 1-Phase,Standard,SK1027FSE-208-1,6,"2 top/bottom #1372, 4 center #1375",444.00,444.00
+Skutt 12-sided and 10-sided kilns,"KMT/KM1027, KS1027, 230, 231, 235",208V 1-Phase,APM (Long-Life),SK1027FSE-208-1-APM,6,"2 top/bottom #1671, 4 center #2742",1110.00,1110.00
+Skutt 12-sided and 10-sided kilns,"KMT/KM1027, KS1027, 230, 231, 235",208V 3-Phase,Standard,SK1027FSE-208-3,6,"2 top/bottom #1372, 4 center #1392",444.00,444.00
+Skutt 12-sided and 10-sided kilns,"KMT/KM1027, KS1027, 230, 231, 235",208V 3-Phase,APM (Long-Life),SK1027FSE-208-3-APM,6,"2 top/bottom #1671, 4 center #1672",1110.00,1110.00
+Skutt 12-sided and 10-sided kilns,"KMT/KM1027-3, KS1027-3",240V 1 or 3-Phase,Standard,SK10273FSE-240,6,"2 top/bottom #1373, 4 center #1376",444.00,444.00
+Skutt 12-sided and 10-sided kilns,"KMT/KM1027-3, KS1027-3",240V 1 or 3-Phase,APM (Long-Life),SK10273FSE-240-APM,6,"2 top/bottom #1684, 4 center #1685",1110.00,1110.00
+Skutt 12-sided and 10-sided kilns,"KMT/KM1027-3, KS1027-3",208V 1-Phase,Standard,SK10273FSE-208-1,6,"2 top/bottom #1374, 4 center #1377",444.00,444.00
+Skutt 12-sided and 10-sided kilns,"KMT/KM1027-3, KS1027-3",208V 1-Phase,APM (Long-Life),SK10273FSE-208-1-APM,6,"2 top/bottom #1649, 4 center #2743",1110.00,1110.00
+Skutt 12-sided and 10-sided kilns,"KMT/KM1027-3, KS1027-3",208V 3-Phase,Standard,SK10273FSE-208-3,6,"2 top/bottom #1374, 4 center #1393",444.00,444.00
+Skutt 12-sided and 10-sided kilns,"KMT/KM1027-3, KS1027-3",208V 3-Phase,APM (Long-Life),SK10273FSE-208-3-APM,6,"2 top/bottom #1649, 4 center #2744",1110.00,1110.00
+Skutt 12-sided and 10-sided kilns,KMT/KM1222-3,240V 1 or 3-Phase,Standard,SK12223FSE-240,5,"2 top/bottom #3266, 3 center #3267",370.00,370.00
+Skutt 12-sided and 10-sided kilns,KMT/KM1222-3,240V 1 or 3-Phase,APM (Long-Life),SK12223FSE-240-APM,5,"2 top/bottom #3271, 3 center #3272",925.00,925.00
+Skutt 12-sided and 10-sided kilns,KMT/KM1222-3,208V 1-Phase,Standard,SK12223FSE-208-1,5,"2 top/bottom #3268, 3 center #3269",370.00,370.00
+Skutt 12-sided and 10-sided kilns,KMT/KM1222-3,208V 1-Phase,APM (Long-Life),SK12223FSE-208-1-APM,5,"2 top/bottom #3273, 3 center #3274",925.00,925.00
+Skutt 12-sided and 10-sided kilns,KMT/KM1222-3,208V 3-Phase,Standard,SK12223FSE-208-3,5,"2 top/bottom #3270, 3 center #3249",370.00,370.00
+Skutt 12-sided and 10-sided kilns,KMT/KM1222-3,208V 3-Phase,APM (Long-Life),SK12223FSE-208-3-APM,5,"2 top/bottom #3275, 3 center #3349",925.00,925.00
+Skutt 12-sided and 10-sided kilns,KMT/KM1022,240V 1 or 3-Phase,Standard,SK1022FSE-240,5,"2 top/bottom #3258, 3 center #3259",370.00,370.00
+Skutt 12-sided and 10-sided kilns,KMT/KM1022,240V 1 or 3-Phase,APM (Long-Life),SK1022FSE-240-APM,5,"2 top/bottom #3276, 3 center #3277",925.00,925.00
+Skutt 12-sided and 10-sided kilns,KMT/KM1022,208V 1 or 3-Phase,Standard,SK1022FSE-208,5,"2 top/bottom #3260, 3 center #3261",370.00,370.00
+Skutt 12-sided and 10-sided kilns,KMT/KM1022,208V 1 or 3-Phase,APM (Long-Life),SK1022FSE-208-APM,5,"2 top/bottom #3278, 3 center #3279",925.00,925.00
+Skutt 12-sided and 10-sided kilns,KMT/KM1022-3,240V 1 or 3-Phase,Standard,SK10223FSE-240,5,"2 top/bottom #3262, 3 center #3263",370.00,370.00
+Skutt 12-sided and 10-sided kilns,KMT/KM1022-3,240V 1 or 3-Phase,APM (Long-Life),SK10223FSE-240-APM,5,"2 top/bottom #3280, 3 center #3281",925.00,925.00
+Skutt 12-sided and 10-sided kilns,KMT/KM1022-3,208V 1 or 3-Phase,Standard,SK10223FSE-208,5,"2 top/bottom #3264, 3 center #3265",370.00,370.00
+Skutt 12-sided and 10-sided kilns,KMT/KM1022-3,208V 1 or 3-Phase,APM (Long-Life),SK10223FSE-208-APM,5,"2 top/bottom #3282, 3 center #3283",925.00,925.00
+Skutt 8-sided and smaller kilns,KMT/KM822,240V 1-Phase,Standard,SK822FSE-240,5,"2 top/bottom #3250, 3 center #3251",315.00,315.00
+Skutt 8-sided and smaller kilns,KMT/KM822,240V 1-Phase,APM (Long-Life),SK822FSE-240-APM,5,"2 top/bottom #3284, 3 center #3285",750.00,750.00
+Skutt 8-sided and smaller kilns,KMT/KM822,208V 1-Phase,Standard,SK822FSE-208,5,"2 top/bottom #3252, 3 center #3253",315.00,315.00
+Skutt 8-sided and smaller kilns,KMT/KM822,208V 1-Phase,APM (Long-Life),SK822FSE-208-APM,5,"2 top/bottom #3286, 3 center #3287",750.00,750.00
+Skutt 8-sided and smaller kilns,KMT/KM822-3,240V 1-Phase,Standard,SK8223FSE-240,5,"2 top/bottom #3254, 3 center #3255",315.00,315.00
+Skutt 8-sided and smaller kilns,KMT/KM822-3,240V 1-Phase,APM (Long-Life),SK8223FSE-240-APM,5,"2 top/bottom #3288, 3 center #3289",750.00,750.00
+Skutt 8-sided and smaller kilns,KMT/KM822-3,208V 1-Phase,Standard,SK8223FSE-208,5,"2 top/bottom #3256, 3 center #3257",315.00,315.00
+Skutt 8-sided and smaller kilns,KMT/KM822-3,208V 1-Phase,APM (Long-Life),SK8223FSE-208-APM,5,"2 top/bottom #3290, 3 center #3291",750.00,750.00
+Skutt 12-sided and 10-sided kilns,KMT/KM1218-3,240V 1 or 3-Phase,Standard,SK12183FSE-240,4,"2 top/bottom #2550, 2 center #2551",296.00,296.00
+Skutt 12-sided and 10-sided kilns,KMT/KM1218-3,240V 1 or 3-Phase,APM (Long-Life),SK12183FSE-240-APM,4,"2 top/bottom #2719, 2 center #2720",740.00,740.00
+Skutt 12-sided and 10-sided kilns,KMT/KM1218-3,208V 1 or 3-Phase,Standard,SK12183FSE-208,4,"2 top/bottom #2552, 2 center #2553",296.00,296.00
+Skutt 12-sided and 10-sided kilns,KMT/KM1218-3,208V 1 or 3-Phase,APM (Long-Life),SK12183FSE-208-APM,4,"2 top/bottom #2721, 2 center #2722",710.00,710.00
+Skutt 12-sided and 10-sided kilns,"KMT/KM1018, KS1018, 231-18",240V 1-Phase,Standard,SK1018FSE-240,4,"2 top/bottom #0176, 2 center #0177",296.00,296.00
+Skutt 12-sided and 10-sided kilns,"KMT/KM1018, KS1018, 231-18",240V 1-Phase,APM (Long-Life),SK1018FSE-240-APM,4,"2 top/bottom #2725, 2 center #2726",740.00,740.00
+Skutt 12-sided and 10-sided kilns,"KMT/KM1018, KS1018, 231-18",208V 1-Phase,Standard,SK1018FSE-208,4,"2 top/bottom #0295, 2 center #0296",296.00,296.00
+Skutt 12-sided and 10-sided kilns,"KMT/KM1018, KS1018, 231-18",208V 1-Phase,APM (Long-Life),SK1018FSE-208-APM,4,"2 top/bottom #1673, 2 center #1674",740.00,740.00
+Skutt 12-sided and 10-sided kilns,"KMT/KM1018-3, KS1018-3",240V 1-Phase,Standard,SK10183FSE-240,4,"2 top/bottom #1378, 2 center #1380",296.00,296.00
+Skutt 12-sided and 10-sided kilns,"KMT/KM1018-3, KS1018-3",240V 1-Phase,APM (Long-Life),SK10183FSE-240-APM,4,"2 top/bottom #2727, 2 center #2728",740.00,740.00
+Skutt 12-sided and 10-sided kilns,"KMT/KM1018-3, KS1018-3",208V 1-Phase,Standard,SK10183FSE-208,4,"2 top/bottom #1379, 2 center #1381",296.00,296.00
+Skutt 12-sided and 10-sided kilns,"KMT/KM1018-3, KS1018-3",208V 1-Phase,APM (Long-Life),SK10183FSE-208-APM,4,"2 top/bottom #1675, 2 center #1676",740.00,740.00
+Skutt 8-sided and smaller kilns,"KMT/KM818, KS818",240V 1-Phase,Standard,SK818FSE-240,4,"2 top/bottom #1540, 2 center #1541",252.00,272.00
+Skutt 8-sided and smaller kilns,"KMT/KM818, KS818",240V 1-Phase,APM (Long-Life),SK818FSE-240-APM,4,"2 top/bottom #2700, 2 center #2701",600.00,600.00
+Skutt 8-sided and smaller kilns,"KMT/KM818, KS818",208V 1-Phase,Standard,SK818FSE-208,4,"2 top/bottom #1542, 2 center #1543",252.00,272.00
+Skutt 8-sided and smaller kilns,"KMT/KM818, KS818",208V 1-Phase,APM (Long-Life),SK818FSE-208-APM,4,"2 top/bottom #1678, 2 center #1679",600.00,600.00
+Skutt 8-sided and smaller kilns,"KMT/KM818-3, KS818-3",240V 1-Phase,Standard,SK8183FSE-240,4,"2 top/bottom #1544, 2 center #1545",252.00,272.00
+Skutt 8-sided and smaller kilns,"KMT/KM818-3, KS818-3",240V 1-Phase,APM (Long-Life),SK8183FSE-240-APM,4,"2 top/bottom #2723, 2 center #2724",600.00,600.00
+Skutt 8-sided and smaller kilns,"KMT/KM818-3, KS818-3",208V 1-Phase,Standard,SK8183FSE-208,4,"2 top/bottom #1546, 2 center #1547",252.00,272.00
+Skutt 8-sided and smaller kilns,"KMT/KM818-3, KS818-3",208V 1-Phase,APM (Long-Life),SK8183FSE-208-APM,4,"2 top/bottom #1689, 2 center #1690",600.00,600.00
+Skutt 8-sided and smaller kilns,"KMT/KM818-3 30 Amp, KS818P-3",240V 1-Phase,Standard,SK8183PFSE-240,4,"2 top/bottom #1552, 2 center #1553",252.00,272.00
+Skutt 8-sided and smaller kilns,"KMT/KM818-3 30 Amp, KS818P-3",208V 1-Phase,Standard,SK8183PFSE-208,4,"2 top/bottom #1554, 2 center #1555",252.00,272.00
+Older KilnSitter and wired-ring (WR) kilns,"818, 185 (old style)",240V 1-Phase,Standard,SK818OSFSE-240,4,4 elements #0269,252.00,272.00
+Older KilnSitter and wired-ring (WR) kilns,"818, 185 (old style)",208V 1-Phase,Standard,SK818OSFSE-208,4,4 elements #0318,252.00,272.00
+Older KilnSitter and wired-ring (WR) kilns,"KS818WR, 181-27 (wired ring)",240V 1-Phase,Standard,SK818WRFSE-240,6,6 elements #0269,378.00,378.00
+Older KilnSitter and wired-ring (WR) kilns,"KS818WR, 181-27 (wired ring)",208V 1-Phase,Standard,SK818WRFSE-208,6,6 elements #0318,378.00,378.00
+Older KilnSitter and wired-ring (WR) kilns,818-3 (old style),240V 1-Phase,Standard,SK8183OSFSE-240,4,4 elements #1386,252.00,272.00
+Older KilnSitter and wired-ring (WR) kilns,818-3 (old style),208V 1-Phase,Standard,SK8183OSFSE-208,4,4 elements #1387,252.00,272.00
+Older KilnSitter and wired-ring (WR) kilns,KS818-3 WR (wired ring),240V 1-Phase,Standard,SK8183WRFSE-240,6,6 elements #1386,378.00,378.00
+Older KilnSitter and wired-ring (WR) kilns,KS818-3 WR (wired ring),208V 1-Phase,Standard,SK8183WRFSE-208,6,6 elements #1387,378.00,378.00
+Older KilnSitter and wired-ring (WR) kilns,"KS818P, 183",240V 1-Phase,Standard,SK818PFSE-240,4,4 elements #0272,252.00,272.00
+Older KilnSitter and wired-ring (WR) kilns,"KS818P, 183",208V 1-Phase,Standard,SK818PFSE-208,4,4 elements #1382,252.00,272.00
+Older KilnSitter and wired-ring (WR) kilns,"KS818P WR, 183-27 (wired ring)",240V 1-Phase,Standard,SK818PWRFSE-240,6,6 elements #0272,378.00,378.00
+Older KilnSitter and wired-ring (WR) kilns,"KS818P WR, 183-27 (wired ring)",208V 1-Phase,Standard,SK818PWRFSE-208,6,6 elements #1382,378.00,378.00
+Older KilnSitter and wired-ring (WR) kilns,KS818P-3 WR (wired ring),240V 1-Phase,Standard,SK8183PWRFSE-240,6,6 elements #1388,378.00,378.00
+Older KilnSitter and wired-ring (WR) kilns,KS818P-3 WR (wired ring),208V 1-Phase,Standard,SK8183PWRFSE-208,6,6 elements #1389,378.00,378.00
+Older KilnSitter and wired-ring (WR) kilns,"181, 180",208V or 240V 1-Phase,Standard,SK181FSE-208240,4,4 elements #1383,252.00,272.00
+Skutt 8-sided and smaller kilns,"KMT/KM714, KS714, 145",208V or 240V 1-Phase,Standard,SK714FSE-208240,3,3 elements #0472,156.00,176.00
+Skutt 8-sided and smaller kilns,"KMT/KM714, KS714, 145",208V or 240V 1-Phase,APM (Long-Life),SK714FSE-208240-APM,3,3 elements #1677,390.00,390.00
+Older KilnSitter and wired-ring (WR) kilns,145 WR (wired ring),208V or 240V 1-Phase,Standard,SK145WRFSE-208240,4,4 elements #0472,208.00,228.00
+Older KilnSitter and wired-ring (WR) kilns,145 WR (wired ring),208V or 240V 1-Phase,APM (Long-Life),SK145WRFSE-208240-APM,4,4 elements #1677,520.00,520.00
+Skutt 8-sided and smaller kilns,"KMT/KM614-3, KS614-3",120V,Standard,SK6143FSE-120,3,3 elements #1029,156.00,176.00
+Skutt 8-sided and smaller kilns,"KMT/KM614-3, KS614-3",120V,APM (Long-Life),SK6143FSE-120-APM,3,3 elements #2642,390.00,390.00
+Skutt 8-sided and smaller kilns,KS609,120V,Standard,SK609FSE-120,2,2 elements #0340,104.00,124.00
+Skutt 8-sided and smaller kilns,KS609,120V,APM (Long-Life),SK609FSE-120-APM,2,2 elements #1688,260.00,260.00
+Skutt GlazeTech and FireBox kilns,GlazeTech,240V,Standard,SKGTFSE-240,4,4 elements #3021,164.00,184.00
+Skutt GlazeTech and FireBox kilns,GlazeTech,240V,APM (Long-Life),SKGTFSE-240-APM,4,4 elements #3186,320.00,320.00
+Skutt GlazeTech and FireBox kilns,GlazeTech,208V,Standard,SKGTFSE-208,4,4 elements #3022,164.00,184.00
+Skutt GlazeTech and FireBox kilns,GlazeTech,208V,APM (Long-Life),SKGTFSE-208-APM,4,4 elements #3187,320.00,320.00
+Skutt GlazeTech and FireBox kilns,"FireBox 8x4, FireBox 8x6",120V,Standard,SKFB8FSE-120,2,2 elements #0910,82.00,102.00
