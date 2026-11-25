@@ -92,6 +92,11 @@ everything that comes with its vent.
   whose live description has lost its box, puts the box back into the
   live text and writes the result to `updated/`. Edits made since the
   push, such as a new banner, are kept.
+- `kiln-packages/check_base.py`: run just before pushing one product. It
+  prints PUSH only if nobody has changed that product's description text
+  since its file in `updated/` was prepared. Unlike comparing `updatedAt`,
+  it ignores the scheduled job that updates other product fields several
+  times a day.
 
 Note: `originals/` predates the 2026-11-19 "Free Lift-Gate Service"
 banner, so restoring an original also removes that banner.
