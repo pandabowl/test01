@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.0 512.0" width="512" height="512" role="img" aria-label="Sheffield Pottery">
+<title>Sheffield Pottery</title>
+<rect width="512" height="512" rx="112" fill="#231F20"/>
+  <defs><mask id="m-app" maskUnits="userSpaceOnUse" x="-10" y="-10" width="140" height="130">
+    <path d="M60,6 L116,103 L4,103 Z" fill="#fff" stroke="#fff" stroke-width="12" stroke-linejoin="round"/>
+    <g transform="translate(60,72) scale(1.75) translate(-15,-15)" fill="#000">
+      <path d="M9.2,0 H20.8 C20.8,1.5 18.4,2.1 18.4,3.5 C18.4,4.7 26.2,6.1 26.2,10.5 C26.2,13.6 23.8,15.6 20.8,15.6 H9.2 C6.2,15.6 3.8,13.6 3.8,10.5 C3.8,6.1 11.6,4.7 11.6,3.5 C11.6,2.1 9.2,1.5 9.2,0 Z"/><path d="M1.4,17.2 H28.6 a1.4,1.4 0 0 1 0,2.8 H1.4 a1.4,1.4 0 0 1 0,-2.8 Z"/><path d="M12.4,20 H17.6 V22.6 H25.4 L27.6,29.6 H2.4 L4.6,22.6 H12.4 Z"/>
+    </g></mask></defs>
+  <g transform="translate(85.00,90.70) scale(2.85)"><rect x="-10" y="-10" width="140" height="130" fill="#DF422C" mask="url(#m-app)"/></g>
+</svg>
