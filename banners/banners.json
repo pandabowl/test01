@@ -1,0 +1,678 @@
+{
+  "banners": [
+    {
+      "key": "tools",
+      "title": "Tools",
+      "collection": "pottery-trimming-clay-sculpting-hand-tools",
+      "bg": [
+        "#c0612f",
+        "#72260f",
+        "#2a0b03"
+      ],
+      "text": {
+        "x": 70,
+        "y": 585,
+        "size": 270
+      },
+      "products": [
+        {
+          "file": "tools-wire-wood.webp",
+          "x": 0.2,
+          "y": 0.13,
+          "h": 0.085,
+          "rot": -3
+        },
+        {
+          "file": "tools-dolan-knife.webp",
+          "x": 0.22,
+          "y": 0.31,
+          "h": 0.16,
+          "rot": 2
+        },
+        {
+          "file": "tools-hake-brush.webp",
+          "x": 0.44,
+          "y": 0.5,
+          "h": 0.8,
+          "rot": 18
+        },
+        {
+          "file": "tools-wood-rib.webp",
+          "x": 0.62,
+          "y": 0.22,
+          "h": 0.36,
+          "rot": -10
+        },
+        {
+          "file": "tools-kemper-loop.webp",
+          "x": 0.585,
+          "y": 0.74,
+          "h": 0.62,
+          "rot": 42,
+          "z": 2
+        },
+        {
+          "file": "tools-mudtools-rib-set.webp",
+          "x": 0.83,
+          "y": 0.52,
+          "h": 0.92,
+          "rot": -8
+        }
+      ]
+    },
+    {
+      "key": "mixers",
+      "title": "Mixers & Pugmills",
+      "collection": "mixers-and-pugmills",
+      "bg": [
+        "#e8bd74",
+        "#a8702e",
+        "#3a2108"
+      ],
+      "glow": "55% 30%",
+      "text": {
+        "x": 60,
+        "y": 590,
+        "size": 230,
+        "maxWidth": 1480
+      },
+      "products": [
+        {
+          "file": "mixers-soldner-studio.webp",
+          "x": 0.12,
+          "y": 0.38,
+          "h": 0.8
+        },
+        {
+          "file": "mixers-peter-pugger-vpm20.webp",
+          "x": 0.355,
+          "y": 0.27,
+          "h": 0.4,
+          "rot": -2
+        },
+        {
+          "file": "mixers-soldner-pro.webp",
+          "x": 0.55,
+          "y": 0.46,
+          "h": 0.98
+        },
+        {
+          "file": "mixers-bluebird-powerstar.webp",
+          "x": 0.73,
+          "y": 0.6,
+          "h": 0.6,
+          "z": 2
+        },
+        {
+          "file": "mixers-shimpo-nvs07.webp",
+          "x": 0.905,
+          "y": 0.44,
+          "h": 0.76
+        }
+      ]
+    },
+    {
+      "key": "clay",
+      "title": "Clay",
+      "collection": "pottery-clay",
+      "bg": [
+        "#6b4a30",
+        "#3a2616",
+        "#140c06"
+      ],
+      "mottle": 0.2,
+      "text": {
+        "x": 70,
+        "y": 585,
+        "size": 320
+      },
+      "scrim": 1.4,
+      "products": [
+        {
+          "file": "clay-liz-light-white.jpg",
+          "x": 0.07,
+          "y": 0.46,
+          "w": 0.135,
+          "h": 1.3,
+          "rot": -8,
+          "radius": 6
+        },
+        {
+          "file": "clay-t6b-stoneware.jpg",
+          "x": 0.19,
+          "y": 0.52,
+          "w": 0.135,
+          "h": 1.3,
+          "rot": -8,
+          "radius": 6
+        },
+        {
+          "file": "clay-63b-stoneware.jpg",
+          "x": 0.31,
+          "y": 0.46,
+          "w": 0.135,
+          "h": 1.3,
+          "rot": -8,
+          "radius": 6
+        },
+        {
+          "file": "clay-t360-speckled.jpg",
+          "x": 0.43,
+          "y": 0.52,
+          "w": 0.135,
+          "h": 1.3,
+          "rot": -8,
+          "radius": 6
+        },
+        {
+          "file": "clay-4d-stoneware.jpg",
+          "x": 0.55,
+          "y": 0.46,
+          "w": 0.135,
+          "h": 1.3,
+          "rot": -8,
+          "radius": 6
+        },
+        {
+          "file": "clay-4d3bm-speckled.jpg",
+          "x": 0.67,
+          "y": 0.52,
+          "w": 0.135,
+          "h": 1.3,
+          "rot": -8,
+          "radius": 6
+        },
+        {
+          "file": "clay-mass-red.jpg",
+          "x": 0.79,
+          "y": 0.46,
+          "w": 0.135,
+          "h": 1.3,
+          "rot": -8,
+          "radius": 6
+        },
+        {
+          "file": "clay-black-earthenware.jpg",
+          "x": 0.91,
+          "y": 0.52,
+          "w": 0.135,
+          "h": 1.3,
+          "rot": -8,
+          "radius": 6
+        },
+        {
+          "file": "clay-mass-red-2.jpg",
+          "x": 1.03,
+          "y": 0.46,
+          "w": 0.135,
+          "h": 1.3,
+          "rot": -8,
+          "radius": 6
+        }
+      ]
+    },
+    {
+      "key": "wheels",
+      "title": "Pottery Wheels",
+      "collection": "pottery-wheels-sale",
+      "bg": [
+        "#5d86a3",
+        "#2a4a63",
+        "#0c1823"
+      ],
+      "glow": "65% 35%",
+      "text": {
+        "x": 60,
+        "y": 590,
+        "size": 240,
+        "maxWidth": 1420
+      },
+      "products": [
+        {
+          "file": "wheels-bailey-prox.webp",
+          "x": 0.27,
+          "y": 0.34,
+          "h": 0.6
+        },
+        {
+          "file": "wheels-lockerbie-kick.webp",
+          "x": 0.49,
+          "y": 0.4,
+          "h": 0.74
+        },
+        {
+          "file": "wheels-skutt-red.webp",
+          "x": 0.69,
+          "y": 0.5,
+          "h": 0.92,
+          "z": 2
+        },
+        {
+          "file": "wheels-pacifica-gt400.webp",
+          "x": 0.88,
+          "y": 0.55,
+          "h": 0.78
+        }
+      ]
+    },
+    {
+      "key": "kilns",
+      "title": "Kilns",
+      "collection": "ceramic-kilns-and-glass-kilns",
+      "bg": [
+        "#f2a65a",
+        "#a23c14",
+        "#240a03"
+      ],
+      "glow": "60% 30%",
+      "text": {
+        "x": 70,
+        "y": 585,
+        "size": 310
+      },
+      "products": [
+        {
+          "file": "kilns-paragon-xpress.webp",
+          "x": 0.33,
+          "y": 0.33,
+          "h": 0.52
+        },
+        {
+          "file": "kilns-skutt-km818.webp",
+          "x": 0.5,
+          "y": 0.5,
+          "h": 1.0
+        },
+        {
+          "file": "kilns-ll-e23t.webp",
+          "x": 0.645,
+          "y": 0.52,
+          "h": 0.95
+        },
+        {
+          "file": "kilns-skutt-firebox.webp",
+          "x": 0.8,
+          "y": 0.62,
+          "h": 0.7,
+          "z": 2
+        },
+        {
+          "file": "kilns-coneart-bx119.webp",
+          "x": 0.935,
+          "y": 0.5,
+          "h": 0.7
+        }
+      ]
+    },
+    {
+      "key": "glazes",
+      "title": "Glazes",
+      "collection": "pottery-glazes",
+      "bg": [
+        "#4d74bb",
+        "#203a78",
+        "#0a122b"
+      ],
+      "glow": "62% 40%",
+      "text": {
+        "x": 70,
+        "y": 585,
+        "size": 290
+      },
+      "products": [
+        {
+          "file": "glazes-spectrum-flower-tiles.webp",
+          "x": 0.13,
+          "y": 0.27,
+          "h": 0.48,
+          "rot": 6
+        },
+        {
+          "file": "glazes-amaco-celadon-tiles.webp",
+          "x": 0.325,
+          "y": 0.34,
+          "h": 0.66,
+          "rot": -7
+        },
+        {
+          "file": "glazes-amaco-sahara-vases.webp",
+          "x": 0.575,
+          "y": 0.47,
+          "h": 0.95,
+          "z": 2
+        },
+        {
+          "file": "glazes-amaco-celebration-plates.webp",
+          "x": 0.86,
+          "y": 0.46,
+          "h": 0.9,
+          "rot": -4
+        }
+      ]
+    },
+    {
+      "key": "equipment",
+      "title": "Equipment",
+      "collection": "slab-rollers-and-clay-extruders",
+      "bg": [
+        "#c4a46a",
+        "#77592e",
+        "#21170a"
+      ],
+      "glow": "60% 35%",
+      "text": {
+        "x": 60,
+        "y": 590,
+        "size": 270,
+        "maxWidth": 1350
+      },
+      "products": [
+        {
+          "file": "equipment-shimpo-slabroller.webp",
+          "x": 0.12,
+          "y": 0.3,
+          "h": 0.66
+        },
+        {
+          "file": "equipment-northstar-extruder.webp",
+          "x": 0.315,
+          "y": 0.36,
+          "h": 0.72
+        },
+        {
+          "file": "equipment-shimpo-pugmill.webp",
+          "x": 0.515,
+          "y": 0.38,
+          "h": 0.66
+        },
+        {
+          "file": "equipment-northstar-slabroller.webp",
+          "x": 0.735,
+          "y": 0.55,
+          "h": 0.72,
+          "z": 2
+        },
+        {
+          "file": "equipment-laguna-spraybooth.webp",
+          "x": 0.93,
+          "y": 0.48,
+          "h": 0.98
+        }
+      ]
+    },
+    {
+      "key": "rawmaterials",
+      "title": "Raw Materials",
+      "collection": "raw-materials-dry-clay-chemicals-plaster-1",
+      "bg": [
+        "#4a3a30",
+        "#2a1f18",
+        "#0d0906"
+      ],
+      "mottle": 0.3,
+      "scrim": 1.3,
+      "pattern": {
+        "type": "chips",
+        "size": 118,
+        "gap": 16,
+        "rot": -7,
+        "rx": 10,
+        "opacity": 0.42,
+        "seed": 5,
+        "colors": [
+          "#6aa3d0",
+          "#f08a2a",
+          "#e3a9bb",
+          "#d93a2a",
+          "#ff6a10",
+          "#e2628a",
+          "#c0333a",
+          "#f5a623",
+          "#f2545b",
+          "#7a2a18",
+          "#8a1538",
+          "#8a3a8f",
+          "#f4b183",
+          "#1f6f4a",
+          "#2e5aa8",
+          "#f0e0c0",
+          "#5b2a0e",
+          "#c95a2a",
+          "#a52a2a",
+          "#e8c547",
+          "#3e8e7e",
+          "#9cc5e8"
+        ]
+      },
+      "text": {
+        "x": 60,
+        "y": 590,
+        "size": 240,
+        "maxWidth": 1450
+      },
+      "products": [
+        {
+          "file": "raw-ultrox.webp",
+          "x": 0.13,
+          "y": 0.3,
+          "h": 0.5
+        },
+        {
+          "file": "raw-cobalt-carbonate.webp",
+          "x": 0.32,
+          "y": 0.27,
+          "h": 0.4
+        },
+        {
+          "file": "raw-chrome-oxide.webp",
+          "x": 0.5,
+          "y": 0.36,
+          "h": 0.46
+        },
+        {
+          "file": "raw-copper-oxide.webp",
+          "x": 0.665,
+          "y": 0.58,
+          "h": 0.58,
+          "z": 2
+        },
+        {
+          "file": "raw-casting-plaster-bag.webp",
+          "x": 0.795,
+          "y": 0.42,
+          "h": 0.65,
+          "rot": -5
+        },
+        {
+          "file": "raw-ultracal-bag.webp",
+          "x": 0.91,
+          "y": 0.5,
+          "h": 0.95,
+          "rot": 3,
+          "z": 2
+        }
+      ]
+    },
+    {
+      "key": "refractories",
+      "title": "Refractories",
+      "collection": "bricks-refractory-mortar-and-kaowool",
+      "bg": [
+        "#6a4a30",
+        "#36241a",
+        "#100a06"
+      ],
+      "mottle": 0.35,
+      "scrim": 1.3,
+      "pattern": {
+        "type": "bricks",
+        "brickW": 236,
+        "brickH": 74,
+        "mortar": 10,
+        "mortarColor": "#4a3a2e",
+        "opacity": 0.5,
+        "seed": 9,
+        "colors": [
+          "#e6c08a",
+          "#d9ae74",
+          "#eccf9c",
+          "#cf9f62",
+          "#f0d8ae",
+          "#d8b27c",
+          "#c99558"
+        ]
+      },
+      "text": {
+        "x": 60,
+        "y": 590,
+        "size": 250,
+        "maxWidth": 1420
+      },
+      "products": [
+        {
+          "file": "refr-repair-kit.webp",
+          "x": 0.09,
+          "y": 0.32,
+          "h": 0.58
+        },
+        {
+          "file": "refr-ifb-g23.webp",
+          "x": 0.255,
+          "y": 0.28,
+          "h": 0.42,
+          "rot": 4
+        },
+        {
+          "file": "refr-hardbrick.webp",
+          "x": 0.44,
+          "y": 0.32,
+          "h": 0.48,
+          "rot": -6
+        },
+        {
+          "file": "refr-ifb-stack.webp",
+          "x": 0.63,
+          "y": 0.48,
+          "h": 0.72,
+          "z": 2
+        },
+        {
+          "file": "refr-kaowool-board.webp",
+          "x": 0.8,
+          "y": 0.42,
+          "h": 0.9
+        },
+        {
+          "file": "refr-blackbond-mortar.webp",
+          "x": 0.925,
+          "y": 0.62,
+          "h": 0.42,
+          "z": 2
+        }
+      ]
+    },
+    {
+      "key": "furniture",
+      "title": "Studio Furniture",
+      "collection": "studio-furniture-and-equipment",
+      "bg": [
+        "#93a060",
+        "#4a5428",
+        "#14170a"
+      ],
+      "glow": "62% 35%",
+      "text": {
+        "x": 60,
+        "y": 590,
+        "size": 240,
+        "maxWidth": 1460
+      },
+      "products": [
+        {
+          "file": "furn-shimpo-stool.webp",
+          "x": 0.19,
+          "y": 0.34,
+          "h": 0.6
+        },
+        {
+          "file": "furn-versacab-cart.webp",
+          "x": 0.35,
+          "y": 0.37,
+          "h": 0.62
+        },
+        {
+          "file": "furn-debcor-cabinet.webp",
+          "x": 0.52,
+          "y": 0.4,
+          "h": 0.6
+        },
+        {
+          "file": "furn-northstar-table.webp",
+          "x": 0.715,
+          "y": 0.55,
+          "h": 0.72,
+          "z": 2
+        },
+        {
+          "file": "furn-brent-ware-cart.webp",
+          "x": 0.905,
+          "y": 0.5,
+          "h": 0.98
+        }
+      ]
+    },
+    {
+      "key": "kilnroom",
+      "title": "Kiln Room",
+      "collection": "kiln-shelves-posts-cones-and-kiln-firing-accessories",
+      "bg": [
+        "#d9782e",
+        "#5e2410",
+        "#120604"
+      ],
+      "glow": "70% 55%",
+      "text": {
+        "x": 60,
+        "y": 588,
+        "size": 270,
+        "maxWidth": 1300
+      },
+      "products": [
+        {
+          "file": "kr-orton-cone.webp",
+          "x": 0.15,
+          "y": 0.27,
+          "h": 0.42,
+          "rot": 6
+        },
+        {
+          "file": "kr-sic-shelf.webp",
+          "x": 0.375,
+          "y": 0.28,
+          "h": 0.36,
+          "rot": -5
+        },
+        {
+          "file": "kr-rubbing-brick.webp",
+          "x": 0.585,
+          "y": 0.44,
+          "h": 0.58,
+          "rot": -4
+        },
+        {
+          "file": "kr-pyrometer.webp",
+          "x": 0.765,
+          "y": 0.47,
+          "h": 0.86,
+          "z": 2
+        },
+        {
+          "file": "kr-bead-rack.webp",
+          "x": 0.925,
+          "y": 0.47,
+          "h": 0.76
+        }
+      ]
+    }
+  ]
+}

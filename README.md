@@ -1,5 +1,8 @@
 # Google Merchant Center Promotions Feed
 
+> Also in this repo: [`banners/`](banners/README.md), remakes of the old
+> category header banners.
+
 Generates and maintains Sheffield Pottery's [Google Merchant Center Promotions
 feed](https://support.google.com/merchants/answer/2906014) from live Shopify
 discount data.
